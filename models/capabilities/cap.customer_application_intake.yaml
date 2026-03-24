@@ -5,15 +5,49 @@ description: >
   Receive, normalize, validate, and manage customer-supplied application and
   onboarding intake information.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_onboarding
+  - vs.deposit_account_opening
+  - vs.compliance_enablement
+  - vs.customer_data_capture
 journey_ids:
   - journey.open_savings_account
-  - journey.customer_onboarding
+  - journey.open_joint_account
+  - journey.resume_abandoned_application
+  - journey.branch_assisted_customer_onboarding
+  - journey.small_business_relationship_start
 process_ids:
-  - proc.account_opening_v1
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
+  - proc.application_start
+  - proc.application_save_and_resume
+  - proc.application_validation
+  - proc.document_intake
+  - proc.attestation_capture
+  - proc.application_submission
+risk_ids:
+  - risk.incomplete_application_data
+  - risk.invalid_application_data
+  - risk.missing_attestation_evidence
+  - risk.misbinding_of_uploaded_documents
+  - risk.cross_channel_rule_inconsistency
+control_ids:
+  - ctrl.canonical_application_schema
+  - ctrl.required_field_validation
+  - ctrl.cross_field_validation
+  - ctrl.versioned_attestation_capture
+  - ctrl.application_document_binding
+  - ctrl.applicant_change_audit_trail
+provider_ids:
+  - prov.alkami
+  - prov.q2
+  - prov.meridianlink
+  - prov.ncino
+  - prov.temenos
+  - prov.docusign
+system_ids:
+  - sys.application_origination_platform
+  - sys.digital_onboarding_platform
+  - sys.document_repository
+  - sys.e_signature_platform
+  - sys.branch_intake_workbench
 source_refs: []
-status: placeholder
+status: draft
+confidence: high

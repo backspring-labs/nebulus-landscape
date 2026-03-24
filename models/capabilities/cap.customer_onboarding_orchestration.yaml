@@ -1,24 +1,50 @@
-id: cap.customer_onboarding_orchestration_orchestration
+id: cap.customer_onboarding_orchestration
 name: Customer Onboarding Orchestration
 domain_id: domain.customer
 description: >
   Coordinate customer-owned onboarding progression, milestones, handoffs,
   exceptions, and completion status.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_onboarding
+  - vs.deposit_account_opening
+  - vs.operational_control
+  - vs.customer_conversion
 journey_ids:
   - journey.open_savings_account
-  - journey.customer_onboarding
-  - journey.small_business_customer_onboarding
+  - journey.open_checking_account
+  - journey.open_joint_account
+  - journey.branch_assisted_customer_onboarding
+  - journey.resume_abandoned_application
 process_ids:
-  - proc.account_opening_v1
+  - proc.onboarding_case_initiation
+  - proc.onboarding_milestone_management
+  - proc.pending_item_management
+  - proc.exception_routing
+  - proc.onboarding_completion
 risk_ids:
-  - risk.synthetic_identity
+  - risk.inconsistent_onboarding_completion
+  - risk.stalled_onboarding_case
+  - risk.shadow_tracking_outside_system
+  - risk.multi_party_state_desynchronization
+  - risk.prerequisite_bypass
 control_ids:
-  - ctrl.idv_before_funding
+  - ctrl.standard_onboarding_state_model
+  - ctrl.completion_dependency_matrix
+  - ctrl.pending_item_sla_monitoring
+  - ctrl.manual_review_escalation
+  - ctrl.state_transition_audit_trail
 provider_ids:
-  - prov.alloy
+  - prov.pega
+  - prov.appian
+  - prov.camunda
+  - prov.servicenow
+  - prov.ncino
 system_ids:
-  - sys.identity_service
+  - sys.onboarding_journey_manager
+  - sys.work_queue
+  - sys.bpm_platform
+  - sys.ops_workbench
+  - sys.onboarding_status_dashboard
 source_refs: []
-status: placeholder
+status: draft
+confidence: high

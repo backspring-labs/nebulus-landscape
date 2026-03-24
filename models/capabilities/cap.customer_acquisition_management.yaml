@@ -5,13 +5,46 @@ description: >
   Manage institution-led capture and progression of prospects into qualified
   customer onboarding opportunities.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_growth
+  - vs.customer_onboarding
+  - vs.partner_distribution
+  - vs.deposit_acquisition
 journey_ids:
-  - journey.convert_prospect_to_customer
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.start_application_from_marketing_offer
+  - journey.partner_referred_account_opening
+  - journey.branch_assisted_customer_onboarding
+process_ids:
+  - proc.lead_capture
+  - proc.prospect_qualification
+  - proc.referral_intake
+  - proc.pre_application_follow_up
+  - proc.acquisition_to_application_handoff
+risk_ids:
+  - risk.duplicate_prospect_records
+  - risk.ineligible_prospect_progression
+  - risk.referral_attribution_error
+  - risk.improper_marketing_contact
+  - risk.referral_incentive_abuse
+control_ids:
+  - ctrl.prospect_stage_governance
+  - ctrl.source_attribution_stamp
+  - ctrl.prospect_deduplication
+  - ctrl.pre_application_data_minimization
+  - ctrl.contact_permission_validation
+provider_ids:
+  - prov.salesforce
+  - prov.microsoft_dynamics
+  - prov.hubspot
+  - prov.adobe_experience_cloud
+  - prov.braze
+system_ids:
+  - sys.crm
+  - sys.lead_management_platform
+  - sys.marketing_automation_platform
+  - sys.partner_referral_portal
+  - sys.branch_sales_workbench
 source_refs: []
-status: placeholder
+status: draft
+confidence: medium

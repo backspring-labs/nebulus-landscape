@@ -6,15 +6,46 @@ description: >
   while external decisioning remains owned by domain.risk_fraud and
   domain.identity_access.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_onboarding
+  - vs.compliance_enablement
+  - vs.bsa_aml_readiness
+  - vs.trusted_customer_relationship
 journey_ids:
   - journey.open_savings_account
-  - journey.customer_onboarding
+  - journey.open_business_deposit_account
+  - journey.complete_pending_kyc_requirements
+  - journey.escalated_due_diligence_review
 process_ids:
-  - proc.account_opening_v1
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
+  - proc.due_diligence_requirement_determination
+  - proc.cip_cdd_evidence_collection
+  - proc.beneficial_ownership_collection
+  - proc.edd_trigger_coordination
+  - proc.due_diligence_completion
+risk_ids:
+  - risk.missing_due_diligence_requirement
+  - risk.unmapped_evidence
+  - risk.edd_not_escalated
+  - risk.stale_due_diligence_documentation
+  - risk.incomplete_beneficial_ownership_collection
+control_ids:
+  - ctrl.due_diligence_requirement_matrix
+  - ctrl.requirement_evidence_mapping
+  - ctrl.dd_completion_gate
+  - ctrl.document_freshness_validation
+  - ctrl.edd_escalation_control
+  - ctrl.beneficial_ownership_completeness_check
+provider_ids:
+  - prov.fenergo
+  - prov.alloy
+  - prov.nice_actimize
+  - prov.lexisnexis_risk_solutions
+  - prov.moodys
+  - prov.refinitiv
+system_ids:
+  - sys.kyc_intake_workbench
+  - sys.due_diligence_requirement_engine
+  - sys.compliance_document_portal
+  - sys.evidence_repository
 source_refs: []
-status: placeholder
+status: draft
+confidence: high

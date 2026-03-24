@@ -5,13 +5,44 @@ description: >
   Match, de-duplicate, and resolve whether an applicant/prospect corresponds
   to an existing or new customer.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_mastering
+  - vs.customer_onboarding
+  - vs.data_quality
+  - vs.relationship_recognition
 journey_ids:
-  - journey.customer_onboarding
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
+  - journey.open_savings_account
+  - journey.existing_customer_adds_new_relationship
+  - journey.correct_duplicate_customer_record
+  - journey.open_joint_account
+process_ids:
+  - proc.pre_create_match_screening
+  - proc.existing_customer_recognition
+  - proc.duplicate_review
+  - proc.merge_link_decision
+  - proc.unmerge_remediation
+risk_ids:
+  - risk.missed_true_match
+  - risk.bad_merge
+  - risk.new_to_bank_misclassification
+  - risk.insufficient_steward_evidence
+  - risk.matching_bias
+control_ids:
+  - ctrl.match_threshold_governance
+  - ctrl.ambiguous_match_manual_review
+  - ctrl.merge_unmerge_authority
+  - ctrl.steward_decision_audit
+  - ctrl.duplicate_rate_monitoring
+provider_ids:
+  - prov.informatica_mdm
+  - prov.reltio
+  - prov.ibm_match_360
+  - prov.lexisnexis_risk_solutions
+  - prov.experian
+system_ids:
+  - sys.entity_resolution_engine
+  - sys.party_match_service
+  - sys.data_steward_console
+  - sys.customer_search_api
 source_refs: []
-status: placeholder
+status: draft
+confidence: high

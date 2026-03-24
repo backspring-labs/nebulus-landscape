@@ -5,16 +5,43 @@ description: >
   Establish the institution's canonical customer identity record at the business
   relationship level.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_onboarding
+  - vs.customer_mastering
+  - vs.enterprise_party_management
+  - vs.trusted_customer_relationship
 journey_ids:
   - journey.open_savings_account
-  - journey.customer_onboarding
+  - journey.open_checking_account
+  - journey.existing_customer_adds_new_relationship
+  - journey.correct_duplicate_customer_record
 process_ids:
-  - proc.account_opening_v1
+  - proc.canonical_customer_creation
+  - proc.identifier_assignment
+  - proc.identity_survivorship_management
+  - proc.party_link_establishment
 risk_ids:
-  - risk.synthetic_identity
-control_ids: []
-provider_ids: []
-system_ids: []
+  - risk.premature_customer_record_creation
+  - risk.duplicate_canonical_customer
+  - risk.non_authoritative_attribute_pollution
+  - risk.identifier_reuse
+  - risk.orphan_customer_record
+control_ids:
+  - ctrl.customer_creation_preconditions
+  - ctrl.durable_identifier_policy
+  - ctrl.attribute_survivorship_rules
+  - ctrl.merge_unmerge_governance
+  - ctrl.customer_master_audit_trail
+provider_ids:
+  - prov.informatica_mdm
+  - prov.reltio
+  - prov.ibm_match_360
+  - prov.oracle_customer_hub
+  - prov.fiserv
+system_ids:
+  - sys.customer_master
+  - sys.party_master
+  - sys.cif
+  - sys.data_stewardship_workbench
 source_refs: []
-status: placeholder
+status: draft
+confidence: high
