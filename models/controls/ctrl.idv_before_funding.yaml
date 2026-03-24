@@ -1,0 +1,17 @@
+id: ctrl.idv_before_funding
+name: Identity Verification Before Funding
+description: >
+  Customer identity must be verified successfully before initial funding is
+  permitted. This is a preventive control that blocks the account opening process
+  from advancing to the funding stage until identity verification passes.
+risk_ids:
+  - risk.synthetic_identity
+process_ids:
+  - proc.account_opening_v1
+control_type: preventive
+owner: domain.identity_access
+evidence_refs:
+  - ev.idv_policy_v1
+source_refs:
+  - src.domain_map_v1
+status: draft

@@ -1,0 +1,17 @@
+id: cap.consent_management
+name: Consent Management
+domain_id: domain.customer
+description: >
+  Capability to manage customer consent, preferences, and data-sharing agreements.
+  Ensures the institution captures, stores, and respects customer choices about
+  communication, data use, and third-party sharing.
+value_stream_ids: []
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs:
+  - src.domain_map_v1
+status: draft

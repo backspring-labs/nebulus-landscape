@@ -1,0 +1,17 @@
+id: sys.identity_service
+name: Identity Service
+description: >
+  Technical service responsible for initiating and evaluating identity verification
+  interactions. Participates in the account opening process at the verify-identity
+  stage, coordinating with identity orchestration providers.
+capability_ids:
+  - cap.customer_onboarding
+process_ids:
+  - proc.account_opening_v1
+interface_ids:
+  - if.identity_service.verify_identity
+provider_ids:
+  - prov.alloy
+source_refs:
+  - src.domain_map_v1
+status: draft

@@ -1,0 +1,28 @@
+id: journey.open_savings_account
+name: Open Savings Account
+description: >
+  End-to-end retail customer journey to open and fund a savings account. Spans
+  customer onboarding, identity verification, account creation, and initial funding.
+actor: retail_customer
+domain_ids:
+  - domain.customer
+  - domain.identity_access
+  - domain.accounts
+capability_ids:
+  - cap.customer_onboarding
+  - cap.customer_profile
+  - cap.authentication
+  - cap.account_opening
+  - cap.initial_funding
+value_stream_id: vs.acquire_and_activate_customer
+process_id: proc.account_opening_v1
+entry_points:
+  - mobile_app
+  - web_app
+outcomes:
+  - account_opened
+  - account_opening_pending_review
+  - application_declined
+source_refs:
+  - src.domain_map_v1
+status: draft

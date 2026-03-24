@@ -1,0 +1,18 @@
+id: domain.customer
+name: Customer
+description: >
+  Business area responsible for acquiring, identifying, onboarding, and maintaining
+  customer relationships. Covers the lifecycle from initial prospect engagement through
+  active relationship management, including identity establishment, profile maintenance,
+  and consent governance.
+capability_ids:
+  - cap.customer_onboarding
+  - cap.customer_profile
+  - cap.consent_management
+related_domain_ids:
+  - domain.identity_access
+  - domain.accounts
+  - domain.risk_fraud
+source_refs:
+  - src.domain_map_v1
+status: draft

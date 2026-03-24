@@ -1,0 +1,16 @@
+id: risk.synthetic_identity
+name: Synthetic Identity Fraud
+description: >
+  Risk that a fabricated or manipulated identity is used to open an account.
+  Synthetic identities combine real and fictitious information to create a
+  credential that passes basic verification but does not belong to a real person.
+process_ids:
+  - proc.account_opening_v1
+capability_ids:
+  - cap.customer_onboarding
+control_ids:
+  - ctrl.idv_before_funding
+severity: high
+source_refs:
+  - src.domain_map_v1
+status: draft

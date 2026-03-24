@@ -1,0 +1,23 @@
+id: proc.account_opening_v1
+name: Retail Account Opening
+journey_id: journey.open_savings_account
+description: >
+  Operational process for onboarding, verifying, approving, opening, and funding a
+  retail account. Executes the Open Savings Account journey through a defined stage
+  sequence with decision points, risk checks, and control enforcement.
+stage_ids:
+  - stage.account_opening.launch
+  - stage.account_opening.collect_application
+  - stage.account_opening.verify_identity
+  - stage.account_opening.risk_review
+  - stage.account_opening.open_account
+  - stage.account_opening.initial_funding
+risk_ids:
+  - risk.synthetic_identity
+control_ids:
+  - ctrl.idv_before_funding
+system_ids:
+  - sys.identity_service
+source_refs:
+  - src.domain_map_v1
+status: draft

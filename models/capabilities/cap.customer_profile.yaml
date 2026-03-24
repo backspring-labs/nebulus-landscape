@@ -1,0 +1,18 @@
+id: cap.customer_profile
+name: Customer Profile
+domain_id: domain.customer
+description: >
+  Capability to create, maintain, and govern the customer profile and identity record.
+  Includes name, address, contact, tax identity, and related demographic data. Serves
+  as the customer master record for downstream capabilities.
+value_stream_ids:
+  - vs.acquire_and_activate_customer
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs:
+  - src.domain_map_v1
+status: draft

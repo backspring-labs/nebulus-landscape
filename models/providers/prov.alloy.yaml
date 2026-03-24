@@ -1,0 +1,16 @@
+id: prov.alloy
+name: Alloy
+category: orchestration_and_decisioning
+summary: >
+  Identity, fraud, and onboarding orchestration provider. Orchestrates data sources
+  and decisioning logic for customer onboarding, identity verification, and fraud
+  detection workflows.
+status: active_research
+source_refs:
+  - src.provider.alloy.site
+  - src.provider.alloy.docs
+tags:
+  - onboarding
+  - identity
+  - fraud
+  - orchestration

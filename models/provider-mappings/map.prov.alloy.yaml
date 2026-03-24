@@ -1,0 +1,21 @@
+id: map.prov.alloy
+provider_id: prov.alloy
+capability_ids:
+  - cap.customer_onboarding
+journey_ids:
+  - journey.open_savings_account
+process_ids:
+  - proc.account_opening_v1
+risk_ids:
+  - risk.synthetic_identity
+control_ids:
+  - ctrl.idv_before_funding
+system_ids:
+  - sys.identity_service
+roles:
+  - orchestration
+  - decisioning
+  - verification
+confidence: medium
+source_refs:
+  - src.provider.alloy.docs
