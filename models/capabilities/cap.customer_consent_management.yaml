@@ -2,15 +2,55 @@ id: cap.customer_consent_management
 name: Customer Consent Management
 domain_id: domain.customer
 description: >
-  Capture, maintain, evidence, and revoke customer consents, permissions, and
-  data-sharing approvals.
-value_stream_ids: []
+  Capture, evidence, and manage legally meaningful customer consents, opt-ins,
+  opt-outs, and data-sharing authorizations with auditability and revocation
+  propagation.
+value_stream_ids:
+  - vs.privacy_and_permissions_governance
+  - vs.customer_communications_management
+  - vs.open_banking_data_sharing
 journey_ids:
-  - journey.manage_data_sharing_consent
-process_ids: []
-risk_ids: []
-control_ids: []
+  - journey.open_savings_account
+  - journey.privacy_opt_out
+  - journey.affiliate_marketing_opt_out
+  - journey.manage_marketing_consent
+  - journey.share_data_with_third_party
+  - journey.revoke_data_sharing_consent
+process_ids:
+  - proc.consent_capture
+  - proc.consent_scope_management
+  - proc.consent_evidence_management
+  - proc.consent_revocation_and_withdrawal
+  - proc.consent_propagation_to_enforcement_points
+risk_ids:
+  - risk.invalid_or_missing_consent
+  - risk.consent_not_honored
+  - risk.overbroad_consent_scope
+  - risk.dark_pattern_or_deceptive_capture
+  - risk.unauthorized_data_sharing
+  - risk.consent_fragmentation
+control_ids:
+  - ctrl.central_consent_registry
+  - ctrl.consent_granularity_and_purpose_limitation
+  - ctrl.consent_evidence_and_audit_trail
+  - ctrl.revocation_propagation_sla
+  - ctrl.separation_of_preference_vs_consent
+  - ctrl.privacy_notice_and_opt_out_controls
+  - ctrl.affiliate_marketing_opt_out_controls
+  - ctrl.communications_consent_controls
 provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+system_ids:
+  - sys.consent_registry
+  - sys.preference_center
+  - sys.data_sharing_authorization_service
+  - sys.marketing_suppression_service
+source_refs:
+  - src.ecfr_reg_p_12cfr1016
+  - src.ecfr_reg_v_affiliate_marketing_12cfr1022_subpartc
+  - src.ftc_can_spam_guide
+  - src.fcc_tcpa_rules
+  - src.ecfr_tsr_16cfr310
+  - src.cfpb_pfdr_12cfr1033
+  - src.cfpb_pfdr_reconsideration_fedreg
+status: draft
+confidence: medium

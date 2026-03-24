@@ -1,17 +1,49 @@
 id: cap.customer_disclosure_attestation_management
-name: Customer Disclosure and Attestation Management
+name: Customer Disclosure & Attestation Management
 domain_id: domain.customer
 description: >
-  Capture customer acknowledgements, attestations, certifications, and disclosure
-  acceptance during onboarding and maintenance.
+  Deliver disclosures/agreements and capture evidentiary records of customer
+  acknowledgement, acceptance, and certifications with versioning, retention,
+  and auditability.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.disclosures_and_agreements
+  - vs.customer_record_establishment
+  - vs.customer_record_maintenance
 journey_ids:
-  - journey.customer_onboarding
-process_ids: []
-risk_ids: []
-control_ids: []
+  - journey.open_savings_account
+  - journey.enroll_in_electronic_statements
+  - journey.accept_updated_terms
+  - journey.submit_customer_certification
+process_ids:
+  - proc.disclosure_inventory_management
+  - proc.disclosure_versioning_and_effective_dates
+  - proc.disclosure_presentment_and_delivery
+  - proc.capture_acknowledgement_or_acceptance
+  - proc.document_retention_and_retrieval
+risk_ids:
+  - risk.disclosure_not_delivered_or_not_provable
+  - risk.invalid_esign_consent_flow
+  - risk.attestation_repudiation
+  - risk.version_mismatch
+  - risk.document_data_exposure
+control_ids:
+  - ctrl.disclosure_version_control
+  - ctrl.esign_affirmative_consent_controls
+  - ctrl.non_repudiation_and_audit_controls
+  - ctrl.secure_document_storage_and_access
+  - ctrl.retention_schedule_and_legal_hold
+  - ctrl.delivery_failure_detection_and_remediation
 provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+system_ids:
+  - sys.document_management_system
+  - sys.esignature_platform
+  - sys.disclosure_presentment_service
+  - sys.evidence_store
+  - sys.audit_event_log
+source_refs:
+  - src.uscode_esign_15usc7001
+  - src.fdic_consumer_compliance_esign
+  - src.ncua_esign_guide
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: medium

@@ -2,14 +2,43 @@ id: cap.customer_preference_management
 name: Customer Preference Management
 domain_id: domain.customer
 description: >
-  Manage customer communication, language, channel, and servicing preferences.
-value_stream_ids: []
+  Capture, maintain, and operationalize customer interaction preferences (language,
+  channel, notifications, accessibility) across channels and business lines, distinct
+  from legal consents.
+value_stream_ids:
+  - vs.customer_communications_management
+  - vs.customer_record_maintenance
+  - vs.relationship_management_and_service
 journey_ids:
-  - journey.manage_marketing_preferences
-process_ids: []
-risk_ids: []
-control_ids: []
+  - journey.change_communication_preferences
+  - journey.set_language_preference
+  - journey.manage_notifications
+  - journey.open_savings_account
+process_ids:
+  - proc.preference_capture_and_update
+  - proc.preference_conflict_resolution
+  - proc.preference_propagation_to_channels
+  - proc.preference_defaulting_and_fallback
+risk_ids:
+  - risk.preference_not_honored
+  - risk.communication_policy_conflict
+  - risk.preference_fragmentation
+  - risk.inappropriate_fallback_routing
+control_ids:
+  - ctrl.central_preference_registry
+  - ctrl.preference_change_audit_trail
+  - ctrl.preference_propagation_testing
+  - ctrl.preference_fallback_rules_with_consent_checks
+  - ctrl.role_based_access_for_agent_updates
 provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+system_ids:
+  - sys.preference_center
+  - sys.crm_platform
+  - sys.customer_communications_platform
+  - sys.notification_service
+source_refs:
+  - src.ftc_can_spam_guide
+  - src.ecfr_tsr_16cfr310
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: medium

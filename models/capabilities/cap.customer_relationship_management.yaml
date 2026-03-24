@@ -2,16 +2,45 @@ id: cap.customer_relationship_management
 name: Customer Relationship Management
 domain_id: domain.customer
 description: >
-  Manage the institution's relationship context with the customer, including
-  ownership, segment, relationship roles, and profitability/service tier context
-  where applicable.
-value_stream_ids: []
-journey_ids: []
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids:
-  - prov.salesforce
-system_ids: []
-source_refs: []
-status: placeholder
+  Maintain the institution's relationship context (ownership, roles, hierarchies,
+  segment/tier) for customers, enabling consistent servicing and governance of
+  relationship treatment.
+value_stream_ids:
+  - vs.relationship_management_and_service
+  - vs.customer_record_maintenance
+  - vs.customer_engagement_and_growth
+journey_ids:
+  - journey.assign_relationship_owner
+  - journey.update_service_tier
+  - journey.manage_household_relationships
+  - journey.open_savings_account
+process_ids:
+  - proc.relationship_owner_assignment
+  - proc.segment_and_tier_assignment
+  - proc.householding_and_linking
+  - proc.relationship_role_management
+risk_ids:
+  - risk.incorrect_relationship_assignment
+  - risk.role_or_household_linking_privacy_breach
+  - risk.unfair_or_discriminatory_treatment
+  - risk.misleading_service_tier_presentation
+  - risk.unauthorized_assignment_changes
+control_ids:
+  - ctrl.relationship_assignment_approval_workflow
+  - ctrl.householding_rules_and_consent_controls
+  - ctrl.segment_governance_and_periodic_review
+  - ctrl.auditable_relationship_context_changes
+  - ctrl.fairness_and_udaap_review_for_segmentation_use
+  - ctrl.safeguards_program_alignment
+provider_ids: []
+system_ids:
+  - sys.crm_platform
+  - sys.relationship_hierarchy_store
+  - sys.routing_and_prioritization_engine
+  - sys.analytics_segmentation_engine
+source_refs:
+  - src.cfpb_reg_b_12cfr1002
+  - src.cfpb_udaap_examination_procedures
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: low

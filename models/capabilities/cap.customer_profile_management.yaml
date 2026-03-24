@@ -2,15 +2,46 @@ id: cap.customer_profile_management
 name: Customer Profile Management
 domain_id: domain.customer
 description: >
-  Create and maintain the core customer profile and its business attributes.
+  Create, maintain, and govern the institution's core customer profile record and
+  its business attributes, ensuring quality, auditability, and appropriate safeguarding.
 value_stream_ids:
-  - vs.acquire_and_activate_customer
+  - vs.customer_record_establishment
+  - vs.customer_record_maintenance
+  - vs.privacy_and_permissions_governance
 journey_ids:
+  - journey.open_savings_account
   - journey.update_customer_profile
-process_ids: []
-risk_ids: []
-control_ids: []
+  - journey.kyc_refresh
+  - journey.change_legal_name
+process_ids:
+  - proc.create_customer_profile
+  - proc.profile_attribute_validation
+  - proc.profile_change_management
+  - proc.profile_stewardship_review
+risk_ids:
+  - risk.inaccurate_customer_profile
+  - risk.profile_data_fragmentation
+  - risk.unauthorized_profile_change
+  - risk.data_minimization_violation
+  - risk.customer_information_exposure
+control_ids:
+  - ctrl.profile_data_standards_and_dictionary
+  - ctrl.validation_and_standardization_rules
+  - ctrl.audit_logging_for_profile_changes
+  - ctrl.maker_checker_for_sensitive_changes
+  - ctrl.role_based_access_and_least_privilege
+  - ctrl.safeguards_program_alignment
+  - ctrl.provenance_and_effective_dating
 provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+system_ids:
+  - sys.customer_master
+  - sys.crm_platform
+  - sys.mdm_hub
+  - sys.data_quality_service
+  - sys.audit_event_log
+source_refs:
+  - src.ffiec_bsaaml_cip
+  - src.ecfr_reg_p_12cfr1016
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: medium

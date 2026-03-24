@@ -2,15 +2,46 @@ id: cap.customer_contact_management
 name: Customer Contact Management
 domain_id: domain.customer
 description: >
-  Manage customer contact points such as address, email, phone, and their
-  usability/effectivity.
-value_stream_ids: []
+  Manage customer contact points (address, email, phone, etc.) including validity,
+  usability, effectivity, and history to ensure reliable, appropriate communications.
+value_stream_ids:
+  - vs.customer_record_establishment
+  - vs.customer_record_maintenance
+  - vs.customer_communications_management
 journey_ids:
+  - journey.open_savings_account
   - journey.update_contact_information
-process_ids: []
-risk_ids: []
-control_ids: []
+  - journey.change_address
+  - journey.verify_contact_point
+process_ids:
+  - proc.capture_contact_points
+  - proc.address_standardization_and_validation
+  - proc.contact_point_verification
+  - proc.sensitive_contact_change_workflow
+  - proc.return_mail_and_bounce_processing
+risk_ids:
+  - risk.contact_point_decay
+  - risk.misdirected_communications
+  - risk.account_takeover_via_contact_change
+  - risk.disclosure_delivery_failure
+  - risk.contact_data_inconsistency
+control_ids:
+  - ctrl.address_validation_and_standardization
+  - ctrl.contact_point_effective_dating
+  - ctrl.step_up_authentication_for_sensitive_changes
+  - ctrl.red_flags_contact_change_controls
+  - ctrl.return_mail_and_bounce_monitoring
+  - ctrl.audit_logging_for_contact_changes
 provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+system_ids:
+  - sys.customer_master
+  - sys.contact_data_store
+  - sys.address_validation_service
+  - sys.otp_and_verification_service
+  - sys.eventing_and_notifications
+source_refs:
+  - src.ffiec_bsaaml_cip
+  - src.occ_red_flags_address_discrepancies
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: medium
