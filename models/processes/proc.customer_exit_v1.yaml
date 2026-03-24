@@ -1,0 +1,34 @@
+id: proc.customer_exit_v1
+name: Customer Exit v1
+journey_id: journey.exit_customer_relationship
+description: >
+  Operational process for terminating a customer relationship, coordinating
+  dependencies, updating lifecycle state, and triggering retention and archival.
+stage_ids:
+  - stage.customer_exit.exit_initiation
+  - stage.customer_exit.dependency_review
+  - stage.customer_exit.lifecycle_transition
+  - stage.customer_exit.exit_approval_and_execution
+  - stage.customer_exit.post_exit_treatment
+  - stage.customer_exit.retention_and_archival_triggering
+risk_ids:
+  - risk.unresolved_dependency_at_customer_exit
+  - risk.inadequate_customer_exit_evidence
+  - risk.inconsistent_post_exit_treatment
+  - risk.premature_record_destruction
+control_ids:
+  - ctrl.pre_exit_dependency_checklist
+  - ctrl.state_change_authorization
+  - ctrl.customer_exit_approval_workflow
+  - ctrl.post_exit_access_and_communication_controls
+  - ctrl.customer_record_retention_schedule
+system_ids:
+  - sys.offboarding_workbench
+  - sys.customer_master
+  - sys.crm_platform
+  - sys.lifecycle_rules_engine
+  - sys.records_management_repository
+  - sys.archive_store
+source_refs: []
+status: draft
+confidence: medium

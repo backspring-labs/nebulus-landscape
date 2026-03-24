@@ -1,23 +1,40 @@
 id: proc.account_opening_v1
-name: Retail Account Opening
+name: Account Opening v1
 journey_id: journey.open_savings_account
 description: >
-  Operational process for onboarding, verifying, approving, opening, and funding a
-  retail account. Executes the Open Savings Account journey through a defined stage
-  sequence with decision points, risk checks, and control enforcement.
+  Operational process for onboarding, verifying, approving, opening, and funding
+  a retail savings account across Customer and neighboring domains.
 stage_ids:
-  - stage.account_opening.launch
-  - stage.account_opening.collect_application
-  - stage.account_opening.verify_identity
-  - stage.account_opening.risk_review
-  - stage.account_opening.open_account
+  - stage.account_opening.intake_and_case_start
+  - stage.account_opening.disclosure_and_consent_capture
+  - stage.account_opening.party_resolution_and_customer_establishment
+  - stage.account_opening.identity_and_due_diligence_gating
+  - stage.account_opening.account_creation_handoff
   - stage.account_opening.initial_funding
+  - stage.account_opening.lifecycle_activation_and_completion
 risk_ids:
-  - risk.synthetic_identity
+  - risk.incomplete_application_data
+  - risk.duplicate_canonical_customer
+  - risk.prerequisite_bypass
+  - risk.cross_system_state_conflict
+  - risk.inadequate_handoff_to_accounts
 control_ids:
-  - ctrl.idv_before_funding
+  - ctrl.canonical_application_schema
+  - ctrl.disclosure_version_control
+  - ctrl.customer_creation_preconditions
+  - ctrl.dd_completion_gate
+  - ctrl.allowed_transition_matrix
 system_ids:
-  - sys.identity_service
-source_refs:
-  - src.domain_map_v1
+  - sys.application_origination_platform
+  - sys.digital_onboarding_platform
+  - sys.disclosure_presentment_service
+  - sys.consent_registry
+  - sys.customer_master
+  - sys.party_match_service
+  - sys.kyc_intake_workbench
+  - sys.core_account_opening_platform
+  - sys.funding_service
+  - sys.lifecycle_rules_engine
+source_refs: []
 status: draft
+confidence: high

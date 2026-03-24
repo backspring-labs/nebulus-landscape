@@ -1,0 +1,36 @@
+id: proc.contact_change_v1
+name: Contact Change v1
+journey_id: journey.update_contact_information
+description: >
+  Operational process for receiving, validating, approving, applying, and propagating
+  a customer contact-point change.
+stage_ids:
+  - stage.contact_change.request_intake
+  - stage.contact_change.sensitivity_and_verification
+  - stage.contact_change.contact_validation
+  - stage.contact_change.change_approval_and_application
+  - stage.contact_change.preference_and_consent_impact_review
+  - stage.contact_change.propagation_and_exception_closure
+risk_ids:
+  - risk.account_takeover_via_contact_change
+  - risk.misdirected_communications
+  - risk.downstream_change_propagation_failure
+  - risk.inadequate_change_evidence
+control_ids:
+  - ctrl.sensitive_change_step_up_controls
+  - ctrl.address_validation_and_standardization
+  - ctrl.audit_logging_for_contact_changes
+  - ctrl.change_propagation_reconciliation
+  - ctrl.remediation_evidence_and_closure_requirements
+system_ids:
+  - sys.customer_master
+  - sys.crm_platform
+  - sys.contact_data_store
+  - sys.address_validation_service
+  - sys.otp_and_verification_service
+  - sys.preference_center
+  - sys.consent_registry
+  - sys.exception_workbench
+source_refs: []
+status: draft
+confidence: high

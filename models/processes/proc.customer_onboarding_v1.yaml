@@ -1,0 +1,33 @@
+id: proc.customer_onboarding_v1
+name: Customer Onboarding v1
+journey_id: journey.customer_onboarding
+description: >
+  Operational process for establishing a new-to-bank individual as a governed
+  customer independent of product opening.
+stage_ids:
+  - stage.customer_onboarding.case_start
+  - stage.customer_onboarding.record_and_evidence_capture
+  - stage.customer_onboarding.party_resolution
+  - stage.customer_onboarding.due_diligence_gating
+  - stage.customer_onboarding.customer_establishment_and_activation
+risk_ids:
+  - risk.fragmented_onboarding_data
+  - risk.premature_customer_record_creation
+  - risk.duplicate_canonical_customer
+  - risk.missing_due_diligence_requirement
+control_ids:
+  - ctrl.standard_onboarding_state_model
+  - ctrl.required_field_validation
+  - ctrl.match_threshold_governance
+  - ctrl.dd_completion_gate
+  - ctrl.allowed_transition_matrix
+system_ids:
+  - sys.onboarding_journey_manager
+  - sys.application_origination_platform
+  - sys.customer_master
+  - sys.party_match_service
+  - sys.kyc_intake_workbench
+  - sys.lifecycle_rules_engine
+source_refs: []
+status: draft
+confidence: high
