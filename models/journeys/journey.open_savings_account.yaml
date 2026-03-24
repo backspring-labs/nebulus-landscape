@@ -9,8 +9,14 @@ domain_ids:
   - domain.identity_access
   - domain.accounts
 capability_ids:
-  - cap.customer_onboarding
-  - cap.customer_profile
+  - cap.customer_application_intake
+  - cap.customer_onboarding_orchestration
+  - cap.customer_identity_establishment
+  - cap.customer_due_diligence_coordination
+  - cap.customer_consent_management
+  - cap.customer_disclosure_attestation_management
+  - cap.customer_lifecycle_state_management
+  - cap.customer_profile_management
   - cap.authentication
   - cap.account_opening
   - cap.initial_funding

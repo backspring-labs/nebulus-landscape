@@ -1,0 +1,16 @@
+id: cap.customer_contact_management
+name: Customer Contact Management
+domain_id: domain.customer
+description: >
+  Manage customer contact points such as address, email, phone, and their
+  usability/effectivity.
+value_stream_ids: []
+journey_ids:
+  - journey.update_contact_information
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

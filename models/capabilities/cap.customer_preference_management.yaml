@@ -1,0 +1,15 @@
+id: cap.customer_preference_management
+name: Customer Preference Management
+domain_id: domain.customer
+description: >
+  Manage customer communication, language, channel, and servicing preferences.
+value_stream_ids: []
+journey_ids:
+  - journey.manage_marketing_preferences
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

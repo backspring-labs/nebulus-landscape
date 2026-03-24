@@ -1,0 +1,16 @@
+id: cap.customer_householding_and_association_management
+name: Customer Householding and Association Management
+domain_id: domain.customer
+description: >
+  Manage customer-to-customer, customer-to-business, and household/affiliation
+  relationships used for servicing, risk context, and marketing alignment.
+value_stream_ids: []
+journey_ids:
+  - journey.add_beneficial_owner_or_related_party
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

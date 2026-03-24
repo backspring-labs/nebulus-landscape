@@ -1,14 +1,15 @@
-id: cap.customer_onboarding
-name: Customer Onboarding
+id: cap.customer_onboarding_orchestration_orchestration
+name: Customer Onboarding Orchestration
 domain_id: domain.customer
 description: >
-  Capability to initiate, collect, validate, and progress a new customer through
-  onboarding. Includes application intake, data collection, identity verification
-  orchestration, and onboarding decisioning.
+  Coordinate customer-owned onboarding progression, milestones, handoffs,
+  exceptions, and completion status.
 value_stream_ids:
   - vs.acquire_and_activate_customer
 journey_ids:
   - journey.open_savings_account
+  - journey.customer_onboarding
+  - journey.small_business_customer_onboarding
 process_ids:
   - proc.account_opening_v1
 risk_ids:
@@ -19,6 +20,5 @@ provider_ids:
   - prov.alloy
 system_ids:
   - sys.identity_service
-source_refs:
-  - src.domain_map_v1
-status: draft
+source_refs: []
+status: placeholder

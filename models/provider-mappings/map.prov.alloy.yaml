@@ -1,7 +1,7 @@
 id: map.prov.alloy
 provider_id: prov.alloy
 capability_ids:
-  - cap.customer_onboarding
+  - cap.customer_onboarding_orchestration
 journey_ids:
   - journey.open_savings_account
 process_ids:

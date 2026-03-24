@@ -1,0 +1,20 @@
+id: cap.customer_due_diligence_coordination
+name: Customer Due Diligence Coordination
+domain_id: domain.customer
+description: >
+  Coordinate collection and progression of customer due diligence requirements
+  while external decisioning remains owned by domain.risk_fraud and
+  domain.identity_access.
+value_stream_ids:
+  - vs.acquire_and_activate_customer
+journey_ids:
+  - journey.open_savings_account
+  - journey.customer_onboarding
+process_ids:
+  - proc.account_opening_v1
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

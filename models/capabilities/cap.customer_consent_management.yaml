@@ -1,0 +1,16 @@
+id: cap.customer_consent_management
+name: Customer Consent Management
+domain_id: domain.customer
+description: >
+  Capture, maintain, evidence, and revoke customer consents, permissions, and
+  data-sharing approvals.
+value_stream_ids: []
+journey_ids:
+  - journey.manage_data_sharing_consent
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

@@ -1,0 +1,16 @@
+id: cap.customer_profile_management
+name: Customer Profile Management
+domain_id: domain.customer
+description: >
+  Create and maintain the core customer profile and its business attributes.
+value_stream_ids:
+  - vs.acquire_and_activate_customer
+journey_ids:
+  - journey.update_customer_profile
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

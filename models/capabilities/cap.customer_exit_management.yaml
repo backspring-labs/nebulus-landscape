@@ -1,0 +1,16 @@
+id: cap.customer_exit_management
+name: Customer Exit Management
+domain_id: domain.customer
+description: >
+  Manage customer-level exit, relationship termination, and post-relationship
+  handling distinct from account closure.
+value_stream_ids: []
+journey_ids:
+  - journey.exit_customer_relationship
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

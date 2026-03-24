@@ -1,0 +1,17 @@
+id: cap.customer_relationship_management
+name: Customer Relationship Management
+domain_id: domain.customer
+description: >
+  Manage the institution's relationship context with the customer, including
+  ownership, segment, relationship roles, and profitability/service tier context
+  where applicable.
+value_stream_ids: []
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids:
+  - prov.salesforce
+system_ids: []
+source_refs: []
+status: placeholder

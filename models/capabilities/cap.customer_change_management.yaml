@@ -1,0 +1,17 @@
+id: cap.customer_change_management
+name: Customer Change Management
+domain_id: domain.customer
+description: >
+  Govern updates, corrections, effective dating, approvals, and evidence for
+  changes to customer data.
+value_stream_ids: []
+journey_ids:
+  - journey.update_customer_profile
+  - journey.update_contact_information
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

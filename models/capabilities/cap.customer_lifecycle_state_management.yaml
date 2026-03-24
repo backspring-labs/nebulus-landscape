@@ -1,0 +1,17 @@
+id: cap.customer_lifecycle_state_management
+name: Customer Lifecycle State Management
+domain_id: domain.customer
+description: >
+  Manage customer lifecycle stages and state transitions such as prospect,
+  applicant, active, restricted, dormant, exited, or archived.
+value_stream_ids: []
+journey_ids:
+  - journey.reactivate_dormant_customer
+  - journey.exit_customer_relationship
+process_ids: []
+risk_ids: []
+control_ids: []
+provider_ids: []
+system_ids: []
+source_refs: []
+status: placeholder

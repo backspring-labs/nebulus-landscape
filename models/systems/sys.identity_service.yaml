@@ -5,7 +5,7 @@ description: >
   interactions. Participates in the account opening process at the verify-identity
   stage, coordinating with identity orchestration providers.
 capability_ids:
-  - cap.customer_onboarding
+  - cap.customer_onboarding_orchestration
 process_ids:
   - proc.account_opening_v1
 interface_ids:
