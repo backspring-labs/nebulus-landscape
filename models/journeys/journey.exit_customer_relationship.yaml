@@ -1,0 +1,33 @@
+id: journey.exit_customer_relationship
+name: Exit Customer Relationship
+description: >
+  Customer or institution terminates the customer relationship through a governed
+  path that coordinates lifecycle state changes, dependency review, and retention triggers.
+actor: customer_or_institution
+domain_ids:
+  - domain.customer
+  - domain.accounts
+  - domain.servicing
+  - domain.identity_access
+  - domain.channels_experience
+  - domain.orchestration_control
+  - domain.risk_fraud
+capability_ids:
+  - cap.customer_lifecycle_state_management
+  - cap.customer_exit_management
+  - cap.customer_record_retention_and_archival
+  - cap.customer_change_management
+  - cap.customer_data_issue_remediation
+  - cap.customer_relationship_management
+value_stream_id: vs.customer_lifecycle_governance
+process_id: proc.customer_exit_v1
+entry_points:
+  - customer_request
+  - institution_initiated_review
+outcomes:
+  - customer_relationship_terminated
+  - lifecycle_state_updated
+  - archival_and_retention_triggers_started
+source_refs: []
+status: draft
+confidence: medium

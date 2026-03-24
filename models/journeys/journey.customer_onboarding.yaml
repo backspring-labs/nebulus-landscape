@@ -1,20 +1,16 @@
-id: journey.open_savings_account
-name: Open Savings Account
+id: journey.customer_onboarding
+name: Customer Onboarding
 description: >
-  Retail customer opens and funds a savings account through a path that establishes
-  the customer relationship, satisfies onboarding controls, creates the account,
-  and transitions the customer into an active state.
-actor: retail_customer
+  A new-to-bank individual progresses from applicant to established customer through
+  controlled intake, resolution, evidence collection, and customer-record creation.
+actor: prospective_customer
 domain_ids:
   - domain.customer
   - domain.identity_access
-  - domain.accounts
   - domain.risk_fraud
-  - domain.payments
   - domain.channels_experience
   - domain.orchestration_control
 capability_ids:
-  - cap.customer_acquisition_management
   - cap.customer_application_intake
   - cap.customer_onboarding_orchestration
   - cap.customer_identity_establishment
@@ -25,17 +21,16 @@ capability_ids:
   - cap.customer_consent_management
   - cap.customer_disclosure_attestation_management
   - cap.customer_lifecycle_state_management
-value_stream_id: vs.deposit_account_opening
-process_id: proc.account_opening_v1
+value_stream_id: vs.customer_onboarding
+process_id: proc.customer_onboarding_v1
 entry_points:
   - digital_channel
   - branch
-  - partner_referral
   - call_center
 outcomes:
-  - savings_account_opened
   - customer_established
-  - initial_funding_completed_or_pending
+  - customer_record_created_or_confirmed
+  - onboarding_completed
 source_refs: []
 status: draft
 confidence: high
