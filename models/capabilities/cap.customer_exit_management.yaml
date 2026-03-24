@@ -2,15 +2,52 @@ id: cap.customer_exit_management
 name: Customer Exit Management
 domain_id: domain.customer
 description: >
-  Manage customer-level exit, relationship termination, and post-relationship
-  handling distinct from account closure.
-value_stream_ids: []
+  Manage customer-level exit, relationship termination, and post-relationship handling
+  distinct from account closure.
+value_stream_ids:
+  - vs.customer_lifecycle_governance
+  - vs.relationship_management_and_service
+  - vs.records_governance
+  - vs.operational_control
 journey_ids:
   - journey.exit_customer_relationship
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+  - journey.close_last_product_and_exit_customer
+  - journey.institution_initiated_customer_offboarding
+  - journey.reinstate_exited_customer
+  - journey.post_exit_record_retrieval
+process_ids:
+  - proc.customer_exit_initiation
+  - proc.pre_exit_dependency_review
+  - proc.customer_exit_approval_and_execution
+  - proc.post_exit_obligation_management
+  - proc.customer_exit_reversal
+risk_ids:
+  - risk.unresolved_dependency_at_customer_exit
+  - risk.inadequate_customer_exit_evidence
+  - risk.inconsistent_post_exit_treatment
+  - risk.unfair_institution_initiated_exit
+  - risk.dormancy_exit_confusion
+control_ids:
+  - ctrl.customer_exit_criteria_and_reason_codes
+  - ctrl.pre_exit_dependency_checklist
+  - ctrl.customer_exit_approval_workflow
+  - ctrl.post_exit_access_and_communication_controls
+  - ctrl.exit_evidence_and_audit_trail
+  - ctrl.exit_reversal_governance
+provider_ids:
+  - prov.servicenow
+  - prov.salesforce
+  - prov.pega
+  - prov.appian
+  - prov.fiserv
+system_ids:
+  - sys.customer_master
+  - sys.offboarding_workbench
+  - sys.crm_platform
+  - sys.status_dashboard
+  - sys.records_trigger_service
+source_refs:
+  - src.ecfr_glba_safeguards_16cfr314
+  - src.udaap_fair_treatment_guidance
+status: draft
+confidence: medium

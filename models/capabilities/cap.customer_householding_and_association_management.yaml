@@ -3,14 +3,50 @@ name: Customer Householding and Association Management
 domain_id: domain.customer
 description: >
   Manage customer-to-customer, customer-to-business, and household/affiliation
-  relationships used for servicing, risk context, and marketing alignment.
-value_stream_ids: []
+  relationships used for servicing, risk context, and relationship understanding.
+value_stream_ids:
+  - vs.relationship_management_and_service
+  - vs.customer_record_maintenance
+  - vs.enterprise_party_management
+  - vs.compliance_enablement
 journey_ids:
   - journey.add_beneficial_owner_or_related_party
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+  - journey.manage_household_relationships
+  - journey.open_joint_account
+  - journey.small_business_relationship_start
+  - journey.authorize_third_party_to_act_on_customer_behalf
+process_ids:
+  - proc.association_link_creation
+  - proc.household_membership_management
+  - proc.related_party_role_assignment
+  - proc.association_evidence_review
+  - proc.association_unlink_and_cleanup
+risk_ids:
+  - risk.incorrect_related_party_linkage
+  - risk.incomplete_beneficial_ownership_association
+  - risk.stale_association_context
+  - risk.household_privacy_breach
+  - risk.conflicting_association_graph
+control_ids:
+  - ctrl.relationship_type_taxonomy
+  - ctrl.association_evidence_requirements
+  - ctrl.effective_dated_association_links
+  - ctrl.privacy_scoped_householding_rules
+  - ctrl.association_change_audit_trail
+  - ctrl.periodic_association_review
+provider_ids:
+  - prov.informatica_mdm
+  - prov.reltio
+  - prov.ibm_match_360
+  - prov.fenergo
+  - prov.salesforce
+system_ids:
+  - sys.party_master
+  - sys.relationship_hierarchy_store
+  - sys.data_stewardship_workbench
+  - sys.beneficial_ownership_registry
+source_refs:
+  - src.ffiec_bsaaml_cip
+  - src.cip_cdd_beneficial_ownership_guidance
+status: draft
+confidence: medium

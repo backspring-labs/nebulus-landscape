@@ -2,16 +2,52 @@ id: cap.customer_lifecycle_state_management
 name: Customer Lifecycle State Management
 domain_id: domain.customer
 description: >
-  Manage customer lifecycle stages and state transitions such as prospect,
+  Manage customer lifecycle stages and governed state transitions such as prospect,
   applicant, active, restricted, dormant, exited, or archived.
-value_stream_ids: []
+value_stream_ids:
+  - vs.customer_lifecycle_governance
+  - vs.customer_record_maintenance
+  - vs.operational_control
+  - vs.relationship_management_and_service
 journey_ids:
+  - journey.convert_prospect_to_customer
+  - journey.customer_onboarding
   - journey.reactivate_dormant_customer
+  - journey.restrict_customer_relationship
   - journey.exit_customer_relationship
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+process_ids:
+  - proc.lifecycle_state_definition_and_governance
+  - proc.lifecycle_state_transition_management
+  - proc.customer_restriction_application
+  - proc.dormancy_and_reactivation_review
+  - proc.archival_eligibility_marking
+risk_ids:
+  - risk.inaccurate_customer_lifecycle_state
+  - risk.invalid_state_transition
+  - risk.restricted_customer_treated_as_active
+  - risk.unauthorized_state_override
+  - risk.cross_system_state_conflict
+control_ids:
+  - ctrl.customer_state_model_governance
+  - ctrl.allowed_transition_matrix
+  - ctrl.state_change_authorization
+  - ctrl.lifecycle_reason_code_requirements
+  - ctrl.cross_system_state_reconciliation
+  - ctrl.state_change_audit_trail
+provider_ids:
+  - prov.salesforce
+  - prov.pega
+  - prov.appian
+  - prov.servicenow
+  - prov.fiserv
+system_ids:
+  - sys.customer_master
+  - sys.lifecycle_rules_engine
+  - sys.crm_platform
+  - sys.ops_workbench
+  - sys.status_dashboard
+source_refs:
+  - src.ffiec_bsaaml_cip
+  - src.ecfr_glba_safeguards_16cfr314
+status: draft
+confidence: high

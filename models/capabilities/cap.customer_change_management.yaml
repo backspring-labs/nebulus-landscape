@@ -2,16 +2,52 @@ id: cap.customer_change_management
 name: Customer Change Management
 domain_id: domain.customer
 description: >
-  Govern updates, corrections, effective dating, approvals, and evidence for
-  changes to customer data.
-value_stream_ids: []
+  Govern updates, corrections, effective dating, approvals, and evidence for changes
+  to customer data across the customer record.
+value_stream_ids:
+  - vs.customer_record_maintenance
+  - vs.operational_control
+  - vs.customer_lifecycle_governance
+  - vs.privacy_and_permissions_governance
 journey_ids:
   - journey.update_customer_profile
   - journey.update_contact_information
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+  - journey.change_legal_name
+  - journey.revoke_data_sharing_consent
+  - journey.assign_relationship_owner
+process_ids:
+  - proc.customer_change_request_intake
+  - proc.sensitive_change_review_and_approval
+  - proc.effective_dated_change_application
+  - proc.change_propagation_and_confirmation
+  - proc.change_dispute_handling
+risk_ids:
+  - risk.unauthorized_customer_change
+  - risk.approval_bypass_for_sensitive_change
+  - risk.downstream_change_propagation_failure
+  - risk.loss_of_customer_change_history
+  - risk.missed_customer_change_notification
+control_ids:
+  - ctrl.customer_change_taxonomy
+  - ctrl.sensitive_change_step_up_controls
+  - ctrl.maker_checker_for_high_risk_changes
+  - ctrl.effective_dating_and_history_preservation
+  - ctrl.change_propagation_reconciliation
+  - ctrl.customer_change_audit_trail
+provider_ids:
+  - prov.salesforce
+  - prov.servicenow
+  - prov.pega
+  - prov.appian
+  - prov.informatica_mdm
+system_ids:
+  - sys.customer_master
+  - sys.crm_platform
+  - sys.rules_engine
+  - sys.audit_event_log
+  - sys.exception_workbench
+source_refs:
+  - src.ecfr_glba_safeguards_16cfr314
+  - src.occ_red_flags_address_discrepancies
+status: draft
+confidence: high

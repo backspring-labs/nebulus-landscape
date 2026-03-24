@@ -2,15 +2,52 @@ id: cap.customer_data_issue_remediation
 name: Customer Data Issue Remediation
 domain_id: domain.customer
 description: >
-  Resolve incomplete, inconsistent, disputed, or exception customer data that
-  blocks or degrades downstream operations.
-value_stream_ids: []
+  Resolve incomplete, inconsistent, disputed, or exception customer data that blocks
+  or degrades downstream operations.
+value_stream_ids:
+  - vs.customer_record_maintenance
+  - vs.data_quality
+  - vs.operational_control
+  - vs.relationship_management_and_service
 journey_ids:
   - journey.resolve_customer_data_issue
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+  - journey.correct_duplicate_customer_record
+  - journey.verify_contact_point
+  - journey.complete_pending_kyc_requirements
+  - journey.reactivate_dormant_customer
+process_ids:
+  - proc.customer_data_issue_detection
+  - proc.remediation_case_triage
+  - proc.attribute_conflict_resolution
+  - proc.data_steward_review
+  - proc.remediation_closure_and_confirmation
+risk_ids:
+  - risk.unresolved_customer_data_exception
+  - risk.inconsistent_manual_remediation
+  - risk.duplicate_record_operational_failure
+  - risk.remediation_backlog_growth
+  - risk.exception_workbench_data_exposure
+control_ids:
+  - ctrl.customer_data_issue_taxonomy
+  - ctrl.remediation_priority_and_sla_rules
+  - ctrl.data_steward_resolution_standards
+  - ctrl.cross_system_reconciliation_checks
+  - ctrl.remediation_evidence_and_closure_requirements
+  - ctrl.access_controls_for_exception_workbenches
+provider_ids:
+  - prov.informatica_data_quality
+  - prov.reltio
+  - prov.servicenow
+  - prov.collibra
+  - prov.ibm_match_360
+system_ids:
+  - sys.data_quality_monitor
+  - sys.data_stewardship_workbench
+  - sys.exception_workbench
+  - sys.customer_master
+  - sys.reconciliation_dashboard
+source_refs:
+  - src.ecfr_glba_safeguards_16cfr314
+  - src.ffiec_bsaaml_cip
+status: draft
+confidence: high

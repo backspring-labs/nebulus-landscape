@@ -3,13 +3,51 @@ name: Customer Record Retention and Archival
 domain_id: domain.customer
 description: >
   Manage retention, archival, suppression, and disposition of customer relationship
-  records in accordance with policy.
-value_stream_ids: []
-journey_ids: []
-process_ids: []
-risk_ids: []
-control_ids: []
-provider_ids: []
-system_ids: []
-source_refs: []
-status: placeholder
+  records in accordance with policy and regulatory obligations.
+value_stream_ids:
+  - vs.records_governance
+  - vs.customer_lifecycle_governance
+  - vs.privacy_and_permissions_governance
+  - vs.operational_control
+journey_ids:
+  - journey.exit_customer_relationship
+  - journey.respond_to_customer_data_request
+  - journey.retrieve_archived_customer_record
+  - journey.apply_legal_hold_to_customer_record
+  - journey.dispose_expired_customer_record
+process_ids:
+  - proc.retention_schedule_assignment
+  - proc.customer_record_archival
+  - proc.archived_record_retrieval
+  - proc.legal_hold_application
+  - proc.record_disposition_approval
+risk_ids:
+  - risk.premature_record_destruction
+  - risk.archived_record_unavailability
+  - risk.overbroad_archived_record_access
+  - risk.missed_legal_hold
+  - risk.inconsistent_record_disposition
+control_ids:
+  - ctrl.customer_record_retention_schedule
+  - ctrl.legal_hold_override_control
+  - ctrl.archived_record_access_controls
+  - ctrl.record_classification_and_mapping
+  - ctrl.disposition_authorization_workflow
+  - ctrl.archival_and_disposition_audit_log
+provider_ids:
+  - prov.iron_mountain
+  - prov.opentext
+  - prov.microsoft_purview
+  - prov.box
+  - prov.docusign
+system_ids:
+  - sys.records_management_repository
+  - sys.archive_store
+  - sys.evidence_store
+  - sys.legal_hold_registry
+  - sys.audit_retrieval_portal
+source_refs:
+  - src.ecfr_glba_safeguards_16cfr314
+  - src.records_retention_policy_framework
+status: draft
+confidence: medium
