@@ -1,0 +1,8 @@
+id: prov.salesforce
+name: Salesforce
+category: crm
+summary: >
+  CRM and Financial Services Cloud platform.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,8 @@
+id: prov.informatica_mdm
+name: Informatica MDM
+category: mdm_and_data_quality
+summary: >
+  Master data management platform.
+status: stub
+source_refs: []
+tags: []

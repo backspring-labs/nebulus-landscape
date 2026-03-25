@@ -1,0 +1,8 @@
+id: prov.informatica_data_quality
+name: Informatica Data Quality
+category: mdm_and_data_quality
+summary: >
+  Data quality and profiling platform.
+status: stub
+source_refs: []
+tags: []

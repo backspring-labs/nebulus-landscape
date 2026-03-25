@@ -1,0 +1,8 @@
+id: prov.microsoft_dynamics
+name: Microsoft Dynamics 365
+category: crm
+summary: >
+  CRM and business applications platform.
+status: stub
+source_refs: []
+tags: []

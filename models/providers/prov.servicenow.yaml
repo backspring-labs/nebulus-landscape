@@ -1,0 +1,8 @@
+id: prov.servicenow
+name: ServiceNow
+category: orchestration_and_workflow
+summary: >
+  IT service management and workflow automation platform.
+status: stub
+source_refs: []
+tags: []

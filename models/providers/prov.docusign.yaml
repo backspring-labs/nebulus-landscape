@@ -1,0 +1,8 @@
+id: prov.docusign
+name: DocuSign
+category: document_management
+summary: >
+  Electronic signature and agreement management platform.
+status: stub
+source_refs: []
+tags: []

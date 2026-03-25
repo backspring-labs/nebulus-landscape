@@ -1,0 +1,8 @@
+id: prov.braze
+name: Braze
+category: communications
+summary: >
+  Customer engagement and communications platform.
+status: stub
+source_refs: []
+tags: []

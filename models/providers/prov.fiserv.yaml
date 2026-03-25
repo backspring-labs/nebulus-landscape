@@ -1,0 +1,8 @@
+id: prov.fiserv
+name: Fiserv
+category: core_banking
+summary: >
+  Financial services technology and core banking platform provider.
+status: stub
+source_refs: []
+tags: []

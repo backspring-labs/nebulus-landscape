@@ -1,0 +1,8 @@
+id: prov.oracle_customer_hub
+name: Oracle Customer Hub
+category: mdm_and_data_quality
+summary: >
+  Customer master data management platform.
+status: stub
+source_refs: []
+tags: []

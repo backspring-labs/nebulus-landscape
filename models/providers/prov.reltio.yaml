@@ -1,0 +1,8 @@
+id: prov.reltio
+name: Reltio
+category: mdm_and_data_quality
+summary: >
+  Cloud-native master data management and entity resolution platform.
+status: stub
+source_refs: []
+tags: []

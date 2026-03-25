@@ -1,0 +1,8 @@
+id: prov.camunda
+name: Camunda
+category: orchestration_and_workflow
+summary: >
+  Process orchestration and workflow automation platform.
+status: stub
+source_refs: []
+tags: []

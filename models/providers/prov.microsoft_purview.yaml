@@ -1,0 +1,8 @@
+id: prov.microsoft_purview
+name: Microsoft Purview
+category: records_and_archival
+summary: >
+  Data governance, compliance, and records management platform.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,8 @@
+id: prov.experian
+name: Experian
+category: identity_and_verification
+summary: >
+  Credit, identity, and data quality services provider.
+status: stub
+source_refs: []
+tags: []

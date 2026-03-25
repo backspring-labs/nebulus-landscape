@@ -1,0 +1,8 @@
+id: prov.ibm_match_360
+name: IBM Match 360
+category: mdm_and_data_quality
+summary: >
+  Master data management and entity resolution platform.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,8 @@
+id: prov.moodys
+name: "Moody's"
+category: risk_and_compliance
+summary: >
+  Risk assessment, KYC data, and corporate intelligence provider.
+status: stub
+source_refs: []
+tags: []

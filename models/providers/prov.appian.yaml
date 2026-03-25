@@ -1,0 +1,8 @@
+id: prov.appian
+name: Appian
+category: orchestration_and_workflow
+summary: >
+  Low-code automation and workflow orchestration platform.
+status: stub
+source_refs: []
+tags: []

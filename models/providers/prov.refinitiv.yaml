@@ -1,0 +1,8 @@
+id: prov.refinitiv
+name: Refinitiv (LSEG)
+category: risk_and_compliance
+summary: >
+  Financial data, KYC screening, and due diligence provider.
+status: stub
+source_refs: []
+tags: []
