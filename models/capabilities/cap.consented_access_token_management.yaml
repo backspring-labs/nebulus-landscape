@@ -1,0 +1,56 @@
+id: cap.consented_access_token_management
+name: Consented Access Token Management
+domain_id: domain.identity_access
+description: >
+  Issue, validate, scope, and revoke access tokens that carry consented
+  authorization grants, enabling controlled third-party and application access
+  to protected resources on behalf of resource owners.
+value_stream_ids:
+  - vs.api_access_enablement
+  - vs.open_banking_access
+  - vs.customer_digital_access
+  - vs.third_party_access_governance
+journey_ids:
+  - journey.authorize_third_party_application_access
+  - journey.revoke_consented_application_access
+  - journey.refresh_expiring_access_token
+  - journey.review_consented_access_grants
+  - journey.scope_restrict_token_for_api_access
+process_ids:
+  - proc.consent_grant_and_token_issuance
+  - proc.token_validation_and_introspection
+  - proc.token_refresh_and_rotation
+  - proc.consent_revocation_and_token_invalidation
+  - proc.token_scope_governance
+risk_ids:
+  - risk.overbroad_token_scope
+  - risk.token_theft_or_replay
+  - risk.stale_consent_grants
+  - risk.insufficient_token_expiry
+  - risk.unrevoked_tokens_after_consent_withdrawal
+control_ids:
+  - ctrl.token_scope_minimization
+  - ctrl.token_expiry_and_rotation_policy
+  - ctrl.consent_grant_audit_trail
+  - ctrl.token_revocation_on_consent_withdrawal
+  - ctrl.token_binding_and_replay_prevention
+  - ctrl.consent_review_and_cleanup
+provider_ids:
+  - prov.okta
+  - prov.auth0
+  - prov.ping_identity
+  - prov.microsoft_entra
+  - prov.forgerock
+system_ids:
+  - sys.authorization_server
+  - sys.token_issuance_service
+  - sys.consent_registry
+  - sys.token_introspection_service
+  - sys.token_revocation_service
+source_refs:
+  - src.rfc6749_oauth2
+  - src.rfc7662_token_introspection
+  - src.openid_connect_core_spec
+  - src.fapi_security_profile
+status: draft
+confidence: medium

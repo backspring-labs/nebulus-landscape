@@ -1,0 +1,53 @@
+id: cap.authorization_and_entitlements
+name: Authorization and Entitlements
+domain_id: domain.identity_access
+description: >
+  Determine what authenticated parties are permitted to do based on roles,
+  permissions, policies, and contextual constraints.
+value_stream_ids:
+  - vs.access_governance
+  - vs.runtime_access_control
+  - vs.employee_access_enablement
+  - vs.delegated_access_enablement
+journey_ids:
+  - journey.grant_role_or_permission
+  - journey.review_access_attestation
+  - journey.authorize_privileged_admin_action
+  - journey.assign_delegated_access_rights
+  - journey.update_service_or_account_permissions
+process_ids:
+  - proc.entitlement_definition_and_maintenance
+  - proc.role_assignment
+  - proc.exception_entitlement_grant
+  - proc.entitlement_review_and_cleanup
+  - proc.permission_model_change_control
+risk_ids:
+  - risk.overbroad_entitlement_grant
+  - risk.stale_entitlement_persistence
+  - risk.inconsistent_entitlement_model
+  - risk.excess_privilege_inheritance
+  - risk.ungoverned_exception_access
+control_ids:
+  - ctrl.least_privilege_entitlement_design
+  - ctrl.separation_of_duties_rules
+  - ctrl.entitlement_owner_accountability
+  - ctrl.exception_access_approval_controls
+  - ctrl.periodic_entitlement_review
+  - ctrl.permission_model_change_governance
+provider_ids:
+  - prov.okta
+  - prov.microsoft_entra
+  - prov.ping_identity
+  - prov.sailpoint
+  - prov.cyberark
+system_ids:
+  - sys.authorization_admin_service
+  - sys.entitlement_registry
+  - sys.role_scope_catalog
+  - sys.access_governance_platform
+  - sys.resource_permission_map
+source_refs:
+  - src.nist_sp800_162_abac
+  - src.cisa_icam_reference_architecture
+status: draft
+confidence: high

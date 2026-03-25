@@ -1,0 +1,54 @@
+id: cap.access_provisioning_and_deprovisioning
+name: Access Provisioning and Deprovisioning
+domain_id: domain.identity_access
+description: >
+  Grant, modify, and remove access rights across systems and applications in
+  response to lifecycle events, requests, and governance actions.
+value_stream_ids:
+  - vs.access_governance
+  - vs.employee_access_enablement
+  - vs.joiner_mover_leaver_lifecycle
+  - vs.customer_digital_access
+journey_ids:
+  - journey.provision_new_hire_access
+  - journey.modify_access_on_role_change
+  - journey.deprovision_access_on_termination
+  - journey.request_and_approve_application_access
+  - journey.emergency_access_revocation
+process_ids:
+  - proc.access_request_and_approval
+  - proc.automated_provisioning_fulfillment
+  - proc.deprovisioning_on_lifecycle_event
+  - proc.orphan_account_detection_and_cleanup
+  - proc.provisioning_reconciliation
+risk_ids:
+  - risk.delayed_deprovisioning
+  - risk.orphan_account_persistence
+  - risk.provisioning_drift_from_policy
+  - risk.incomplete_access_revocation
+  - risk.unauthorized_self_provisioning
+control_ids:
+  - ctrl.automated_deprovisioning_on_termination
+  - ctrl.provisioning_approval_workflow
+  - ctrl.orphan_account_detection_controls
+  - ctrl.provisioning_reconciliation_checks
+  - ctrl.emergency_revocation_procedures
+  - ctrl.provisioning_audit_trail
+provider_ids:
+  - prov.sailpoint
+  - prov.saviynt
+  - prov.okta
+  - prov.microsoft_entra
+  - prov.one_identity
+system_ids:
+  - sys.identity_governance_platform
+  - sys.provisioning_connector_framework
+  - sys.access_request_portal
+  - sys.deprovisioning_orchestrator
+  - sys.provisioning_reconciliation_engine
+source_refs:
+  - src.nist_sp800_53_ac_family
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

@@ -1,0 +1,52 @@
+id: cap.delegated_and_proxy_access_management
+name: Delegated and Proxy Access Management
+domain_id: domain.identity_access
+description: >
+  Manage access arrangements where one party acts on behalf of another, including
+  power of attorney, guardianship, corporate delegation, and third-party agent access.
+value_stream_ids:
+  - vs.delegated_access_enablement
+  - vs.access_governance
+  - vs.customer_digital_access
+  - vs.fiduciary_access_trust
+journey_ids:
+  - journey.establish_delegated_access_authority
+  - journey.act_on_behalf_of_another_party
+  - journey.revoke_delegated_access
+  - journey.review_delegated_access_scope
+  - journey.transition_delegated_access_authority
+process_ids:
+  - proc.delegated_authority_verification
+  - proc.proxy_access_scope_assignment
+  - proc.delegated_access_review
+  - proc.delegated_access_revocation
+  - proc.delegation_chain_governance
+risk_ids:
+  - risk.unauthorized_delegation_of_access
+  - risk.overbroad_delegated_scope
+  - risk.stale_delegated_access_persists
+  - risk.delegation_chain_opacity
+  - risk.proxy_actor_identity_confusion
+control_ids:
+  - ctrl.delegated_authority_verification_controls
+  - ctrl.delegated_scope_limitation
+  - ctrl.delegated_access_periodic_review
+  - ctrl.delegation_event_audit_trail
+  - ctrl.proxy_actor_distinct_identity_controls
+  - ctrl.delegation_expiry_enforcement
+provider_ids:
+  - prov.okta
+  - prov.microsoft_entra
+  - prov.sailpoint
+  - prov.saviynt
+system_ids:
+  - sys.delegated_access_registry
+  - sys.proxy_identity_service
+  - sys.delegation_authority_verifier
+  - sys.delegated_access_audit_log
+  - sys.delegation_scope_catalog
+source_refs:
+  - src.ffiec_authentication_access_2021
+  - src.cisa_icam_reference_architecture
+status: draft
+confidence: medium

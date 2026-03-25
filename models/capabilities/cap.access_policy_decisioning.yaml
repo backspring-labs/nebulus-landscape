@@ -1,0 +1,54 @@
+id: cap.access_policy_decisioning
+name: Access Policy Decisioning
+domain_id: domain.identity_access
+description: >
+  Evaluate access requests at runtime against authorization policies, contextual
+  signals, and entitlements to render allow, deny, or step-up decisions.
+value_stream_ids:
+  - vs.runtime_access_control
+  - vs.zero_trust_access
+  - vs.adaptive_risk_response
+  - vs.customer_digital_access
+journey_ids:
+  - journey.access_protected_resource
+  - journey.step_up_for_sensitive_action
+  - journey.deny_unauthorized_access_attempt
+  - journey.evaluate_context_for_adaptive_access
+  - journey.enforce_conditional_access_policy
+process_ids:
+  - proc.policy_evaluation_at_request_time
+  - proc.contextual_signal_ingestion
+  - proc.step_up_trigger_evaluation
+  - proc.access_decision_logging
+  - proc.policy_exception_handling
+risk_ids:
+  - risk.policy_bypass_or_misconfiguration
+  - risk.stale_policy_enforcement
+  - risk.insufficient_contextual_signal_coverage
+  - risk.overly_permissive_default_decisions
+  - risk.decision_latency_impacting_availability
+control_ids:
+  - ctrl.policy_as_code_governance
+  - ctrl.default_deny_enforcement
+  - ctrl.decision_audit_logging
+  - ctrl.policy_change_review_and_approval
+  - ctrl.contextual_signal_validation
+  - ctrl.step_up_authentication_trigger_rules
+provider_ids:
+  - prov.okta
+  - prov.microsoft_entra
+  - prov.ping_identity
+  - prov.axiomatics
+  - prov.styra
+system_ids:
+  - sys.policy_decision_point
+  - sys.policy_information_point
+  - sys.policy_enforcement_point
+  - sys.access_decision_log
+  - sys.contextual_signal_aggregator
+source_refs:
+  - src.nist_sp800_162_abac
+  - src.nist_sp800_207_zero_trust
+  - src.cisa_zero_trust_maturity_model
+status: draft
+confidence: high
