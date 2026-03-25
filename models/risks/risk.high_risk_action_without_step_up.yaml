@@ -1,0 +1,11 @@
+id: risk.high_risk_action_without_step_up
+name: High-Risk Action Without Step-Up
+description: >
+  Sensitive or high-risk operations are performed without requiring additional authentication assurance, exposing the organization to unauthorized changes.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.insufficient_contextual_signal_coverage
+name: Insufficient Contextual Signal Coverage
+description: >
+  Access decisions lack sufficient contextual signals such as location, device, or behavior data, reducing the accuracy of risk-based decisions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

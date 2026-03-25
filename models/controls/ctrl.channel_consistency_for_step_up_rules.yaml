@@ -1,0 +1,12 @@
+id: ctrl.channel_consistency_for_step_up_rules
+name: Channel Consistency for Step-Up Rules
+description: >
+  Ensure step-up authentication policies are applied consistently across all
+  channels and interaction surfaces to prevent channel-based bypass.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

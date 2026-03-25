@@ -1,0 +1,11 @@
+id: risk.inconsistent_token_validation
+name: Inconsistent Token Validation
+description: >
+  Token validation logic varies across services or endpoints, allowing expired or revoked tokens to be accepted by some systems.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

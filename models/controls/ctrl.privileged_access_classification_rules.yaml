@@ -1,0 +1,12 @@
+id: ctrl.privileged_access_classification_rules
+name: Privileged Access Classification Rules
+description: >
+  Define classification rules that identify which access rights, roles, and
+  actions qualify as privileged and require enhanced governance controls.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

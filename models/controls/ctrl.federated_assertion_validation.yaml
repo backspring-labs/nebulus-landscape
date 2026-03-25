@@ -1,0 +1,12 @@
+id: ctrl.federated_assertion_validation
+name: Federated Assertion Validation
+description: >
+  Validate federated authentication assertions for signature integrity, issuer
+  trust, audience restriction, and freshness before accepting them.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

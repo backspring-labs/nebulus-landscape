@@ -1,0 +1,8 @@
+id: prov.auth0
+name: Auth0 (by Okta)
+category: identity_and_access
+summary: >
+  Customer identity and authentication platform.
+status: stub
+source_refs: []
+tags: []

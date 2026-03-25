@@ -1,0 +1,10 @@
+id: sys.audit_reporting_service
+name: Audit Reporting Service
+description: >
+  Generates access audit reports and evidence packages for internal governance
+  reviews and external regulatory examinations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

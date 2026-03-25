@@ -1,0 +1,11 @@
+id: risk.overbroad_delegated_scope
+name: Overbroad Delegated Scope
+description: >
+  Delegated access scopes grant more permissions than the delegate needs, expanding the potential impact of delegate misuse or compromise.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

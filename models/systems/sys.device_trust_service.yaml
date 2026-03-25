@@ -1,0 +1,10 @@
+id: sys.device_trust_service
+name: Device Trust Service
+description: >
+  Evaluates device trust signals including device registration, posture
+  assessment, and trust state for authentication decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

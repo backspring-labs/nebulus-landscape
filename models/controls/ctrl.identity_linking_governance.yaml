@@ -1,0 +1,12 @@
+id: ctrl.identity_linking_governance
+name: Identity Linking Governance
+description: >
+  Govern the binding and linking of access identities to underlying customer or
+  workforce records, ensuring traceability and preventing misbound links.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

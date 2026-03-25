@@ -1,0 +1,8 @@
+id: prov.sailpoint
+name: SailPoint
+category: identity_governance
+summary: >
+  Identity governance, provisioning, and access certification.
+status: stub
+source_refs: []
+tags: []

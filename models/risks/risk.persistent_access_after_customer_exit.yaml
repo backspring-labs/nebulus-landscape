@@ -1,0 +1,11 @@
+id: risk.persistent_access_after_customer_exit
+name: Persistent Access After Customer Exit
+description: >
+  Customer-facing access remains active after the customer relationship has ended, exposing data and services to unauthorized use.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

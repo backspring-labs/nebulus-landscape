@@ -1,0 +1,11 @@
+id: risk.broken_identity_linkage
+name: Broken Identity Linkage
+description: >
+  Identity records across systems become disconnected or inconsistently linked, leading to fragmented access governance and orphaned accounts.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

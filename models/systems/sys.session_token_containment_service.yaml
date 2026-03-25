@@ -1,0 +1,10 @@
+id: sys.session_token_containment_service
+name: Session Token Containment Service
+description: >
+  Executes containment actions on sessions and tokens in response to detected
+  anomalies, including revocation, suspension, and scope restriction.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

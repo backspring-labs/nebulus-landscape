@@ -1,0 +1,12 @@
+id: ctrl.consent_grant_audit_trail
+name: Consent Grant Audit Trail
+description: >
+  Log all consent grant and token issuance events including scope, resource owner,
+  and third-party application for audit and compliance purposes.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.post_recovery_monitoring_controls
+name: Post-Recovery Monitoring Controls
+description: >
+  Apply enhanced monitoring to accounts after recovery events to detect
+  potential account takeover or suspicious post-recovery activity.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

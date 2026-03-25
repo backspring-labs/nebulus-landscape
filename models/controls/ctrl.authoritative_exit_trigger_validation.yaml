@@ -1,0 +1,12 @@
+id: ctrl.authoritative_exit_trigger_validation
+name: Authoritative Exit Trigger Validation
+description: >
+  Validate that access cleanup is triggered only by authoritative exit signals
+  from trusted sources, preventing unauthorized or premature deprovisioning.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

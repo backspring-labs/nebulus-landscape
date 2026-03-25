@@ -1,0 +1,13 @@
+id: map.prov.beyondtrust
+provider_id: prov.beyondtrust
+capability_ids:
+  - cap.privileged_access_governance
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

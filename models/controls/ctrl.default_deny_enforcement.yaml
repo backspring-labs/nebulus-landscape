@@ -1,0 +1,12 @@
+id: ctrl.default_deny_enforcement
+name: Default Deny Enforcement
+description: >
+  Enforce a default-deny posture for access decisions, requiring explicit policy
+  authorization before granting access to any protected resource.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

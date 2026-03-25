@@ -1,0 +1,8 @@
+id: prov.one_identity
+name: One Identity
+category: identity_governance
+summary: >
+  Identity governance and privileged access.
+status: stub
+source_refs: []
+tags: []

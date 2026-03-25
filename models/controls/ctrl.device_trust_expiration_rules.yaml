@@ -1,0 +1,12 @@
+id: ctrl.device_trust_expiration_rules
+name: Device Trust Expiration Rules
+description: >
+  Enforce expiration and re-evaluation rules for device trust to prevent
+  overtrusted or stale device states from persisting.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

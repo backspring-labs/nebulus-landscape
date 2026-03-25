@@ -1,0 +1,10 @@
+id: sys.proofing_result_store
+name: Proofing Result Store
+description: >
+  Persists identity proofing outcomes, confidence scores, and evidence references
+  for downstream consumption and audit.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

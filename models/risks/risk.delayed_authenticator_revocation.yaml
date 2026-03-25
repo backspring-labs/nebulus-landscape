@@ -1,0 +1,11 @@
+id: risk.delayed_authenticator_revocation
+name: Delayed Authenticator Revocation
+description: >
+  Revocation of compromised or obsolete authenticators is delayed, allowing continued use of invalid authentication factors.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

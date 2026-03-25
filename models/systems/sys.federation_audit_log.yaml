@@ -1,0 +1,10 @@
+id: sys.federation_audit_log
+name: Federation Audit Log
+description: >
+  Records federation events including trust establishment, assertion exchanges,
+  attribute mapping changes, and trust reviews.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

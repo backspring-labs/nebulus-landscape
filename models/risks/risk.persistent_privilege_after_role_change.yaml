@@ -1,0 +1,11 @@
+id: risk.persistent_privilege_after_role_change
+name: Persistent Privilege After Role Change
+description: >
+  Privileged access from a prior role is not revoked when a user changes roles, resulting in accumulated excess privileges.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

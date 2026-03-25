@@ -1,0 +1,11 @@
+id: risk.missed_access_anomaly
+name: Missed Access Anomaly
+description: >
+  Unusual or suspicious access patterns go undetected due to gaps in monitoring, alerting, or analytic coverage.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.recovery_assurance_by_risk_tier
+name: Recovery Assurance by Risk Tier
+description: >
+  Define recovery assurance requirements based on risk tier, ensuring higher-risk
+  accounts require stronger verification before access restoration.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

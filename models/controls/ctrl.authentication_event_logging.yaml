@@ -1,0 +1,12 @@
+id: ctrl.authentication_event_logging
+name: Authentication Event Logging
+description: >
+  Log all authentication events including successes, failures, and lockouts
+  to support anomaly detection, audit, and incident response.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

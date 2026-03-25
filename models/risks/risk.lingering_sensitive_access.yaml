@@ -1,0 +1,11 @@
+id: risk.lingering_sensitive_access
+name: Lingering Sensitive Access
+description: >
+  Access to sensitive resources persists beyond its intended duration, increasing the risk of unauthorized data exposure or actions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

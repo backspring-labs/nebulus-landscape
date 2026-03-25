@@ -1,0 +1,12 @@
+id: ctrl.exception_access_approval_controls
+name: Exception Access Approval Controls
+description: >
+  Require documented approval workflows for exception or out-of-policy access
+  grants, including time-bounding and recertification requirements.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

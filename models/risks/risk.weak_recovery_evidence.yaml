@@ -1,0 +1,11 @@
+id: risk.weak_recovery_evidence
+name: Weak Recovery Evidence
+description: >
+  Account recovery events lack sufficient evidence capture to support forensic investigation or compliance audit of recovery actions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

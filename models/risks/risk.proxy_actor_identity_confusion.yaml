@@ -1,0 +1,11 @@
+id: risk.proxy_actor_identity_confusion
+name: Proxy Actor Identity Confusion
+description: >
+  Actions taken by a proxy or delegate are attributed to the wrong identity, obscuring accountability and complicating audit trails.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

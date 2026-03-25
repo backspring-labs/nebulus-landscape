@@ -1,0 +1,11 @@
+id: risk.unrecertified_exception_access
+name: Unrecertified Exception Access
+description: >
+  Exception-based access grants persist without periodic recertification, allowing temporary exceptions to become permanent privileges.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

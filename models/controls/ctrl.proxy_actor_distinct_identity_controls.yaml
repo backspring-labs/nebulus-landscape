@@ -1,0 +1,12 @@
+id: ctrl.proxy_actor_distinct_identity_controls
+name: Proxy Actor Distinct Identity Controls
+description: >
+  Ensure proxy actors operate under their own distinct identity with clear
+  attribution, preventing confusion between the delegate and the principal.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

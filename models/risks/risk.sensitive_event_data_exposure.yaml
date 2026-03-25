@@ -1,0 +1,11 @@
+id: risk.sensitive_event_data_exposure
+name: Sensitive Event Data Exposure
+description: >
+  Sensitive identity or access event data is exposed through logs, telemetry, or monitoring systems without adequate protection.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

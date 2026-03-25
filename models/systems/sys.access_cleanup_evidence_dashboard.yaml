@@ -1,0 +1,10 @@
+id: sys.access_cleanup_evidence_dashboard
+name: Access Cleanup Evidence Dashboard
+description: >
+  Dashboard for tracking post-exit access cleanup progress, completion status,
+  and outstanding exceptions across systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

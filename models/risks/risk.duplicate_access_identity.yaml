@@ -1,0 +1,11 @@
+id: risk.duplicate_access_identity
+name: Duplicate Access Identity
+description: >
+  A single person holds multiple identity records, leading to redundant or conflicting access grants that evade governance controls.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

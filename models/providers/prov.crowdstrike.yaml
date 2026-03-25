@@ -1,0 +1,8 @@
+id: prov.crowdstrike
+name: CrowdStrike
+category: security_monitoring
+summary: >
+  Endpoint and identity threat detection and response.
+status: stub
+source_refs: []
+tags: []

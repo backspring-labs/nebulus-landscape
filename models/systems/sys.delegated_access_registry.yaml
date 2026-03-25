@@ -1,0 +1,10 @@
+id: sys.delegated_access_registry
+name: Delegated Access Registry
+description: >
+  Maintains records of delegated and proxy access arrangements including
+  authority basis, scope, and expiration.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: stage.privileged_admin_action_v1.runtime_policy_evaluation
+name: Runtime Policy Evaluation
+process_id: proc.privileged_admin_action_v1
+description: >
+  Evaluate whether privileged action is allowed now.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

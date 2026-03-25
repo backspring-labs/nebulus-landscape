@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.primary_authentication_validation
+name: Primary Authentication Validation
+process_id: proc.customer_login_v1
+description: >
+  Validate submitted authenticator against access identity.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

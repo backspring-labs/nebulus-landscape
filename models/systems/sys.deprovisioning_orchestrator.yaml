@@ -1,0 +1,10 @@
+id: sys.deprovisioning_orchestrator
+name: Deprovisioning Orchestrator
+description: >
+  Orchestrates the removal of access rights across systems in response to
+  lifecycle events such as termination or role change.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

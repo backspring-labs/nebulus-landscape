@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.recovery_intake
+name: Recovery Intake
+process_id: proc.account_recovery_v1
+description: >
+  Receive recovery request and capture scenario.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.provisioning_reconciliation_engine
+name: Provisioning Reconciliation Engine
+description: >
+  Detects and resolves discrepancies between intended access state and actual
+  provisioned access across target systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

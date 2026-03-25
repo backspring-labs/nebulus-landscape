@@ -1,0 +1,11 @@
+id: risk.delegation_chain_opacity
+name: Delegation Chain Opacity
+description: >
+  Multi-level delegation chains lack transparency, making it impossible to trace the origin and scope of delegated access through intermediaries.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

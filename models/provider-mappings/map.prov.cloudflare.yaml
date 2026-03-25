@@ -1,0 +1,13 @@
+id: map.prov.cloudflare
+provider_id: prov.cloudflare
+capability_ids:
+  - cap.session_and_device_trust_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

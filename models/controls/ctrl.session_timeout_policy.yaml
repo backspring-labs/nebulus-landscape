@@ -1,0 +1,12 @@
+id: ctrl.session_timeout_policy
+name: Session Timeout Policy
+description: >
+  Enforce session timeout and idle expiration policies to limit the window of
+  exposure from unattended or hijacked sessions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

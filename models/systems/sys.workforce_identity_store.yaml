@@ -1,0 +1,10 @@
+id: sys.workforce_identity_store
+name: Workforce Identity Store
+description: >
+  Stores employee and contractor access identity records including roles,
+  organizational attributes, and lifecycle state.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

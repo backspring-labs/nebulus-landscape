@@ -1,0 +1,12 @@
+id: ctrl.access_evidence_retention_requirements
+name: Access Evidence Retention Requirements
+description: >
+  Define and enforce retention requirements for access audit evidence, ensuring
+  records are preserved for the required governance and regulatory periods.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

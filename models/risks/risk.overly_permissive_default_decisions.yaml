@@ -1,0 +1,11 @@
+id: risk.overly_permissive_default_decisions
+name: Overly Permissive Default Decisions
+description: >
+  Default access policy decisions are too permissive, granting access when insufficient information is available to make an informed decision.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

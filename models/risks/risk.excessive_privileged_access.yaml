@@ -1,0 +1,11 @@
+id: risk.excessive_privileged_access
+name: Excessive Privileged Access
+description: >
+  Too many users hold privileged access rights, broadening the attack surface and increasing the risk of misuse or compromise.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

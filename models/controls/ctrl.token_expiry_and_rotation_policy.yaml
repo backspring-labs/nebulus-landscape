@@ -1,0 +1,12 @@
+id: ctrl.token_expiry_and_rotation_policy
+name: Token Expiry and Rotation Policy
+description: >
+  Enforce token expiration limits and rotation requirements to reduce the
+  impact of token theft or replay attacks.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

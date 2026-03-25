@@ -1,0 +1,10 @@
+id: sys.token_store
+name: Token Store
+description: >
+  Stores and manages active session tokens, refresh tokens, and their
+  associated metadata for validation and revocation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

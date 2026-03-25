@@ -1,0 +1,10 @@
+id: sys.federation_gateway
+name: Federation Gateway
+description: >
+  Entry point for federated authentication that brokers trust between external
+  identity providers and internal relying parties.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

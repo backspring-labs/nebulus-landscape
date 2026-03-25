@@ -1,0 +1,8 @@
+id: prov.delinea
+name: Delinea
+category: privileged_access
+summary: >
+  Privileged access management and secret server.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,10 @@
+id: sys.privileged_activity_evidence_repository
+name: Privileged Activity Evidence Repository
+description: >
+  Stores evidence of privileged activity including session recordings, approval
+  chains, and action logs for governance review.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.weak_authenticator_allowed
+name: Weak Authenticator Allowed
+description: >
+  The system permits use of weak or outdated authenticators that are susceptible to interception, replay, or brute-force attacks.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

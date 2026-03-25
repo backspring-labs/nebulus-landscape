@@ -1,0 +1,10 @@
+id: sys.privileged_access_evidence_store
+name: Privileged Access Evidence Store
+description: >
+  Stores evidence of privileged access activities including session recordings,
+  command logs, and approval records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

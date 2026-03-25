@@ -1,0 +1,11 @@
+id: risk.excessive_session_persistence
+name: Excessive Session Persistence
+description: >
+  Sessions remain active far longer than necessary, increasing exposure to hijacking and unauthorized reuse.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

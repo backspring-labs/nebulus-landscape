@@ -1,0 +1,12 @@
+id: ctrl.identity_access_telemetry_coverage
+name: Identity Access Telemetry Coverage
+description: >
+  Ensure comprehensive telemetry coverage across authentication, session, and
+  access decision events to support monitoring and anomaly detection.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

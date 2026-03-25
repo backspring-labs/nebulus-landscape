@@ -1,0 +1,8 @@
+id: prov.yubico
+name: Yubico
+category: mfa_and_authentication
+summary: >
+  Hardware security key and FIDO authentication.
+status: stub
+source_refs: []
+tags: []

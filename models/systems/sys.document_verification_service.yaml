@@ -1,0 +1,10 @@
+id: sys.document_verification_service
+name: Document Verification Service
+description: >
+  Validates identity documents such as government-issued IDs, passports, and
+  driver licenses against authoritative sources and fraud patterns.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

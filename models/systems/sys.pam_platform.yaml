@@ -1,0 +1,10 @@
+id: sys.pam_platform
+name: PAM Platform
+description: >
+  Privileged access management platform that controls, monitors, and records
+  administrative and high-risk access to critical systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.stale_recovery_method
+name: Stale Recovery Method
+description: >
+  Account recovery methods reference outdated contact information or factors, preventing legitimate recovery or enabling takeover.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

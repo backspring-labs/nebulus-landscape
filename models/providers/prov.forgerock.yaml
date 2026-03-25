@@ -1,0 +1,8 @@
+id: prov.forgerock
+name: ForgeRock (by Ping)
+category: identity_and_access
+summary: >
+  Customer and workforce identity platform.
+status: stub
+source_refs: []
+tags: []

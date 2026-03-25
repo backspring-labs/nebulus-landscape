@@ -1,0 +1,10 @@
+id: sys.recovery_workflow_service
+name: Recovery Workflow Service
+description: >
+  Orchestrates account recovery workflows including intake, triage, reproofing,
+  credential reset, and trust re-establishment steps.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

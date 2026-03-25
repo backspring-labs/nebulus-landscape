@@ -1,0 +1,12 @@
+id: ctrl.permission_model_change_governance
+name: Permission Model Change Governance
+description: >
+  Govern changes to the permission model including role definitions, scope
+  boundaries, and inheritance rules through review and approval processes.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

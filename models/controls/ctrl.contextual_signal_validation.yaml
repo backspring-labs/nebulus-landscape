@@ -1,0 +1,12 @@
+id: ctrl.contextual_signal_validation
+name: Contextual Signal Validation
+description: >
+  Validate contextual signals such as device posture, location, and behavior
+  patterns used in access decisions for integrity and freshness.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.session_event_audit_logging
+name: Session Event Audit Logging
+description: >
+  Log session lifecycle events including creation, refresh, timeout, and
+  revocation for audit, monitoring, and incident investigation.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

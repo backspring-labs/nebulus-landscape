@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.reproof_and_assurance_reestablishment
+name: Reproof and Assurance Reestablishment
+process_id: proc.account_recovery_v1
+description: >
+  Complete verification or re-proofing to restore confidence.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

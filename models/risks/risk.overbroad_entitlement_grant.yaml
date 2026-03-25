@@ -1,0 +1,11 @@
+id: risk.overbroad_entitlement_grant
+name: Overbroad Entitlement Grant
+description: >
+  Entitlement grants provide more access than needed for the user's role, increasing the risk of data exposure or unauthorized actions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

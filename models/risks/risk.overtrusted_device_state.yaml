@@ -1,0 +1,11 @@
+id: risk.overtrusted_device_state
+name: Overtrusted Device State
+description: >
+  Device trust assessments rely on stale or unverified device state, allowing compromised or non-compliant devices to retain access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

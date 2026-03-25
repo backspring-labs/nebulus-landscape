@@ -1,0 +1,11 @@
+id: risk.delayed_deprovisioning
+name: Delayed Deprovisioning
+description: >
+  Access removal after offboarding or role change is delayed, leaving a window where former entitlements can be exploited.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

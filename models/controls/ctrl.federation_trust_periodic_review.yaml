@@ -1,0 +1,12 @@
+id: ctrl.federation_trust_periodic_review
+name: Federation Trust Periodic Review
+description: >
+  Conduct periodic reviews of active federation trust relationships to validate
+  continued need, compliance, and security posture of external providers.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

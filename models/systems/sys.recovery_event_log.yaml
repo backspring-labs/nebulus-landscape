@@ -1,0 +1,10 @@
+id: sys.recovery_event_log
+name: Recovery Event Log
+description: >
+  Records account recovery events including recovery attempts, reproofing
+  outcomes, credential resets, and trust restoration actions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

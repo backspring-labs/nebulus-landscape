@@ -1,0 +1,10 @@
+id: sys.identity_governance_platform
+name: Identity Governance Platform
+description: >
+  Platform for identity governance and administration including access requests,
+  approvals, certifications, and lifecycle automation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.overtrusted_external_assertion
+name: Overtrusted External Assertion
+description: >
+  External identity or attribute assertions are accepted with insufficient validation, allowing fraudulent or inaccurate claims to drive access decisions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

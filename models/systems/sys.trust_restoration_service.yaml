@@ -1,0 +1,10 @@
+id: sys.trust_restoration_service
+name: Trust Restoration Service
+description: >
+  Re-establishes trust state after account recovery by validating new
+  credentials, rebinding authenticators, and resetting session context.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

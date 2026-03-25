@@ -1,0 +1,11 @@
+id: risk.weak_client_token_binding
+name: Weak Client Token Binding
+description: >
+  Tokens are not bound to the requesting client or device, allowing stolen tokens to be replayed from unauthorized contexts.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

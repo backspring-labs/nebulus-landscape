@@ -1,0 +1,12 @@
+id: ctrl.post_recovery_session_cleanup
+name: Post-Recovery Session Cleanup
+description: >
+  Terminate all pre-existing sessions and tokens after account recovery to
+  prevent continued access from potentially compromised prior trust state.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

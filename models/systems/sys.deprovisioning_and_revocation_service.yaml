@@ -1,0 +1,10 @@
+id: sys.deprovisioning_and_revocation_service
+name: Deprovisioning and Revocation Service
+description: >
+  Executes deprovisioning and revocation actions across systems to remove
+  access rights, credentials, and entitlements after exit events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.recovery_scenario_triage
+name: Recovery Scenario Triage
+process_id: proc.account_recovery_v1
+description: >
+  Classify recovery case and determine assurance path.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

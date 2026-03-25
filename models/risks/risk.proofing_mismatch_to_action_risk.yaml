@@ -1,0 +1,11 @@
+id: risk.proofing_mismatch_to_action_risk
+name: Proofing Mismatch to Action Risk
+description: >
+  The level of identity proofing performed does not match the risk level of actions the identity is permitted to take.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

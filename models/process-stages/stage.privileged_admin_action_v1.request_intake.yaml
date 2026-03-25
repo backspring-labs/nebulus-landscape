@@ -1,0 +1,11 @@
+id: stage.privileged_admin_action_v1.request_intake
+name: Request Intake
+process_id: proc.privileged_admin_action_v1
+description: >
+  Receive privileged action request and classify.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.stale_or_compromised_federation_metadata
+name: Stale or Compromised Federation Metadata
+description: >
+  Federation metadata such as certificates or endpoint configurations becomes outdated or compromised, undermining trust in federated assertions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

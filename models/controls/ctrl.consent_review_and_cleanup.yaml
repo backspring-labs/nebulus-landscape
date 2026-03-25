@@ -1,0 +1,12 @@
+id: ctrl.consent_review_and_cleanup
+name: Consent Review and Cleanup
+description: >
+  Periodically review active consent grants and remove stale or unused
+  authorizations to reduce the surface area of third-party access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

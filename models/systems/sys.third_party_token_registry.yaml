@@ -1,0 +1,10 @@
+id: sys.third_party_token_registry
+name: Third-Party Token Registry
+description: >
+  Registry of active third-party access tokens and consent grants that
+  enables targeted revocation during exit or security events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

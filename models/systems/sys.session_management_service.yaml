@@ -1,0 +1,10 @@
+id: sys.session_management_service
+name: Session Management Service
+description: >
+  Manages session lifecycle including creation, timeout, refresh, and
+  termination across channels and devices.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

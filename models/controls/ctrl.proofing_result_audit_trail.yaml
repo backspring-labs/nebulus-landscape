@@ -1,0 +1,12 @@
+id: ctrl.proofing_result_audit_trail
+name: Proofing Result Audit Trail
+description: >
+  Maintain an immutable audit trail of all identity proofing attempts, outcomes,
+  evidence used, and review decisions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.runtime_privileged_policy_rules
+name: Runtime Privileged Policy Rules
+description: >
+  Evaluate runtime policy rules specific to privileged actions, enforcing scope
+  constraints, time bounds, and contextual conditions during execution.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

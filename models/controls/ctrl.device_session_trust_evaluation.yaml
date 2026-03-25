@@ -1,0 +1,12 @@
+id: ctrl.device_session_trust_evaluation
+name: Device Session Trust Evaluation
+description: >
+  Evaluate device and session context during login to inform trust decisions
+  and determine whether elevated assurance is required.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

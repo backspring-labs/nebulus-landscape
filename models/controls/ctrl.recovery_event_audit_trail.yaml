@@ -1,0 +1,12 @@
+id: ctrl.recovery_event_audit_trail
+name: Recovery Event Audit Trail
+description: >
+  Log all account recovery events including intake, verification steps, credential
+  resets, and outcomes for audit and forensic review.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

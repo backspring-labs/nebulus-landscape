@@ -1,0 +1,11 @@
+id: risk.recovery_reproofing_weakness
+name: Recovery Reproofing Weakness
+description: >
+  Account recovery does not require sufficient re-proofing of the user's identity, making it easier for attackers to take over accounts.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

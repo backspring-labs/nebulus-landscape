@@ -1,0 +1,10 @@
+id: sys.identity_reverification_service
+name: Identity Reverification Service
+description: >
+  Performs identity reverification during account recovery by executing
+  reproofing checks appropriate to the recovery risk tier.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

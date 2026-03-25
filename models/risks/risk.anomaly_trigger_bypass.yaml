@@ -1,0 +1,11 @@
+id: risk.anomaly_trigger_bypass
+name: Anomaly Trigger Bypass
+description: >
+  Anomalous access patterns fail to trigger detection or response mechanisms, allowing suspicious activity to proceed unchallenged.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.recovery_method_governance
+name: Recovery Method Governance
+description: >
+  Govern the registration, maintenance, and periodic review of account recovery
+  methods to prevent stale or weak recovery paths.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

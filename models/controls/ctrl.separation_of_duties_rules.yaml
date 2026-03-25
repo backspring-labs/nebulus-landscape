@@ -1,0 +1,12 @@
+id: ctrl.separation_of_duties_rules
+name: Separation of Duties Rules
+description: >
+  Enforce separation of duties constraints that prevent conflicting or high-risk
+  permission combinations from being assigned to a single identity.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

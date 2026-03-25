@@ -1,0 +1,11 @@
+id: risk.excess_privilege_inheritance
+name: Excess Privilege Inheritance
+description: >
+  Users inherit more privileges than intended through role hierarchies, group memberships, or cascading permission structures.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.factor_replacement_step_up_controls
+name: Factor Replacement Step-Up Controls
+description: >
+  Require elevated assurance before replacing or rebinding authentication factors,
+  preventing account takeover through factor substitution.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

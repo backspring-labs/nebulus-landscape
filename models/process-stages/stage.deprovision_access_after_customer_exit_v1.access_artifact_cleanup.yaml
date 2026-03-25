@@ -1,0 +1,11 @@
+id: stage.deprovision_access_after_customer_exit_v1.access_artifact_cleanup
+name: Access Artifact Cleanup
+process_id: proc.deprovision_access_after_customer_exit_v1
+description: >
+  Revoke authenticators, entitlements, delegated rights, and tokens.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.proofing_confidence_thresholds
+name: Proofing Confidence Thresholds
+description: >
+  Define and enforce minimum confidence score thresholds for identity proofing
+  outcomes, gating downstream access or onboarding decisions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

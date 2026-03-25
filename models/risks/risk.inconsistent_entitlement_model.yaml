@@ -1,0 +1,11 @@
+id: risk.inconsistent_entitlement_model
+name: Inconsistent Entitlement Model
+description: >
+  Entitlement definitions vary across systems or domains, leading to conflicting access interpretations and governance gaps.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

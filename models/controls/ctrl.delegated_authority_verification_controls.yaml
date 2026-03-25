@@ -1,0 +1,12 @@
+id: ctrl.delegated_authority_verification_controls
+name: Delegated Authority Verification Controls
+description: >
+  Verify the legitimacy and scope of delegated authority before granting proxy
+  access, including validation of legal instruments or corporate authorization.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

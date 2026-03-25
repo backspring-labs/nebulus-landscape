@@ -1,0 +1,12 @@
+id: ctrl.lockout_and_retry_controls
+name: Lockout and Retry Controls
+description: >
+  Enforce account lockout policies and governed retry limits after repeated
+  authentication failures to prevent unauthorized access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

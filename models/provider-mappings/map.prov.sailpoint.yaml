@@ -1,0 +1,17 @@
+id: map.prov.sailpoint
+provider_id: prov.sailpoint
+capability_ids:
+  - cap.authorization_and_entitlements
+  - cap.delegated_and_proxy_access_management
+  - cap.access_provisioning_and_deprovisioning
+  - cap.access_audit_and_attestation
+  - cap.post_exit_access_governance
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

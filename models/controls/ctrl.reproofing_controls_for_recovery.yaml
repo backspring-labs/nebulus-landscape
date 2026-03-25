@@ -1,0 +1,12 @@
+id: ctrl.reproofing_controls_for_recovery
+name: Reproofing Controls for Recovery
+description: >
+  Require identity reproofing when account recovery scenarios exceed defined risk
+  thresholds, ensuring assurance is re-established before restoring access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

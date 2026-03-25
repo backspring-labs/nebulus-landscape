@@ -1,0 +1,10 @@
+id: sys.trust_event_log
+name: Trust Event Log
+description: >
+  Records trust-related events including assurance level changes, step-up
+  outcomes, and adaptive authentication decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

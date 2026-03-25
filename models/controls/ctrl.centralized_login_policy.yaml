@@ -1,0 +1,12 @@
+id: ctrl.centralized_login_policy
+name: Centralized Login Policy
+description: >
+  Enforce a centralized login policy that governs authentication requirements
+  consistently across all customer-facing channels and entry points.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.standing_admin_access_overuse
+name: Standing Admin Access Overuse
+description: >
+  Permanent administrative access is used for routine tasks instead of just-in-time elevation, increasing exposure to misuse or compromise.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

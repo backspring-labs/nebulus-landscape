@@ -1,0 +1,10 @@
+id: sys.proxy_identity_service
+name: Proxy Identity Service
+description: >
+  Manages distinct proxy identities for delegated actors, ensuring actions
+  performed on behalf of others are attributable and auditable.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

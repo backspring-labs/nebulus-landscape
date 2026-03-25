@@ -1,0 +1,10 @@
+id: sys.reinstatement_review_workflow
+name: Reinstatement Review Workflow
+description: >
+  Manages the review and approval workflow for reinstating access identities
+  and entitlements after a previous exit or suspension.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

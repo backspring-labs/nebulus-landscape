@@ -1,0 +1,11 @@
+id: risk.delayed_trust_response
+name: Delayed Trust Response
+description: >
+  The system is slow to adjust trust levels in response to changed risk signals, allowing potentially compromised sessions to continue.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

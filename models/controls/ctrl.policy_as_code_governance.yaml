@@ -1,0 +1,12 @@
+id: ctrl.policy_as_code_governance
+name: Policy as Code Governance
+description: >
+  Manage access policies as versioned, testable code artifacts with change
+  control, review, and deployment governance.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

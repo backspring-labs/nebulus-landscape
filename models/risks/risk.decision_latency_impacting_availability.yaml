@@ -1,0 +1,11 @@
+id: risk.decision_latency_impacting_availability
+name: Decision Latency Impacting Availability
+description: >
+  Slow access decision processing causes service delays or timeouts, degrading availability and potentially triggering unsafe fallback behavior.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

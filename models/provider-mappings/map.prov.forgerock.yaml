@@ -1,0 +1,15 @@
+id: map.prov.forgerock
+provider_id: prov.forgerock
+capability_ids:
+  - cap.access_identity_establishment
+  - cap.federation_and_external_identity_trust
+  - cap.consented_access_token_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

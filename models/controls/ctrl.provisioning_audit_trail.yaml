@@ -1,0 +1,12 @@
+id: ctrl.provisioning_audit_trail
+name: Provisioning Audit Trail
+description: >
+  Log all access provisioning and deprovisioning events including requests,
+  approvals, fulfillment, and revocations for governance and audit.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

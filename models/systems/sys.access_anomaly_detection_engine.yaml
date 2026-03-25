@@ -1,0 +1,10 @@
+id: sys.access_anomaly_detection_engine
+name: Access Anomaly Detection Engine
+description: >
+  Analyzes access event telemetry to detect anomalous patterns such as
+  impossible travel, credential stuffing, or unusual access times.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

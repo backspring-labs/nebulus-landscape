@@ -1,0 +1,10 @@
+id: sys.contextual_signal_aggregator
+name: Contextual Signal Aggregator
+description: >
+  Aggregates contextual signals such as location, device state, and behavioral
+  patterns for use in access policy evaluation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

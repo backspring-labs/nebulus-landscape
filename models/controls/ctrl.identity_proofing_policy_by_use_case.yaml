@@ -1,0 +1,12 @@
+id: ctrl.identity_proofing_policy_by_use_case
+name: Identity Proofing Policy by Use Case
+description: >
+  Enforce use-case-specific identity proofing requirements so that proofing strength
+  matches the risk and regulatory context of each onboarding or recovery scenario.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

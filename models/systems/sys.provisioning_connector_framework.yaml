@@ -1,0 +1,10 @@
+id: sys.provisioning_connector_framework
+name: Provisioning Connector Framework
+description: >
+  Framework of connectors that automate provisioning and deprovisioning of
+  access rights across target applications and systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

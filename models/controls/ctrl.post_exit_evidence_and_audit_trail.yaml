@@ -1,0 +1,12 @@
+id: ctrl.post_exit_evidence_and_audit_trail
+name: Post-Exit Evidence and Audit Trail
+description: >
+  Maintain an audit trail of all post-exit access cleanup actions, exceptions,
+  and completion confirmations for governance and regulatory evidence.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

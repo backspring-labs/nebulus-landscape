@@ -1,0 +1,14 @@
+id: map.prov.saviynt
+provider_id: prov.saviynt
+capability_ids:
+  - cap.delegated_and_proxy_access_management
+  - cap.access_provisioning_and_deprovisioning
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

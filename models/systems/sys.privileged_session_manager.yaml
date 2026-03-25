@@ -1,0 +1,10 @@
+id: sys.privileged_session_manager
+name: Privileged Session Manager
+description: >
+  Manages and monitors privileged sessions including session recording,
+  command filtering, and time-bound access windows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

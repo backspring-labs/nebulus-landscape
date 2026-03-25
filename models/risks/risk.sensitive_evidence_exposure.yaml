@@ -1,0 +1,11 @@
+id: risk.sensitive_evidence_exposure
+name: Sensitive Evidence Exposure
+description: >
+  Identity proofing or authentication evidence is stored or transmitted insecurely, risking exposure of sensitive personal data.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

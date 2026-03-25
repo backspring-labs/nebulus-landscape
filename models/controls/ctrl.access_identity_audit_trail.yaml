@@ -1,0 +1,12 @@
+id: ctrl.access_identity_audit_trail
+name: Access Identity Audit Trail
+description: >
+  Log all access identity lifecycle events including creation, state changes,
+  linking, and termination for audit and governance purposes.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

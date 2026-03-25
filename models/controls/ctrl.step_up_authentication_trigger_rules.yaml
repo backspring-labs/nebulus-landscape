@@ -1,0 +1,12 @@
+id: ctrl.step_up_authentication_trigger_rules
+name: Step-Up Authentication Trigger Rules
+description: >
+  Define rules that trigger step-up authentication based on runtime risk signals,
+  resource sensitivity, or trust degradation indicators.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.overbroad_token_scope
+name: Overbroad Token Scope
+description: >
+  Access tokens are issued with broader scopes than necessary, granting excessive permissions if the token is intercepted or misused.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

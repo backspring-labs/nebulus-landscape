@@ -1,0 +1,11 @@
+id: risk.active_access_after_exit
+name: Active Access After Exit
+description: >
+  A user retains active access to systems or resources after their employment or relationship has been terminated, enabling unauthorized actions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

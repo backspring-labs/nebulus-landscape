@@ -1,0 +1,11 @@
+id: risk.noisy_or_unreliable_access_signals
+name: Noisy or Unreliable Access Signals
+description: >
+  Access monitoring signals produce excessive false positives or unreliable data, degrading the effectiveness of anomaly detection.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

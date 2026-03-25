@@ -1,0 +1,8 @@
+id: prov.cyberark
+name: CyberArk
+category: privileged_access
+summary: >
+  Privileged access management and secrets management.
+status: stub
+source_refs: []
+tags: []

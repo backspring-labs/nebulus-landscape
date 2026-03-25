@@ -1,0 +1,12 @@
+id: ctrl.cross_system_cleanup_reconciliation
+name: Cross-System Cleanup Reconciliation
+description: >
+  Reconcile access cleanup actions across all downstream systems to verify
+  completeness and detect inconsistencies in post-exit deprovisioning.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

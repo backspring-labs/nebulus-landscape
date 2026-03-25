@@ -1,0 +1,11 @@
+id: risk.break_glass_control_bypass
+name: Break Glass Control Bypass
+description: >
+  Emergency access procedures are invoked without proper authorization or oversight, circumventing normal access controls.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

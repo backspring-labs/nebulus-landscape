@@ -1,0 +1,10 @@
+id: sys.trust_response_orchestration_service
+name: Trust Response Orchestration Service
+description: >
+  Orchestrates trust responses to detected anomalies including session
+  termination, step-up triggers, and escalation workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

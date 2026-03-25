@@ -1,0 +1,10 @@
+id: sys.risk_signal_aggregator
+name: Risk Signal Aggregator
+description: >
+  Collects and normalizes risk signals from multiple sources to produce a
+  composite risk score for authentication and access decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.session_binding_and_integrity_controls
+name: Session Binding and Integrity Controls
+description: >
+  Bind sessions to originating context such as device, IP, or client fingerprint
+  and validate integrity to detect session hijacking.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.periodic_entitlement_review
+name: Periodic Entitlement Review
+description: >
+  Conduct periodic reviews of entitlement assignments to detect and remediate
+  stale, overbroad, or unauthorized access grants.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

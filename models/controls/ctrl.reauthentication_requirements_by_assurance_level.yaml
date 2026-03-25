@@ -1,0 +1,12 @@
+id: ctrl.reauthentication_requirements_by_assurance_level
+name: Reauthentication Requirements by Assurance Level
+description: >
+  Define reauthentication triggers and intervals based on assurance level to
+  maintain session trust over time.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

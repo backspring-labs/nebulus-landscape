@@ -1,0 +1,11 @@
+id: risk.overbroad_delegated_access
+name: Overbroad Delegated Access
+description: >
+  Delegated access grants provide more permissions than necessary for the delegated task, violating least-privilege principles.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.digital_login_service
+name: Digital Login Service
+description: >
+  Handles the customer-facing login flow including credential collection,
+  authentication orchestration, and session initiation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

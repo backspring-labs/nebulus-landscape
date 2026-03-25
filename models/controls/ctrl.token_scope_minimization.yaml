@@ -1,0 +1,12 @@
+id: ctrl.token_scope_minimization
+name: Token Scope Minimization
+description: >
+  Enforce minimum necessary scope on access tokens, preventing overbroad
+  authorization grants beyond what the consented use case requires.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

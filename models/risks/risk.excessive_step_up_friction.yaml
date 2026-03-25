@@ -1,0 +1,11 @@
+id: risk.excessive_step_up_friction
+name: Excessive Step-Up Friction
+description: >
+  Overly aggressive step-up authentication requirements create user friction, leading to workarounds or abandonment of secure flows.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

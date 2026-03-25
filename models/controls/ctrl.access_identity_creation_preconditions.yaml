@@ -1,0 +1,12 @@
+id: ctrl.access_identity_creation_preconditions
+name: Access Identity Creation Preconditions
+description: >
+  Enforce prerequisite checks before creating an access identity, including
+  completed proofing, deduplication, and authorization to create.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

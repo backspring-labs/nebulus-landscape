@@ -1,0 +1,10 @@
+id: sys.identity_provider_registry
+name: Identity Provider Registry
+description: >
+  Registry of trusted external identity providers including their metadata,
+  trust status, and configuration details.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

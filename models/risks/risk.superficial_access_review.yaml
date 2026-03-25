@@ -1,0 +1,11 @@
+id: risk.superficial_access_review
+name: Superficial Access Review
+description: >
+  Access reviews are conducted as a rubber-stamp exercise without meaningful evaluation, failing to detect inappropriate access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

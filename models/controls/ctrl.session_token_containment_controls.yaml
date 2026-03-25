@@ -1,0 +1,12 @@
+id: ctrl.session_token_containment_controls
+name: Session Token Containment Controls
+description: >
+  Enable rapid containment of sessions and tokens in response to detected
+  anomalies or compromise indicators.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

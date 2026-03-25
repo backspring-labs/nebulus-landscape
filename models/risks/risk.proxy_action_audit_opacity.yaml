@@ -1,0 +1,11 @@
+id: risk.proxy_action_audit_opacity
+name: Proxy Action Audit Opacity
+description: >
+  Actions performed by proxy actors or delegates are not clearly distinguished in audit logs, obscuring who actually performed an action.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

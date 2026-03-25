@@ -1,0 +1,12 @@
+id: ctrl.token_binding_and_replay_prevention
+name: Token Binding and Replay Prevention
+description: >
+  Bind tokens to the intended client and context, and implement replay prevention
+  mechanisms to mitigate token theft and misuse.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

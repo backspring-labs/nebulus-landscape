@@ -1,0 +1,11 @@
+id: risk.surviving_sessions_tokens_or_delegations
+name: Surviving Sessions, Tokens, or Delegations
+description: >
+  Active sessions, tokens, or delegated access grants survive beyond their intended lifecycle, maintaining unauthorized access pathways.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

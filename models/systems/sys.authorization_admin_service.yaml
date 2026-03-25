@@ -1,0 +1,10 @@
+id: sys.authorization_admin_service
+name: Authorization Admin Service
+description: >
+  Administrative interface for defining and managing authorization policies,
+  roles, permissions, and entitlement structures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

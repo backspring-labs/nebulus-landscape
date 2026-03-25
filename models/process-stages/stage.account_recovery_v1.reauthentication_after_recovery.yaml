@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.reauthentication_after_recovery
+name: Reauthentication After Recovery
+process_id: proc.account_recovery_v1
+description: >
+  Authenticate with restored access artifacts.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

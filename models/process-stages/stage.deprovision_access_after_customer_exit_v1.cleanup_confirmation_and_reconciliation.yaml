@@ -1,0 +1,11 @@
+id: stage.deprovision_access_after_customer_exit_v1.cleanup_confirmation_and_reconciliation
+name: Cleanup Confirmation and Reconciliation
+process_id: proc.deprovision_access_after_customer_exit_v1
+description: >
+  Validate cleanup completion across systems.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

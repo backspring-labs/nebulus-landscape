@@ -1,0 +1,12 @@
+id: ctrl.monitoring_feedback_and_tuning_governance
+name: Monitoring Feedback and Tuning Governance
+description: >
+  Govern the feedback loop for access monitoring signal tuning, ensuring detection
+  rules are periodically reviewed and adjusted for effectiveness.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

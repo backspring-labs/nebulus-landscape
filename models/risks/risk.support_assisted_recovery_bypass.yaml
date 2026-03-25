@@ -1,0 +1,11 @@
+id: risk.support_assisted_recovery_bypass
+name: Support-Assisted Recovery Bypass
+description: >
+  Support agents bypass standard recovery verification procedures, enabling social engineering attacks to gain account access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

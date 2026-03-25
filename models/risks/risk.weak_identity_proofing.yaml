@@ -1,0 +1,11 @@
+id: risk.weak_identity_proofing
+name: Weak Identity Proofing
+description: >
+  Identity verification processes are insufficient to reliably confirm a person's claimed identity, enabling fraud and impersonation.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

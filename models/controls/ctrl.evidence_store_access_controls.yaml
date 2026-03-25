@@ -1,0 +1,12 @@
+id: ctrl.evidence_store_access_controls
+name: Evidence Store Access Controls
+description: >
+  Restrict access to governance evidence repositories to authorized personnel,
+  protecting sensitive audit and attestation records from unauthorized viewing.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

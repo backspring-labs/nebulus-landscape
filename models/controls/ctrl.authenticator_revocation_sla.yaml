@@ -1,0 +1,12 @@
+id: ctrl.authenticator_revocation_sla
+name: Authenticator Revocation SLA
+description: >
+  Enforce time-bound service-level agreements for revoking compromised or
+  decommissioned authenticators to limit exposure windows.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.identity_directory
+name: Identity Directory
+description: >
+  Centralized directory of access identities, attributes, and group memberships
+  used for authentication and authorization lookups.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

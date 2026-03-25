@@ -1,0 +1,11 @@
+id: risk.cross_channel_delegated_access_inconsistency
+name: Cross-Channel Delegated Access Inconsistency
+description: >
+  Delegated access permissions are enforced differently across channels, allowing broader access on some channels than intended.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

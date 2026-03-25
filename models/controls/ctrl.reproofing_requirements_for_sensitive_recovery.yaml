@@ -1,0 +1,12 @@
+id: ctrl.reproofing_requirements_for_sensitive_recovery
+name: Reproofing Requirements for Sensitive Recovery
+description: >
+  Require identity reproofing for recovery scenarios involving sensitive accounts
+  or high-risk conditions to re-establish trust before restoring access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

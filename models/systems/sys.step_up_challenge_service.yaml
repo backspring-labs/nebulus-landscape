@@ -1,0 +1,10 @@
+id: sys.step_up_challenge_service
+name: Step-Up Challenge Service
+description: >
+  Delivers step-up authentication challenges during privileged or high-risk
+  actions to elevate assurance before proceeding.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

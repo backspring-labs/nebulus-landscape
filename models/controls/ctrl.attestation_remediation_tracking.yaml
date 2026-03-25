@@ -1,0 +1,12 @@
+id: ctrl.attestation_remediation_tracking
+name: Attestation Remediation Tracking
+description: >
+  Track and enforce remediation of findings from access attestation reviews,
+  ensuring identified issues are resolved within defined timelines.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

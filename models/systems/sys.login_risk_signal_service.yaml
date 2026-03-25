@@ -1,0 +1,10 @@
+id: sys.login_risk_signal_service
+name: Login Risk Signal Service
+description: >
+  Evaluates risk signals at login time including device posture, location,
+  and behavioral patterns to inform authentication decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

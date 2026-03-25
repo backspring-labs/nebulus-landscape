@@ -1,0 +1,10 @@
+id: sys.session_service
+name: Session Service
+description: >
+  Core session management service that creates, validates, and terminates
+  user sessions across authentication and recovery flows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

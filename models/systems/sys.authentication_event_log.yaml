@@ -1,0 +1,10 @@
+id: sys.authentication_event_log
+name: Authentication Event Log
+description: >
+  Records authentication events including successes, failures, lockouts, and
+  factor usage for audit and anomaly detection.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

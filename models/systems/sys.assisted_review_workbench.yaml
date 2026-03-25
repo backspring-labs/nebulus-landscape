@@ -1,0 +1,10 @@
+id: sys.assisted_review_workbench
+name: Assisted Review Workbench
+description: >
+  Provides a manual review interface for identity proofing cases that require
+  human judgment due to ambiguous or inconclusive automated results.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

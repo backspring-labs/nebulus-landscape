@@ -1,0 +1,11 @@
+id: risk.recovery_account_takeover
+name: Recovery Account Takeover
+description: >
+  The account recovery process is exploited by an attacker to gain control of a legitimate user's account.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

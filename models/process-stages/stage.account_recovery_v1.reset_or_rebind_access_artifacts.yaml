@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.reset_or_rebind_access_artifacts
+name: Reset or Rebind Access Artifacts
+process_id: proc.account_recovery_v1
+description: >
+  Reset credentials and rebind authenticators.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

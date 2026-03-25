@@ -1,0 +1,12 @@
+id: ctrl.privileged_access_recertification
+name: Privileged Access Recertification
+description: >
+  Require periodic recertification of privileged access assignments to detect
+  and remove standing or stale administrative access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

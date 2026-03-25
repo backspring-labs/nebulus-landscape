@@ -1,0 +1,10 @@
+id: sys.identity_event_dashboard
+name: Identity Event Dashboard
+description: >
+  Operational dashboard for monitoring identity and access events, anomaly
+  alerts, and trust response status in near real-time.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

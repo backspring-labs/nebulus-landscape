@@ -1,0 +1,12 @@
+id: ctrl.strong_assurance_for_privileged_actions
+name: Strong Assurance for Privileged Actions
+description: >
+  Require elevated authentication assurance including phishing-resistant factors
+  before executing privileged administrative actions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

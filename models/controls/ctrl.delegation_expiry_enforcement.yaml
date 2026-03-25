@@ -1,0 +1,12 @@
+id: ctrl.delegation_expiry_enforcement
+name: Delegation Expiry Enforcement
+description: >
+  Enforce time-bound expiration on delegated access arrangements to prevent
+  indefinite proxy access beyond the intended authorization period.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.identity_proofing_platform
+name: Identity Proofing Platform
+description: >
+  Orchestrates identity proofing workflows including document verification,
+  biometric checks, and confidence scoring for onboarding and recovery contexts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

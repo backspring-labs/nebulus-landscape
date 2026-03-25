@@ -1,0 +1,11 @@
+id: risk.factor_replacement_takeover
+name: Factor Replacement Takeover
+description: >
+  An attacker exploits the authentication factor replacement process to enroll their own factors and take over a legitimate account.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

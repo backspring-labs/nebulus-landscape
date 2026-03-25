@@ -1,0 +1,11 @@
+id: risk.incomplete_access_fulfillment
+name: Incomplete Access Fulfillment
+description: >
+  Approved access requests are not fully provisioned across all required systems, leaving users without necessary access or with partial grants.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.phishing_resistant_authentication_controls
+name: Phishing-Resistant Authentication Controls
+description: >
+  Require phishing-resistant authentication methods such as FIDO2 or passkeys
+  for high-risk or sensitive access scenarios.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.strong_factor_enrollment_controls
+name: Strong Factor Enrollment Controls
+description: >
+  Require step-up verification and binding checks during enrollment of new
+  authentication factors to prevent unauthorized factor registration.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

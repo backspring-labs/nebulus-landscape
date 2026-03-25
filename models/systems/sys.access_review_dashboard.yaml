@@ -1,0 +1,10 @@
+id: sys.access_review_dashboard
+name: Access Review Dashboard
+description: >
+  Dashboard for access reviewers and auditors to view entitlements, review
+  history, and manage certification decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

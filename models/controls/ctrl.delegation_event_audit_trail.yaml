@@ -1,0 +1,12 @@
+id: ctrl.delegation_event_audit_trail
+name: Delegation Event Audit Trail
+description: >
+  Log all delegation lifecycle events including establishment, scope changes,
+  proxy actions, and revocations for governance and audit.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

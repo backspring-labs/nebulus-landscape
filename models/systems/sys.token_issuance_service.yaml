@@ -1,0 +1,10 @@
+id: sys.token_issuance_service
+name: Token Issuance Service
+description: >
+  Issues access tokens and refresh tokens based on validated consent grants
+  and authorization code exchanges.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.access_event_data_protection
+name: Access Event Data Protection
+description: >
+  Protect sensitive access event data in telemetry pipelines and monitoring
+  systems from unauthorized access or exposure.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.federation_metadata_store
+name: Federation Metadata Store
+description: >
+  Stores federation metadata including SAML metadata documents, OIDC discovery
+  endpoints, and signing certificates for trusted providers.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

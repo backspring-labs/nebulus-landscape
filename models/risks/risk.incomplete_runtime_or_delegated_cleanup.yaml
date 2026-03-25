@@ -1,0 +1,11 @@
+id: risk.incomplete_runtime_or_delegated_cleanup
+name: Incomplete Runtime or Delegated Cleanup
+description: >
+  Runtime sessions or delegated access grants are not fully cleaned up after use, leaving residual access pathways open.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

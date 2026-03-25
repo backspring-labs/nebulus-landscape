@@ -1,0 +1,12 @@
+id: ctrl.manual_review_for_ambiguous_proofing
+name: Manual Review for Ambiguous Proofing
+description: >
+  Route ambiguous or borderline identity proofing results to manual review
+  before allowing acceptance or rejection.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

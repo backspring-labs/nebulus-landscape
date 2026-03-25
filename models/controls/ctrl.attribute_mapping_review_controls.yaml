@@ -1,0 +1,12 @@
+id: ctrl.attribute_mapping_review_controls
+name: Attribute Mapping Review Controls
+description: >
+  Review and govern the mapping of federated identity attributes to local
+  entitlements and roles to prevent inconsistent or overbroad mappings.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

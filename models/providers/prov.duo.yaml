@@ -1,0 +1,8 @@
+id: prov.duo
+name: Duo (by Cisco)
+category: mfa_and_authentication
+summary: >
+  Multi-factor authentication and device trust.
+status: stub
+source_refs: []
+tags: []

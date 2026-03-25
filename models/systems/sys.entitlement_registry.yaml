@@ -1,0 +1,10 @@
+id: sys.entitlement_registry
+name: Entitlement Registry
+description: >
+  Central registry of entitlements, roles, and permission assignments that
+  serves as the authoritative source for access decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

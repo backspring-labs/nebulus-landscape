@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.session_establishment
+name: Session Establishment
+process_id: proc.customer_login_v1
+description: >
+  Create or refresh authenticated session with trust posture.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

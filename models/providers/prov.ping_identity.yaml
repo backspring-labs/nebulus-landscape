@@ -1,0 +1,8 @@
+id: prov.ping_identity
+name: Ping Identity
+category: identity_and_access
+summary: >
+  Federation, authentication, and access policy.
+status: stub
+source_refs: []
+tags: []

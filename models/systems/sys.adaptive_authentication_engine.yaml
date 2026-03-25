@@ -1,0 +1,10 @@
+id: sys.adaptive_authentication_engine
+name: Adaptive Authentication Engine
+description: >
+  Evaluates contextual risk signals and trust state to determine whether step-up
+  authentication is required for a given action or session.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

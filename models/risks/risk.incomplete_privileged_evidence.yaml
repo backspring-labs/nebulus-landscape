@@ -1,0 +1,11 @@
+id: risk.incomplete_privileged_evidence
+name: Incomplete Privileged Evidence
+description: >
+  Privileged access actions lack adequate logging or evidence capture, making it difficult to audit or investigate privileged activity.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.insufficient_proofing_evidence
+name: Insufficient Proofing Evidence
+description: >
+  Identity proofing processes do not collect or retain sufficient evidence to verify that the claimed identity is genuine.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

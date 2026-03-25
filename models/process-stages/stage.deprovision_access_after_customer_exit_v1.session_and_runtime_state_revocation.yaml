@@ -1,0 +1,11 @@
+id: stage.deprovision_access_after_customer_exit_v1.session_and_runtime_state_revocation
+name: Session and Runtime State Revocation
+process_id: proc.deprovision_access_after_customer_exit_v1
+description: >
+  Terminate active sessions and device trust.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

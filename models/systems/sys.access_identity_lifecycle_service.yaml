@@ -1,0 +1,10 @@
+id: sys.access_identity_lifecycle_service
+name: Access Identity Lifecycle Service
+description: >
+  Manages the creation, suspension, reinstatement, and termination of access
+  identities across their lifecycle.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

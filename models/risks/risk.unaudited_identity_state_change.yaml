@@ -1,0 +1,11 @@
+id: risk.unaudited_identity_state_change
+name: Unaudited Identity State Change
+description: >
+  Changes to identity lifecycle state occur without adequate audit trails, preventing detection of unauthorized modifications.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.global_session_token_and_authenticator_revocation
+name: Global Session Token and Authenticator Revocation
+description: >
+  Revoke all active sessions, tokens, and authenticator bindings across systems
+  when triggered by exit, compromise, or governance actions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

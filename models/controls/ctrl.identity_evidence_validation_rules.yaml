@@ -1,0 +1,12 @@
+id: ctrl.identity_evidence_validation_rules
+name: Identity Evidence Validation Rules
+description: >
+  Validate identity evidence against defined rules for document type, freshness,
+  issuer authenticity, and consistency before accepting proofing results.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

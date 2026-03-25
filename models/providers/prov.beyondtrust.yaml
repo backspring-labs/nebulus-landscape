@@ -1,0 +1,8 @@
+id: prov.beyondtrust
+name: BeyondTrust
+category: privileged_access
+summary: >
+  Privileged access management and remote access security.
+status: stub
+source_refs: []
+tags: []

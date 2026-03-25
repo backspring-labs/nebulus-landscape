@@ -1,0 +1,10 @@
+id: sys.privileged_access_approval_service
+name: Privileged Access Approval Service
+description: >
+  Handles approval workflows for privileged access requests including
+  just-in-time access and break-glass procedures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

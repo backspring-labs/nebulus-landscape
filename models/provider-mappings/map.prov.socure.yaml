@@ -1,0 +1,14 @@
+id: map.prov.socure
+provider_id: prov.socure
+capability_ids:
+  - cap.identity_proofing_execution
+  - cap.identity_recovery_and_reset_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

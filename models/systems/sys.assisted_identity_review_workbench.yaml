@@ -1,0 +1,10 @@
+id: sys.assisted_identity_review_workbench
+name: Assisted Identity Review Workbench
+description: >
+  Provides a manual review interface for identity recovery cases requiring
+  human verification before restoring account access.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

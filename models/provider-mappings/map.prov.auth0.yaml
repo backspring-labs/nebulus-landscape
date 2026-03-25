@@ -1,0 +1,17 @@
+id: map.prov.auth0
+provider_id: prov.auth0
+capability_ids:
+  - cap.access_identity_establishment
+  - cap.authentication
+  - cap.step_up_and_adaptive_authentication
+  - cap.session_and_device_trust_management
+  - cap.consented_access_token_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

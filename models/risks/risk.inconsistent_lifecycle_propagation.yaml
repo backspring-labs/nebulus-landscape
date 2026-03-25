@@ -1,0 +1,11 @@
+id: risk.inconsistent_lifecycle_propagation
+name: Inconsistent Lifecycle Propagation
+description: >
+  Identity or access lifecycle changes are not consistently propagated across all downstream systems, creating state drift and access gaps.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

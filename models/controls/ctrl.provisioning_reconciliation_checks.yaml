@@ -1,0 +1,12 @@
+id: ctrl.provisioning_reconciliation_checks
+name: Provisioning Reconciliation Checks
+description: >
+  Reconcile provisioned access state against authoritative sources to detect
+  drift, unauthorized grants, or incomplete provisioning actions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

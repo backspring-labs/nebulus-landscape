@@ -1,0 +1,12 @@
+id: ctrl.just_in_time_or_time_bound_privileged_access
+name: Just-in-Time or Time-Bound Privileged Access
+description: >
+  Grant privileged access on a just-in-time or time-bound basis, eliminating
+  standing administrative access and reducing the exposure window.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

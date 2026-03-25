@@ -1,0 +1,12 @@
+id: ctrl.federation_incident_response_procedures
+name: Federation Incident Response Procedures
+description: >
+  Define incident response procedures for federation trust compromise, including
+  trust suspension, assertion rejection, and affected identity remediation.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.global_session_token_termination_service
+name: Global Session Token Termination Service
+description: >
+  Terminates all active sessions and tokens for a given identity across
+  channels and systems during exit or security events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

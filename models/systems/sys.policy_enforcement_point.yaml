@@ -1,0 +1,10 @@
+id: sys.policy_enforcement_point
+name: Policy Enforcement Point
+description: >
+  Intercepts access requests and enforces authorization decisions rendered
+  by the policy decision point at resource boundaries.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

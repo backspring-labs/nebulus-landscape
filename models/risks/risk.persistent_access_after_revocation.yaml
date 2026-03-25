@@ -1,0 +1,11 @@
+id: risk.persistent_access_after_revocation
+name: Persistent Access After Revocation
+description: >
+  Access continues to function after a revocation decision has been made, due to propagation delays or incomplete enforcement.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

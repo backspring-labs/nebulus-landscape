@@ -1,0 +1,12 @@
+id: ctrl.anomaly_response_playbooks
+name: Anomaly Response Playbooks
+description: >
+  Define and maintain response playbooks for access anomaly scenarios, specifying
+  containment, escalation, and remediation actions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

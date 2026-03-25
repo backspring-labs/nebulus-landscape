@@ -1,0 +1,12 @@
+id: ctrl.exit_triggered_access_cleanup_rules
+name: Exit-Triggered Access Cleanup Rules
+description: >
+  Define rules that trigger comprehensive access cleanup when an authoritative
+  exit event occurs, covering identities, sessions, tokens, and delegations.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

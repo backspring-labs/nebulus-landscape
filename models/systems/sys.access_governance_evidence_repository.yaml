@@ -1,0 +1,10 @@
+id: sys.access_governance_evidence_repository
+name: Access Governance Evidence Repository
+description: >
+  Stores access governance evidence including attestation records, audit trails,
+  and approval artifacts for compliance and audit purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

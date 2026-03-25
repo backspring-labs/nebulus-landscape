@@ -1,0 +1,12 @@
+id: ctrl.reinstatement_revalidation_controls
+name: Reinstatement Revalidation Controls
+description: >
+  Require revalidation of identity and access eligibility before reinstating
+  access for a previously exited customer or user.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

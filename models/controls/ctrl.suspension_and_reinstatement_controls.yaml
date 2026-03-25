@@ -1,0 +1,12 @@
+id: ctrl.suspension_and_reinstatement_controls
+name: Suspension and Reinstatement Controls
+description: >
+  Govern the suspension and reinstatement of access identities, requiring
+  appropriate authorization and re-validation before reactivation.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

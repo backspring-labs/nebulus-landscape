@@ -1,0 +1,12 @@
+id: ctrl.automated_deprovisioning_on_termination
+name: Automated Deprovisioning on Termination
+description: >
+  Automatically trigger access deprovisioning when a termination or exit lifecycle
+  event occurs, minimizing the window of persistent access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

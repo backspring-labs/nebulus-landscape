@@ -1,0 +1,12 @@
+id: ctrl.break_glass_governance_controls
+name: Break Glass Governance Controls
+description: >
+  Govern break-glass emergency access with pre-defined authorization, mandatory
+  post-use review, and automatic expiration to prevent abuse.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

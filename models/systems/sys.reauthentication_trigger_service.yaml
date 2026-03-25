@@ -1,0 +1,10 @@
+id: sys.reauthentication_trigger_service
+name: Reauthentication Trigger Service
+description: >
+  Monitors session and trust state to trigger reauthentication when timeout,
+  trust degradation, or policy conditions are met.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

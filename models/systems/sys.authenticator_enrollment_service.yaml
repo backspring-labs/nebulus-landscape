@@ -1,0 +1,10 @@
+id: sys.authenticator_enrollment_service
+name: Authenticator Enrollment Service
+description: >
+  Handles enrollment and binding of authenticators such as MFA factors, passkeys,
+  and security keys to access identities.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

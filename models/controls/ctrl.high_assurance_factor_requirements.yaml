@@ -1,0 +1,12 @@
+id: ctrl.high_assurance_factor_requirements
+name: High Assurance Factor Requirements
+description: >
+  Require high-assurance authentication factors for step-up challenges triggered
+  by sensitive or high-risk actions.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

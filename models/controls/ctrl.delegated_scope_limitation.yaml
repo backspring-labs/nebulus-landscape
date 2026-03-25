@@ -1,0 +1,12 @@
+id: ctrl.delegated_scope_limitation
+name: Delegated Scope Limitation
+description: >
+  Limit delegated access to the minimum scope necessary, preventing overbroad
+  proxy authority beyond what the delegation instrument permits.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

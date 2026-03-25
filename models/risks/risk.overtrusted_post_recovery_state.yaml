@@ -1,0 +1,11 @@
+id: risk.overtrusted_post_recovery_state
+name: Overtrusted Post-Recovery State
+description: >
+  After account recovery, the session is granted full trust without re-establishing adequate assurance, enabling account takeover persistence.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

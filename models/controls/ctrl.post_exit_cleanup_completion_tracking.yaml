@@ -1,0 +1,12 @@
+id: ctrl.post_exit_cleanup_completion_tracking
+name: Post-Exit Cleanup Completion Tracking
+description: >
+  Track and verify the completion of all post-exit access cleanup actions across
+  systems to ensure no access artifacts persist after exit.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

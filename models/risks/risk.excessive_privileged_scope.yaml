@@ -1,0 +1,11 @@
+id: risk.excessive_privileged_scope
+name: Excessive Privileged Scope
+description: >
+  Privileged accounts are granted broader scope than necessary for their function, violating least-privilege principles.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

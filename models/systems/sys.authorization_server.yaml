@@ -1,0 +1,10 @@
+id: sys.authorization_server
+name: Authorization Server
+description: >
+  OAuth 2.0 authorization server that issues, validates, and manages access
+  tokens and refresh tokens for consented API access.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

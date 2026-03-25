@@ -1,0 +1,8 @@
+id: prov.mitek
+name: Mitek
+category: identity_verification
+summary: >
+  Document verification and identity proofing.
+status: stub
+source_refs: []
+tags: []

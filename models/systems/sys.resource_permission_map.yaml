@@ -1,0 +1,10 @@
+id: sys.resource_permission_map
+name: Resource Permission Map
+description: >
+  Maps protected resources to their required permissions, enabling the
+  authorization layer to evaluate access requests against resource policies.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

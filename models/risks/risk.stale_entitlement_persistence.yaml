@@ -1,0 +1,11 @@
+id: risk.stale_entitlement_persistence
+name: Stale Entitlement Persistence
+description: >
+  Entitlements remain assigned after they are no longer needed, accumulating unnecessary access over time.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

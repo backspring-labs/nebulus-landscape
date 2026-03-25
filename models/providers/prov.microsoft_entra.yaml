@@ -1,0 +1,8 @@
+id: prov.microsoft_entra
+name: Microsoft Entra ID
+category: identity_and_access
+summary: >
+  Enterprise identity, access, and governance platform.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,13 @@
+id: map.prov.shibboleth
+provider_id: prov.shibboleth
+capability_ids:
+  - cap.federation_and_external_identity_trust
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

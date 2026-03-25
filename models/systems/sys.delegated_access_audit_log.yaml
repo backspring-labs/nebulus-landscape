@@ -1,0 +1,10 @@
+id: sys.delegated_access_audit_log
+name: Delegated Access Audit Log
+description: >
+  Records delegated access events including grants, exercises, reviews,
+  and revocations for governance and audit.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

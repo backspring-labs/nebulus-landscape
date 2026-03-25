@@ -1,0 +1,12 @@
+id: ctrl.access_identity_state_model
+name: Access Identity State Model
+description: >
+  Define and enforce a governed state model for access identities, controlling
+  valid transitions between active, suspended, terminated, and other states.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

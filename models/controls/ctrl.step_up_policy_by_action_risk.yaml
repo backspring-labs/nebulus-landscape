@@ -1,0 +1,12 @@
+id: ctrl.step_up_policy_by_action_risk
+name: Step-Up Policy by Action Risk
+description: >
+  Define step-up authentication requirements based on the risk classification
+  of the requested action, ensuring sensitive operations require elevated assurance.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

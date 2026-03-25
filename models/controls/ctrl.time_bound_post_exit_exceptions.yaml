@@ -1,0 +1,12 @@
+id: ctrl.time_bound_post_exit_exceptions
+name: Time-Bound Post-Exit Exceptions
+description: >
+  Require time-bound justification and approval for any post-exit access
+  exceptions, with automatic expiration and recertification.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

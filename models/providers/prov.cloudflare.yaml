@@ -1,0 +1,8 @@
+id: prov.cloudflare
+name: Cloudflare
+category: security_monitoring
+summary: >
+  Web security, CDN, and zero trust network access.
+status: stub
+source_refs: []
+tags: []

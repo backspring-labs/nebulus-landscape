@@ -1,0 +1,11 @@
+id: risk.over_entitled_authenticated_session
+name: Over-Entitled Authenticated Session
+description: >
+  An authenticated session carries more entitlements than required for the user's current task, expanding the blast radius of a session compromise.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

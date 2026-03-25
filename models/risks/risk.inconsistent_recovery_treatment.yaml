@@ -1,0 +1,11 @@
+id: risk.inconsistent_recovery_treatment
+name: Inconsistent Recovery Treatment
+description: >
+  Account recovery processes apply different verification standards depending on the channel or agent, creating exploitable inconsistencies.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

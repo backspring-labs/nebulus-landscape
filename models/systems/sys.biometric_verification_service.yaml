@@ -1,0 +1,10 @@
+id: sys.biometric_verification_service
+name: Biometric Verification Service
+description: >
+  Performs biometric matching such as facial recognition or liveness detection
+  to verify a person matches their identity documents.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

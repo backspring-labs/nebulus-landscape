@@ -1,0 +1,11 @@
+id: risk.unauthorized_delegation_of_access
+name: Unauthorized Delegation of Access
+description: >
+  Access rights are delegated without proper authorization, allowing unvetted parties to act on behalf of legitimate users.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

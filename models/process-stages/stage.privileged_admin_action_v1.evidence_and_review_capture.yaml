@@ -1,0 +1,11 @@
+id: stage.privileged_admin_action_v1.evidence_and_review_capture
+name: Evidence and Review Capture
+process_id: proc.privileged_admin_action_v1
+description: >
+  Capture evidence and prepare review artifacts.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.overtrusted_device_session_context
+name: Overtrusted Device Session Context
+description: >
+  Device or session context signals are given too much trust in access decisions, allowing compromised or spoofed contexts to bypass controls.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

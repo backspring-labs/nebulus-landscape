@@ -1,0 +1,11 @@
+id: risk.weak_reinstatement_after_exit
+name: Weak Reinstatement After Exit
+description: >
+  Re-onboarding or reinstatement processes do not adequately re-verify identity or re-evaluate access needs, restoring prior privileges inappropriately.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

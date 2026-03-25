@@ -1,0 +1,10 @@
+id: sys.mfa_verifier
+name: MFA Verifier
+description: >
+  Validates multi-factor authentication challenges including OTP, push
+  notifications, and biometric factors during authentication flows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

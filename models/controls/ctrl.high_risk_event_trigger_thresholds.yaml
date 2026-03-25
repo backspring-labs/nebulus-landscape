@@ -1,0 +1,12 @@
+id: ctrl.high_risk_event_trigger_thresholds
+name: High-Risk Event Trigger Thresholds
+description: >
+  Define and govern thresholds for high-risk access event triggers that initiate
+  automated trust responses or human escalation.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

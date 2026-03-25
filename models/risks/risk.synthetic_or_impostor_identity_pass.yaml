@@ -1,0 +1,11 @@
+id: risk.synthetic_or_impostor_identity_pass
+name: Synthetic or Impostor Identity Pass
+description: >
+  A fabricated or stolen identity passes identity proofing checks, allowing a fraudulent actor to establish a trusted identity record.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.orphan_account_detection_controls
+name: Orphan Account Detection Controls
+description: >
+  Detect and flag orphan accounts that lack an active owner or lifecycle linkage,
+  enabling remediation before they become a security exposure.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

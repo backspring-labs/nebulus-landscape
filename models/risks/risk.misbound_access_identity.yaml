@@ -1,0 +1,11 @@
+id: risk.misbound_access_identity
+name: Misbound Access Identity
+description: >
+  Access rights are associated with the wrong identity record, granting permissions to an unintended person or account.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,8 @@
+id: prov.styra
+name: Styra
+category: identity_and_access
+summary: >
+  Policy-as-code authorization (OPA commercial).
+status: stub
+source_refs: []
+tags: []

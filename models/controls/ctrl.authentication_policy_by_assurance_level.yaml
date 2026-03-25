@@ -1,0 +1,12 @@
+id: ctrl.authentication_policy_by_assurance_level
+name: Authentication Policy by Assurance Level
+description: >
+  Define and enforce authentication requirements mapped to assurance levels,
+  ensuring credential and factor strength matches the required trust level.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

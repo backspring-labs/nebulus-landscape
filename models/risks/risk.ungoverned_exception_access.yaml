@@ -1,0 +1,11 @@
+id: risk.ungoverned_exception_access
+name: Ungoverned Exception Access
+description: >
+  Exception-based access grants are not subject to standard governance processes, leading to untracked and unreviewed access privileges.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

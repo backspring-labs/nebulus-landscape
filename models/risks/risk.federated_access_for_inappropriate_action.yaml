@@ -1,0 +1,11 @@
+id: risk.federated_access_for_inappropriate_action
+name: Federated Access for Inappropriate Action
+description: >
+  Federated identity sessions are used to perform actions that exceed the trust level appropriate for externally asserted identities.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

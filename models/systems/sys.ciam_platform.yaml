@@ -1,0 +1,10 @@
+id: sys.ciam_platform
+name: CIAM Platform
+description: >
+  Customer identity and access management platform that manages customer-facing
+  identity registration, authentication, and profile services.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,16 @@
+id: map.prov.duo
+provider_id: prov.duo
+capability_ids:
+  - cap.credential_and_authenticator_management
+  - cap.authentication
+  - cap.step_up_and_adaptive_authentication
+  - cap.identity_recovery_and_reset_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

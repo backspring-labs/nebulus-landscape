@@ -1,0 +1,11 @@
+id: risk.insufficient_access_telemetry
+name: Insufficient Access Telemetry
+description: >
+  Access-related telemetry data is incomplete or unavailable, limiting the ability to detect anomalies and assess access risk in real time.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

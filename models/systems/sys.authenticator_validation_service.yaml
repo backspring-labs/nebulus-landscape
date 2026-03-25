@@ -1,0 +1,10 @@
+id: sys.authenticator_validation_service
+name: Authenticator Validation Service
+description: >
+  Validates authenticator responses during login including password hashes,
+  OTP codes, FIDO assertions, and push approvals.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

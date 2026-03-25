@@ -1,0 +1,11 @@
+id: risk.persistent_prior_trust_state
+name: Persistent Prior Trust State
+description: >
+  Previously established trust levels persist despite changed conditions, allowing outdated trust assumptions to govern access decisions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

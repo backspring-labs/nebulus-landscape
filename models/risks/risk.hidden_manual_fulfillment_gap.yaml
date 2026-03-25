@@ -1,0 +1,11 @@
+id: risk.hidden_manual_fulfillment_gap
+name: Hidden Manual Fulfillment Gap
+description: >
+  Manual access provisioning steps are not tracked or visible in the fulfillment workflow, creating undetected gaps in access delivery.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.authenticator_change_notifications
+name: Authenticator Change Notifications
+description: >
+  Notify the account holder when authenticators are enrolled, replaced, or
+  revoked, enabling timely detection of unauthorized changes.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

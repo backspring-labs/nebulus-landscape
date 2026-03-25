@@ -1,0 +1,10 @@
+id: sys.challenge_orchestration_service
+name: Challenge Orchestration Service
+description: >
+  Orchestrates step-up and adaptive authentication challenges by selecting
+  the appropriate factor and delivery channel based on policy.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

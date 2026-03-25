@@ -1,0 +1,10 @@
+id: sys.customer_identity_store
+name: Customer Identity Store
+description: >
+  Stores customer access identity records including identifiers, linked accounts,
+  and identity status for customer-facing channels.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

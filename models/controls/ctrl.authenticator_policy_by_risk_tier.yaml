@@ -1,0 +1,12 @@
+id: ctrl.authenticator_policy_by_risk_tier
+name: Authenticator Policy by Risk Tier
+description: >
+  Define allowed authenticator types and strength requirements based on risk tier,
+  ensuring higher-risk contexts require stronger authenticators.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

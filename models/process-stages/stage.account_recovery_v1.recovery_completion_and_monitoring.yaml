@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.recovery_completion_and_monitoring
+name: Recovery Completion and Monitoring
+process_id: proc.account_recovery_v1
+description: >
+  Finalize evidence and apply post-recovery monitoring.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: risk.inconsistent_adaptive_assurance
+name: Inconsistent Adaptive Assurance
+description: >
+  Adaptive authentication policies are applied inconsistently across channels or contexts, creating gaps in assurance levels.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

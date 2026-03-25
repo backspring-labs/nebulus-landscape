@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.permission_evaluation_and_release
+name: Permission Evaluation and Release
+process_id: proc.customer_login_v1
+description: >
+  Determine session permissions and release to application.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

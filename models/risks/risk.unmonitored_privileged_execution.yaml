@@ -1,0 +1,11 @@
+id: risk.unmonitored_privileged_execution
+name: Unmonitored Privileged Execution
+description: >
+  Privileged commands and operations are executed without real-time monitoring, allowing misuse or compromise to go undetected.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

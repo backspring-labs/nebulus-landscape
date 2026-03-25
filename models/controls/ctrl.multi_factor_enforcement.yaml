@@ -1,0 +1,12 @@
+id: ctrl.multi_factor_enforcement
+name: Multi-Factor Enforcement
+description: >
+  Require multi-factor authentication for access scenarios where single-factor
+  authentication provides insufficient assurance.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

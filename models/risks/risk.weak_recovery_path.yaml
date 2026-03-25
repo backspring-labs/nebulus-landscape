@@ -1,0 +1,11 @@
+id: risk.weak_recovery_path
+name: Weak Recovery Path
+description: >
+  Account recovery pathways use weak verification methods that are easily exploited by attackers to gain unauthorized account access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

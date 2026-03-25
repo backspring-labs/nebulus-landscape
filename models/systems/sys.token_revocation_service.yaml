@@ -1,0 +1,10 @@
+id: sys.token_revocation_service
+name: Token Revocation Service
+description: >
+  Revokes access tokens and refresh tokens when consent is withdrawn or
+  security events require immediate token invalidation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

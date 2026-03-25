@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.login_request_intake
+name: Login Request Intake
+process_id: proc.customer_login_v1
+description: >
+  Receive and normalize login attempt from channel.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.role_scope_catalog
+name: Role Scope Catalog
+description: >
+  Catalogs available roles, their associated permissions, and scope definitions
+  used for role assignment and governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

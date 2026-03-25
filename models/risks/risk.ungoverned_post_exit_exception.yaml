@@ -1,0 +1,11 @@
+id: risk.ungoverned_post_exit_exception
+name: Ungoverned Post-Exit Exception
+description: >
+  Exceptions to standard post-exit access removal are granted without proper governance, leaving access active beyond the exit event.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

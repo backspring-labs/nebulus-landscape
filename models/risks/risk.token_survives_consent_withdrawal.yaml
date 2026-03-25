@@ -1,0 +1,11 @@
+id: risk.token_survives_consent_withdrawal
+name: Token Survives Consent Withdrawal
+description: >
+  Access tokens remain valid and usable after the user has withdrawn consent, allowing continued access despite revoked authorization.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

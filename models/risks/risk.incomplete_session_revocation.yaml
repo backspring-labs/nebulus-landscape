@@ -1,0 +1,11 @@
+id: risk.incomplete_session_revocation
+name: Incomplete Session Revocation
+description: >
+  Session termination does not fully invalidate all associated tokens or downstream sessions, allowing continued unauthorized access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

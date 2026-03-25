@@ -1,0 +1,11 @@
+id: risk.weak_factor_for_sensitive_action
+name: Weak Factor for Sensitive Action
+description: >
+  Sensitive actions are protected by authentication factors that do not provide sufficient assurance for the risk level involved.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

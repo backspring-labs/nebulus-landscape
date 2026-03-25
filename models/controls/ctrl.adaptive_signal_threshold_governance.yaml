@@ -1,0 +1,12 @@
+id: ctrl.adaptive_signal_threshold_governance
+name: Adaptive Signal Threshold Governance
+description: >
+  Govern the configuration and tuning of adaptive authentication signal thresholds
+  to balance security effectiveness with user friction.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

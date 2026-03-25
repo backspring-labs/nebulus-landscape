@@ -1,0 +1,10 @@
+id: sys.mfa_platform
+name: MFA Platform
+description: >
+  Multi-factor authentication platform that manages factor enrollment, challenge
+  delivery, and verification across authentication flows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

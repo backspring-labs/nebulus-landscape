@@ -1,0 +1,10 @@
+id: sys.delegation_scope_catalog
+name: Delegation Scope Catalog
+description: >
+  Defines available delegation scopes and the permissions each scope
+  grants to proxy actors operating on behalf of principals.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

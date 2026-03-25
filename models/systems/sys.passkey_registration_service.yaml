@@ -1,0 +1,10 @@
+id: sys.passkey_registration_service
+name: Passkey Registration Service
+description: >
+  Manages FIDO2/WebAuthn passkey registration, binding, and lifecycle for
+  phishing-resistant authentication.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

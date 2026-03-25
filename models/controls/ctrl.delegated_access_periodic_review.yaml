@@ -1,0 +1,12 @@
+id: ctrl.delegated_access_periodic_review
+name: Delegated Access Periodic Review
+description: >
+  Conduct periodic reviews of active delegated access arrangements to detect
+  and remediate stale, overbroad, or no-longer-valid delegations.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

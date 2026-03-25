@@ -1,0 +1,10 @@
+id: sys.access_decision_log
+name: Access Decision Log
+description: >
+  Records authorization decisions including the request context, policy
+  evaluated, and outcome for audit and compliance purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.authentication_service
+name: Authentication Service
+description: >
+  Core authentication service that validates credentials and factors at login
+  and re-entry points to establish authenticated identity.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.privileged_session_monitoring
+name: Privileged Session Monitoring
+description: >
+  Monitor and record privileged sessions in real time to detect anomalous actions
+  and maintain evidentiary records of administrative activity.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.token_introspection_service
+name: Token Introspection Service
+description: >
+  Validates and introspects access tokens to determine their active status,
+  scope, and associated claims for resource servers.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,16 @@
+id: map.prov.cyberark
+provider_id: prov.cyberark
+capability_ids:
+  - cap.authorization_and_entitlements
+  - cap.access_audit_and_attestation
+  - cap.privileged_access_governance
+  - cap.post_exit_access_governance
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.least_privilege_entitlement_design
+name: Least Privilege Entitlement Design
+description: >
+  Design entitlements and permission sets following the principle of least
+  privilege, granting only the minimum access needed for each role or function.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

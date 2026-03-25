@@ -1,0 +1,12 @@
+id: ctrl.session_binding_and_rotation
+name: Session Binding and Rotation
+description: >
+  Bind sessions to the authenticated context and rotate session tokens to
+  reduce the risk of session hijacking and fixation attacks.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

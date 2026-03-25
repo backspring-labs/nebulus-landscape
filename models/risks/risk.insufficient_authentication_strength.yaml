@@ -1,0 +1,11 @@
+id: risk.insufficient_authentication_strength
+name: Insufficient Authentication Strength
+description: >
+  Authentication mechanisms do not provide adequate assurance for the sensitivity of the resources being protected, enabling unauthorized access.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.provisioning_approval_workflow
+name: Provisioning Approval Workflow
+description: >
+  Require approval workflows for access provisioning requests, with appropriate
+  reviewers based on the sensitivity and scope of the requested access.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

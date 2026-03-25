@@ -1,0 +1,11 @@
+id: risk.excessive_token_lifetime
+name: Excessive Token Lifetime
+description: >
+  Access tokens are issued with lifetimes that far exceed operational need, increasing exposure if a token is compromised.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

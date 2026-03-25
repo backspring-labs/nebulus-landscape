@@ -1,0 +1,10 @@
+id: sys.identity_telemetry_pipeline
+name: Identity Telemetry Pipeline
+description: >
+  Ingests, normalizes, and routes identity and access telemetry events from
+  multiple sources for monitoring and anomaly detection.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

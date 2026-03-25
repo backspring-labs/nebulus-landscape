@@ -1,0 +1,8 @@
+id: prov.okta
+name: Okta
+category: identity_and_access
+summary: >
+  Workforce and customer identity and access management.
+status: stub
+source_refs: []
+tags: []

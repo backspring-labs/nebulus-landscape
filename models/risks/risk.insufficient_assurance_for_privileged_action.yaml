@@ -1,0 +1,11 @@
+id: risk.insufficient_assurance_for_privileged_action
+name: Insufficient Assurance for Privileged Action
+description: >
+  Privileged operations are executed without requiring elevated authentication assurance, increasing the risk of unauthorized privileged activity.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

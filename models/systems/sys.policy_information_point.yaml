@@ -1,0 +1,10 @@
+id: sys.policy_information_point
+name: Policy Information Point
+description: >
+  Provides attribute and contextual data to the policy decision point for
+  use in evaluating authorization policies.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.evidence_traceability_to_approval_basis
+name: Evidence Traceability to Approval Basis
+description: >
+  Maintain traceability from access evidence to the original approval basis,
+  enabling auditors to verify that access was properly authorized.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

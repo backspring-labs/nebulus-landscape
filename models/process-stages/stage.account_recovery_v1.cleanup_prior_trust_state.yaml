@@ -1,0 +1,11 @@
+id: stage.account_recovery_v1.cleanup_prior_trust_state
+name: Cleanup Prior Trust State
+process_id: proc.account_recovery_v1
+description: >
+  Revoke stale sessions, devices, and trust state.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

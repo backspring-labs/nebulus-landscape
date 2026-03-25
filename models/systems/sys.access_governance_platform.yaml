@@ -1,0 +1,10 @@
+id: sys.access_governance_platform
+name: Access Governance Platform
+description: >
+  Platform for access governance activities including certification campaigns,
+  policy enforcement, and entitlement review workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

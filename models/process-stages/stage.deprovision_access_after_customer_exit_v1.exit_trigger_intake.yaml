@@ -1,0 +1,11 @@
+id: stage.deprovision_access_after_customer_exit_v1.exit_trigger_intake
+name: Exit Trigger Intake
+process_id: proc.deprovision_access_after_customer_exit_v1
+description: >
+  Receive authoritative exit trigger from Customer domain.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

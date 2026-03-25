@@ -1,0 +1,8 @@
+id: prov.shibboleth
+name: Shibboleth
+category: federation
+summary: >
+  Open-source SAML federation framework.
+status: stub
+source_refs: []
+tags: []

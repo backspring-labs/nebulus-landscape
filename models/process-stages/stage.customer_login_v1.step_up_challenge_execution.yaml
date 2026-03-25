@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.step_up_challenge_execution
+name: Step-Up Challenge Execution
+process_id: proc.customer_login_v1
+description: >
+  Execute step-up or stronger assurance challenge.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

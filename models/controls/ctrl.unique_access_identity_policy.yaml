@@ -1,0 +1,12 @@
+id: ctrl.unique_access_identity_policy
+name: Unique Access Identity Policy
+description: >
+  Prevent creation of duplicate access identities by enforcing uniqueness
+  constraints on identifiers and identity bindings.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

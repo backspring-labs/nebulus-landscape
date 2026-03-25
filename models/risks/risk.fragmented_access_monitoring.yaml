@@ -1,0 +1,11 @@
+id: risk.fragmented_access_monitoring
+name: Fragmented Access Monitoring
+description: >
+  Access monitoring is spread across disconnected tools and systems, preventing a unified view of access activity and risk detection.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

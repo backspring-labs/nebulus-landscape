@@ -1,0 +1,12 @@
+id: ctrl.federation_metadata_integrity_checks
+name: Federation Metadata Integrity Checks
+description: >
+  Validate the integrity and authenticity of federation metadata exchanges
+  to prevent tampering or injection of malicious configuration.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

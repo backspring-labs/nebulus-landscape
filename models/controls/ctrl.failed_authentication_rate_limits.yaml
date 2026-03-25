@@ -1,0 +1,12 @@
+id: ctrl.failed_authentication_rate_limits
+name: Failed Authentication Rate Limits
+description: >
+  Enforce rate limits on failed authentication attempts to mitigate credential
+  stuffing, brute force, and automated attack vectors.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

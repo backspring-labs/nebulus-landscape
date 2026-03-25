@@ -1,0 +1,11 @@
+id: risk.ambiguous_federated_identity_mapping
+name: Ambiguous Federated Identity Mapping
+description: >
+  Federated identity assertions map ambiguously to local identities, potentially granting access to the wrong account or creating duplicate records.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

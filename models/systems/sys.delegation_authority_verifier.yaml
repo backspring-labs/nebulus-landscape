@@ -1,0 +1,10 @@
+id: sys.delegation_authority_verifier
+name: Delegation Authority Verifier
+description: >
+  Verifies the legal or organizational basis for delegated access such as
+  power of attorney, guardianship, or corporate delegation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

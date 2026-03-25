@@ -1,0 +1,11 @@
+id: risk.unmonitored_privileged_session
+name: Unmonitored Privileged Session
+description: >
+  Privileged sessions operate without session recording or monitoring, preventing detection and forensic analysis of privileged actions.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

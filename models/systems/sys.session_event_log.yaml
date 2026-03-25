@@ -1,0 +1,10 @@
+id: sys.session_event_log
+name: Session Event Log
+description: >
+  Records session lifecycle events including creation, refresh, timeout,
+  termination, and device trust changes for audit purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

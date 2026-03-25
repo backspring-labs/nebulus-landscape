@@ -1,0 +1,10 @@
+id: sys.attribute_mapping_service
+name: Attribute Mapping Service
+description: >
+  Maps federated identity attributes from external identity providers to
+  internal identity representations and entitlement structures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

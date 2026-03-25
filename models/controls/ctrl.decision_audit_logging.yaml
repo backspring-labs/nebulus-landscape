@@ -1,0 +1,12 @@
+id: ctrl.decision_audit_logging
+name: Decision Audit Logging
+description: >
+  Log all access policy decisions including allow, deny, and step-up outcomes
+  with sufficient context for audit and forensic review.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

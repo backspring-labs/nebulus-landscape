@@ -1,0 +1,10 @@
+id: sys.federation_assertion_consumer
+name: Federation Assertion Consumer
+description: >
+  Receives and validates SAML assertions or OIDC tokens from external identity
+  providers during federated authentication flows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

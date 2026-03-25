@@ -1,0 +1,12 @@
+id: ctrl.adaptive_assurance_escalation
+name: Adaptive Assurance Escalation
+description: >
+  Escalate authentication assurance requirements adaptively based on runtime
+  risk signals, device trust, and session context indicators.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

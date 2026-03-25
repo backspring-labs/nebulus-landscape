@@ -1,0 +1,11 @@
+id: risk.untraceable_access_approval
+name: Untraceable Access Approval
+description: >
+  Access approvals lack sufficient documentation or audit trails to determine who approved what access and under what justification.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

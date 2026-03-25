@@ -1,0 +1,12 @@
+id: ctrl.policy_change_review_and_approval
+name: Policy Change Review and Approval
+description: >
+  Require review and approval for all changes to access policies before
+  deployment to prevent misconfiguration or unauthorized policy weakening.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

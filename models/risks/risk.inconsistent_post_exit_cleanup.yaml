@@ -1,0 +1,11 @@
+id: risk.inconsistent_post_exit_cleanup
+name: Inconsistent Post-Exit Cleanup
+description: >
+  Post-exit access removal processes are not uniformly applied, leaving some systems or resources with lingering access after offboarding.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

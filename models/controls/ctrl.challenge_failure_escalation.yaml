@@ -1,0 +1,12 @@
+id: ctrl.challenge_failure_escalation
+name: Challenge Failure Escalation
+description: >
+  Escalate failed step-up authentication challenges to appropriate response
+  actions such as session termination, lockout, or manual review.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.identity_access
+source_refs: []
+status: draft

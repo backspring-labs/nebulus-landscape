@@ -1,0 +1,11 @@
+id: risk.incomplete_access_evidence
+name: Incomplete Access Evidence
+description: >
+  Audit trails for access decisions lack sufficient detail to reconstruct who accessed what, when, and why, hindering compliance and forensics.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

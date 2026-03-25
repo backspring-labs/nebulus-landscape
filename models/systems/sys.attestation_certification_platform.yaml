@@ -1,0 +1,10 @@
+id: sys.attestation_certification_platform
+name: Attestation Certification Platform
+description: >
+  Manages access certification campaigns including reviewer assignment,
+  decision capture, and remediation tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

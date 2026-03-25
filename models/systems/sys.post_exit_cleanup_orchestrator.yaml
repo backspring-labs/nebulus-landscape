@@ -1,0 +1,10 @@
+id: sys.post_exit_cleanup_orchestrator
+name: Post-Exit Cleanup Orchestrator
+description: >
+  Orchestrates post-exit access cleanup workflows including scope determination,
+  revocation sequencing, and completion tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

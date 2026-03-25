@@ -1,0 +1,12 @@
+id: ctrl.centralized_authorization_policy
+name: Centralized Authorization Policy
+description: >
+  Enforce centralized authorization policies that govern runtime permission
+  evaluation consistently across all protected resources and channels.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

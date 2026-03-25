@@ -1,0 +1,11 @@
+id: stage.customer_login_v1.session_device_context_evaluation
+name: Session Device Context Evaluation
+process_id: proc.customer_login_v1
+description: >
+  Evaluate device, session, and contextual trust signals.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

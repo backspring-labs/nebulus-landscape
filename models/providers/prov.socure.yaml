@@ -1,0 +1,8 @@
+id: prov.socure
+name: Socure
+category: identity_verification
+summary: >
+  Identity verification and fraud prediction.
+status: stub
+source_refs: []
+tags: []

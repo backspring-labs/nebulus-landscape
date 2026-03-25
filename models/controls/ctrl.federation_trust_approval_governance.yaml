@@ -1,0 +1,12 @@
+id: ctrl.federation_trust_approval_governance
+name: Federation Trust Approval Governance
+description: >
+  Require formal approval and risk assessment before establishing federation
+  trust relationships with external identity providers.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.step_up_event_logging
+name: Step-Up Event Logging
+description: >
+  Log all step-up and adaptive authentication events including triggers, challenge
+  outcomes, and escalations for audit and monitoring.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.identity_access
+source_refs: []
+status: draft

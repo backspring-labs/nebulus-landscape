@@ -1,0 +1,12 @@
+id: ctrl.entitlement_owner_accountability
+name: Entitlement Owner Accountability
+description: >
+  Assign and enforce accountable ownership for each entitlement or permission set,
+  ensuring owners review and approve access grants.
+domain_id: domain.identity_access
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.identity_access
+source_refs: []
+status: draft

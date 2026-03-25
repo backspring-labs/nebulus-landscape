@@ -1,0 +1,11 @@
+id: risk.weak_lockout_and_retry_controls
+name: Weak Lockout and Retry Controls
+description: >
+  Insufficient account lockout or retry-limiting mechanisms allow brute-force and credential stuffing attacks to succeed.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

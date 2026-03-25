@@ -1,0 +1,10 @@
+id: sys.authenticator_binding_registry
+name: Authenticator Binding Registry
+description: >
+  Registry of authenticator bindings that tracks which authenticators are
+  bound to which access identities and their current status.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

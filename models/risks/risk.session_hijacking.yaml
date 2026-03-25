@@ -1,0 +1,11 @@
+id: risk.session_hijacking
+name: Session Hijacking
+description: >
+  An attacker takes over an active user session by stealing or replaying session tokens, gaining unauthorized access to the user's resources.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

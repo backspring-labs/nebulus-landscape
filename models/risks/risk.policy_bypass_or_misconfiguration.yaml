@@ -1,0 +1,11 @@
+id: risk.policy_bypass_or_misconfiguration
+name: Policy Bypass or Misconfiguration
+description: >
+  Access control policies are bypassed or misconfigured, allowing unauthorized access that should have been denied by policy.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

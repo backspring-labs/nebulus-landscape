@@ -1,0 +1,11 @@
+id: risk.cross_system_cleanup_inconsistency
+name: Cross-System Cleanup Inconsistency
+description: >
+  Access removal or deprovisioning is applied inconsistently across systems, leaving residual access in some environments after offboarding.
+domain_id: domain.identity_access
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

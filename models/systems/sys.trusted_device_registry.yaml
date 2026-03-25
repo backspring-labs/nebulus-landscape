@@ -1,0 +1,10 @@
+id: sys.trusted_device_registry
+name: Trusted Device Registry
+description: >
+  Maintains a registry of trusted devices and their trust state including
+  device fingerprints, posture assessments, and trust expiration.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub
