@@ -1,0 +1,37 @@
+id: domain.identity_access
+name: Identity & Access
+description: >
+  Durable business area responsible for identity proofing execution, access identity
+  establishment, credential and authenticator lifecycle, authentication,
+  authorization, session/device trust, delegated access, provisioning,
+  deprovisioning, and ongoing access governance.
+capability_ids:
+  - cap.identity_proofing_execution
+  - cap.access_identity_establishment
+  - cap.credential_and_authenticator_management
+  - cap.authentication
+  - cap.step_up_and_adaptive_authentication
+  - cap.session_and_device_trust_management
+  - cap.authorization_and_entitlements
+  - cap.access_policy_decisioning
+  - cap.delegated_and_proxy_access_management
+  - cap.access_provisioning_and_deprovisioning
+  - cap.federation_and_external_identity_trust
+  - cap.identity_recovery_and_reset_management
+  - cap.access_event_monitoring_and_anomaly_response
+  - cap.access_audit_and_attestation
+  - cap.privileged_access_governance
+  - cap.consented_access_token_management
+  - cap.post_exit_access_governance
+related_domain_ids:
+  - domain.customer
+  - domain.accounts
+  - domain.risk_fraud
+  - domain.payments
+  - domain.orchestration_control
+  - domain.channels_experience
+  - domain.servicing
+  - domain.data_rewards
+source_refs:
+  - src.domain_customer_boundary_v1
+status: draft
