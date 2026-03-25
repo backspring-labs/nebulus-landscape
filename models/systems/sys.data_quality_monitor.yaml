@@ -1,0 +1,9 @@
+id: sys.data_quality_monitor
+name: Data Quality Monitor
+description: >
+  Monitoring service for detecting customer data quality exceptions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

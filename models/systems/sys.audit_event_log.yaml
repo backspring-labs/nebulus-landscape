@@ -1,0 +1,9 @@
+id: sys.audit_event_log
+name: Audit Event Log
+description: >
+  Event log for capturing audit trail of customer record changes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

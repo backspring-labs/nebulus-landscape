@@ -1,0 +1,9 @@
+id: sys.lead_management_platform
+name: Lead Management Platform
+description: >
+  Platform for capturing and managing prospect leads.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

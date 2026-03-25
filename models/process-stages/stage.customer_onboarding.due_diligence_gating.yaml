@@ -1,0 +1,18 @@
+id: stage.customer_onboarding.due_diligence_gating
+name: Due Diligence Gating
+process_id: proc.customer_onboarding_v1
+description: >
+  Coordinate due diligence evidence requirements before establishment.
+order: 4
+system_ids:
+  - sys.kyc_intake_workbench
+  - sys.due_diligence_requirement_engine
+  - sys.identity_service
+risk_ids:
+  - risk.missing_due_diligence_requirement
+  - risk.unmapped_evidence
+control_ids:
+  - ctrl.dd_completion_gate
+  - ctrl.requirement_evidence_mapping
+source_refs: []
+status: draft

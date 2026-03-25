@@ -1,0 +1,9 @@
+id: sys.notification_service
+name: Notification Service
+description: >
+  Service for delivering customer notifications and alerts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

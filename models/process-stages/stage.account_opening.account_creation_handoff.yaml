@@ -1,0 +1,18 @@
+id: stage.account_opening.account_creation_handoff
+name: Account Creation Handoff
+process_id: proc.account_opening_v1
+description: >
+  Hand off vetted customer context to Accounts for product creation.
+order: 5
+system_ids:
+  - sys.onboarding_journey_manager
+  - sys.customer_master
+  - sys.core_account_opening_platform
+risk_ids:
+  - risk.inadequate_handoff_to_accounts
+  - risk.cross_system_state_conflict
+control_ids:
+  - ctrl.completion_dependency_matrix
+  - ctrl.allowed_transition_matrix
+source_refs: []
+status: draft

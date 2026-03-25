@@ -1,0 +1,9 @@
+id: sys.kyc_intake_workbench
+name: KYC Intake Workbench
+description: >
+  Workbench for KYC evidence collection and due diligence tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

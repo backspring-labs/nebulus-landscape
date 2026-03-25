@@ -1,0 +1,9 @@
+id: sys.data_stewardship_workbench
+name: Data Stewardship Workbench
+description: >
+  Workbench for data stewards to review and resolve data issues.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,9 @@
+id: sys.records_management_repository
+name: Records Management Repository
+description: >
+  Repository for governed record retention and lifecycle.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

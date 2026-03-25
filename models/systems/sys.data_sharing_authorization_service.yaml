@@ -1,0 +1,9 @@
+id: sys.data_sharing_authorization_service
+name: Data Sharing Authorization Service
+description: >
+  Service for managing third-party data sharing authorizations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

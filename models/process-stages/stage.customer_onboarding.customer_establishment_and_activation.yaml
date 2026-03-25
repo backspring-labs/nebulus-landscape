@@ -1,0 +1,17 @@
+id: stage.customer_onboarding.customer_establishment_and_activation
+name: Customer Establishment and Activation
+process_id: proc.customer_onboarding_v1
+description: >
+  Create canonical customer record and transition lifecycle to established.
+order: 5
+system_ids:
+  - sys.customer_master
+  - sys.lifecycle_rules_engine
+risk_ids:
+  - risk.premature_customer_record_creation
+  - risk.inaccurate_customer_lifecycle_state
+control_ids:
+  - ctrl.customer_creation_preconditions
+  - ctrl.allowed_transition_matrix
+source_refs: []
+status: draft

@@ -1,0 +1,18 @@
+id: stage.account_opening.party_resolution_and_customer_establishment
+name: Party Resolution and Customer Establishment
+process_id: proc.account_opening_v1
+description: >
+  Determine if applicant exists, resolve duplicates, create or link canonical customer.
+order: 3
+system_ids:
+  - sys.party_match_service
+  - sys.customer_master
+  - sys.data_stewardship_workbench
+risk_ids:
+  - risk.missed_true_match
+  - risk.duplicate_canonical_customer
+control_ids:
+  - ctrl.match_threshold_governance
+  - ctrl.customer_creation_preconditions
+source_refs: []
+status: draft

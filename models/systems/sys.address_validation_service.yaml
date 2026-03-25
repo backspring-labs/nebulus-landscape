@@ -1,0 +1,9 @@
+id: sys.address_validation_service
+name: Address Validation Service
+description: >
+  Service for standardizing and validating postal addresses.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

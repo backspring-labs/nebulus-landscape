@@ -1,0 +1,9 @@
+id: sys.work_queue
+name: Work Queue
+description: >
+  Work queue system for task routing and assignment.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

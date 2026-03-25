@@ -1,0 +1,9 @@
+id: sys.crm_platform
+name: CRM Platform
+description: >
+  Customer relationship management platform for relationship context and servicing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,9 @@
+id: sys.partner_referral_portal
+name: Partner Referral Portal
+description: >
+  Portal for partner-originated referrals and leads.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

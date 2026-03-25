@@ -1,0 +1,9 @@
+id: sys.marketing_automation_platform
+name: Marketing Automation Platform
+description: >
+  Platform for marketing campaign orchestration.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,17 @@
+id: stage.contact_change.sensitivity_and_verification
+name: Sensitivity and Verification
+process_id: proc.contact_change_v1
+description: >
+  Assess sensitivity and perform step-up verification if needed.
+order: 2
+system_ids:
+  - sys.otp_and_verification_service
+  - sys.rules_engine
+risk_ids:
+  - risk.account_takeover_via_contact_change
+  - risk.approval_bypass_for_sensitive_change
+control_ids:
+  - ctrl.sensitive_change_step_up_controls
+  - ctrl.maker_checker_for_high_risk_changes
+source_refs: []
+status: draft

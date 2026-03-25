@@ -1,0 +1,9 @@
+id: sys.ops_workbench
+name: Ops Workbench
+description: >
+  Operations workbench for staff-assisted customer processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

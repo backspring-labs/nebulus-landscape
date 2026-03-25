@@ -1,0 +1,9 @@
+id: sys.party_master
+name: Party Master
+description: >
+  Master repository for party identity records and relationships.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

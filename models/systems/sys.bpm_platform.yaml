@@ -1,0 +1,9 @@
+id: sys.bpm_platform
+name: BPM Platform
+description: >
+  Business process management platform for workflow execution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

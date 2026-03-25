@@ -1,0 +1,17 @@
+id: stage.customer_exit.dependency_review
+name: Dependency Review
+process_id: proc.customer_exit_v1
+description: >
+  Review open accounts, cases, obligations, and restrictions.
+order: 2
+system_ids:
+  - sys.customer_master
+  - sys.offboarding_workbench
+  - sys.crm_platform
+  - sys.status_dashboard
+risk_ids:
+  - risk.unresolved_dependency_at_customer_exit
+control_ids:
+  - ctrl.pre_exit_dependency_checklist
+source_refs: []
+status: draft

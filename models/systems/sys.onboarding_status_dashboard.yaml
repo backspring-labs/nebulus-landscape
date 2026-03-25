@@ -1,0 +1,9 @@
+id: sys.onboarding_status_dashboard
+name: Onboarding Status Dashboard
+description: >
+  Dashboard for monitoring onboarding case status and metrics.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

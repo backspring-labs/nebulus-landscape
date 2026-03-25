@@ -1,0 +1,9 @@
+id: sys.analytics_segmentation_engine
+name: Analytics Segmentation Engine
+description: >
+  Engine for customer segmentation and analytics.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

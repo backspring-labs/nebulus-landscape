@@ -1,0 +1,9 @@
+id: sys.otp_and_verification_service
+name: OTP and Verification Service
+description: >
+  Service for one-time password delivery and contact verification.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

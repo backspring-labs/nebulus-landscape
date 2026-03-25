@@ -1,0 +1,15 @@
+id: stage.customer_exit.exit_initiation
+name: Exit Initiation
+process_id: proc.customer_exit_v1
+description: >
+  Capture exit intent and initiating reason.
+order: 1
+system_ids:
+  - sys.offboarding_workbench
+  - sys.customer_master
+risk_ids:
+  - risk.inadequate_customer_exit_evidence
+control_ids:
+  - ctrl.customer_exit_criteria_and_reason_codes
+source_refs: []
+status: draft

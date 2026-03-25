@@ -1,0 +1,17 @@
+id: stage.contact_change.propagation_and_exception_closure
+name: Propagation and Exception Closure
+process_id: proc.contact_change_v1
+description: >
+  Propagate change downstream and resolve exceptions.
+order: 6
+system_ids:
+  - sys.eventing_and_notifications
+  - sys.exception_workbench
+  - sys.reconciliation_dashboard
+risk_ids:
+  - risk.downstream_change_propagation_failure
+control_ids:
+  - ctrl.change_propagation_reconciliation
+  - ctrl.remediation_evidence_and_closure_requirements
+source_refs: []
+status: draft

@@ -1,0 +1,15 @@
+id: stage.customer_onboarding.case_start
+name: Case Start
+process_id: proc.customer_onboarding_v1
+description: >
+  Open onboarding case and initialize workflow state.
+order: 1
+system_ids:
+  - sys.onboarding_journey_manager
+  - sys.ops_workbench
+risk_ids:
+  - risk.fragmented_onboarding_data
+control_ids:
+  - ctrl.standard_onboarding_state_model
+source_refs: []
+status: draft

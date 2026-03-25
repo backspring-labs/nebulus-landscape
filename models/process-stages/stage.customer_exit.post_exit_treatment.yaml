@@ -1,0 +1,16 @@
+id: stage.customer_exit.post_exit_treatment
+name: Post-Exit Treatment
+process_id: proc.customer_exit_v1
+description: >
+  Adjust access, communications, and treatment posture after exit.
+order: 5
+system_ids:
+  - sys.customer_master
+  - sys.status_dashboard
+  - sys.records_trigger_service
+risk_ids:
+  - risk.inconsistent_post_exit_treatment
+control_ids:
+  - ctrl.post_exit_access_and_communication_controls
+source_refs: []
+status: draft

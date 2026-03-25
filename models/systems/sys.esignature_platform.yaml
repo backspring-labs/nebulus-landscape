@@ -1,0 +1,9 @@
+id: sys.esignature_platform
+name: eSignature Platform
+description: >
+  Platform for electronic signature capture and evidence.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

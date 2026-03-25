@@ -1,0 +1,9 @@
+id: sys.e_signature_platform
+name: E-Signature Platform
+description: >
+  Electronic signature platform (alias).
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

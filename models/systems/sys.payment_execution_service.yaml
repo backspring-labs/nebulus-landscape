@@ -1,0 +1,9 @@
+id: sys.payment_execution_service
+name: Payment Execution Service
+description: >
+  Service for executing payment transactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

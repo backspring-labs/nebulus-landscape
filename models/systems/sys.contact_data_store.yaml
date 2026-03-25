@@ -1,0 +1,9 @@
+id: sys.contact_data_store
+name: Contact Data Store
+description: >
+  Store for customer contact points (address, phone, email) and history.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,9 @@
+id: sys.disclosure_presentment_service
+name: Disclosure Presentment Service
+description: >
+  Service for presenting, delivering, and tracking customer disclosures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

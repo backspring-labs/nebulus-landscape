@@ -1,0 +1,9 @@
+id: sys.routing_and_prioritization_engine
+name: Routing and Prioritization Engine
+description: >
+  Engine for routing and prioritizing customer interactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

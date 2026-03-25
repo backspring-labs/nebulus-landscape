@@ -1,0 +1,9 @@
+id: sys.consent_registry
+name: Consent Registry
+description: >
+  Registry for customer consent records, permissions, and opt-out status.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

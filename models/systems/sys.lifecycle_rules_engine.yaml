@@ -1,0 +1,9 @@
+id: sys.lifecycle_rules_engine
+name: Lifecycle Rules Engine
+description: >
+  Rules engine for customer lifecycle state transitions and governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

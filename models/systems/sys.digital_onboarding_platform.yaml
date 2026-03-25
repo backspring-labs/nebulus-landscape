@@ -1,0 +1,9 @@
+id: sys.digital_onboarding_platform
+name: Digital Onboarding Platform
+description: >
+  Digital channel platform for customer onboarding flows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

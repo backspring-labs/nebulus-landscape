@@ -1,0 +1,9 @@
+id: sys.beneficial_ownership_registry
+name: Beneficial Ownership Registry
+description: >
+  Registry for beneficial ownership and control person records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

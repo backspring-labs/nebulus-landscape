@@ -1,0 +1,16 @@
+id: stage.contact_change.request_intake
+name: Request Intake
+process_id: proc.contact_change_v1
+description: >
+  Capture requested change and classify type.
+order: 1
+system_ids:
+  - sys.crm_platform
+  - sys.customer_master
+  - sys.contact_data_store
+risk_ids:
+  - risk.unauthorized_customer_change
+control_ids:
+  - ctrl.customer_change_taxonomy
+source_refs: []
+status: draft

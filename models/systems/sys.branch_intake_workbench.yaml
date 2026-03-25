@@ -1,0 +1,9 @@
+id: sys.branch_intake_workbench
+name: Branch Intake Workbench
+description: >
+  Branch channel workbench for assisted application intake.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

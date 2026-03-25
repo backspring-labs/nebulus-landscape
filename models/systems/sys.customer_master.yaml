@@ -1,0 +1,9 @@
+id: sys.customer_master
+name: Customer Master
+description: >
+  Canonical customer record store and customer information file.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

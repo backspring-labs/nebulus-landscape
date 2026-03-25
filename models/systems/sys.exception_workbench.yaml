@@ -1,0 +1,9 @@
+id: sys.exception_workbench
+name: Exception Workbench
+description: >
+  Workbench for managing data exceptions and remediation cases.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

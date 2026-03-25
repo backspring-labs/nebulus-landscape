@@ -1,0 +1,18 @@
+id: stage.customer_exit.retention_and_archival_triggering
+name: Retention and Archival Triggering
+process_id: proc.customer_exit_v1
+description: >
+  Trigger retention, archival, and disposition posture.
+order: 6
+system_ids:
+  - sys.records_management_repository
+  - sys.archive_store
+  - sys.legal_hold_registry
+risk_ids:
+  - risk.premature_record_destruction
+  - risk.missed_legal_hold
+control_ids:
+  - ctrl.customer_record_retention_schedule
+  - ctrl.legal_hold_override_control
+source_refs: []
+status: draft

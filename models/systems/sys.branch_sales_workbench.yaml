@@ -1,0 +1,9 @@
+id: sys.branch_sales_workbench
+name: Branch Sales Workbench
+description: >
+  Branch channel workbench for prospect and sales management.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,18 @@
+id: stage.account_opening.intake_and_case_start
+name: Intake and Case Start
+process_id: proc.account_opening_v1
+description: >
+  Receive application, validate completeness, and open onboarding case.
+order: 1
+system_ids:
+  - sys.application_origination_platform
+  - sys.digital_onboarding_platform
+  - sys.onboarding_journey_manager
+risk_ids:
+  - risk.incomplete_application_data
+  - risk.cross_channel_rule_inconsistency
+control_ids:
+  - ctrl.canonical_application_schema
+  - ctrl.required_field_validation
+source_refs: []
+status: draft

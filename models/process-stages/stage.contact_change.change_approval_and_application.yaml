@@ -1,0 +1,16 @@
+id: stage.contact_change.change_approval_and_application
+name: Change Approval and Application
+process_id: proc.contact_change_v1
+description: >
+  Apply change, preserve history, and record authority.
+order: 4
+system_ids:
+  - sys.customer_master
+  - sys.audit_event_log
+risk_ids:
+  - risk.loss_of_customer_change_history
+control_ids:
+  - ctrl.effective_dating_and_history_preservation
+  - ctrl.customer_change_audit_trail
+source_refs: []
+status: draft

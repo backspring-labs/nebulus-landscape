@@ -1,0 +1,9 @@
+id: sys.document_repository
+name: Document Repository
+description: >
+  Repository for customer-submitted documents and uploads.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

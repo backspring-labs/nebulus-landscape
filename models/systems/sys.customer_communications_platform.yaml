@@ -1,0 +1,9 @@
+id: sys.customer_communications_platform
+name: Customer Communications Platform
+description: >
+  Platform for managing outbound customer communications.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

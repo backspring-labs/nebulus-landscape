@@ -1,0 +1,9 @@
+id: sys.marketing_suppression_service
+name: Marketing Suppression Service
+description: >
+  Service for managing marketing suppression and opt-out lists.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

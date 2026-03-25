@@ -1,0 +1,9 @@
+id: sys.customer_search_api
+name: Customer Search API
+description: >
+  API for searching and retrieving customer records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

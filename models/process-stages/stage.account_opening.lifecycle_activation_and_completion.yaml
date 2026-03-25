@@ -1,0 +1,17 @@
+id: stage.account_opening.lifecycle_activation_and_completion
+name: Lifecycle Activation and Completion
+process_id: proc.account_opening_v1
+description: >
+  Transition customer to active state and mark process complete.
+order: 7
+system_ids:
+  - sys.customer_master
+  - sys.lifecycle_rules_engine
+  - sys.onboarding_journey_manager
+risk_ids:
+  - risk.inaccurate_customer_lifecycle_state
+control_ids:
+  - ctrl.allowed_transition_matrix
+  - ctrl.state_change_audit_trail
+source_refs: []
+status: draft

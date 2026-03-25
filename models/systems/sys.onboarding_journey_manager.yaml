@@ -1,0 +1,9 @@
+id: sys.onboarding_journey_manager
+name: Onboarding Journey Manager
+description: >
+  Orchestrates onboarding milestones, status, and progression.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

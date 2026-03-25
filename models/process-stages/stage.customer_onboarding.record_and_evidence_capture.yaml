@@ -1,0 +1,19 @@
+id: stage.customer_onboarding.record_and_evidence_capture
+name: Record and Evidence Capture
+process_id: proc.customer_onboarding_v1
+description: >
+  Collect core customer, contact, disclosure, and consent information.
+order: 2
+system_ids:
+  - sys.application_origination_platform
+  - sys.customer_master
+  - sys.disclosure_presentment_service
+  - sys.consent_registry
+risk_ids:
+  - risk.incomplete_application_data
+  - risk.missing_attestation_evidence
+control_ids:
+  - ctrl.required_field_validation
+  - ctrl.disclosure_version_control
+source_refs: []
+status: draft

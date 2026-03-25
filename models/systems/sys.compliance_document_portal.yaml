@@ -1,0 +1,9 @@
+id: sys.compliance_document_portal
+name: Compliance Document Portal
+description: >
+  Portal for compliance document collection from customers.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

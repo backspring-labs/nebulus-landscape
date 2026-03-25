@@ -1,0 +1,9 @@
+id: sys.evidence_store
+name: Evidence Store
+description: >
+  Store for audit evidence, consent records, and attestation artifacts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

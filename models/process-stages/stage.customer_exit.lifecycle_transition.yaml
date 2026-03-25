@@ -1,0 +1,17 @@
+id: stage.customer_exit.lifecycle_transition
+name: Lifecycle Transition
+process_id: proc.customer_exit_v1
+description: >
+  Apply interim or final lifecycle status.
+order: 3
+system_ids:
+  - sys.customer_master
+  - sys.lifecycle_rules_engine
+risk_ids:
+  - risk.inaccurate_customer_lifecycle_state
+  - risk.invalid_state_transition
+control_ids:
+  - ctrl.allowed_transition_matrix
+  - ctrl.state_change_authorization
+source_refs: []
+status: draft

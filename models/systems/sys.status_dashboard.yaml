@@ -1,0 +1,9 @@
+id: sys.status_dashboard
+name: Status Dashboard
+description: >
+  Dashboard for monitoring customer lifecycle and process status.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

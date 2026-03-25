@@ -1,0 +1,9 @@
+id: sys.eventing_and_notifications
+name: Eventing and Notifications
+description: >
+  Event bus and notification service for change propagation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

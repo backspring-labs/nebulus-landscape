@@ -1,0 +1,9 @@
+id: sys.application_origination_platform
+name: Application Origination Platform
+description: >
+  Platform for capturing and managing account/customer applications.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,9 @@
+id: sys.cif
+name: CIF
+description: >
+  Customer information file, often the core banking customer record.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

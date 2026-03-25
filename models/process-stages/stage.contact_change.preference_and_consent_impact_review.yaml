@@ -1,0 +1,16 @@
+id: stage.contact_change.preference_and_consent_impact_review
+name: Preference and Consent Impact Review
+process_id: proc.contact_change_v1
+description: >
+  Review whether updated contact changes preferences or consent enforcement.
+order: 5
+system_ids:
+  - sys.preference_center
+  - sys.consent_registry
+risk_ids:
+  - risk.consent_not_honored
+  - risk.preference_fragmentation
+control_ids:
+  - ctrl.separation_of_preference_vs_consent
+source_refs: []
+status: draft

@@ -1,0 +1,9 @@
+id: sys.audit_retrieval_portal
+name: Audit Retrieval Portal
+description: >
+  Portal for retrieving archived records for audit and compliance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

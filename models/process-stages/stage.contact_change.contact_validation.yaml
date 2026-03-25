@@ -1,0 +1,16 @@
+id: stage.contact_change.contact_validation
+name: Contact Validation
+process_id: proc.contact_change_v1
+description: >
+  Validate and standardize proposed contact point.
+order: 3
+system_ids:
+  - sys.address_validation_service
+  - sys.contact_data_store
+risk_ids:
+  - risk.misdirected_communications
+  - risk.contact_data_inconsistency
+control_ids:
+  - ctrl.address_validation_and_standardization
+source_refs: []
+status: draft

@@ -1,0 +1,9 @@
+id: sys.legal_hold_registry
+name: Legal Hold Registry
+description: >
+  Registry for tracking legal holds on customer records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

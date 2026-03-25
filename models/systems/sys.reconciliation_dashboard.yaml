@@ -1,0 +1,9 @@
+id: sys.reconciliation_dashboard
+name: Reconciliation Dashboard
+description: >
+  Dashboard for monitoring cross-system data reconciliation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

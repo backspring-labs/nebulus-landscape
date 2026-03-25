@@ -1,0 +1,9 @@
+id: sys.relationship_hierarchy_store
+name: Relationship Hierarchy Store
+description: >
+  Store for customer relationship hierarchies and householding.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

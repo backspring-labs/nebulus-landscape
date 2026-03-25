@@ -1,0 +1,15 @@
+id: stage.account_opening.initial_funding
+name: Initial Funding
+process_id: proc.account_opening_v1
+description: >
+  Execute or schedule initial account funding.
+order: 6
+system_ids:
+  - sys.funding_service
+  - sys.core_account_opening_platform
+risk_ids:
+  - risk.prerequisite_bypass
+control_ids:
+  - ctrl.dd_completion_gate
+source_refs: []
+status: draft

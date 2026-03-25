@@ -1,0 +1,9 @@
+id: sys.records_trigger_service
+name: Records Trigger Service
+description: >
+  Service for triggering retention and archival actions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

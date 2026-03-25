@@ -1,0 +1,9 @@
+id: sys.mdm_hub
+name: MDM Hub
+description: >
+  Master data management hub for customer data quality and governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

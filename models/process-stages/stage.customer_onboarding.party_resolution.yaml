@@ -1,0 +1,18 @@
+id: stage.customer_onboarding.party_resolution
+name: Party Resolution
+process_id: proc.customer_onboarding_v1
+description: >
+  Determine if applicant already exists, resolve duplicates.
+order: 3
+system_ids:
+  - sys.party_match_service
+  - sys.customer_master
+  - sys.data_stewardship_workbench
+risk_ids:
+  - risk.duplicate_canonical_customer
+  - risk.missed_true_match
+control_ids:
+  - ctrl.match_threshold_governance
+  - ctrl.ambiguous_match_manual_review
+source_refs: []
+status: draft

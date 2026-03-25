@@ -1,0 +1,9 @@
+id: sys.party_match_service
+name: Party Match Service
+description: >
+  Entity resolution and matching service for customer deduplication.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

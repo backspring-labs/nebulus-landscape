@@ -1,0 +1,9 @@
+id: sys.funding_service
+name: Funding Service
+description: >
+  Service for initiating and managing account funding.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

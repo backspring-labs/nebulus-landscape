@@ -1,0 +1,9 @@
+id: sys.core_account_opening_platform
+name: Core Account Opening Platform
+description: >
+  Core banking platform for account contract creation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

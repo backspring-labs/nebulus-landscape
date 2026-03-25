@@ -1,0 +1,9 @@
+id: sys.document_management_system
+name: Document Management System
+description: >
+  Enterprise document and content management system.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

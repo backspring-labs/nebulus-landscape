@@ -1,0 +1,16 @@
+id: stage.customer_exit.exit_approval_and_execution
+name: Exit Approval and Execution
+process_id: proc.customer_exit_v1
+description: >
+  Approve and execute customer-level exit.
+order: 4
+system_ids:
+  - sys.offboarding_workbench
+  - sys.audit_event_log
+risk_ids:
+  - risk.unfair_institution_initiated_exit
+control_ids:
+  - ctrl.customer_exit_approval_workflow
+  - ctrl.exit_evidence_and_audit_trail
+source_refs: []
+status: draft

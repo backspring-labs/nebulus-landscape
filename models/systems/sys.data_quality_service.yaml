@@ -1,0 +1,9 @@
+id: sys.data_quality_service
+name: Data Quality Service
+description: >
+  Service for data profiling, standardization, and quality monitoring.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

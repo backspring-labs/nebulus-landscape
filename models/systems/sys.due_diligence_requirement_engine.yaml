@@ -1,0 +1,9 @@
+id: sys.due_diligence_requirement_engine
+name: Due Diligence Requirement Engine
+description: >
+  Engine for determining and tracking due diligence requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

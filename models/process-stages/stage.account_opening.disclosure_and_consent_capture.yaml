@@ -1,0 +1,18 @@
+id: stage.account_opening.disclosure_and_consent_capture
+name: Disclosure and Consent Capture
+process_id: proc.account_opening_v1
+description: >
+  Present and capture required disclosures, attestations, and permissions.
+order: 2
+system_ids:
+  - sys.disclosure_presentment_service
+  - sys.esignature_platform
+  - sys.consent_registry
+risk_ids:
+  - risk.disclosure_not_delivered_or_not_provable
+  - risk.invalid_or_missing_consent
+control_ids:
+  - ctrl.disclosure_version_control
+  - ctrl.consent_evidence_and_audit_trail
+source_refs: []
+status: draft

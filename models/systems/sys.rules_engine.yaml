@@ -1,0 +1,9 @@
+id: sys.rules_engine
+name: Rules Engine
+description: >
+  General rules engine for policy evaluation and change governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub
