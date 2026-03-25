@@ -1,0 +1,16 @@
+id: map.prov.appian
+provider_id: prov.appian
+capability_ids:
+  - cap.customer_change_management
+  - cap.customer_exit_management
+  - cap.customer_lifecycle_state_management
+  - cap.customer_onboarding_orchestration
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

@@ -1,0 +1,13 @@
+id: map.prov.informatica_data_quality
+provider_id: prov.informatica_data_quality
+capability_ids:
+  - cap.customer_data_issue_remediation
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

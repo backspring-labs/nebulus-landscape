@@ -1,0 +1,13 @@
+id: map.prov.braze
+provider_id: prov.braze
+capability_ids:
+  - cap.customer_acquisition_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

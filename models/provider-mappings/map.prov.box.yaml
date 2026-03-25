@@ -1,0 +1,13 @@
+id: map.prov.box
+provider_id: prov.box
+capability_ids:
+  - cap.customer_record_retention_and_archival
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

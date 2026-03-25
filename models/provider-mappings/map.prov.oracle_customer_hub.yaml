@@ -1,0 +1,13 @@
+id: map.prov.oracle_customer_hub
+provider_id: prov.oracle_customer_hub
+capability_ids:
+  - cap.customer_identity_establishment
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

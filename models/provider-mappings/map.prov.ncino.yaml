@@ -1,0 +1,14 @@
+id: map.prov.ncino
+provider_id: prov.ncino
+capability_ids:
+  - cap.customer_application_intake
+  - cap.customer_onboarding_orchestration
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

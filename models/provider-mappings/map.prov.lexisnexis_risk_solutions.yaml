@@ -1,0 +1,14 @@
+id: map.prov.lexisnexis_risk_solutions
+provider_id: prov.lexisnexis_risk_solutions
+capability_ids:
+  - cap.customer_due_diligence_coordination
+  - cap.customer_party_resolution
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

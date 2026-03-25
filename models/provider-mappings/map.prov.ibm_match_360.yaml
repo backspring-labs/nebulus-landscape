@@ -1,0 +1,16 @@
+id: map.prov.ibm_match_360
+provider_id: prov.ibm_match_360
+capability_ids:
+  - cap.customer_data_issue_remediation
+  - cap.customer_householding_and_association_management
+  - cap.customer_identity_establishment
+  - cap.customer_party_resolution
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

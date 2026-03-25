@@ -1,0 +1,13 @@
+id: map.prov.moodys
+provider_id: prov.moodys
+capability_ids:
+  - cap.customer_due_diligence_coordination
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

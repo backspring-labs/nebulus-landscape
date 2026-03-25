@@ -1,0 +1,14 @@
+id: map.prov.docusign
+provider_id: prov.docusign
+capability_ids:
+  - cap.customer_application_intake
+  - cap.customer_record_retention_and_archival
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

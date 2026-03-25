@@ -1,0 +1,15 @@
+id: map.prov.fiserv
+provider_id: prov.fiserv
+capability_ids:
+  - cap.customer_exit_management
+  - cap.customer_identity_establishment
+  - cap.customer_lifecycle_state_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

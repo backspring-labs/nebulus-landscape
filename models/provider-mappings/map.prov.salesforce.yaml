@@ -1,0 +1,17 @@
+id: map.prov.salesforce
+provider_id: prov.salesforce
+capability_ids:
+  - cap.customer_acquisition_management
+  - cap.customer_change_management
+  - cap.customer_exit_management
+  - cap.customer_householding_and_association_management
+  - cap.customer_lifecycle_state_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

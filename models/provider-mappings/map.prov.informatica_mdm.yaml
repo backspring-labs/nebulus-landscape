@@ -1,0 +1,16 @@
+id: map.prov.informatica_mdm
+provider_id: prov.informatica_mdm
+capability_ids:
+  - cap.customer_change_management
+  - cap.customer_householding_and_association_management
+  - cap.customer_identity_establishment
+  - cap.customer_party_resolution
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub
