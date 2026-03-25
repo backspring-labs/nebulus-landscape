@@ -1,0 +1,36 @@
+id: journey.authenticate_customer_login
+name: Authenticate Customer Login
+description: >
+  A customer authenticates to access digital banking and establish a governed,
+  runtime-trusted session.
+actor: customer
+domain_ids:
+  - domain.identity_access
+  - domain.channels_experience
+  - domain.customer
+  - domain.risk_fraud
+capability_ids:
+  - cap.authentication
+  - cap.credential_and_authenticator_management
+  - cap.session_and_device_trust_management
+  - cap.step_up_and_adaptive_authentication
+  - cap.access_policy_decisioning
+  - cap.authorization_and_entitlements
+  - cap.access_event_monitoring_and_anomaly_response
+value_stream_id: vs.customer_digital_access
+process_id: proc.customer_login_v1
+entry_points:
+  - web_login
+  - mobile_login
+  - federated_login
+outcomes:
+  - authenticated_session_established
+  - limited_session_established
+  - challenge_required
+  - login_denied
+source_refs:
+  - src.nist_sp800_63b4_authentication_lifecycle
+  - src.ffiec_authentication_access_2021
+  - src.cisa_zero_trust_guidance
+status: draft
+confidence: high

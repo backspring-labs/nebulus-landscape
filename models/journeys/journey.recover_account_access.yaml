@@ -1,0 +1,38 @@
+id: journey.recover_account_access
+name: Recover Account Access
+description: >
+  A customer restores account access after forgotten credentials, lost device,
+  lockout, or suspected compromise.
+actor: customer
+domain_ids:
+  - domain.identity_access
+  - domain.channels_experience
+  - domain.customer
+  - domain.servicing
+  - domain.risk_fraud
+capability_ids:
+  - cap.identity_recovery_and_reset_management
+  - cap.identity_proofing_execution
+  - cap.credential_and_authenticator_management
+  - cap.authentication
+  - cap.step_up_and_adaptive_authentication
+  - cap.session_and_device_trust_management
+  - cap.access_event_monitoring_and_anomaly_response
+  - cap.access_audit_and_attestation
+value_stream_id: vs.account_recovery
+process_id: proc.account_recovery_v1
+entry_points:
+  - forgot_password
+  - locked_out
+  - lost_device
+  - suspected_compromise
+outcomes:
+  - access_restored
+  - restricted_access_restored
+  - recovery_denied
+  - manual_review_required
+source_refs:
+  - src.nist_sp800_63b4_authentication_lifecycle
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

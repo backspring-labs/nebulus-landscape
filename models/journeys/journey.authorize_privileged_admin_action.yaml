@@ -1,0 +1,37 @@
+id: journey.authorize_privileged_admin_action
+name: Authorize Privileged Admin Action
+description: >
+  An administrator or operator performs a high-risk privileged action under
+  stronger assurance, governance, and evidence requirements.
+actor: administrator
+domain_ids:
+  - domain.identity_access
+  - domain.orchestration_control
+  - domain.risk_fraud
+  - domain.servicing
+capability_ids:
+  - cap.authentication
+  - cap.step_up_and_adaptive_authentication
+  - cap.authorization_and_entitlements
+  - cap.access_policy_decisioning
+  - cap.privileged_access_governance
+  - cap.access_audit_and_attestation
+  - cap.access_event_monitoring_and_anomaly_response
+  - cap.session_and_device_trust_management
+value_stream_id: vs.privileged_access_control
+process_id: proc.privileged_admin_action_v1
+entry_points:
+  - privileged_console
+  - admin_workbench
+  - emergency_break_glass
+outcomes:
+  - action_permitted_and_executed
+  - approval_required
+  - action_denied
+  - session_terminated
+source_refs:
+  - src.cisa_zero_trust_guidance
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

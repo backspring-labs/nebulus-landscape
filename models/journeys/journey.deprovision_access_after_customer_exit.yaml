@@ -1,0 +1,35 @@
+id: journey.deprovision_access_after_customer_exit
+name: Deprovision Access After Customer Exit
+description: >
+  Identity & Access removes or constrains customer access state after a
+  customer relationship exits or becomes restricted.
+actor: institution_operations
+domain_ids:
+  - domain.identity_access
+  - domain.customer
+  - domain.accounts
+  - domain.servicing
+capability_ids:
+  - cap.post_exit_access_governance
+  - cap.access_provisioning_and_deprovisioning
+  - cap.session_and_device_trust_management
+  - cap.credential_and_authenticator_management
+  - cap.delegated_and_proxy_access_management
+  - cap.consented_access_token_management
+  - cap.access_audit_and_attestation
+value_stream_id: vs.customer_exit_control
+process_id: proc.deprovision_access_after_customer_exit_v1
+entry_points:
+  - customer_exit_trigger
+  - customer_restriction_trigger
+  - institution_initiated_offboarding
+outcomes:
+  - access_cleanup_completed
+  - restricted_post_exit_state_applied
+  - exception_pending
+  - reinstatement_review_candidate
+source_refs:
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high
