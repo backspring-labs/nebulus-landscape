@@ -1,0 +1,53 @@
+id: cap.identity_proofing_execution
+name: Identity Proofing Execution
+domain_id: domain.identity_access
+description: >
+  Perform identity proofing and verification checks to establish confidence that a
+  party is who they claim to be in an access or onboarding context.
+value_stream_ids:
+  - vs.identity_assurance
+  - vs.customer_onboarding
+  - vs.trusted_customer_relationship
+  - vs.account_recovery
+journey_ids:
+  - journey.verify_identity_for_onboarding
+  - journey.recover_account_access
+  - journey.perform_identity_reproof_for_high_risk_change
+  - journey.employee_access_request_and_approval
+  - journey.open_savings_account
+process_ids:
+  - proc.identity_proofing_v1
+  - proc.proofing_evidence_collection
+  - proc.identity_verification_decision
+  - proc.manual_proofing_review
+  - proc.reproof_for_account_recovery
+risk_ids:
+  - risk.weak_identity_proofing
+  - risk.synthetic_or_impostor_identity_pass
+  - risk.proofing_mismatch_to_action_risk
+  - risk.insufficient_proofing_evidence
+  - risk.recovery_reproofing_weakness
+control_ids:
+  - ctrl.identity_proofing_policy_by_use_case
+  - ctrl.identity_evidence_validation_rules
+  - ctrl.proofing_confidence_thresholds
+  - ctrl.manual_review_for_ambiguous_proofing
+  - ctrl.proofing_result_audit_trail
+  - ctrl.reproofing_controls_for_recovery
+provider_ids:
+  - prov.socure
+  - prov.alloy
+  - prov.trulioo
+  - prov.lexisnexis_risk_solutions
+  - prov.mitek
+system_ids:
+  - sys.identity_proofing_platform
+  - sys.document_verification_service
+  - sys.biometric_verification_service
+  - sys.proofing_result_store
+  - sys.assisted_review_workbench
+source_refs:
+  - src.nist_sp800_63a_proofing
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

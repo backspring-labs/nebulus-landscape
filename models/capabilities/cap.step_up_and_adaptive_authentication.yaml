@@ -1,0 +1,54 @@
+id: cap.step_up_and_adaptive_authentication
+name: Step-Up and Adaptive Authentication
+domain_id: domain.identity_access
+description: >
+  Apply additional or adaptive authentication when action sensitivity or trust
+  degradation requires stronger assurance.
+value_stream_ids:
+  - vs.runtime_access_trust
+  - vs.high_risk_action_protection
+  - vs.phishing_resistant_authentication
+  - vs.customer_record_maintenance
+journey_ids:
+  - journey.perform_step_up_for_sensitive_change
+  - journey.authorize_high_risk_payment_action
+  - journey.replace_lost_authenticator
+  - journey.update_contact_information
+  - journey.manage_data_sharing_consent
+process_ids:
+  - proc.step_up_challenge_evaluation
+  - proc.adaptive_authentication_execution
+  - proc.high_risk_action_reauthentication
+  - proc.challenge_failure_and_escalation
+  - proc.assurance_elevation_recording
+risk_ids:
+  - risk.high_risk_action_without_step_up
+  - risk.inconsistent_step_up_logic
+  - risk.excessive_step_up_friction
+  - risk.weak_factor_for_sensitive_action
+  - risk.anomaly_trigger_bypass
+control_ids:
+  - ctrl.step_up_policy_by_action_risk
+  - ctrl.adaptive_signal_threshold_governance
+  - ctrl.high_assurance_factor_requirements
+  - ctrl.challenge_failure_escalation
+  - ctrl.step_up_event_logging
+  - ctrl.channel_consistency_for_step_up_rules
+provider_ids:
+  - prov.okta
+  - prov.ping_identity
+  - prov.duo
+  - prov.microsoft_entra
+  - prov.auth0
+system_ids:
+  - sys.adaptive_authentication_engine
+  - sys.risk_signal_aggregator
+  - sys.challenge_orchestration_service
+  - sys.mfa_verifier
+  - sys.trust_event_log
+source_refs:
+  - src.ffiec_authentication_access_2021
+  - src.nist_sp800_63b_authentication
+  - src.cisa_phishing_resistant_mfa
+status: draft
+confidence: high

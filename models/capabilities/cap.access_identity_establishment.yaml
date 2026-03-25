@@ -1,0 +1,53 @@
+id: cap.access_identity_establishment
+name: Access Identity Establishment
+domain_id: domain.identity_access
+description: >
+  Create and maintain access identities, identifiers, and trust anchors used for
+  authentication and authorization.
+value_stream_ids:
+  - vs.identity_assurance
+  - vs.access_identity_lifecycle
+  - vs.trusted_customer_relationship
+  - vs.employee_access_enablement
+journey_ids:
+  - journey.verify_identity_for_onboarding
+  - journey.create_customer_access_identity
+  - journey.employee_access_request_and_approval
+  - journey.reinstate_access_identity
+  - journey.deprovision_access_after_customer_exit
+process_ids:
+  - proc.access_identity_creation
+  - proc.identity_linking_and_binding
+  - proc.access_identity_status_change
+  - proc.access_identity_reinstatement
+  - proc.access_identity_merge_or_relink
+risk_ids:
+  - risk.misbound_access_identity
+  - risk.duplicate_access_identity
+  - risk.broken_identity_linkage
+  - risk.active_access_after_exit
+  - risk.unaudited_identity_state_change
+control_ids:
+  - ctrl.access_identity_creation_preconditions
+  - ctrl.unique_access_identity_policy
+  - ctrl.identity_linking_governance
+  - ctrl.access_identity_state_model
+  - ctrl.access_identity_audit_trail
+  - ctrl.suspension_and_reinstatement_controls
+provider_ids:
+  - prov.okta
+  - prov.auth0
+  - prov.ping_identity
+  - prov.microsoft_entra
+  - prov.forgerock
+system_ids:
+  - sys.ciam_platform
+  - sys.identity_directory
+  - sys.customer_identity_store
+  - sys.workforce_identity_store
+  - sys.access_identity_lifecycle_service
+source_refs:
+  - src.nist_sp800_63_digital_identity
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

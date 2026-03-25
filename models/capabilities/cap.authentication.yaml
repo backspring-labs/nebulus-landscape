@@ -1,0 +1,54 @@
+id: cap.authentication
+name: Authentication
+domain_id: domain.identity_access
+description: >
+  Authenticate parties at login or re-entry points using required credentials,
+  factors, or trust assertions.
+value_stream_ids:
+  - vs.runtime_access_trust
+  - vs.phishing_resistant_authentication
+  - vs.customer_digital_access
+  - vs.employee_access_enablement
+journey_ids:
+  - journey.authenticate_customer_login
+  - journey.employee_login
+  - journey.partner_portal_login
+  - journey.reauthenticate_after_timeout
+  - journey.authenticate_federated_user
+process_ids:
+  - proc.login_authentication
+  - proc.multi_factor_authentication
+  - proc.authentication_failure_handling
+  - proc.lockout_and_retry_management
+  - proc.federated_assertion_authentication
+risk_ids:
+  - risk.compromised_credential_authentication
+  - risk.phishing_or_credential_stuffing_success
+  - risk.insufficient_authentication_strength
+  - risk.weak_lockout_and_retry_controls
+  - risk.overtrusted_federated_assertion
+control_ids:
+  - ctrl.authentication_policy_by_assurance_level
+  - ctrl.multi_factor_enforcement
+  - ctrl.failed_authentication_rate_limits
+  - ctrl.lockout_and_retry_controls
+  - ctrl.phishing_resistant_authentication_controls
+  - ctrl.authentication_event_logging
+provider_ids:
+  - prov.okta
+  - prov.auth0
+  - prov.ping_identity
+  - prov.microsoft_entra
+  - prov.duo
+system_ids:
+  - sys.authentication_service
+  - sys.mfa_verifier
+  - sys.federation_assertion_consumer
+  - sys.login_risk_signal_service
+  - sys.authentication_event_log
+source_refs:
+  - src.nist_sp800_63b_authentication
+  - src.ffiec_authentication_access_2021
+  - src.cisa_phishing_resistant_mfa
+status: draft
+confidence: high
