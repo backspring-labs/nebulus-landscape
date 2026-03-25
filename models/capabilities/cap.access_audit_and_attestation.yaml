@@ -1,0 +1,53 @@
+id: cap.access_audit_and_attestation
+name: Access Audit and Attestation
+domain_id: domain.identity_access
+description: >
+  Maintain access logs, evidentiary records, attestation support, and review
+  artifacts for governance and audit.
+value_stream_ids:
+  - vs.access_governance
+  - vs.audit_and_attestation_support
+  - vs.runtime_access_control
+  - vs.privileged_access_control
+journey_ids:
+  - journey.review_access_attestation
+  - journey.authorize_privileged_admin_action
+  - journey.deprovision_access_after_customer_exit
+  - journey.grant_role_or_permission
+  - journey.revoke_delegated_access
+process_ids:
+  - proc.access_review_and_attestation
+  - proc.audit_evidence_compilation
+  - proc.exception_access_recertification
+  - proc.attestation_remediation_tracking
+  - proc.privileged_access_evidence_review
+risk_ids:
+  - risk.incomplete_access_evidence
+  - risk.superficial_access_review
+  - risk.unrecertified_exception_access
+  - risk.untraceable_access_approval
+  - risk.sensitive_evidence_exposure
+control_ids:
+  - ctrl.access_evidence_retention_requirements
+  - ctrl.periodic_access_attestation_controls
+  - ctrl.exception_access_recertification
+  - ctrl.evidence_traceability_to_approval_basis
+  - ctrl.attestation_remediation_tracking
+  - ctrl.evidence_store_access_controls
+provider_ids:
+  - prov.sailpoint
+  - prov.cyberark
+  - prov.microsoft_entra
+  - prov.okta
+  - prov.splunk
+system_ids:
+  - sys.access_governance_evidence_repository
+  - sys.attestation_certification_platform
+  - sys.access_review_dashboard
+  - sys.audit_reporting_service
+  - sys.privileged_access_evidence_store
+source_refs:
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

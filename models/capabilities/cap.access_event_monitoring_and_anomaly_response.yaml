@@ -1,0 +1,53 @@
+id: cap.access_event_monitoring_and_anomaly_response
+name: Access Event Monitoring and Anomaly Response
+domain_id: domain.identity_access
+description: >
+  Monitor authentication, session, and access events for anomalies and trigger
+  trust responses or escalation.
+value_stream_ids:
+  - vs.runtime_access_trust
+  - vs.zero_trust_access_evaluation
+  - vs.high_risk_action_protection
+  - vs.access_governance
+journey_ids:
+  - journey.authenticate_customer_login
+  - journey.perform_step_up_for_sensitive_change
+  - journey.authorize_high_risk_payment_action
+  - journey.logout_all_sessions
+  - journey.respond_to_suspicious_access_event
+process_ids:
+  - proc.access_event_collection_and_correlation
+  - proc.anomaly_detection_and_scoring
+  - proc.trust_response_triggering
+  - proc.session_or_token_containment
+  - proc.access_anomaly_escalation
+risk_ids:
+  - risk.missed_access_anomaly
+  - risk.noisy_or_unreliable_access_signals
+  - risk.delayed_trust_response
+  - risk.fragmented_access_monitoring
+  - risk.sensitive_event_data_exposure
+control_ids:
+  - ctrl.identity_access_telemetry_coverage
+  - ctrl.anomaly_response_playbooks
+  - ctrl.high_risk_event_trigger_thresholds
+  - ctrl.session_token_containment_controls
+  - ctrl.access_event_data_protection
+  - ctrl.monitoring_feedback_and_tuning_governance
+provider_ids:
+  - prov.microsoft_entra
+  - prov.okta
+  - prov.ping_identity
+  - prov.splunk
+  - prov.crowdstrike
+system_ids:
+  - sys.identity_telemetry_pipeline
+  - sys.access_anomaly_detection_engine
+  - sys.trust_response_orchestration_service
+  - sys.session_token_containment_service
+  - sys.identity_event_dashboard
+source_refs:
+  - src.cisa_zero_trust_guidance
+  - src.cisa_icam_reference_architecture
+status: draft
+confidence: high

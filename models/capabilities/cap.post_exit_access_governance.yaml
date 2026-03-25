@@ -1,0 +1,53 @@
+id: cap.post_exit_access_governance
+name: Post-Exit Access Governance
+domain_id: domain.identity_access
+description: >
+  Adjust or revoke access identities, sessions, authenticators, and entitlements
+  when a customer or user relationship exits or is restricted.
+value_stream_ids:
+  - vs.customer_exit_control
+  - vs.access_identity_lifecycle
+  - vs.access_governance
+  - vs.records_governance
+journey_ids:
+  - journey.exit_customer_relationship
+  - journey.deprovision_access_after_customer_exit
+  - journey.institution_initiated_customer_offboarding
+  - journey.revoke_delegated_access
+  - journey.revoke_third_party_data_access
+process_ids:
+  - proc.post_exit_access_cleanup
+  - proc.global_session_and_token_revocation
+  - proc.authenticator_and_identity_termination
+  - proc.post_exit_exception_handling
+  - proc.reinstatement_after_exit_review
+risk_ids:
+  - risk.persistent_access_after_exit
+  - risk.surviving_sessions_tokens_or_delegations
+  - risk.inconsistent_post_exit_cleanup
+  - risk.ungoverned_post_exit_exception
+  - risk.weak_reinstatement_after_exit
+control_ids:
+  - ctrl.exit_triggered_access_cleanup_rules
+  - ctrl.global_session_token_and_authenticator_revocation
+  - ctrl.post_exit_cleanup_completion_tracking
+  - ctrl.time_bound_post_exit_exceptions
+  - ctrl.post_exit_evidence_and_audit_trail
+  - ctrl.reinstatement_revalidation_controls
+provider_ids:
+  - prov.sailpoint
+  - prov.okta
+  - prov.microsoft_entra
+  - prov.cyberark
+  - prov.ping_identity
+system_ids:
+  - sys.post_exit_cleanup_orchestrator
+  - sys.deprovisioning_and_revocation_service
+  - sys.global_session_token_termination_service
+  - sys.access_cleanup_evidence_dashboard
+  - sys.reinstatement_review_workflow
+source_refs:
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

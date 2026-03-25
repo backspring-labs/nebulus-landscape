@@ -1,0 +1,53 @@
+id: cap.privileged_access_governance
+name: Privileged Access Governance
+domain_id: domain.identity_access
+description: >
+  Govern high-risk administrative, operational, or privileged access distinct
+  from standard end-user access.
+value_stream_ids:
+  - vs.privileged_access_control
+  - vs.access_governance
+  - vs.high_risk_action_protection
+  - vs.zero_trust_access_evaluation
+journey_ids:
+  - journey.authorize_privileged_admin_action
+  - journey.request_break_glass_access
+  - journey.review_privileged_access_attestation
+  - journey.revoke_privileged_access
+  - journey.employee_access_request_and_approval
+process_ids:
+  - proc.privileged_access_request_and_approval
+  - proc.just_in_time_privileged_access
+  - proc.break_glass_access_execution
+  - proc.privileged_session_recording_and_review
+  - proc.privileged_access_recertification
+risk_ids:
+  - risk.excessive_privileged_access
+  - risk.standing_admin_access_overuse
+  - risk.unmonitored_privileged_session
+  - risk.break_glass_control_bypass
+  - risk.persistent_privilege_after_role_change
+control_ids:
+  - ctrl.privileged_access_classification_rules
+  - ctrl.just_in_time_or_time_bound_privileged_access
+  - ctrl.break_glass_governance_controls
+  - ctrl.privileged_session_monitoring
+  - ctrl.strong_assurance_for_privileged_actions
+  - ctrl.privileged_access_recertification
+provider_ids:
+  - prov.cyberark
+  - prov.beyondtrust
+  - prov.delinea
+  - prov.microsoft_entra
+  - prov.okta
+system_ids:
+  - sys.pam_platform
+  - sys.privileged_session_manager
+  - sys.secret_vault
+  - sys.privileged_access_approval_service
+  - sys.privileged_activity_evidence_repository
+source_refs:
+  - src.cisa_icam_reference_architecture
+  - src.cisa_zero_trust_guidance
+status: draft
+confidence: high
