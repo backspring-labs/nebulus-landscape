@@ -1,0 +1,12 @@
+id: risk.unauthorized_assignment_changes
+name: Unauthorized Assignment Changes
+description: >
+  Risk that customer-to-representative or account assignments are changed
+  without proper authorization, disrupting service continuity.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

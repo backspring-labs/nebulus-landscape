@@ -1,0 +1,12 @@
+id: risk.inadequate_customer_exit_evidence
+name: Inadequate Customer Exit Evidence
+description: >
+  Risk that the customer exit process lacks sufficient documentation to
+  demonstrate compliance with regulatory and contractual obligations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

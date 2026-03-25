@@ -1,0 +1,12 @@
+id: risk.new_to_bank_misclassification
+name: New-to-Bank Misclassification
+description: >
+  Risk that an existing customer is incorrectly treated as new-to-bank or
+  vice versa, causing duplicate records or missed relationship context.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

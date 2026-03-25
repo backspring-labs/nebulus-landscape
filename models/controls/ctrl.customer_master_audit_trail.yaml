@@ -1,0 +1,12 @@
+id: ctrl.customer_master_audit_trail
+name: Customer Master Audit Trail
+description: >
+  Maintains an immutable audit trail for the customer master record, tracking
+  all modifications to the golden record over time.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

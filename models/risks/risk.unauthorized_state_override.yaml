@@ -1,0 +1,12 @@
+id: risk.unauthorized_state_override
+name: Unauthorized State Override
+description: >
+  Risk that a customer lifecycle state is manually overridden without proper
+  authorization, bypassing established workflow controls.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

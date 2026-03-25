@@ -1,0 +1,12 @@
+id: ctrl.dd_completion_gate
+name: Due Diligence Completion Gate
+description: >
+  Gates progression in the customer lifecycle until all required due diligence
+  steps have been completed and documented satisfactorily.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

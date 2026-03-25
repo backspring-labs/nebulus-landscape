@@ -1,0 +1,12 @@
+id: ctrl.pending_item_sla_monitoring
+name: Pending Item SLA Monitoring
+description: >
+  Monitors pending customer items against defined service level agreements and
+  triggers alerts or escalations when SLA thresholds are approaching or breached.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.periodic_association_review
+name: Periodic Association Review
+description: >
+  Conducts periodic reviews of customer associations and relationships to verify
+  continued accuracy and identify stale or incorrect linkages.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.inadequate_change_evidence
+name: Inadequate Change Evidence
+description: >
+  Risk that changes to customer data lack sufficient audit evidence to
+  demonstrate who made the change, when, and why.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

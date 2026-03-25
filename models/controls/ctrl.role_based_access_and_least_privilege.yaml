@@ -1,0 +1,12 @@
+id: ctrl.role_based_access_and_least_privilege
+name: Role-Based Access and Least Privilege
+description: >
+  Enforces role-based access controls on customer data with least-privilege
+  principles, ensuring users can only access data required for their function.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

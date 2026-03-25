@@ -1,0 +1,12 @@
+id: ctrl.retention_schedule_and_legal_hold
+name: Retention Schedule and Legal Hold
+description: >
+  Enforces customer record retention schedules while respecting active legal
+  holds that override normal disposition timelines.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

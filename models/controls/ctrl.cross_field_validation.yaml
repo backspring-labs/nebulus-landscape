@@ -1,0 +1,12 @@
+id: ctrl.cross_field_validation
+name: Cross-Field Validation
+description: >
+  Validates logical consistency across related data fields within customer records,
+  detecting contradictions or implausible combinations before acceptance.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

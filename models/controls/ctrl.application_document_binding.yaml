@@ -1,0 +1,12 @@
+id: ctrl.application_document_binding
+name: Application Document Binding
+description: >
+  Ensures that submitted documents are securely bound to the correct application
+  record, preventing misattribution or tampering.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

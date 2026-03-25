@@ -1,0 +1,12 @@
+id: ctrl.relationship_assignment_approval_workflow
+name: Relationship Assignment Approval Workflow
+description: >
+  Requires approval before assigning or reassigning customer relationships to
+  agents, advisors, or service teams, ensuring proper authorization.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

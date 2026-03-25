@@ -1,0 +1,12 @@
+id: ctrl.separation_of_preference_vs_consent
+name: Separation of Preference vs. Consent
+description: >
+  Maintains a clear distinction between customer preferences and regulatory
+  consent, ensuring they are captured, stored, and governed independently.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

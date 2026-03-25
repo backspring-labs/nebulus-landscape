@@ -1,0 +1,12 @@
+id: risk.missed_customer_change_notification
+name: Missed Customer Change Notification
+description: >
+  Risk that a required notification about a change to a customer's account or
+  data is not sent, leaving the customer unaware of material changes.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

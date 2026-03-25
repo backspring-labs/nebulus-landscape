@@ -1,0 +1,12 @@
+id: risk.unmapped_evidence
+name: Unmapped Evidence
+description: >
+  Risk that collected evidence or documentation is not linked to the relevant
+  customer record or process, rendering it undiscoverable during audits.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

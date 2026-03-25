@@ -1,0 +1,12 @@
+id: ctrl.privacy_scoped_householding_rules
+name: Privacy-Scoped Householding Rules
+description: >
+  Applies privacy constraints to household grouping rules, ensuring that
+  information sharing within households respects individual privacy rights.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

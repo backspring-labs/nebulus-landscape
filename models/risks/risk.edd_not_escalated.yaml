@@ -1,0 +1,12 @@
+id: risk.edd_not_escalated
+name: Enhanced Due Diligence Not Escalated
+description: >
+  Risk that a customer requiring enhanced due diligence is not identified or
+  escalated, resulting in insufficient compliance review.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

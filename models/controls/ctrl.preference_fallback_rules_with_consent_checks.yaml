@@ -1,0 +1,12 @@
+id: ctrl.preference_fallback_rules_with_consent_checks
+name: Preference Fallback Rules with Consent Checks
+description: >
+  Defines fallback behavior when customer preferences are not explicitly set,
+  applying default rules that respect consent requirements.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

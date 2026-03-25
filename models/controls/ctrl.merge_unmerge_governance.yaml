@@ -1,0 +1,12 @@
+id: ctrl.merge_unmerge_governance
+name: Merge-Unmerge Governance
+description: >
+  Establishes governance policies and review procedures for customer record
+  merge and unmerge operations, including impact assessment and rollback capability.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

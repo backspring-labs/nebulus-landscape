@@ -1,0 +1,12 @@
+id: ctrl.customer_change_taxonomy
+name: Customer Change Taxonomy
+description: >
+  Classifies customer data changes into a standardized taxonomy of change types,
+  enabling consistent handling, routing, and risk assessment of modifications.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.sensitive_change_step_up_controls
+name: Sensitive Change Step-Up Controls
+description: >
+  Requires additional authentication or verification steps before processing
+  changes to sensitive customer data fields such as SSN, name, or date of birth.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

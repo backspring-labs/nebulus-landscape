@@ -1,0 +1,12 @@
+id: risk.missed_legal_hold
+name: Missed Legal Hold
+description: >
+  Risk that customer records subject to a legal hold are destroyed or altered,
+  resulting in spoliation of evidence and legal liability.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

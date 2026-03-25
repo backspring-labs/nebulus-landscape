@@ -1,0 +1,12 @@
+id: risk.missing_due_diligence_requirement
+name: Missing Due Diligence Requirement
+description: >
+  Risk that a required due diligence step is omitted from the customer
+  onboarding or review process, creating a compliance gap.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

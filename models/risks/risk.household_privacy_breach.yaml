@@ -1,0 +1,12 @@
+id: risk.household_privacy_breach
+name: Household Privacy Breach
+description: >
+  Risk that household grouping exposes one member's financial or personal
+  information to another member without proper authorization.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

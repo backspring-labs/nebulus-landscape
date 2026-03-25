@@ -1,0 +1,12 @@
+id: risk.unauthorized_data_sharing
+name: Unauthorized Data Sharing
+description: >
+  Risk that customer data is shared with third parties or internal teams
+  without proper consent or authorization, violating privacy requirements.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

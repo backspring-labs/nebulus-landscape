@@ -1,0 +1,12 @@
+id: risk.misbinding_of_uploaded_documents
+name: Misbinding of Uploaded Documents
+description: >
+  Risk that uploaded documents are associated with the wrong customer record,
+  causing data integrity failures and potential privacy violations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

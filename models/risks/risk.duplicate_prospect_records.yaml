@@ -1,0 +1,12 @@
+id: risk.duplicate_prospect_records
+name: Duplicate Prospect Records
+description: >
+  Risk that the same prospect is represented by multiple records, causing
+  redundant outreach and inaccurate pipeline reporting.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

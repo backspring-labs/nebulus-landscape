@@ -1,0 +1,12 @@
+id: risk.disclosure_not_delivered_or_not_provable
+name: Disclosure Not Delivered or Not Provable
+description: >
+  Risk that there is no auditable evidence that a required disclosure was
+  delivered to the customer, creating compliance exposure.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

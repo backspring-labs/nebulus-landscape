@@ -1,0 +1,12 @@
+id: ctrl.affiliate_marketing_opt_out_controls
+name: Affiliate Marketing Opt-Out Controls
+description: >
+  Ensures customers can opt out of affiliate marketing communications and that
+  opt-out preferences are honored across all affiliate channels.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

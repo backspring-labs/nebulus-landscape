@@ -1,0 +1,12 @@
+id: ctrl.legal_hold_override_control
+name: Legal Hold Override Control
+description: >
+  Prevents deletion or disposition of customer records that are subject to
+  legal hold, overriding normal retention schedules when litigation holds are active.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

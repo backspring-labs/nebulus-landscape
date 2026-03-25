@@ -1,0 +1,12 @@
+id: ctrl.consent_evidence_and_audit_trail
+name: Consent Evidence and Audit Trail
+description: >
+  Captures and preserves evidence of customer consent actions including timestamps,
+  versions presented, and the specific consent granted or revoked.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

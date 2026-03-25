@@ -1,0 +1,12 @@
+id: ctrl.pre_exit_dependency_checklist
+name: Pre-Exit Dependency Checklist
+description: >
+  Validates that all dependencies and prerequisites are resolved before executing
+  a customer exit, including open balances, pending transactions, and linked accounts.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.invalid_state_transition
+name: Invalid State Transition
+description: >
+  Risk that a customer or account moves to a state that is not permitted by
+  the defined lifecycle rules, causing processing errors or compliance issues.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

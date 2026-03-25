@@ -1,0 +1,12 @@
+id: risk.referral_incentive_abuse
+name: Referral Incentive Abuse
+description: >
+  Risk that the referral incentive program is exploited through fraudulent
+  referrals or manipulation of attribution to claim unearned rewards.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

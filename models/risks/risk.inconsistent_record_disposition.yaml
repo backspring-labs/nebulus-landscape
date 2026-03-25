@@ -1,0 +1,12 @@
+id: risk.inconsistent_record_disposition
+name: Inconsistent Record Disposition
+description: >
+  Risk that customer records are retained or destroyed inconsistently across
+  systems, violating retention policies or regulatory requirements.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

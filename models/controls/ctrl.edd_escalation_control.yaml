@@ -1,0 +1,12 @@
+id: ctrl.edd_escalation_control
+name: Enhanced Due Diligence Escalation Control
+description: >
+  Triggers escalation to enhanced due diligence when customer risk indicators
+  exceed standard thresholds, ensuring higher-risk customers receive appropriate scrutiny.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

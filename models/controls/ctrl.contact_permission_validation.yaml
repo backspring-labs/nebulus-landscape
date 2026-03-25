@@ -1,0 +1,12 @@
+id: ctrl.contact_permission_validation
+name: Contact Permission Validation
+description: >
+  Validates that the organization has permission to contact a customer through
+  a given channel before initiating communication.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

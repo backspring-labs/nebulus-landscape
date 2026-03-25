@@ -1,0 +1,12 @@
+id: ctrl.step_up_authentication_for_sensitive_changes
+name: Step-Up Authentication for Sensitive Changes
+description: >
+  Requires step-up authentication when customers or agents attempt to modify
+  high-sensitivity data, adding an additional layer of identity assurance.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

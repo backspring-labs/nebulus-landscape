@@ -1,0 +1,12 @@
+id: ctrl.disclosure_version_control
+name: Disclosure Version Control
+description: >
+  Maintains version control over customer-facing disclosures, ensuring the correct
+  version is presented and that acceptance is linked to the specific version shown.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

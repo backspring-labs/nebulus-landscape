@@ -1,0 +1,12 @@
+id: risk.cross_system_state_conflict
+name: Cross-System State Conflict
+description: >
+  Risk that a customer's lifecycle or account state is represented differently
+  across systems, leading to conflicting treatment or processing errors.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

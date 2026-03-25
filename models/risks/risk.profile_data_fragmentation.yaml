@@ -1,0 +1,12 @@
+id: risk.profile_data_fragmentation
+name: Profile Data Fragmentation
+description: >
+  Risk that customer profile data is spread across multiple systems without a
+  single consolidated view, hindering servicing and compliance.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

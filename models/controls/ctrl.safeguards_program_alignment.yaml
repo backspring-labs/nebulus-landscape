@@ -1,0 +1,12 @@
+id: ctrl.safeguards_program_alignment
+name: Safeguards Program Alignment
+description: >
+  Ensures customer data handling practices align with the organization's
+  information security safeguards program and regulatory safeguard requirements.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

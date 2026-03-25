@@ -1,0 +1,12 @@
+id: risk.exception_workbench_data_exposure
+name: Exception Workbench Data Exposure
+description: >
+  Risk that sensitive customer data displayed in exception handling workbenches
+  is exposed to users who lack appropriate authorization.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

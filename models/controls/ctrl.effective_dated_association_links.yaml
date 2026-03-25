@@ -1,0 +1,12 @@
+id: ctrl.effective_dated_association_links
+name: Effective-Dated Association Links
+description: >
+  Applies effective dating to all customer association links, preserving the
+  temporal history of when relationships were active.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

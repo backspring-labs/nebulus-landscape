@@ -1,0 +1,12 @@
+id: ctrl.maker_checker_for_sensitive_changes
+name: Maker-Checker for Sensitive Changes
+description: >
+  Requires dual authorization for changes to sensitive customer data fields,
+  ensuring no single actor can unilaterally modify critical information.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

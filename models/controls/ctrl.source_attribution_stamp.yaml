@@ -1,0 +1,12 @@
+id: ctrl.source_attribution_stamp
+name: Source Attribution Stamp
+description: >
+  Stamps each customer data element with its originating source system and
+  channel, enabling data lineage tracing and quality assessment by source.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

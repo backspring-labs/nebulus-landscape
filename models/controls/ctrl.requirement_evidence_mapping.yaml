@@ -1,0 +1,12 @@
+id: ctrl.requirement_evidence_mapping
+name: Requirement Evidence Mapping
+description: >
+  Maps regulatory and policy requirements to the specific evidence artifacts
+  that demonstrate compliance, ensuring traceability from requirement to proof.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

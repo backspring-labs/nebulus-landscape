@@ -1,0 +1,12 @@
+id: risk.dark_pattern_or_deceptive_capture
+name: Dark Pattern or Deceptive Capture
+description: >
+  Risk that customer data or consent is obtained through misleading UI design
+  or deceptive practices that do not reflect genuine customer intent.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

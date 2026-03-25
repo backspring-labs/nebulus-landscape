@@ -1,0 +1,12 @@
+id: risk.incomplete_beneficial_ownership_association
+name: Incomplete Beneficial Ownership Association
+description: >
+  Risk that beneficial owners are not properly linked to the entities they
+  control, undermining anti-money-laundering and transparency requirements.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

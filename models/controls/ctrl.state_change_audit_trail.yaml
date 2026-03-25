@@ -1,0 +1,12 @@
+id: ctrl.state_change_audit_trail
+name: State Change Audit Trail
+description: >
+  Records all customer lifecycle state changes with full audit detail including
+  the previous state, new state, timestamp, actor, and reason code.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

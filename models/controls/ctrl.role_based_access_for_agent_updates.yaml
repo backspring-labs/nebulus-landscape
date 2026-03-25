@@ -1,0 +1,12 @@
+id: ctrl.role_based_access_for_agent_updates
+name: Role-Based Access for Agent Updates
+description: >
+  Restricts which customer data fields agents can view and modify based on
+  their role, preventing unauthorized changes to sensitive attributes.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

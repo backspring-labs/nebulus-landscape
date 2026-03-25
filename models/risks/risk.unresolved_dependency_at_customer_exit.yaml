@@ -1,0 +1,12 @@
+id: risk.unresolved_dependency_at_customer_exit
+name: Unresolved Dependency at Customer Exit
+description: >
+  Risk that a customer exit is executed while open dependencies such as
+  pending transactions or active products remain unresolved.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

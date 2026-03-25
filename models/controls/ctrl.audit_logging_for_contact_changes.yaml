@@ -1,0 +1,12 @@
+id: ctrl.audit_logging_for_contact_changes
+name: Audit Logging for Contact Changes
+description: >
+  Captures a detailed audit log of all changes to customer contact information,
+  including the actor, timestamp, and previous values.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

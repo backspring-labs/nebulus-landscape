@@ -1,0 +1,12 @@
+id: ctrl.canonical_application_schema
+name: Canonical Application Schema
+description: >
+  Enforces a standardized application data schema across all intake channels,
+  ensuring consistent structure and required fields regardless of entry point.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.bad_merge
+name: Bad Merge
+description: >
+  Risk that two customer records are incorrectly merged, combining data from
+  distinct individuals and corrupting both profiles.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

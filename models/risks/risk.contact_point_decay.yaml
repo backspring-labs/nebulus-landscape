@@ -1,0 +1,12 @@
+id: risk.contact_point_decay
+name: Contact Point Decay
+description: >
+  Risk that customer contact information becomes stale over time as addresses,
+  phone numbers, or email addresses change without being updated.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

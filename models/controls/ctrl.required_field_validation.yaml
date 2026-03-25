@@ -1,0 +1,12 @@
+id: ctrl.required_field_validation
+name: Required Field Validation
+description: >
+  Validates that all mandatory fields are populated with valid data before
+  accepting customer record submissions or updates.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

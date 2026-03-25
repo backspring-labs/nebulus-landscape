@@ -1,0 +1,12 @@
+id: ctrl.central_preference_registry
+name: Central Preference Registry
+description: >
+  Maintains a centralized registry of customer communication and service preferences,
+  serving as the authoritative source for preference data across all channels.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

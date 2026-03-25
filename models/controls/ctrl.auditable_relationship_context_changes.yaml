@@ -1,0 +1,12 @@
+id: ctrl.auditable_relationship_context_changes
+name: Auditable Relationship Context Changes
+description: >
+  Ensures all changes to relationship context attributes are logged with full
+  audit detail, enabling review of how and why relationship metadata evolved.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

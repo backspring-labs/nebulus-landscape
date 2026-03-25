@@ -1,0 +1,12 @@
+id: risk.consent_not_honored
+name: Consent Not Honored
+description: >
+  Risk that customer consent choices are not enforced, resulting in data use
+  or communications that violate the customer's expressed preferences.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.customer_change_audit_trail
+name: Customer Change Audit Trail
+description: >
+  Maintains a comprehensive audit trail of all changes to customer master data,
+  capturing who changed what, when, and why.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

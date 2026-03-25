@@ -1,0 +1,12 @@
+id: risk.attestation_repudiation
+name: Attestation Repudiation
+description: >
+  Risk that a customer or party disputes having made an attestation because
+  the evidence of their agreement is insufficient or non-existent.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

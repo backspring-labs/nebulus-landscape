@@ -1,0 +1,12 @@
+id: ctrl.customer_exit_criteria_and_reason_codes
+name: Customer Exit Criteria and Reason Codes
+description: >
+  Defines standardized exit criteria and reason codes that must be applied when
+  terminating a customer relationship, ensuring consistent documentation.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

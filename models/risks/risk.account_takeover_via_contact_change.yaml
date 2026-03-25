@@ -1,0 +1,13 @@
+id: risk.account_takeover_via_contact_change
+name: Account Takeover via Contact Change
+description: >
+  Risk that a malicious actor gains control of a customer account by changing
+  contact information such as email or phone number to redirect authentication
+  and communications.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

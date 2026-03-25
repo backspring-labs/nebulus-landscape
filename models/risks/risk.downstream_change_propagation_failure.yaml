@@ -1,0 +1,12 @@
+id: risk.downstream_change_propagation_failure
+name: Downstream Change Propagation Failure
+description: >
+  Risk that changes to customer data are not propagated to all downstream
+  systems, leaving dependent processes operating on stale information.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

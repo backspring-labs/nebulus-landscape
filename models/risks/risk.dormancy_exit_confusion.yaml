@@ -1,0 +1,12 @@
+id: risk.dormancy_exit_confusion
+name: Dormancy Exit Confusion
+description: >
+  Risk that the transition between dormancy and customer exit is unclear,
+  leading to premature account closure or indefinite dormant status.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

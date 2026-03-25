@@ -1,0 +1,12 @@
+id: risk.inaccurate_customer_profile
+name: Inaccurate Customer Profile
+description: >
+  Risk that the customer profile contains outdated or incorrect information,
+  leading to poor servicing decisions and regulatory exposure.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.return_mail_and_bounce_monitoring
+name: Return Mail and Bounce Monitoring
+description: >
+  Monitors for returned physical mail and bounced electronic communications,
+  flagging affected contact points for review and remediation.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

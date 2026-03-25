@@ -1,0 +1,12 @@
+id: ctrl.revocation_propagation_sla
+name: Revocation Propagation SLA
+description: >
+  Enforces service level agreements for propagating consent revocations across
+  all systems and channels, ensuring timely cessation of revoked activities.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

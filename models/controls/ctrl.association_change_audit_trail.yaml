@@ -1,0 +1,12 @@
+id: ctrl.association_change_audit_trail
+name: Association Change Audit Trail
+description: >
+  Records all changes to customer-to-customer and customer-to-entity associations,
+  preserving the history of relationship modifications.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

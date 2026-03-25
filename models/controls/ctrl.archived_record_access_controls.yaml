@@ -1,0 +1,12 @@
+id: ctrl.archived_record_access_controls
+name: Archived Record Access Controls
+description: >
+  Restricts access to archived customer records to authorized personnel and
+  approved use cases, enforcing least-privilege principles on historical data.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.remediation_backlog_growth
+name: Remediation Backlog Growth
+description: >
+  Risk that the queue of customer data exceptions and remediation items grows
+  faster than it is resolved, degrading data quality over time.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

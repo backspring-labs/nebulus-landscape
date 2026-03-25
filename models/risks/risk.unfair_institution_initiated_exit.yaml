@@ -1,0 +1,12 @@
+id: risk.unfair_institution_initiated_exit
+name: Unfair Institution-Initiated Exit
+description: >
+  Risk that the institution terminates a customer relationship without fair
+  process, adequate notice, or a legitimate, non-discriminatory reason.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

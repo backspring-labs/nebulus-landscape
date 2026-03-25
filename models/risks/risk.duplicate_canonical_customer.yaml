@@ -1,0 +1,12 @@
+id: risk.duplicate_canonical_customer
+name: Duplicate Canonical Customer
+description: >
+  Risk that multiple canonical customer records exist for the same individual,
+  fragmenting their relationship history and complicating servicing.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.cross_system_state_reconciliation
+name: Cross-System State Reconciliation
+description: >
+  Reconciles customer lifecycle state across systems to detect and resolve
+  discrepancies where systems disagree on a customer's current state.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

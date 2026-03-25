@@ -1,0 +1,12 @@
+id: ctrl.non_repudiation_and_audit_controls
+name: Non-Repudiation and Audit Controls
+description: >
+  Ensures customer actions and agreements cannot be denied after the fact by
+  capturing tamper-evident evidence of transactions and consent.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

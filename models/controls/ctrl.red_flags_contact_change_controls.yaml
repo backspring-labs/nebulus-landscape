@@ -1,0 +1,12 @@
+id: ctrl.red_flags_contact_change_controls
+name: Red Flags Contact Change Controls
+description: >
+  Detects suspicious patterns in customer contact information changes that may
+  indicate identity theft or account takeover, triggering additional verification.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

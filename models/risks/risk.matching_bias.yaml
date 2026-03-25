@@ -1,0 +1,12 @@
+id: risk.matching_bias
+name: Matching Bias
+description: >
+  Risk that customer matching algorithms exhibit systematic bias, leading to
+  disproportionate false matches or misses for certain populations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

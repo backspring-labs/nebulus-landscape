@@ -1,0 +1,12 @@
+id: risk.inconsistent_onboarding_completion
+name: Inconsistent Onboarding Completion
+description: >
+  Risk that the criteria for completing customer onboarding vary across
+  channels or products, leading to uneven quality and compliance.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

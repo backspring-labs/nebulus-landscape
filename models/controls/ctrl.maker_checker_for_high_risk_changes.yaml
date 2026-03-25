@@ -1,0 +1,12 @@
+id: ctrl.maker_checker_for_high_risk_changes
+name: Maker-Checker for High-Risk Changes
+description: >
+  Requires a second authorized reviewer to approve high-risk customer data changes
+  before they take effect, enforcing separation of duties.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

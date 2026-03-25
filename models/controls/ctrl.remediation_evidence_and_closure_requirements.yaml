@@ -1,0 +1,12 @@
+id: ctrl.remediation_evidence_and_closure_requirements
+name: Remediation Evidence and Closure Requirements
+description: >
+  Requires documented evidence that remediation actions were completed successfully
+  before a data quality issue can be marked as resolved.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.customer
+source_refs: []
+status: draft

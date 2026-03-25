@@ -1,0 +1,12 @@
+id: risk.disclosure_delivery_failure
+name: Disclosure Delivery Failure
+description: >
+  Risk that required disclosures fail to reach the customer due to delivery
+  errors, invalid contact information, or system failures.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

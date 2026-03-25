@@ -1,0 +1,12 @@
+id: ctrl.steward_decision_audit
+name: Steward Decision Audit
+description: >
+  Audits data steward decisions on customer data exceptions to ensure consistency,
+  quality, and adherence to resolution standards.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

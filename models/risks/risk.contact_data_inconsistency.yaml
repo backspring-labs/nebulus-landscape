@@ -1,0 +1,12 @@
+id: risk.contact_data_inconsistency
+name: Contact Data Inconsistency
+description: >
+  Risk that contact information for a customer differs across systems,
+  leading to failed communications or misdirected outreach.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

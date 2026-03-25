@@ -1,0 +1,12 @@
+id: ctrl.customer_exit_approval_workflow
+name: Customer Exit Approval Workflow
+description: >
+  Requires appropriate approval before processing a customer exit, ensuring
+  all stakeholders are consulted and exit criteria are met.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

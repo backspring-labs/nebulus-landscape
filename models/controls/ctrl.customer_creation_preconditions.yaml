@@ -1,0 +1,12 @@
+id: ctrl.customer_creation_preconditions
+name: Customer Creation Preconditions
+description: >
+  Enforces mandatory preconditions that must be satisfied before a new customer
+  record can be created, preventing incomplete or premature record creation.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

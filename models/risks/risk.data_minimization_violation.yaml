@@ -1,0 +1,12 @@
+id: risk.data_minimization_violation
+name: Data Minimization Violation
+description: >
+  Risk that more customer data is collected or retained than is necessary for
+  the stated purpose, violating data minimization principles and regulations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

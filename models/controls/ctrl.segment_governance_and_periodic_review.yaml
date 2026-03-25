@@ -1,0 +1,12 @@
+id: ctrl.segment_governance_and_periodic_review
+name: Segment Governance and Periodic Review
+description: >
+  Governs customer segmentation definitions and conducts periodic reviews to
+  ensure segments remain accurate, fair, and aligned with business objectives.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

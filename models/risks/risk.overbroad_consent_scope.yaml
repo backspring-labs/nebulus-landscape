@@ -1,0 +1,12 @@
+id: risk.overbroad_consent_scope
+name: Overbroad Consent Scope
+description: >
+  Risk that consent is requested or recorded with a scope broader than
+  necessary, violating data minimization principles and eroding trust.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

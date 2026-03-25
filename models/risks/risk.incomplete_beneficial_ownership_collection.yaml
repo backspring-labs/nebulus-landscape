@@ -1,0 +1,12 @@
+id: risk.incomplete_beneficial_ownership_collection
+name: Incomplete Beneficial Ownership Collection
+description: >
+  Risk that required beneficial ownership information is not fully collected
+  during onboarding, creating regulatory compliance gaps.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

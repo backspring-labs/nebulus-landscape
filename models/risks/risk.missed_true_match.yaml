@@ -1,0 +1,12 @@
+id: risk.missed_true_match
+name: Missed True Match
+description: >
+  Risk that a genuine duplicate customer record is not identified by matching
+  processes, resulting in fragmented data and duplicated effort.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.invalid_esign_consent_flow
+name: Invalid E-Sign Consent Flow
+description: >
+  Risk that the electronic signature consent process does not meet legal
+  requirements, rendering signed agreements unenforceable.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

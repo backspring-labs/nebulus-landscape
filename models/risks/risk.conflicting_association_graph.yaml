@@ -1,0 +1,12 @@
+id: risk.conflicting_association_graph
+name: Conflicting Association Graph
+description: >
+  Risk that the graph of relationships between customers, households, and
+  related parties contains contradictory or circular linkages.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

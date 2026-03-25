@@ -1,0 +1,12 @@
+id: ctrl.remediation_priority_and_sla_rules
+name: Remediation Priority and SLA Rules
+description: >
+  Assigns priority levels and service level agreements to customer data remediation
+  items based on severity, impact, and regulatory requirements.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.customer
+source_refs: []
+status: draft

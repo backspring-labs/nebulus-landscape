@@ -1,0 +1,12 @@
+id: risk.incorrect_related_party_linkage
+name: Incorrect Related Party Linkage
+description: >
+  Risk that customers are incorrectly linked as related parties, leading to
+  erroneous household groupings, reporting, or access grants.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

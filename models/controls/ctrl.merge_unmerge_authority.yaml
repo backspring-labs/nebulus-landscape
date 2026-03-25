@@ -1,0 +1,12 @@
+id: ctrl.merge_unmerge_authority
+name: Merge-Unmerge Authority
+description: >
+  Restricts the ability to merge or unmerge customer records to authorized
+  personnel with appropriate role-based permissions.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

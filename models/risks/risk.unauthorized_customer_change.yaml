@@ -1,0 +1,12 @@
+id: risk.unauthorized_customer_change
+name: Unauthorized Customer Change
+description: >
+  Risk that a change is made to a customer's data or account without the
+  customer's knowledge or proper internal authorization.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

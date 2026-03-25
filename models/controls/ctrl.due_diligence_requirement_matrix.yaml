@@ -1,0 +1,12 @@
+id: ctrl.due_diligence_requirement_matrix
+name: Due Diligence Requirement Matrix
+description: >
+  Defines the required due diligence activities based on customer risk profile,
+  product type, and relationship characteristics.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

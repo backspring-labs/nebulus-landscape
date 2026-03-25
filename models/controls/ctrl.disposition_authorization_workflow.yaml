@@ -1,0 +1,12 @@
+id: ctrl.disposition_authorization_workflow
+name: Disposition Authorization Workflow
+description: >
+  Requires explicit authorization before disposing of customer records, ensuring
+  proper review and approval of permanent data destruction.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

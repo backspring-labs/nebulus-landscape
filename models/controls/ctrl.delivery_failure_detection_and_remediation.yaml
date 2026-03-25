@@ -1,0 +1,12 @@
+id: ctrl.delivery_failure_detection_and_remediation
+name: Delivery Failure Detection and Remediation
+description: >
+  Detects failed communication deliveries across channels and triggers remediation
+  workflows to update contact information or escalate for resolution.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.customer
+source_refs: []
+status: draft

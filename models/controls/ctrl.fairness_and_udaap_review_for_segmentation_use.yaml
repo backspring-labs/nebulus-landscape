@@ -1,0 +1,12 @@
+id: ctrl.fairness_and_udaap_review_for_segmentation_use
+name: Fairness and UDAAP Review for Segmentation Use
+description: >
+  Reviews customer segmentation models and their usage for fairness concerns
+  and compliance with unfair, deceptive, or abusive acts or practices regulations.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

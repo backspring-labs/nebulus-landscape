@@ -1,0 +1,12 @@
+id: ctrl.contact_point_effective_dating
+name: Contact Point Effective Dating
+description: >
+  Maintains effective dates on all customer contact points, preserving historical
+  contact information and enabling point-in-time lookups.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

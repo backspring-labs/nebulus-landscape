@@ -1,0 +1,12 @@
+id: risk.unresolved_customer_data_exception
+name: Unresolved Customer Data Exception
+description: >
+  Risk that a flagged data quality exception in a customer record remains
+  unresolved, allowing incorrect data to persist in operational systems.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

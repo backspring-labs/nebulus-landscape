@@ -1,0 +1,12 @@
+id: ctrl.allowed_transition_matrix
+name: Allowed Transition Matrix
+description: >
+  Defines and enforces the set of valid state transitions for customer lifecycle
+  states, preventing invalid or out-of-sequence status changes.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

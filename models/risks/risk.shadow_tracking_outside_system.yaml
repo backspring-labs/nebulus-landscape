@@ -1,0 +1,12 @@
+id: risk.shadow_tracking_outside_system
+name: Shadow Tracking Outside System
+description: >
+  Risk that customer data or relationship tracking occurs in unofficial
+  systems such as spreadsheets, bypassing controls and audit trails.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

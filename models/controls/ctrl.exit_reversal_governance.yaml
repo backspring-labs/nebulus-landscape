@@ -1,0 +1,12 @@
+id: ctrl.exit_reversal_governance
+name: Exit Reversal Governance
+description: >
+  Governs the conditions and approval process under which a completed customer
+  exit may be reversed, preventing unauthorized relationship reinstatement.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

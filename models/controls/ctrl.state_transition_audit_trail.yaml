@@ -1,0 +1,12 @@
+id: ctrl.state_transition_audit_trail
+name: State Transition Audit Trail
+description: >
+  Maintains an immutable log of all state transitions across customer lifecycle
+  processes, supporting compliance reporting and forensic investigation.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

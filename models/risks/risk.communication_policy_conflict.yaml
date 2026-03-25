@@ -1,0 +1,12 @@
+id: risk.communication_policy_conflict
+name: Communication Policy Conflict
+description: >
+  Risk that conflicting communication policies result in contradictory or
+  inappropriate messaging to a customer across channels or business lines.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

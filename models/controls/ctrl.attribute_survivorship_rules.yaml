@@ -1,0 +1,12 @@
+id: ctrl.attribute_survivorship_rules
+name: Attribute Survivorship Rules
+description: >
+  Defines deterministic rules for which attribute values survive when merging
+  duplicate customer records, ensuring consistent and trustworthy master data.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

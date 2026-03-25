@@ -1,0 +1,12 @@
+id: ctrl.association_evidence_requirements
+name: Association Evidence Requirements
+description: >
+  Requires documented evidence before establishing or modifying associations
+  between customer records, ensuring relationship links are substantiated.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

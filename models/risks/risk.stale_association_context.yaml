@@ -1,0 +1,12 @@
+id: risk.stale_association_context
+name: Stale Association Context
+description: >
+  Risk that relationship or association metadata between customers becomes
+  outdated, leading to incorrect grouping or access decisions.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.consent_granularity_and_purpose_limitation
+name: Consent Granularity and Purpose Limitation
+description: >
+  Ensures consent is collected at an appropriate level of granularity and that
+  data usage is limited to the specific purposes for which consent was granted.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

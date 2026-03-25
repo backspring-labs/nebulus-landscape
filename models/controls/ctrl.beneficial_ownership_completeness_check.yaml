@@ -1,0 +1,12 @@
+id: ctrl.beneficial_ownership_completeness_check
+name: Beneficial Ownership Completeness Check
+description: >
+  Validates that beneficial ownership information is complete and meets regulatory
+  thresholds before allowing entity onboarding to proceed.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

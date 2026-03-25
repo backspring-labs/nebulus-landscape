@@ -1,0 +1,12 @@
+id: ctrl.communications_consent_controls
+name: Communications Consent Controls
+description: >
+  Validates that appropriate consent exists before sending communications to
+  customers, enforcing channel-specific consent requirements.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.multi_party_state_desynchronization
+name: Multi-Party State Desynchronization
+description: >
+  Risk that state information for multi-party relationships such as joint
+  accounts falls out of sync, causing conflicting views for each party.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

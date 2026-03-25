@@ -1,0 +1,12 @@
+id: risk.inaccurate_customer_lifecycle_state
+name: Inaccurate Customer Lifecycle State
+description: >
+  Risk that the recorded lifecycle state of a customer does not reflect their
+  actual status, causing incorrect treatment or missed obligations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

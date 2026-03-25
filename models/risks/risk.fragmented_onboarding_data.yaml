@@ -1,0 +1,12 @@
+id: risk.fragmented_onboarding_data
+name: Fragmented Onboarding Data
+description: >
+  Risk that data collected during customer onboarding is scattered across
+  multiple systems with no consolidated view of the intake record.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

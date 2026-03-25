@@ -1,0 +1,12 @@
+id: ctrl.completion_dependency_matrix
+name: Completion Dependency Matrix
+description: >
+  Defines and enforces prerequisite dependencies between onboarding steps,
+  preventing progression until all required prior steps are satisfied.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

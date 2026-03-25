@@ -1,0 +1,12 @@
+id: ctrl.versioned_attestation_capture
+name: Versioned Attestation Capture
+description: >
+  Captures customer attestations with version tracking, linking each attestation
+  to the specific version of the document or disclosure that was presented.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

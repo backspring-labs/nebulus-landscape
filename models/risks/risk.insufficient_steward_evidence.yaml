@@ -1,0 +1,12 @@
+id: risk.insufficient_steward_evidence
+name: Insufficient Steward Evidence
+description: >
+  Risk that data stewardship actions lack adequate evidence of review and
+  approval, weakening audit trails and accountability.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

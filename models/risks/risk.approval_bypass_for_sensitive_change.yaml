@@ -1,0 +1,12 @@
+id: risk.approval_bypass_for_sensitive_change
+name: Approval Bypass for Sensitive Change
+description: >
+  Risk that a sensitive change to customer data or account configuration is
+  executed without the required approval workflow or authorization.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

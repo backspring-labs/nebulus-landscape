@@ -1,0 +1,12 @@
+id: risk.customer_information_exposure
+name: Customer Information Exposure
+description: >
+  Risk that sensitive customer information is exposed to unauthorized parties
+  through data leaks, improper access controls, or system vulnerabilities.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

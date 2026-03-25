@@ -1,0 +1,12 @@
+id: risk.orphan_customer_record
+name: Orphan Customer Record
+description: >
+  Risk that a customer record exists without any associated accounts or
+  active relationships, creating data management and compliance ambiguity.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.missing_attestation_evidence
+name: Missing Attestation Evidence
+description: >
+  Risk that evidence supporting a customer's attestation is not captured or
+  retained, undermining the ability to verify claims during audits.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

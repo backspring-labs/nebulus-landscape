@@ -1,0 +1,12 @@
+id: ctrl.secure_document_storage_and_access
+name: Secure Document Storage and Access
+description: >
+  Ensures customer documents are stored securely with encryption and access
+  controls, limiting retrieval to authorized personnel and approved use cases.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

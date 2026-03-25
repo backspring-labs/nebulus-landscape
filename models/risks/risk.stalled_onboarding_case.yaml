@@ -1,0 +1,12 @@
+id: risk.stalled_onboarding_case
+name: Stalled Onboarding Case
+description: >
+  Risk that a customer onboarding case stalls indefinitely without resolution,
+  leaving the prospect in limbo and tying up operational resources.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

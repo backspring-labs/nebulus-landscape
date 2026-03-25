@@ -1,0 +1,12 @@
+id: ctrl.esign_affirmative_consent_controls
+name: E-Sign Affirmative Consent Controls
+description: >
+  Ensures affirmative consent is obtained for electronic signature and delivery
+  in compliance with E-SIGN Act requirements before proceeding with electronic transactions.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

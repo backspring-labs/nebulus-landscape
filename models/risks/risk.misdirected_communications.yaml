@@ -1,0 +1,12 @@
+id: risk.misdirected_communications
+name: Misdirected Communications
+description: >
+  Risk that customer communications are sent to the wrong recipient due to
+  incorrect contact data or routing errors, exposing sensitive information.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

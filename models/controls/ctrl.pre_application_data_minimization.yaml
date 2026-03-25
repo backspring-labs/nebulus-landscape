@@ -1,0 +1,12 @@
+id: ctrl.pre_application_data_minimization
+name: Pre-Application Data Minimization
+description: >
+  Limits the collection of customer data during pre-application stages to only
+  what is necessary, enforcing data minimization principles.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

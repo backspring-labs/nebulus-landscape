@@ -1,0 +1,12 @@
+id: risk.prerequisite_bypass
+name: Prerequisite Bypass
+description: >
+  Risk that a required prerequisite step in a customer process is skipped,
+  allowing progression without meeting necessary conditions.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

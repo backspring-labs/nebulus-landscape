@@ -1,0 +1,12 @@
+id: risk.overbroad_archived_record_access
+name: Overbroad Archived Record Access
+description: >
+  Risk that access to archived customer records is not sufficiently
+  restricted, allowing unauthorized users to view sensitive historical data.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.prospect_stage_governance
+name: Prospect Stage Governance
+description: >
+  Governs the rules and criteria for advancing prospects through pipeline stages,
+  ensuring consistent qualification and conversion standards.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

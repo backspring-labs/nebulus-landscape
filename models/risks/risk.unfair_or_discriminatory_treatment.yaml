@@ -1,0 +1,12 @@
+id: risk.unfair_or_discriminatory_treatment
+name: Unfair or Discriminatory Treatment
+description: >
+  Risk that customers receive unfair or discriminatory treatment based on
+  protected characteristics, violating fair lending and civil rights laws.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

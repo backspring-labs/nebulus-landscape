@@ -1,0 +1,12 @@
+id: ctrl.duplicate_rate_monitoring
+name: Duplicate Rate Monitoring
+description: >
+  Monitors the rate of duplicate customer records being created over time,
+  alerting when thresholds are exceeded to trigger root cause investigation.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

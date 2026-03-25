@@ -1,0 +1,12 @@
+id: risk.stale_due_diligence_documentation
+name: Stale Due Diligence Documentation
+description: >
+  Risk that due diligence documentation is not refreshed on schedule, leaving
+  the institution relying on outdated risk assessments.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

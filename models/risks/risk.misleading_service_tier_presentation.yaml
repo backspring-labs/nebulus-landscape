@@ -1,0 +1,12 @@
+id: risk.misleading_service_tier_presentation
+name: Misleading Service Tier Presentation
+description: >
+  Risk that service tier benefits or eligibility criteria are presented in a
+  misleading way, creating unfair expectations or regulatory exposure.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

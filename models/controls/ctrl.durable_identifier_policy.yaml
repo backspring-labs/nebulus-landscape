@@ -1,0 +1,12 @@
+id: ctrl.durable_identifier_policy
+name: Durable Identifier Policy
+description: >
+  Enforces assignment of stable, non-recyclable identifiers to customer records
+  that persist across merges, migrations, and system changes.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.incorrect_relationship_assignment
+name: Incorrect Relationship Assignment
+description: >
+  Risk that a customer is assigned to the wrong relationship manager or
+  service team, affecting service quality and accountability.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

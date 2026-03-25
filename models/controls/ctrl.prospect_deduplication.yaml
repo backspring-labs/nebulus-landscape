@@ -1,0 +1,12 @@
+id: ctrl.prospect_deduplication
+name: Prospect Deduplication
+description: >
+  Identifies and resolves duplicate prospect records before or during conversion
+  to customer status, preventing fragmented customer histories.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

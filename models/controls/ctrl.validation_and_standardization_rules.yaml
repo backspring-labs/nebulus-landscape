@@ -1,0 +1,12 @@
+id: ctrl.validation_and_standardization_rules
+name: Validation and Standardization Rules
+description: >
+  Applies validation and standardization rules to customer data at intake and
+  update, ensuring data conforms to defined formats, ranges, and business rules.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

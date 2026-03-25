@@ -1,0 +1,12 @@
+id: risk.inadequate_handoff_to_accounts
+name: Inadequate Handoff to Accounts
+description: >
+  Risk that the transition from customer onboarding to account servicing is
+  incomplete, leaving gaps in data or unfinished setup tasks.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

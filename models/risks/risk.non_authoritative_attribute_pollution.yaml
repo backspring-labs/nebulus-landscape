@@ -1,0 +1,12 @@
+id: risk.non_authoritative_attribute_pollution
+name: Non-Authoritative Attribute Pollution
+description: >
+  Risk that customer attributes from non-authoritative sources overwrite or
+  conflict with authoritative data, degrading overall data quality.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

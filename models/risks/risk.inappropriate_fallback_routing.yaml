@@ -1,0 +1,12 @@
+id: risk.inappropriate_fallback_routing
+name: Inappropriate Fallback Routing
+description: >
+  Risk that customer communications or cases are routed to an incorrect
+  fallback handler, causing delays or privacy exposure.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

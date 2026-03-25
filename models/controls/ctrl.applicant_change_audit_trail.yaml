@@ -1,0 +1,12 @@
+id: ctrl.applicant_change_audit_trail
+name: Applicant Change Audit Trail
+description: >
+  Captures and preserves a complete audit trail of all changes made to applicant
+  data throughout the application process.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

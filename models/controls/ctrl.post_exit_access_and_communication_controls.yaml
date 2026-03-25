@@ -1,0 +1,12 @@
+id: ctrl.post_exit_access_and_communication_controls
+name: Post-Exit Access and Communication Controls
+description: >
+  Restricts system access and outbound communications after customer exit,
+  ensuring only legally required or authorized interactions continue.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

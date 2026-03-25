@@ -1,0 +1,12 @@
+id: risk.version_mismatch
+name: Version Mismatch
+description: >
+  Risk that different systems or processes operate on different versions of a
+  customer record, causing conflicting decisions or data corruption.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

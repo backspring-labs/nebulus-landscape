@@ -1,0 +1,12 @@
+id: risk.invalid_or_missing_consent
+name: Invalid or Missing Consent
+description: >
+  Risk that customer consent is either not obtained or is obtained in a manner
+  that does not satisfy legal or regulatory requirements.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

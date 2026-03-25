@@ -1,0 +1,12 @@
+id: ctrl.record_classification_and_mapping
+name: Record Classification and Mapping
+description: >
+  Classifies customer records according to retention categories and maps them
+  to applicable regulatory and business retention requirements.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

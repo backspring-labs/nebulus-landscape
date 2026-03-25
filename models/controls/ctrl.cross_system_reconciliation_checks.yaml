@@ -1,0 +1,12 @@
+id: ctrl.cross_system_reconciliation_checks
+name: Cross-System Reconciliation Checks
+description: >
+  Performs periodic reconciliation of customer data across systems to detect
+  drift, missing updates, or inconsistencies between authoritative sources.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.access_controls_for_exception_workbenches
+name: Access Controls for Exception Workbenches
+description: >
+  Restricts access to exception handling workbenches to authorized personnel based
+  on role and need, preventing unauthorized viewing or resolution of customer exceptions.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

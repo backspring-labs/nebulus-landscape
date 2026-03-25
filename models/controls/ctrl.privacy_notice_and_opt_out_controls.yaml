@@ -1,0 +1,12 @@
+id: ctrl.privacy_notice_and_opt_out_controls
+name: Privacy Notice and Opt-Out Controls
+description: >
+  Ensures customers receive required privacy notices and are provided with
+  functioning opt-out mechanisms in compliance with privacy regulations.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

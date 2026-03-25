@@ -1,0 +1,12 @@
+id: ctrl.archival_and_disposition_audit_log
+name: Archival and Disposition Audit Log
+description: >
+  Maintains an immutable log of all record archival and disposition actions,
+  including who performed the action, when, and the justification.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

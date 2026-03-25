@@ -1,0 +1,12 @@
+id: risk.inconsistent_post_exit_treatment
+name: Inconsistent Post-Exit Treatment
+description: >
+  Risk that former customers receive inconsistent treatment after exit, such
+  as continued communications or uneven data retention practices.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

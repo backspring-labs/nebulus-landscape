@@ -1,0 +1,12 @@
+id: risk.restricted_customer_treated_as_active
+name: Restricted Customer Treated as Active
+description: >
+  Risk that a customer under restriction or suspension continues to receive
+  active treatment, violating compliance or legal requirements.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

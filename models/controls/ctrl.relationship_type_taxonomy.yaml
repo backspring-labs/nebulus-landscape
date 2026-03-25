@@ -1,0 +1,12 @@
+id: ctrl.relationship_type_taxonomy
+name: Relationship Type Taxonomy
+description: >
+  Defines a standardized taxonomy of customer relationship types, ensuring
+  consistent classification and interpretation of relationship roles across systems.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

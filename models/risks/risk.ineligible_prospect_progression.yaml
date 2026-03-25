@@ -1,0 +1,12 @@
+id: risk.ineligible_prospect_progression
+name: Ineligible Prospect Progression
+description: >
+  Risk that a prospect who does not meet eligibility criteria advances through
+  the onboarding pipeline, wasting resources and creating compliance exposure.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

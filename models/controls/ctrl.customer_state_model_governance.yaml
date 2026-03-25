@@ -1,0 +1,12 @@
+id: ctrl.customer_state_model_governance
+name: Customer State Model Governance
+description: >
+  Governs changes to the customer lifecycle state model itself, requiring review
+  and approval before new states or transitions are introduced.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

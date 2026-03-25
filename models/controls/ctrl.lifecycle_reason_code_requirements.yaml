@@ -1,0 +1,12 @@
+id: ctrl.lifecycle_reason_code_requirements
+name: Lifecycle Reason Code Requirements
+description: >
+  Requires standardized reason codes for all customer lifecycle state transitions,
+  ensuring every status change is documented with a valid justification.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

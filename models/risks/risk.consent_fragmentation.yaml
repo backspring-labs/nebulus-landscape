@@ -1,0 +1,12 @@
+id: risk.consent_fragmentation
+name: Consent Fragmentation
+description: >
+  Risk that customer consent records are scattered across multiple systems
+  with no single authoritative view of what the customer has agreed to.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

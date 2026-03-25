@@ -1,0 +1,12 @@
+id: ctrl.state_change_authorization
+name: State Change Authorization
+description: >
+  Requires appropriate authorization before executing customer lifecycle state
+  transitions, enforcing role-based permissions on state changes.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

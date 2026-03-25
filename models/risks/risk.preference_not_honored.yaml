@@ -1,0 +1,12 @@
+id: risk.preference_not_honored
+name: Preference Not Honored
+description: >
+  Risk that a customer's stated preferences for communication, privacy, or
+  servicing are not respected in operational processes.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

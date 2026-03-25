@@ -1,0 +1,12 @@
+id: ctrl.householding_rules_and_consent_controls
+name: Householding Rules and Consent Controls
+description: >
+  Defines rules for grouping customers into households and ensures appropriate
+  consent is obtained before sharing information within household groupings.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

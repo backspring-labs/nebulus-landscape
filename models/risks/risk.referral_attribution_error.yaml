@@ -1,0 +1,12 @@
+id: risk.referral_attribution_error
+name: Referral Attribution Error
+description: >
+  Risk that a customer referral is attributed to the wrong source, causing
+  incorrect incentive payments or distorted marketing analytics.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

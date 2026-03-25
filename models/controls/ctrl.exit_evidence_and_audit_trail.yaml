@@ -1,0 +1,12 @@
+id: ctrl.exit_evidence_and_audit_trail
+name: Exit Evidence and Audit Trail
+description: >
+  Captures and preserves all evidence and documentation related to customer
+  exit decisions, actions taken, and final disposition of the relationship.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

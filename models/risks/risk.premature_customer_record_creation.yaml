@@ -1,0 +1,12 @@
+id: risk.premature_customer_record_creation
+name: Premature Customer Record Creation
+description: >
+  Risk that a full customer record is created before eligibility or identity
+  verification is complete, polluting the customer master with unqualified entries.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

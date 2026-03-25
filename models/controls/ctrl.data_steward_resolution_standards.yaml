@@ -1,0 +1,12 @@
+id: ctrl.data_steward_resolution_standards
+name: Data Steward Resolution Standards
+description: >
+  Establishes standardized procedures and quality criteria that data stewards
+  must follow when resolving customer data issues and exceptions.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

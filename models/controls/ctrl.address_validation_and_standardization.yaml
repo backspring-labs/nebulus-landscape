@@ -1,0 +1,12 @@
+id: ctrl.address_validation_and_standardization
+name: Address Validation and Standardization
+description: >
+  Validates and standardizes customer address data against postal authority databases
+  to ensure deliverability and consistency across systems.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

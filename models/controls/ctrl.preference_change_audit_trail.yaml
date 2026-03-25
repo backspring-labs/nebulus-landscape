@@ -1,0 +1,12 @@
+id: ctrl.preference_change_audit_trail
+name: Preference Change Audit Trail
+description: >
+  Maintains a complete audit trail of all customer preference changes, capturing
+  the previous value, new value, timestamp, and actor for each modification.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

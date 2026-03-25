@@ -1,0 +1,12 @@
+id: risk.incomplete_application_data
+name: Incomplete Application Data
+description: >
+  Risk that a customer application proceeds with missing required fields,
+  leading to downstream processing failures or compliance gaps.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

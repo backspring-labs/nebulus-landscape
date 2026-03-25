@@ -1,0 +1,12 @@
+id: risk.archived_record_unavailability
+name: Archived Record Unavailability
+description: >
+  Risk that archived customer records cannot be retrieved when needed for
+  regulatory inquiries, audits, or dispute resolution.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.inconsistent_manual_remediation
+name: Inconsistent Manual Remediation
+description: >
+  Risk that manual data corrections are applied inconsistently across cases,
+  introducing new errors or failing to fully resolve the original issue.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

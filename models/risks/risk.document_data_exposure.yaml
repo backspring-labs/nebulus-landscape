@@ -1,0 +1,12 @@
+id: risk.document_data_exposure
+name: Document Data Exposure
+description: >
+  Risk that sensitive customer documents such as identification or financial
+  records are exposed to unauthorized users or systems.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

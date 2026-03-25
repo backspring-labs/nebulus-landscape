@@ -1,0 +1,12 @@
+id: risk.unauthorized_profile_change
+name: Unauthorized Profile Change
+description: >
+  Risk that a customer's profile information is modified by an unauthorized
+  user or process, compromising data integrity and trust.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

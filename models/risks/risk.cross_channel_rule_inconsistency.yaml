@@ -1,0 +1,12 @@
+id: risk.cross_channel_rule_inconsistency
+name: Cross-Channel Rule Inconsistency
+description: >
+  Risk that business rules applied to customer interactions differ across
+  channels, causing inconsistent experiences or policy violations.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

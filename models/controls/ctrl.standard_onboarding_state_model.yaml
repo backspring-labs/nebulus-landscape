@@ -1,0 +1,12 @@
+id: ctrl.standard_onboarding_state_model
+name: Standard Onboarding State Model
+description: >
+  Defines and enforces a standardized state model for customer onboarding,
+  ensuring all applications progress through consistent, well-defined stages.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

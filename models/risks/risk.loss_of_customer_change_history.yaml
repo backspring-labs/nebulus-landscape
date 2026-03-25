@@ -1,0 +1,12 @@
+id: risk.loss_of_customer_change_history
+name: Loss of Customer Change History
+description: >
+  Risk that the history of changes to customer data is lost or overwritten,
+  eliminating the ability to audit past states or investigate disputes.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

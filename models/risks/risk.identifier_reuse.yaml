@@ -1,0 +1,12 @@
+id: risk.identifier_reuse
+name: Identifier Reuse
+description: >
+  Risk that a previously retired customer or account identifier is reassigned,
+  causing data from the prior entity to leak into the new one.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

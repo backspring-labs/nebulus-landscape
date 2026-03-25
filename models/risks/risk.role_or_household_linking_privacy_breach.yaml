@@ -1,0 +1,12 @@
+id: risk.role_or_household_linking_privacy_breach
+name: Role or Household Linking Privacy Breach
+description: >
+  Risk that linking customers by role or household inadvertently exposes one
+  party's private information to another without authorization.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

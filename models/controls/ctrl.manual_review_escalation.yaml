@@ -1,0 +1,12 @@
+id: ctrl.manual_review_escalation
+name: Manual Review Escalation
+description: >
+  Escalates customer cases that cannot be resolved through automated processes
+  to manual review queues with appropriate routing and priority assignment.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.customer
+source_refs: []
+status: draft

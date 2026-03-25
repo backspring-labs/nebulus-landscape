@@ -1,0 +1,12 @@
+id: risk.duplicate_record_operational_failure
+name: Duplicate Record Operational Failure
+description: >
+  Risk that duplicate customer records cause operational failures such as
+  split balances, missed alerts, or inconsistent servicing.
+domain_id: domain.customer
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

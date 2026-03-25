@@ -1,0 +1,12 @@
+id: ctrl.central_consent_registry
+name: Central Consent Registry
+description: >
+  Maintains a centralized registry of all customer consent records, providing
+  a single authoritative source for consent status across the organization.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

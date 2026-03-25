@@ -1,0 +1,12 @@
+id: ctrl.ambiguous_match_manual_review
+name: Ambiguous Match Manual Review
+description: >
+  Routes ambiguous or uncertain identity matches to a manual review queue for
+  human adjudication before linking or merging customer records.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.customer
+source_refs: []
+status: draft

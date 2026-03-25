@@ -1,0 +1,12 @@
+id: ctrl.match_threshold_governance
+name: Match Threshold Governance
+description: >
+  Governs the calibration and periodic review of matching thresholds used in
+  customer deduplication, balancing precision and recall.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

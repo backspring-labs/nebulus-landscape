@@ -1,0 +1,12 @@
+id: ctrl.provenance_and_effective_dating
+name: Provenance and Effective Dating
+description: >
+  Tracks the origin and source of customer data along with effective dates,
+  enabling lineage tracing and temporal accuracy of all data points.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft

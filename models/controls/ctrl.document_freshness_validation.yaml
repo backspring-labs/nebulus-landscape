@@ -1,0 +1,12 @@
+id: ctrl.document_freshness_validation
+name: Document Freshness Validation
+description: >
+  Validates that customer-submitted documents are within acceptable age limits
+  and flags expired or stale documents for re-collection.
+domain_id: domain.customer
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.customer
+source_refs: []
+status: draft
