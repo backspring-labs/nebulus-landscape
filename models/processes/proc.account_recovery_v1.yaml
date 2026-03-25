@@ -1,0 +1,39 @@
+id: proc.account_recovery_v1
+name: Account Recovery Process
+journey_id: journey.recover_account_access
+description: >
+  Operational process for restoring account access after lockout, credential
+  loss, lost authenticator, or suspected compromise.
+stage_ids:
+  - stage.account_recovery_v1.recovery_intake
+  - stage.account_recovery_v1.recovery_scenario_triage
+  - stage.account_recovery_v1.reproof_and_assurance_reestablishment
+  - stage.account_recovery_v1.reset_or_rebind_access_artifacts
+  - stage.account_recovery_v1.cleanup_prior_trust_state
+  - stage.account_recovery_v1.reauthentication_after_recovery
+  - stage.account_recovery_v1.recovery_completion_and_monitoring
+risk_ids:
+  - risk.weak_recovery_path
+  - risk.support_assisted_recovery_bypass
+  - risk.persistent_prior_trust_state
+  - risk.inconsistent_recovery_treatment
+  - risk.weak_recovery_evidence
+control_ids:
+  - ctrl.recovery_assurance_by_risk_tier
+  - ctrl.reproofing_requirements_for_sensitive_recovery
+  - ctrl.factor_replacement_step_up_controls
+  - ctrl.post_recovery_session_cleanup
+  - ctrl.recovery_event_audit_trail
+  - ctrl.post_recovery_monitoring_controls
+system_ids:
+  - sys.recovery_workflow_service
+  - sys.identity_reverification_service
+  - sys.credential_reset_service
+  - sys.global_session_token_termination_service
+  - sys.session_service
+  - sys.access_governance_evidence_repository
+source_refs:
+  - src.nist_sp800_63b4_authentication_lifecycle
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high

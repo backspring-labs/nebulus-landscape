@@ -1,0 +1,38 @@
+id: proc.privileged_admin_action_v1
+name: Privileged Admin Action Process
+journey_id: journey.authorize_privileged_admin_action
+description: >
+  Operational process for executing a high-risk privileged action under stronger
+  assurance, policy, monitoring, and evidence controls.
+stage_ids:
+  - stage.privileged_admin_action_v1.request_intake
+  - stage.privileged_admin_action_v1.eligibility_and_scope_determination
+  - stage.privileged_admin_action_v1.strong_assurance_execution
+  - stage.privileged_admin_action_v1.runtime_policy_evaluation
+  - stage.privileged_admin_action_v1.privileged_execution_window
+  - stage.privileged_admin_action_v1.evidence_and_review_capture
+risk_ids:
+  - risk.excessive_privileged_scope
+  - risk.insufficient_assurance_for_privileged_action
+  - risk.unmonitored_privileged_execution
+  - risk.break_glass_control_bypass
+  - risk.incomplete_privileged_evidence
+control_ids:
+  - ctrl.privileged_access_classification_rules
+  - ctrl.just_in_time_or_time_bound_privileged_access
+  - ctrl.strong_assurance_for_privileged_actions
+  - ctrl.runtime_privileged_policy_rules
+  - ctrl.privileged_session_monitoring
+  - ctrl.evidence_traceability_to_approval_basis
+system_ids:
+  - sys.pam_platform
+  - sys.privileged_access_approval_service
+  - sys.policy_decision_point
+  - sys.step_up_challenge_service
+  - sys.privileged_session_manager
+  - sys.access_governance_evidence_repository
+source_refs:
+  - src.cisa_zero_trust_guidance
+  - src.cisa_icam_reference_architecture
+status: draft
+confidence: high

@@ -1,0 +1,38 @@
+id: proc.deprovision_access_after_customer_exit_v1
+name: Deprovision Access After Customer Exit Process
+journey_id: journey.deprovision_access_after_customer_exit
+description: >
+  Operational process for cleaning up customer access state after an
+  authoritative customer exit or restriction trigger.
+stage_ids:
+  - stage.deprovision_access_after_customer_exit_v1.exit_trigger_intake
+  - stage.deprovision_access_after_customer_exit_v1.cleanup_scope_determination
+  - stage.deprovision_access_after_customer_exit_v1.session_and_runtime_state_revocation
+  - stage.deprovision_access_after_customer_exit_v1.access_artifact_cleanup
+  - stage.deprovision_access_after_customer_exit_v1.cleanup_confirmation_and_reconciliation
+  - stage.deprovision_access_after_customer_exit_v1.evidence_and_exception_closure
+risk_ids:
+  - risk.persistent_access_after_customer_exit
+  - risk.incomplete_runtime_or_delegated_cleanup
+  - risk.cross_system_cleanup_inconsistency
+  - risk.weak_post_exit_cleanup_evidence
+  - risk.ungoverned_post_exit_exception
+control_ids:
+  - ctrl.authoritative_exit_trigger_validation
+  - ctrl.exit_triggered_access_cleanup_rules
+  - ctrl.global_session_token_and_authenticator_revocation
+  - ctrl.cross_system_cleanup_reconciliation
+  - ctrl.time_bound_post_exit_exceptions
+  - ctrl.post_exit_evidence_and_audit_trail
+system_ids:
+  - sys.post_exit_cleanup_orchestrator
+  - sys.deprovisioning_and_revocation_service
+  - sys.global_session_token_termination_service
+  - sys.authenticator_binding_registry
+  - sys.third_party_token_registry
+  - sys.access_governance_evidence_repository
+source_refs:
+  - src.cisa_icam_reference_architecture
+  - src.ffiec_authentication_access_2021
+status: draft
+confidence: high
