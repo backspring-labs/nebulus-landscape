@@ -1,0 +1,51 @@
+id: cap.identity_and_onboarding_risk_decisioning
+name: Identity & Onboarding Risk Decisioning
+domain_id: domain.risk_fraud
+description: >
+  Render risk-based accept, reject, refer, or conditional-approval decisions for
+  customer onboarding and identity verification events by evaluating identity risk
+  signals, fraud indicators, and compliance factors against policy thresholds.
+value_stream_ids:
+  - vs.customer_onboarding
+  - vs.bsa_aml_readiness
+  - vs.fraud_prevention
+  - vs.trusted_customer_relationship
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_business_deposit_account
+  - journey.digital_identity_verification
+  - journey.onboarding_escalation_review
+process_ids:
+  - proc.onboarding_risk_signal_aggregation
+  - proc.identity_risk_decision_execution
+  - proc.onboarding_decision_adjudication
+  - proc.conditional_approval_management
+  - proc.onboarding_decision_documentation
+risk_ids:
+  - risk.false_negative_onboarding_approval
+  - risk.excessive_false_positive_referrals
+  - risk.identity_signal_latency
+  - risk.inconsistent_decision_across_channels
+  - risk.undocumented_onboarding_override
+control_ids:
+  - ctrl.onboarding_decision_policy_matrix
+  - ctrl.multi_signal_aggregation_validation
+  - ctrl.decision_override_governance
+  - ctrl.channel_parity_monitoring
+  - ctrl.decision_audit_trail
+  - ctrl.false_positive_rate_monitoring
+provider_ids:
+  - prov.alloy
+  - prov.lexisnexis_risk_solutions
+  - prov.socure
+  - prov.nice_actimize
+  - prov.featurespace
+  - prov.jumio
+system_ids:
+  - sys.onboarding_decision_engine
+  - sys.identity_risk_signal_hub
+  - sys.onboarding_case_management
+  - sys.decision_audit_repository
+source_refs: []
+status: draft
+confidence: high

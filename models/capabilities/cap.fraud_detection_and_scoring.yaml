@@ -1,0 +1,53 @@
+id: cap.fraud_detection_and_scoring
+name: Fraud Detection & Scoring
+domain_id: domain.risk_fraud
+description: >
+  Detect, score, and prioritize potential fraud events across application, transaction,
+  and account activity channels using rules, models, and behavioral analytics to enable
+  timely interdiction, investigation, and loss prevention.
+value_stream_ids:
+  - vs.fraud_prevention
+  - vs.payment_integrity
+  - vs.customer_onboarding
+  - vs.trusted_customer_relationship
+journey_ids:
+  - journey.real_time_transaction_fraud_check
+  - journey.application_fraud_review
+  - journey.fraud_alert_investigation
+  - journey.account_takeover_detection
+  - journey.fraud_case_resolution
+process_ids:
+  - proc.transaction_fraud_scoring
+  - proc.application_fraud_scoring
+  - proc.behavioral_anomaly_detection
+  - proc.fraud_alert_generation
+  - proc.fraud_alert_triage_and_disposition
+  - proc.fraud_model_performance_monitoring
+risk_ids:
+  - risk.undetected_fraud_event
+  - risk.excessive_fraud_false_positives
+  - risk.model_drift_in_fraud_scoring
+  - risk.delayed_fraud_interdiction
+  - risk.fraud_detection_coverage_gap
+control_ids:
+  - ctrl.fraud_model_validation_and_back_testing
+  - ctrl.fraud_rule_change_governance
+  - ctrl.alert_volume_and_quality_monitoring
+  - ctrl.interdiction_timeliness_sla
+  - ctrl.fraud_detection_coverage_review
+  - ctrl.fraud_score_threshold_calibration
+provider_ids:
+  - prov.featurespace
+  - prov.nice_actimize
+  - prov.fico
+  - prov.sas
+  - prov.feedzai
+  - prov.lexisnexis_risk_solutions
+system_ids:
+  - sys.fraud_detection_engine
+  - sys.fraud_case_management
+  - sys.behavioral_analytics_platform
+  - sys.fraud_model_governance_platform
+source_refs: []
+status: draft
+confidence: high

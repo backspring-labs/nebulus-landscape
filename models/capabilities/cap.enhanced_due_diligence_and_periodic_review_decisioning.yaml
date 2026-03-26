@@ -1,0 +1,53 @@
+id: cap.enhanced_due_diligence_and_periodic_review_decisioning
+name: Enhanced Due Diligence & Periodic Review Decisioning
+domain_id: domain.risk_fraud
+description: >
+  Render risk-based decisions on enhanced due diligence requirements, periodic review
+  outcomes, and ongoing customer relationship acceptability by evaluating accumulated
+  risk intelligence, behavioral patterns, and compliance signals against policy
+  thresholds.
+value_stream_ids:
+  - vs.bsa_aml_readiness
+  - vs.compliance_enablement
+  - vs.trusted_customer_relationship
+  - vs.enterprise_risk_governance
+journey_ids:
+  - journey.escalated_due_diligence_review
+  - journey.periodic_customer_risk_review
+  - journey.high_risk_relationship_continuation
+  - journey.edd_triggered_by_adverse_event
+process_ids:
+  - proc.edd_trigger_evaluation
+  - proc.edd_information_assessment
+  - proc.periodic_review_scheduling
+  - proc.periodic_review_decision_execution
+  - proc.relationship_continuation_decisioning
+  - proc.edd_decision_documentation
+risk_ids:
+  - risk.missed_edd_trigger
+  - risk.overdue_periodic_review
+  - risk.insufficient_edd_depth
+  - risk.relationship_retained_despite_unacceptable_risk
+  - risk.inconsistent_review_standards
+control_ids:
+  - ctrl.edd_trigger_completeness_monitoring
+  - ctrl.periodic_review_schedule_adherence
+  - ctrl.edd_decision_quality_review
+  - ctrl.relationship_exit_escalation_path
+  - ctrl.review_documentation_completeness
+  - ctrl.edd_policy_alignment_validation
+provider_ids:
+  - prov.fenergo
+  - prov.nice_actimize
+  - prov.moodys
+  - prov.refinitiv
+  - prov.lexisnexis_risk_solutions
+  - prov.dow_jones
+system_ids:
+  - sys.edd_case_management
+  - sys.periodic_review_workflow_engine
+  - sys.risk_intelligence_aggregation_service
+  - sys.edd_decision_repository
+source_refs: []
+status: draft
+confidence: high

@@ -1,0 +1,51 @@
+id: cap.financial_crime_risk_appetite_and_policy_management
+name: Financial Crime Risk Appetite & Policy Management
+domain_id: domain.risk_fraud
+description: >
+  Define, maintain, and operationalize the institution's financial crime risk appetite
+  statements, tolerance thresholds, and supporting policies that govern how AML, fraud,
+  sanctions, and related financial crime risks are identified, assessed, and mitigated
+  across the enterprise.
+value_stream_ids:
+  - vs.bsa_aml_readiness
+  - vs.compliance_enablement
+  - vs.trusted_customer_relationship
+  - vs.enterprise_risk_governance
+journey_ids:
+  - journey.annual_bsa_aml_risk_assessment
+  - journey.policy_update_and_approval
+  - journey.regulatory_exam_preparation
+  - journey.new_product_risk_assessment
+process_ids:
+  - proc.risk_appetite_statement_definition
+  - proc.financial_crime_policy_authoring
+  - proc.policy_exception_management
+  - proc.risk_tolerance_threshold_calibration
+  - proc.policy_attestation_and_certification
+risk_ids:
+  - risk.misaligned_risk_appetite_and_controls
+  - risk.stale_financial_crime_policy
+  - risk.unreviewed_policy_exception
+  - risk.inconsistent_risk_tolerance_across_business_lines
+  - risk.regulatory_expectation_gap
+control_ids:
+  - ctrl.risk_appetite_annual_review
+  - ctrl.policy_version_governance
+  - ctrl.exception_approval_authority_matrix
+  - ctrl.tolerance_threshold_monitoring
+  - ctrl.policy_regulatory_mapping
+  - ctrl.board_attestation_tracking
+provider_ids:
+  - prov.nice_actimize
+  - prov.sas
+  - prov.oracle_financial_crime
+  - prov.moodys
+  - prov.wolters_kluwer
+system_ids:
+  - sys.financial_crime_policy_repository
+  - sys.risk_appetite_dashboard
+  - sys.policy_workflow_engine
+  - sys.regulatory_change_tracker
+source_refs: []
+status: draft
+confidence: high

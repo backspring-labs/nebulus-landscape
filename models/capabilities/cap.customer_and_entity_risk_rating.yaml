@@ -1,0 +1,51 @@
+id: cap.customer_and_entity_risk_rating
+name: Customer & Entity Risk Rating
+domain_id: domain.risk_fraud
+description: >
+  Assess, assign, and maintain financial crime risk ratings for customers and entities
+  based on inherent and residual risk factors, enabling risk-proportionate treatment
+  across onboarding, monitoring, and periodic review.
+value_stream_ids:
+  - vs.bsa_aml_readiness
+  - vs.customer_onboarding
+  - vs.compliance_enablement
+  - vs.trusted_customer_relationship
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_business_deposit_account
+  - journey.periodic_customer_risk_review
+  - journey.risk_rating_override_review
+process_ids:
+  - proc.customer_risk_factor_assessment
+  - proc.risk_rating_model_execution
+  - proc.risk_rating_assignment
+  - proc.risk_rating_override_adjudication
+  - proc.periodic_risk_rating_refresh
+risk_ids:
+  - risk.understated_customer_risk_rating
+  - risk.stale_risk_rating
+  - risk.model_drift_in_risk_scoring
+  - risk.unvalidated_risk_rating_override
+  - risk.incomplete_risk_factor_data
+control_ids:
+  - ctrl.risk_rating_model_validation
+  - ctrl.override_approval_authority
+  - ctrl.periodic_rating_refresh_schedule
+  - ctrl.risk_factor_completeness_check
+  - ctrl.rating_distribution_monitoring
+  - ctrl.model_performance_back_testing
+provider_ids:
+  - prov.nice_actimize
+  - prov.fenergo
+  - prov.sas
+  - prov.oracle_financial_crime
+  - prov.lexisnexis_risk_solutions
+  - prov.moodys
+system_ids:
+  - sys.customer_risk_rating_engine
+  - sys.risk_factor_aggregation_service
+  - sys.risk_rating_case_management
+  - sys.model_governance_platform
+source_refs: []
+status: draft
+confidence: high

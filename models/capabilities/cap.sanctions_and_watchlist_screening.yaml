@@ -1,0 +1,54 @@
+id: cap.sanctions_and_watchlist_screening
+name: Sanctions & Watchlist Screening
+domain_id: domain.risk_fraud
+description: >
+  Screen customers, counterparties, transactions, and related entities against
+  sanctions lists, PEP databases, adverse media sources, and regulatory watchlists
+  to identify prohibited or high-risk associations and enable timely interdiction
+  or escalation.
+value_stream_ids:
+  - vs.bsa_aml_readiness
+  - vs.compliance_enablement
+  - vs.customer_onboarding
+  - vs.payment_integrity
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_business_deposit_account
+  - journey.wire_transfer_initiation
+  - journey.sanctions_alert_investigation
+  - journey.periodic_batch_rescreening
+process_ids:
+  - proc.name_and_entity_screening
+  - proc.transaction_screening
+  - proc.screening_alert_disposition
+  - proc.true_match_escalation
+  - proc.list_update_ingestion
+  - proc.periodic_batch_rescreening
+risk_ids:
+  - risk.missed_sanctions_match
+  - risk.excessive_false_positive_alerts
+  - risk.stale_watchlist_data
+  - risk.screening_coverage_gap
+  - risk.delayed_list_update_ingestion
+control_ids:
+  - ctrl.screening_coverage_completeness
+  - ctrl.list_update_timeliness_monitoring
+  - ctrl.fuzzy_matching_threshold_calibration
+  - ctrl.alert_disposition_quality_review
+  - ctrl.true_match_escalation_sla
+  - ctrl.screening_audit_trail
+provider_ids:
+  - prov.nice_actimize
+  - prov.refinitiv
+  - prov.fircosoft
+  - prov.lexisnexis_risk_solutions
+  - prov.dow_jones
+  - prov.oracle_financial_crime
+system_ids:
+  - sys.sanctions_screening_engine
+  - sys.watchlist_management_platform
+  - sys.screening_alert_case_management
+  - sys.list_ingestion_service
+source_refs: []
+status: draft
+confidence: high
