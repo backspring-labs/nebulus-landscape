@@ -1,0 +1,38 @@
+id: journey.convert_account_product
+name: Convert Account Product
+description: >
+  Customer or institution converts an existing deposit account from one product
+  type to another, adjusting terms, features, interest and fee configurations,
+  and party roles while preserving account history and maintaining regulatory
+  and operational continuity.
+actor: retail_customer
+domain_ids:
+  - domain.accounts
+  - domain.customer
+  - domain.risk_fraud
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.account_conversion_and_migration_management
+  - cap.account_terms_and_feature_management
+  - cap.account_interest_and_fee_configuration_management
+  - cap.account_status_and_restriction_management
+  - cap.account_party_role_management
+  - cap.account_maintenance_management
+  - cap.customer_consent_management
+  - cap.customer_disclosure_attestation_management
+  - cap.customer_lifecycle_state_management
+value_stream_id: vs.deposit_account_servicing
+process_id: proc.account_conversion_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_branch
+  - customer_request_call_center
+  - institution_initiated_conversion
+outcomes:
+  - account_converted_to_new_product
+  - new_terms_and_features_applied
+  - history_and_continuity_preserved
+source_refs: []
+status: draft
+confidence: medium

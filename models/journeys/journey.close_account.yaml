@@ -1,0 +1,39 @@
+id: journey.close_account
+name: Close Account
+description: >
+  Customer or institution initiates and completes the closure of a deposit
+  account, ensuring all balances are resolved, holds and obligations are
+  cleared, regulatory retention requirements are addressed, and the account
+  transitions to a closed terminal state.
+actor: retail_customer
+domain_ids:
+  - domain.accounts
+  - domain.customer
+  - domain.payments
+  - domain.ledger_core
+  - domain.risk_fraud
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.account_closure_management
+  - cap.account_status_and_restriction_management
+  - cap.account_hold_and_constraint_management
+  - cap.account_interest_and_fee_configuration_management
+  - cap.account_record_retention_and_archival
+  - cap.account_party_role_management
+  - cap.account_exception_and_remediation_management
+  - cap.customer_lifecycle_state_management
+value_stream_id: vs.deposit_account_servicing
+process_id: proc.account_closure_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_branch
+  - customer_request_call_center
+  - institution_initiated_closure
+outcomes:
+  - account_closed
+  - remaining_balance_disbursed
+  - retention_and_archival_initiated
+source_refs: []
+status: draft
+confidence: high

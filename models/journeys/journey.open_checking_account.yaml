@@ -1,0 +1,51 @@
+id: journey.open_checking_account
+name: Open Checking Account
+description: >
+  Retail customer opens and funds a checking account through a path that
+  establishes or confirms the customer relationship, satisfies onboarding and
+  account-level controls, creates the checking account contract, enables initial
+  funding, and transitions the account into an active servicing state.
+actor: retail_customer
+domain_ids:
+  - domain.accounts
+  - domain.customer
+  - domain.identity_access
+  - domain.risk_fraud
+  - domain.payments
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.account_opening
+  - cap.account_application_and_contract_formation
+  - cap.account_party_role_management
+  - cap.account_terms_and_feature_management
+  - cap.account_funding_readiness_management
+  - cap.account_status_and_restriction_management
+  - cap.account_overdraft_and_protection_management
+  - cap.account_interest_and_fee_configuration_management
+  - cap.customer_acquisition_management
+  - cap.customer_application_intake
+  - cap.customer_onboarding_orchestration
+  - cap.customer_identity_establishment
+  - cap.customer_party_resolution
+  - cap.customer_due_diligence_coordination
+  - cap.customer_profile_management
+  - cap.customer_contact_management
+  - cap.customer_consent_management
+  - cap.customer_disclosure_attestation_management
+  - cap.customer_lifecycle_state_management
+value_stream_id: vs.deposit_account_opening
+process_id: proc.account_opening_v1
+entry_points:
+  - digital_channel
+  - branch
+  - partner_referral
+  - call_center
+outcomes:
+  - checking_account_opened
+  - customer_established_or_confirmed
+  - initial_funding_completed_or_pending
+  - overdraft_protection_configured_or_deferred
+source_refs: []
+status: draft
+confidence: high

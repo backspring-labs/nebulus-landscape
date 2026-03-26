@@ -1,0 +1,37 @@
+id: journey.reactivate_dormant_account
+name: Reactivate Dormant Account
+description: >
+  Customer or institution reactivates a deposit account that has entered a
+  dormant or inactive state, re-establishing the account for normal
+  transactional use after satisfying re-verification, compliance, and
+  operational prerequisites.
+actor: retail_customer
+domain_ids:
+  - domain.accounts
+  - domain.customer
+  - domain.identity_access
+  - domain.risk_fraud
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.account_dormancy_and_escheat_coordination
+  - cap.account_status_and_restriction_management
+  - cap.account_hold_and_constraint_management
+  - cap.account_party_role_management
+  - cap.account_maintenance_management
+  - cap.customer_due_diligence_coordination
+  - cap.customer_lifecycle_state_management
+value_stream_id: vs.deposit_account_servicing
+process_id: proc.account_reactivation_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_branch
+  - customer_request_call_center
+  - institution_initiated_reactivation
+outcomes:
+  - account_reactivated
+  - customer_re_verified
+  - normal_servicing_resumed
+source_refs: []
+status: draft
+confidence: medium
