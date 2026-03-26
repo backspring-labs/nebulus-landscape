@@ -1,0 +1,52 @@
+id: cap.account_interest_and_fee_configuration_management
+name: Account Interest and Fee Configuration Management
+domain_id: domain.accounts
+description: >
+  Configure and manage account-level interest accrual parameters, rate
+  structures, fee schedules, and fee waiver rules, owning the product
+  configuration layer while leaving computation and posting to the ledger.
+value_stream_ids:
+  - vs.account_feature_configuration
+  - vs.deposit_product_realization
+  - vs.fee_income_optimization
+  - vs.regulatory_compliance_assurance
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.update_account_features
+  - journey.review_account_fees
+  - journey.apply_fee_waiver
+process_ids:
+  - proc.interest_rate_tier_configuration
+  - proc.fee_schedule_configuration
+  - proc.fee_waiver_rule_management
+  - proc.rate_and_fee_change_governance
+risk_ids:
+  - risk.interest_rate_misconfiguration
+  - risk.fee_schedule_misconfiguration
+  - risk.fee_waiver_abuse
+  - risk.rate_change_not_disclosed
+  - risk.configuration_vs_posting_divergence
+control_ids:
+  - ctrl.rate_configuration_product_consistency_validation
+  - ctrl.fee_schedule_product_consistency_validation
+  - ctrl.fee_waiver_authorization_and_limits
+  - ctrl.rate_change_disclosure_compliance
+  - ctrl.interest_fee_configuration_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+system_ids:
+  - sys.interest_rate_configuration_service
+  - sys.fee_schedule_management_service
+  - sys.fee_waiver_rules_engine
+  - sys.pricing_rate_configuration_service
+  - sys.account_parameter_engine
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+  - src.ecfr_reg_q_12cfr217
+status: draft
+confidence: high

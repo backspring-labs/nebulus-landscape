@@ -1,0 +1,52 @@
+id: cap.account_status_and_restriction_management
+name: Account Status and Restriction Management
+domain_id: domain.accounts
+description: >
+  Govern the account's lifecycle state (active, inactive, dormant, restricted,
+  frozen, closed) and manage transitions between states, including restriction
+  application and removal driven by regulatory, legal, risk, or operational events.
+value_stream_ids:
+  - vs.account_lifecycle_governance
+  - vs.account_restriction_enforcement
+  - vs.deposit_account_servicing
+  - vs.regulatory_compliance_assurance
+journey_ids:
+  - journey.place_account_hold
+  - journey.release_account_hold
+  - journey.reactivate_dormant_account
+  - journey.close_deposit_account
+  - journey.restrict_account_for_legal_order
+process_ids:
+  - proc.account_status_transition_governance
+  - proc.account_restriction_application
+  - proc.account_restriction_removal
+  - proc.account_status_reconciliation
+risk_ids:
+  - risk.unauthorized_status_transition
+  - risk.restriction_not_applied_timely
+  - risk.restriction_not_removed_timely
+  - risk.status_state_divergence_across_systems
+  - risk.dormancy_detection_failure
+control_ids:
+  - ctrl.status_transition_authorization_matrix
+  - ctrl.restriction_application_timeliness_monitoring
+  - ctrl.restriction_removal_governance
+  - ctrl.account_status_reconciliation_across_systems
+  - ctrl.status_change_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+system_ids:
+  - sys.account_status_engine
+  - sys.restriction_management_service
+  - sys.account_lifecycle_state_machine
+  - sys.operations_servicing_workbench
+  - sys.regulatory_restriction_intake_service
+source_refs:
+  - src.ecfr_reg_d_12cfr204
+  - src.ucc_article_4
+status: draft
+confidence: high

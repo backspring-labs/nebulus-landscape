@@ -1,0 +1,52 @@
+id: cap.account_statement_and_cycle_management
+name: Account Statement and Cycle Management
+domain_id: domain.accounts
+description: >
+  Produce periodic statements, manage statement cycles, deliver disclosures,
+  and maintain statement history for deposit accounts across all delivery
+  channels and regulatory requirements.
+value_stream_ids:
+  - vs.account_transparency_and_disclosure
+  - vs.regulatory_compliance_assurance
+  - vs.deposit_account_servicing
+  - vs.customer_communication_delivery
+journey_ids:
+  - journey.generate_account_statement
+  - journey.update_account_preferences
+  - journey.retrieve_historical_statement
+  - journey.switch_statement_delivery_channel
+  - journey.correct_statement_error
+process_ids:
+  - proc.statement_cycle_execution
+  - proc.statement_generation_and_rendering
+  - proc.statement_delivery_orchestration
+  - proc.statement_archive_and_retrieval
+risk_ids:
+  - risk.statement_generation_failure
+  - risk.statement_delivery_failure
+  - risk.statement_content_inaccuracy
+  - risk.statement_cycle_misconfiguration
+  - risk.statement_retention_noncompliance
+control_ids:
+  - ctrl.statement_generation_completeness_validation
+  - ctrl.statement_delivery_confirmation
+  - ctrl.statement_content_accuracy_reconciliation
+  - ctrl.statement_cycle_configuration_governance
+  - ctrl.statement_retention_schedule_enforcement
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.doxim
+system_ids:
+  - sys.statement_generation_engine
+  - sys.statement_delivery_platform
+  - sys.statement_archive_repository
+  - sys.statement_cycle_configuration_service
+  - sys.e_statement_portal
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+  - src.ecfr_reg_e_12cfr1005
+status: draft
+confidence: high

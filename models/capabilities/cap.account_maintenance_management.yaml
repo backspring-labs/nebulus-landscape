@@ -1,0 +1,51 @@
+id: cap.account_maintenance_management
+name: Account Maintenance Management
+domain_id: domain.accounts
+description: >
+  Perform routine and non-routine changes to account attributes such as address
+  of record, account nickname, delivery preferences, product feature changes,
+  and other account-level modifications throughout the account lifecycle.
+value_stream_ids:
+  - vs.account_maintenance
+  - vs.account_servicing_excellence
+  - vs.deposit_account_servicing
+  - vs.customer_data_quality
+journey_ids:
+  - journey.update_account_preferences
+  - journey.change_account_product_type
+  - journey.update_account_address
+  - journey.update_account_delivery_preferences
+  - journey.correct_account_data_error
+process_ids:
+  - proc.account_attribute_change_processing
+  - proc.account_maintenance_request_governance
+  - proc.account_address_change_coordination
+  - proc.account_maintenance_audit_logging
+risk_ids:
+  - risk.unauthorized_account_change
+  - risk.account_attribute_data_quality_degradation
+  - risk.maintenance_change_not_propagated
+  - risk.address_change_fraud
+  - risk.ungoverned_bulk_maintenance
+control_ids:
+  - ctrl.account_maintenance_authorization_matrix
+  - ctrl.account_change_propagation_validation
+  - ctrl.address_change_verification
+  - ctrl.maintenance_change_audit_trail
+  - ctrl.bulk_maintenance_governance
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.alkami
+system_ids:
+  - sys.account_maintenance_workbench
+  - sys.account_attribute_change_service
+  - sys.address_validation_service
+  - sys.maintenance_request_queue
+  - sys.account_change_event_publisher
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+status: draft
+confidence: high

@@ -1,0 +1,52 @@
+id: cap.account_overdraft_and_protection_management
+name: Account Overdraft and Protection Management
+domain_id: domain.accounts
+description: >
+  Configure overdraft settings, manage overdraft protection linkages, and
+  govern overdraft-related product features including opt-in/opt-out election,
+  coverage tiers, and protection source account relationships.
+value_stream_ids:
+  - vs.account_feature_configuration
+  - vs.overdraft_protection_enablement
+  - vs.deposit_account_servicing
+  - vs.regulatory_compliance_assurance
+journey_ids:
+  - journey.set_up_overdraft_protection
+  - journey.change_overdraft_settings
+  - journey.link_overdraft_protection_source
+  - journey.opt_in_overdraft_coverage
+  - journey.opt_out_overdraft_coverage
+process_ids:
+  - proc.overdraft_election_management
+  - proc.overdraft_protection_linkage_configuration
+  - proc.overdraft_coverage_tier_assignment
+  - proc.overdraft_opt_in_compliance_governance
+risk_ids:
+  - risk.overdraft_opt_in_violation
+  - risk.overdraft_protection_linkage_failure
+  - risk.overdraft_fee_exposure_beyond_policy
+  - risk.overdraft_coverage_misconfiguration
+  - risk.overdraft_election_not_recorded
+control_ids:
+  - ctrl.overdraft_opt_in_compliance_validation
+  - ctrl.overdraft_protection_linkage_verification
+  - ctrl.overdraft_fee_policy_enforcement
+  - ctrl.overdraft_coverage_configuration_governance
+  - ctrl.overdraft_election_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.mambu
+system_ids:
+  - sys.overdraft_settings_service
+  - sys.overdraft_protection_linkage_engine
+  - sys.overdraft_election_management_service
+  - sys.account_parameter_engine
+  - sys.overdraft_disclosure_delivery_service
+source_refs:
+  - src.ecfr_reg_e_12cfr1005
+  - src.ecfr_reg_dd_12cfr1030
+status: draft
+confidence: medium

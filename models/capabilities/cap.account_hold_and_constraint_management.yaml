@@ -1,0 +1,52 @@
+id: cap.account_hold_and_constraint_management
+name: Account Hold and Constraint Management
+domain_id: domain.accounts
+description: >
+  Apply, manage, and release holds, blocks, levies, garnishments, and other
+  constraints on accounts, governing the specific encumbrances that restrict
+  account usage without necessarily changing the account's lifecycle state.
+value_stream_ids:
+  - vs.account_constraint_enforcement
+  - vs.regulatory_compliance_assurance
+  - vs.legal_order_fulfillment
+  - vs.deposit_account_servicing
+journey_ids:
+  - journey.place_account_hold
+  - journey.release_account_hold
+  - journey.process_garnishment_levy
+  - journey.apply_regulatory_block
+  - journey.resolve_constraint_exception
+process_ids:
+  - proc.hold_application_and_reason_coding
+  - proc.hold_release_and_expiration
+  - proc.levy_garnishment_intake_and_application
+  - proc.constraint_priority_and_stacking
+risk_ids:
+  - risk.hold_not_applied_when_required
+  - risk.hold_not_released_when_eligible
+  - risk.constraint_stacking_conflict
+  - risk.levy_garnishment_processing_error
+  - risk.hold_vs_status_boundary_confusion
+control_ids:
+  - ctrl.hold_application_authorization
+  - ctrl.hold_expiration_and_release_monitoring
+  - ctrl.levy_garnishment_compliance_validation
+  - ctrl.constraint_stacking_priority_rules
+  - ctrl.hold_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.fis
+  - prov.thought_machine
+system_ids:
+  - sys.hold_management_service
+  - sys.constraint_rules_engine
+  - sys.levy_garnishment_processing_system
+  - sys.legal_order_intake_service
+  - sys.operations_servicing_workbench
+source_refs:
+  - src.ecfr_reg_cc_12cfr229
+  - src.ucc_article_4
+status: draft
+confidence: medium
