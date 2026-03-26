@@ -1,0 +1,54 @@
+id: cap.account_conversion_and_migration_management
+name: Account Conversion and Migration Management
+domain_id: domain.accounts
+description: >
+  Plan, validate, and execute the conversion of accounts from one product type to
+  another or the migration of accounts between core banking platforms, ensuring
+  continuity of service, preservation of account history, proper re-pricing and
+  re-terming, and regulatory disclosure of changes to account terms and conditions.
+value_stream_ids:
+  - vs.account_lifecycle_management
+  - vs.deposit_account_servicing
+  - vs.product_optimization
+  - vs.platform_modernization
+journey_ids:
+  - journey.convert_account_product_type
+  - journey.migrate_account_to_new_platform
+  - journey.accept_conversion_terms
+  - journey.review_post_conversion_account
+process_ids:
+  - proc.conversion_eligibility_assessment
+  - proc.conversion_terms_mapping_and_repricing
+  - proc.account_data_migration_and_validation
+  - proc.conversion_disclosure_generation
+  - proc.post_conversion_reconciliation
+  - proc.conversion_rollback_execution
+risk_ids:
+  - risk.conversion_data_loss_or_corruption
+  - risk.conversion_terms_mapping_error
+  - risk.inadequate_conversion_disclosure
+  - risk.post_conversion_service_disruption
+  - risk.conversion_rollback_failure
+control_ids:
+  - ctrl.conversion_data_integrity_validation
+  - ctrl.conversion_terms_mapping_review
+  - ctrl.conversion_disclosure_compliance_check
+  - ctrl.post_conversion_reconciliation_verification
+  - ctrl.conversion_rollback_capability_testing
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.infosys_finacle
+  - prov.tata_consultancy
+system_ids:
+  - sys.account_conversion_orchestrator
+  - sys.data_migration_engine
+  - sys.conversion_terms_mapper
+  - sys.conversion_disclosure_generator
+  - sys.conversion_reconciliation_service
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+  - src.ecfr_reg_e_12cfr1005
+status: draft
+confidence: medium

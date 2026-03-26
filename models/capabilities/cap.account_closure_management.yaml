@@ -1,0 +1,55 @@
+id: cap.account_closure_management
+name: Account Closure Management
+domain_id: domain.accounts
+description: >
+  Govern the end-to-end process of closing deposit accounts, including closure
+  eligibility validation, outstanding obligation resolution, final interest
+  calculation, remaining balance disbursement, downstream system notification,
+  and regulatory record retention obligations triggered by account closure.
+value_stream_ids:
+  - vs.account_lifecycle_management
+  - vs.deposit_account_servicing
+  - vs.regulatory_compliance
+  - vs.customer_offboarding
+journey_ids:
+  - journey.close_account_customer_initiated
+  - journey.close_account_bank_initiated
+  - journey.resolve_closure_blockers
+  - journey.disburse_closing_balance
+process_ids:
+  - proc.closure_eligibility_validation
+  - proc.outstanding_obligation_resolution
+  - proc.final_interest_and_fee_calculation
+  - proc.closing_balance_disbursement
+  - proc.closure_downstream_notification
+  - proc.closure_regulatory_record_retention
+risk_ids:
+  - risk.premature_closure_with_outstanding_obligations
+  - risk.closing_balance_disbursement_error
+  - risk.unauthorized_account_closure
+  - risk.closure_record_retention_gap
+  - risk.post_closure_transaction_arrival
+control_ids:
+  - ctrl.closure_eligibility_checklist_enforcement
+  - ctrl.closing_balance_reconciliation
+  - ctrl.closure_authorization_verification
+  - ctrl.post_closure_transaction_handling
+  - ctrl.closure_record_retention_compliance
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.finastra
+system_ids:
+  - sys.account_closure_orchestrator
+  - sys.closing_balance_calculator
+  - sys.closure_disbursement_service
+  - sys.closure_notification_publisher
+  - sys.post_closure_transaction_handler
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+  - src.ecfr_reg_e_12cfr1005
+  - src.ecfr_reg_cc_12cfr229
+status: draft
+confidence: high

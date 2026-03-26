@@ -1,0 +1,54 @@
+id: cap.account_dormancy_and_escheat_coordination
+name: Account Dormancy and Escheat Coordination
+domain_id: domain.accounts
+description: >
+  Detect, classify, and manage accounts approaching or in dormant status, execute
+  required customer outreach and due-diligence contact attempts, and coordinate the
+  escheatment of unclaimed property to the appropriate state jurisdiction in compliance
+  with the Uniform Unclaimed Property Act and individual state escheat statutes.
+value_stream_ids:
+  - vs.account_lifecycle_management
+  - vs.regulatory_compliance
+  - vs.deposit_account_servicing
+  - vs.customer_retention
+journey_ids:
+  - journey.reactivate_dormant_account
+  - journey.respond_to_dormancy_notice
+  - journey.reclaim_escheated_funds
+  - journey.review_dormant_account_portfolio
+process_ids:
+  - proc.dormancy_detection_and_classification
+  - proc.dormancy_customer_outreach
+  - proc.escheat_due_diligence_contact
+  - proc.unclaimed_property_reporting_and_remittance
+  - proc.dormant_account_fee_assessment
+  - proc.account_reactivation_processing
+risk_ids:
+  - risk.premature_escheatment
+  - risk.missed_escheat_deadline
+  - risk.dormancy_fee_regulatory_violation
+  - risk.insufficient_due_diligence_contact
+  - risk.escheat_reporting_data_quality
+control_ids:
+  - ctrl.dormancy_classification_rule_validation
+  - ctrl.due_diligence_contact_evidence_retention
+  - ctrl.escheat_deadline_monitoring
+  - ctrl.dormancy_fee_compliance_review
+  - ctrl.escheat_remittance_reconciliation
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.hyland
+  - prov.keane
+  - prov.kelmar
+system_ids:
+  - sys.dormancy_monitoring_engine
+  - sys.escheat_reporting_service
+  - sys.due_diligence_outreach_manager
+  - sys.unclaimed_property_remittance_service
+  - sys.dormancy_classification_rules_engine
+source_refs:
+  - src.uniform_unclaimed_property_act
+  - src.state_escheat_statutes
+status: draft
+confidence: high

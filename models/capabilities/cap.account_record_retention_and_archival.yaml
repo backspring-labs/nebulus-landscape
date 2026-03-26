@@ -1,0 +1,56 @@
+id: cap.account_record_retention_and_archival
+name: Account Record Retention and Archival
+domain_id: domain.accounts
+description: >
+  Govern the retention, archival, retrieval, and disposition of account records
+  throughout and beyond the account lifecycle in compliance with federal and state
+  retention requirements, including BSA/AML record-keeping, Regulation E dispute
+  windows, IRS reporting obligations, and litigation hold management.
+value_stream_ids:
+  - vs.regulatory_compliance
+  - vs.account_lifecycle_management
+  - vs.operational_resilience
+  - vs.legal_and_compliance_readiness
+journey_ids:
+  - journey.retrieve_archived_account_record
+  - journey.respond_to_legal_discovery_request
+  - journey.execute_retention_disposition
+  - journey.apply_litigation_hold
+process_ids:
+  - proc.retention_schedule_application
+  - proc.account_record_archival_execution
+  - proc.archived_record_retrieval
+  - proc.retention_disposition_execution
+  - proc.litigation_hold_management
+  - proc.retention_compliance_monitoring
+risk_ids:
+  - risk.premature_record_destruction
+  - risk.retention_schedule_non_compliance
+  - risk.archived_record_irretrievability
+  - risk.litigation_hold_breach
+  - risk.excessive_retention_cost_and_exposure
+control_ids:
+  - ctrl.retention_schedule_enforcement
+  - ctrl.disposition_approval_workflow
+  - ctrl.litigation_hold_override_prevention
+  - ctrl.archival_integrity_verification
+  - ctrl.retention_compliance_audit
+provider_ids:
+  - prov.hyland
+  - prov.opentext
+  - prov.iron_mountain
+  - prov.veritas
+  - prov.ibm
+system_ids:
+  - sys.record_retention_policy_engine
+  - sys.account_record_archive
+  - sys.archived_record_retrieval_service
+  - sys.litigation_hold_manager
+  - sys.retention_disposition_orchestrator
+source_refs:
+  - src.bsa_aml_record_keeping
+  - src.ecfr_reg_e_12cfr1005
+  - src.irs_record_retention_requirements
+  - src.state_record_retention_statutes
+status: draft
+confidence: high

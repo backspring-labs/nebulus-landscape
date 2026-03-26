@@ -1,0 +1,55 @@
+id: cap.account_exception_and_remediation_management
+name: Account Exception and Remediation Management
+domain_id: domain.accounts
+description: >
+  Detect, classify, track, and resolve account-level exceptions including processing
+  errors, data quality defects, regulatory findings, and operational anomalies,
+  coordinating remediation actions across affected accounts and ensuring root cause
+  analysis, customer impact assessment, and regulatory reporting where required.
+value_stream_ids:
+  - vs.account_servicing_excellence
+  - vs.deposit_account_servicing
+  - vs.regulatory_compliance
+  - vs.operational_resilience
+journey_ids:
+  - journey.resolve_account_processing_error
+  - journey.remediate_regulatory_finding
+  - journey.correct_account_data_defect
+  - journey.review_exception_portfolio
+  - journey.escalate_unresolved_exception
+process_ids:
+  - proc.exception_detection_and_classification
+  - proc.exception_triage_and_assignment
+  - proc.account_remediation_execution
+  - proc.customer_impact_assessment
+  - proc.root_cause_analysis
+  - proc.remediation_verification_and_closure
+risk_ids:
+  - risk.undetected_account_exception
+  - risk.delayed_remediation
+  - risk.incomplete_remediation_scope
+  - risk.remediation_introducing_new_errors
+  - risk.regulatory_finding_recurrence
+control_ids:
+  - ctrl.exception_detection_completeness_monitoring
+  - ctrl.remediation_sla_enforcement
+  - ctrl.remediation_scope_validation
+  - ctrl.remediation_pre_post_reconciliation
+  - ctrl.root_cause_resolution_verification
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.appian
+  - prov.pegasystems
+  - prov.servicenow
+system_ids:
+  - sys.account_exception_detection_engine
+  - sys.exception_case_management
+  - sys.remediation_orchestrator
+  - sys.customer_impact_analyzer
+  - sys.root_cause_analysis_workbench
+source_refs:
+  - src.occ_heightened_standards
+  - src.fdic_supervisory_guidance
+status: draft
+confidence: high
