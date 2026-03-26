@@ -1,0 +1,49 @@
+id: domain.risk_fraud
+name: Risk & Fraud
+description: >
+  Durable business area responsible for detecting, assessing, investigating,
+  and deciding on fraud, sanctions, AML/BSA, and broader financial-crime risk
+  conditions that gate customer, account, payment, and access activity across
+  the institution.
+capability_ids:
+  - cap.financial_crime_risk_appetite_and_policy_management
+  - cap.customer_and_entity_risk_rating
+  - cap.identity_and_onboarding_risk_decisioning
+  - cap.sanctions_and_watchlist_screening
+  - cap.enhanced_due_diligence_and_periodic_review_decisioning
+  - cap.transaction_monitoring
+  - cap.fraud_detection_and_scoring
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.account_and_relationship_surveillance
+  - cap.alert_triage_and_disposition
+  - cap.case_investigation_management
+  - cap.suspicious_activity_reporting
+  - cap.regulatory_information_sharing_and_law_enforcement_response
+  - cap.fraud_rules_and_model_governance
+  - cap.risk_restriction_and_offboarding_decisioning
+  - cap.financial_crime_program_governance_and_testing
+  - cap.compliance_issue_and_remediation_management
+related_domain_ids:
+  - domain.customer
+  - domain.identity_access
+  - domain.accounts
+  - domain.payments
+  - domain.orchestration_control
+  - domain.channels_experience
+  - domain.servicing
+  - domain.data_rewards
+  - domain.cards
+  - domain.ledger_core
+  - domain.networks_schemes
+source_refs:
+  - src.fincen_cdd_rule_2026
+  - src.fincen_cdd_exceptive_relief_2026
+  - src.ffiec_bsaaml_manual_2026
+  - src.ffiec_suspicious_activity_monitoring_appendix_s
+  - src.fincen_sar_faq_2025
+  - src.fincen_314a_fact_sheet_2026
+  - src.ofac_compliance_framework
+  - src.fatf_risk_based_banking_guidance
+  - src.cfpb_reg_v_identity_theft
+  - src.nacha_fraud_monitoring_rules_2026
+status: draft
