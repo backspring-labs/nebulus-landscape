@@ -1,0 +1,12 @@
+id: risk.configuration_vs_posting_divergence
+name: Configuration vs Posting Divergence
+description: >
+  Interest or fee configuration parameters diverge from what the ledger actually
+  posts, creating discrepancies between expected and actual account behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

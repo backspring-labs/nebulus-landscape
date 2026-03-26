@@ -1,0 +1,12 @@
+id: risk.regulatory_finding_recurrence
+name: Regulatory Finding Recurrence
+description: >
+  A previously identified regulatory finding recurs because root cause was not
+  adequately addressed or systemic controls were not implemented.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

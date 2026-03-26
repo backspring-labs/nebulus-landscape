@@ -1,0 +1,12 @@
+id: risk.premature_closure_with_outstanding_obligations
+name: Premature Closure with Outstanding Obligations
+description: >
+  An account is closed while outstanding obligations such as pending transactions,
+  holds, or unsettled items remain, creating financial and operational risk.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

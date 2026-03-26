@@ -1,0 +1,12 @@
+id: ctrl.funding_precondition_gate
+name: Funding Precondition Gate
+description: >
+  Enforce a gate that prevents account funding until all prerequisite conditions
+  including identity verification and contract formation are satisfied.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

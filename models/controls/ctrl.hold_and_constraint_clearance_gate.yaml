@@ -1,0 +1,12 @@
+id: ctrl.hold_and_constraint_clearance_gate
+name: Hold and Constraint Clearance Gate
+description: >
+  Enforce a gate requiring all holds and constraints to be resolved or explicitly
+  waived before account closure can proceed.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

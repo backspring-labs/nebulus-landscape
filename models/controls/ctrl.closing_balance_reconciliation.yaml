@@ -1,0 +1,12 @@
+id: ctrl.closing_balance_reconciliation
+name: Closing Balance Reconciliation
+description: >
+  Reconcile the closing balance after final interest and fee calculations to ensure
+  accurate disbursement of remaining funds.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

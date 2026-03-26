@@ -1,0 +1,12 @@
+id: risk.wrong_contract_version_accepted
+name: Wrong Contract Version Accepted
+description: >
+  The customer accepts an outdated or incorrect version of the account agreement,
+  creating a mismatch between contractual terms and actual product behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.account_closure.party_role_deactivation
+name: Party Role Deactivation
+process_id: proc.account_closure_v1
+description: >
+  Deactivate all account-level party roles including ownership, signer, and
+  authorized-party designations upon account closure.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

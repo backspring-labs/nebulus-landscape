@@ -1,0 +1,12 @@
+id: ctrl.customer_lifecycle_evaluation_trigger
+name: Customer Lifecycle Evaluation Trigger
+description: >
+  Trigger a customer lifecycle evaluation when the last account is closed to
+  determine if customer-level status changes are required.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

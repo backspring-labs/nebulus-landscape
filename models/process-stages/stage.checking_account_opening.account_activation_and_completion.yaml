@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.account_activation_and_completion
+name: Account Activation and Completion
+process_id: proc.checking_account_opening_v1
+description: >
+  Activate the checking account for full transactional use, verify all
+  dependencies are satisfied, and complete the account opening case.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

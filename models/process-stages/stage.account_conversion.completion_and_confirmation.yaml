@@ -1,0 +1,12 @@
+id: stage.account_conversion.completion_and_confirmation
+name: Completion and Confirmation
+process_id: proc.account_conversion_v1
+description: >
+  Finalize the conversion, send customer confirmation, publish downstream
+  notifications, and create the conversion audit trail.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

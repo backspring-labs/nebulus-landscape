@@ -1,0 +1,10 @@
+id: sys.account_activation_readiness_service
+name: Account Activation Readiness Service
+description: >
+  Service evaluating and tracking account readiness for activation, managing
+  funding preconditions and usability state transitions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.party_role_revalidation
+name: Party Role Revalidation
+description: >
+  Revalidate party roles and access authorities on a dormant account before
+  reactivation to ensure only authorized parties regain access.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.identity_fraud_on_dormant_account
+name: Identity Fraud on Dormant Account
+description: >
+  A bad actor uses stolen or synthetic identity information to reactivate a dormant
+  account and gain access to the funds.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

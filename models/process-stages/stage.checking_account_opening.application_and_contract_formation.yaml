@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.application_and_contract_formation
+name: Application and Contract Formation
+process_id: proc.checking_account_opening_v1
+description: >
+  Capture the checking account application, present required disclosures,
+  and finalize the account contract with customer acceptance evidence.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

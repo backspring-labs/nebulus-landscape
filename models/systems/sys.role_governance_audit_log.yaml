@@ -1,0 +1,10 @@
+id: sys.role_governance_audit_log
+name: Role Governance Audit Log
+description: >
+  Audit log capturing all account party role changes, approvals, and
+  governance events for compliance and traceability purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

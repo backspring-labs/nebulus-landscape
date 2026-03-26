@@ -1,0 +1,10 @@
+id: sys.account_origination_platform
+name: Account Origination Platform
+description: >
+  Platform orchestrating the end-to-end account opening workflow from application
+  intake through account creation, managing prerequisites and handoffs.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

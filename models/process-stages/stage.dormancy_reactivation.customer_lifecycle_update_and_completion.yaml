@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.customer_lifecycle_update_and_completion
+name: Customer Lifecycle Update and Completion
+process_id: proc.account_dormancy_reactivation
+description: >
+  Update the customer lifecycle record to reflect the reactivated account,
+  send confirmation notifications, and close the reactivation case.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

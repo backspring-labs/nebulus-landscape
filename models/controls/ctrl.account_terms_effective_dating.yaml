@@ -1,0 +1,12 @@
+id: ctrl.account_terms_effective_dating
+name: Account Terms Effective Dating
+description: >
+  Enforce effective dating on all account terms changes so that historical terms
+  are preserved and current terms are accurately reflected.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

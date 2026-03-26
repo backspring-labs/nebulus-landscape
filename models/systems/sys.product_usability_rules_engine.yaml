@@ -1,0 +1,10 @@
+id: sys.product_usability_rules_engine
+name: Product Usability Rules Engine
+description: >
+  Rules engine determining account usability state based on product requirements,
+  funding preconditions, and operational readiness criteria.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

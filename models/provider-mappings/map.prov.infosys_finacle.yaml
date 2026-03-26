@@ -1,0 +1,13 @@
+id: map.prov.infosys_finacle
+provider_id: prov.infosys_finacle
+capability_ids:
+  - cap.account_conversion_and_migration_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

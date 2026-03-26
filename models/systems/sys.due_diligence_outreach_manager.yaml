@@ -1,0 +1,10 @@
+id: sys.due_diligence_outreach_manager
+name: Due Diligence Outreach Manager
+description: >
+  System managing required customer outreach and contact attempts for dormancy
+  due diligence in compliance with state escheat statutes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

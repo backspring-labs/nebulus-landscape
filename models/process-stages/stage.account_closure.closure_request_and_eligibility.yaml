@@ -1,0 +1,12 @@
+id: stage.account_closure.closure_request_and_eligibility
+name: Closure Request and Eligibility
+process_id: proc.account_closure_v1
+description: >
+  Receive and validate account closure requests, verify requester authority, and
+  assess closure eligibility including outstanding obligation and hold checks.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

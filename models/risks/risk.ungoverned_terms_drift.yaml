@@ -1,0 +1,12 @@
+id: risk.ungoverned_terms_drift
+name: Ungoverned Terms Drift
+description: >
+  Account terms change over time without governance review, causing divergence
+  from the intended product definition and disclosure obligations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.product_version_effective_dating
+name: Product Version Effective Dating
+description: >
+  Enforce effective dating on all product version changes so that only the correct
+  version of product terms and rules is active at any given point in time.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

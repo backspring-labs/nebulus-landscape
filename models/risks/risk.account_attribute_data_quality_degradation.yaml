@@ -1,0 +1,12 @@
+id: risk.account_attribute_data_quality_degradation
+name: Account Attribute Data Quality Degradation
+description: >
+  Account attribute data quality deteriorates over time due to ungoverned changes,
+  migration errors, or lack of validation, impacting servicing and reporting.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

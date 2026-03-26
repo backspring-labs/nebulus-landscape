@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.customer_reverification
+name: Customer Reverification
+process_id: proc.account_dormancy_reactivation
+description: >
+  Perform identity re-verification and CDD/EDD refresh for the account holder
+  to re-establish assurance before reactivation.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

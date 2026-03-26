@@ -1,0 +1,12 @@
+id: ctrl.conversion_audit_trail_with_snapshots
+name: Conversion Audit Trail with Snapshots
+description: >
+  Capture pre- and post-conversion snapshots of account state along with a complete
+  audit trail of the conversion process for traceability.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

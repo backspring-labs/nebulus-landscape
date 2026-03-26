@@ -1,0 +1,12 @@
+id: risk.overdraft_fee_exposure_beyond_policy
+name: Overdraft Fee Exposure Beyond Policy
+description: >
+  Customer overdraft fee charges exceed institutional policy limits or regulatory
+  thresholds, creating financial harm and compliance exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

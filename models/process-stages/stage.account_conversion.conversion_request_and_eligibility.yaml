@@ -1,0 +1,12 @@
+id: stage.account_conversion.conversion_request_and_eligibility
+name: Conversion Request and Eligibility
+process_id: proc.account_conversion_v1
+description: >
+  Receive account product conversion requests and assess eligibility based on
+  current account status, target product availability, and customer qualifications.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: prov.ibm
+name: IBM
+category: records_and_archival
+summary: >
+  Enterprise technology provider offering records management, content lifecycle
+  governance, and archival solutions through IBM Cloud Pak for Data and related
+  platforms.
+status: stub
+source_refs: []
+tags: []

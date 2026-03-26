@@ -1,0 +1,12 @@
+id: risk.cross_system_opening_inconsistency
+name: Cross-System Opening Inconsistency
+description: >
+  Account opening state is inconsistent across core banking, origination, and
+  downstream systems, leaving the account in a partially created state.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

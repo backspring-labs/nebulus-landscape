@@ -1,0 +1,12 @@
+id: risk.unauthorized_party_access_reestablishment
+name: Unauthorized Party Access Reestablishment
+description: >
+  Party roles and access rights are re-established during dormancy reactivation
+  without verifying current authorization, potentially granting access to former parties.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.account_usability_state_reconciliation
+name: Account Usability State Reconciliation
+description: >
+  Reconcile account usability and funding-readiness states across origination,
+  core banking, and payment systems to detect divergence.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

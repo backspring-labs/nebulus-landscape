@@ -1,0 +1,12 @@
+id: risk.incorrect_terms_application_after_conversion
+name: Incorrect Terms Application After Conversion
+description: >
+  Account terms from the source product persist or target product terms are
+  incorrectly applied after conversion, causing pricing or feature errors.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

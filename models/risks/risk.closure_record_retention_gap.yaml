@@ -1,0 +1,12 @@
+id: risk.closure_record_retention_gap
+name: Closure Record Retention Gap
+description: >
+  Required account records are not properly retained or archived following account
+  closure, creating gaps in regulatory record-keeping obligations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

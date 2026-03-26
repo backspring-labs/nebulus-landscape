@@ -1,0 +1,12 @@
+id: risk.closure_with_unresolved_holds
+name: Closure with Unresolved Holds
+description: >
+  An account is closed while active holds, liens, or legal constraints remain
+  unresolved, potentially violating legal obligations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

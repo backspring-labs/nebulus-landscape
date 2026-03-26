@@ -1,0 +1,10 @@
+id: sys.opening_exception_dashboard
+name: Opening Exception Dashboard
+description: >
+  Dashboard providing visibility into account opening exceptions, pending items,
+  and cases requiring manual intervention or escalation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

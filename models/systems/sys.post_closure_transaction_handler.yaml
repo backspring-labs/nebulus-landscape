@@ -1,0 +1,10 @@
+id: sys.post_closure_transaction_handler
+name: Post-Closure Transaction Handler
+description: >
+  Service handling transactions that arrive after an account has been closed,
+  managing returns, redirections, and exception processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

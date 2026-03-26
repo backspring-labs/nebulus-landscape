@@ -1,0 +1,10 @@
+id: sys.customer_impact_analyzer
+name: Customer Impact Analyzer
+description: >
+  Analytical service assessing the scope and severity of customer impact from
+  account exceptions, supporting remediation prioritization and regulatory reporting.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

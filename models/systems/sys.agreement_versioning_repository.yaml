@@ -1,0 +1,10 @@
+id: sys.agreement_versioning_repository
+name: Agreement Versioning Repository
+description: >
+  Repository managing versioned account agreements and contract templates,
+  tracking effective dates and ensuring correct versions are presented.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

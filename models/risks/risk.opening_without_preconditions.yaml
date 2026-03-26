@@ -1,0 +1,12 @@
+id: risk.opening_without_preconditions
+name: Opening Without Preconditions
+description: >
+  An account is opened before all required upstream preconditions such as identity
+  verification, eligibility checks, or disclosure acceptance have been satisfied.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.dormancy_fee_compliance_review
+name: Dormancy Fee Compliance Review
+description: >
+  Review dormancy fee assessments for compliance with state-specific dormancy fee
+  restrictions and disclosure requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

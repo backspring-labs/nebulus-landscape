@@ -1,0 +1,12 @@
+id: risk.statement_content_inaccuracy
+name: Statement Content Inaccuracy
+description: >
+  Account statements contain incorrect balances, transactions, or fee information,
+  undermining customer trust and regulatory compliance.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

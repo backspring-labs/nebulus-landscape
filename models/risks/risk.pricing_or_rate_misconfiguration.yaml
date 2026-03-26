@@ -1,0 +1,12 @@
+id: risk.pricing_or_rate_misconfiguration
+name: Pricing or Rate Misconfiguration
+description: >
+  Interest rates or pricing parameters are incorrectly configured in the product
+  catalog, causing accounts to receive wrong rates or fees.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

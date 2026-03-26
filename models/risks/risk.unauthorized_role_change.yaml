@@ -1,0 +1,12 @@
+id: risk.unauthorized_role_change
+name: Unauthorized Role Change
+description: >
+  Changes to account party roles are made without proper authorization, potentially
+  granting or revoking access without the account holder's knowledge.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

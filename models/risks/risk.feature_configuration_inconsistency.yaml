@@ -1,0 +1,12 @@
+id: risk.feature_configuration_inconsistency
+name: Feature Configuration Inconsistency
+description: >
+  Account features are configured inconsistently across systems, causing different
+  behaviors depending on the channel or service consuming the configuration.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

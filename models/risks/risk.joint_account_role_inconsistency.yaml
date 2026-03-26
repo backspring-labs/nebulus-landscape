@@ -1,0 +1,12 @@
+id: risk.joint_account_role_inconsistency
+name: Joint Account Role Inconsistency
+description: >
+  Party roles on joint accounts are inconsistent across systems, leading to
+  conflicting views of ownership, authority, or survivorship rights.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

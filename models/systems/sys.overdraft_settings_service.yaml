@@ -1,0 +1,10 @@
+id: sys.overdraft_settings_service
+name: Overdraft Settings Service
+description: >
+  Service managing overdraft configuration options including opt-in elections,
+  coverage tiers, and protection source linkages for deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

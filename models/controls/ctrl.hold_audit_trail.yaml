@@ -1,0 +1,12 @@
+id: ctrl.hold_audit_trail
+name: Hold Audit Trail
+description: >
+  Capture a complete audit trail for all hold and constraint lifecycle events
+  including application, modification, and release with reason codes.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

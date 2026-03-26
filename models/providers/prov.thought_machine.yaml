@@ -1,0 +1,9 @@
+id: prov.thought_machine
+name: Thought Machine
+category: core_banking
+summary: >
+  Cloud-native core banking platform built on smart contracts, enabling fully
+  configurable deposit and lending product management for banks and fintechs.
+status: stub
+source_refs: []
+tags: []

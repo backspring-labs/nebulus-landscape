@@ -1,0 +1,12 @@
+id: ctrl.restriction_removal_governance
+name: Restriction Removal Governance
+description: >
+  Require appropriate authorization and evidence before removing account restrictions
+  to prevent premature or unauthorized lift of controls.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.opening_to_funding_handoff_validation
+name: Opening to Funding Handoff Validation
+description: >
+  Validate the handoff from account opening to funding readiness to ensure all
+  required opening steps are complete before funding is enabled.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

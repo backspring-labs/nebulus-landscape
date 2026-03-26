@@ -1,0 +1,12 @@
+id: ctrl.bulk_maintenance_governance
+name: Bulk Maintenance Governance
+description: >
+  Require enhanced review, approval, and validation controls for bulk account
+  maintenance operations to prevent widespread data quality issues.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

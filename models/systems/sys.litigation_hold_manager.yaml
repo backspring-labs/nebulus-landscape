@@ -1,0 +1,10 @@
+id: sys.litigation_hold_manager
+name: Litigation Hold Manager
+description: >
+  System managing litigation holds on account records, preventing disposition
+  and ensuring preservation of evidence during legal proceedings.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.overdraft_management_module
+name: Overdraft Management Module
+description: >
+  Module managing overdraft election processing, protection linkage configuration,
+  and overdraft-related product features for checking accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

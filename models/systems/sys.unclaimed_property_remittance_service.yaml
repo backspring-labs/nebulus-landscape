@@ -1,0 +1,10 @@
+id: sys.unclaimed_property_remittance_service
+name: Unclaimed Property Remittance Service
+description: >
+  Service executing the remittance of unclaimed property balances to appropriate
+  state jurisdictions following completion of escheatment requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

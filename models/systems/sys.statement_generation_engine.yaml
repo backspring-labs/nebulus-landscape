@@ -1,0 +1,10 @@
+id: sys.statement_generation_engine
+name: Statement Generation Engine
+description: >
+  Engine producing periodic account statements including transaction summaries,
+  balance information, and required regulatory disclosures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

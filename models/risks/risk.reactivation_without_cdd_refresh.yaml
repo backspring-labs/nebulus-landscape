@@ -1,0 +1,12 @@
+id: risk.reactivation_without_cdd_refresh
+name: Reactivation Without CDD Refresh
+description: >
+  A dormant account is reactivated without refreshing customer due diligence,
+  allowing the account to operate with stale or outdated KYC information.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

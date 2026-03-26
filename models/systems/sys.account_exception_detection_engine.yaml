@@ -1,0 +1,10 @@
+id: sys.account_exception_detection_engine
+name: Account Exception Detection Engine
+description: >
+  Engine detecting account-level exceptions including processing errors, data
+  quality defects, and operational anomalies requiring investigation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

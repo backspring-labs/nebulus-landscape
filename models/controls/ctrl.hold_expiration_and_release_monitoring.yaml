@@ -1,0 +1,12 @@
+id: ctrl.hold_expiration_and_release_monitoring
+name: Hold Expiration and Release Monitoring
+description: >
+  Monitor hold expiration dates and release eligibility to ensure holds are removed
+  timely when conditions are met or regulatory periods expire.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

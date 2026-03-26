@@ -1,0 +1,10 @@
+id: sys.joint_account_setup_workflow
+name: Joint Account Setup Workflow
+description: >
+  Workflow system managing the multi-party setup process for joint deposit
+  accounts, coordinating role assignments and approval requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

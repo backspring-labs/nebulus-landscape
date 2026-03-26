@@ -1,0 +1,12 @@
+id: risk.archived_record_irretrievability
+name: Archived Record Irretrievability
+description: >
+  Archived account records cannot be retrieved when needed for regulatory examination,
+  legal discovery, or customer inquiry due to format, storage, or indexing issues.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

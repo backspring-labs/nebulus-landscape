@@ -1,0 +1,10 @@
+id: sys.opening_status_dashboard
+name: Opening Status Dashboard
+description: >
+  Dashboard providing real-time visibility into account opening pipeline status,
+  funding readiness, and activation progress.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

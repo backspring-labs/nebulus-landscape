@@ -1,0 +1,12 @@
+id: risk.reactivation_of_escheatment_eligible_account
+name: Reactivation of Escheatment-Eligible Account
+description: >
+  A dormant account that has progressed to escheatment eligibility is reactivated
+  without proper review, potentially disrupting unclaimed property processing.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

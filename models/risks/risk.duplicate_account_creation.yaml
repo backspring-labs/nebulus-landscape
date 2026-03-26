@@ -1,0 +1,12 @@
+id: risk.duplicate_account_creation
+name: Duplicate Account Creation
+description: >
+  Multiple accounts are created for the same customer and product due to retry
+  logic failures or lack of idempotency controls during account opening.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.overdraft_opt_in_compliance_validation
+name: Overdraft Opt-In Compliance Validation
+description: >
+  Validate that overdraft coverage opt-in elections comply with Regulation E
+  requirements including proper disclosure and affirmative consent.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

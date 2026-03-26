@@ -1,0 +1,10 @@
+id: sys.core_banking_platform
+name: Core Banking Platform
+description: >
+  Central core banking system managing deposit account records, balances,
+  transactions, and product configurations for the institution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

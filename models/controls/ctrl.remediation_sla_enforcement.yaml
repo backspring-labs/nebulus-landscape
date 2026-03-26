@@ -1,0 +1,12 @@
+id: ctrl.remediation_sla_enforcement
+name: Remediation SLA Enforcement
+description: >
+  Enforce service level agreements for account exception remediation to ensure
+  timely resolution based on severity and customer impact.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

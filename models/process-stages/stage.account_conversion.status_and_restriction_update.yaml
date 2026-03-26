@@ -1,0 +1,12 @@
+id: stage.account_conversion.status_and_restriction_update
+name: Status and Restriction Update
+process_id: proc.account_conversion_v1
+description: >
+  Update account status and restrictions to reflect the converted product,
+  applying any new constraints or removing inapplicable ones.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

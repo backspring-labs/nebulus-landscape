@@ -1,0 +1,12 @@
+id: risk.conversion_rollback_failure
+name: Conversion Rollback Failure
+description: >
+  A failed or problematic conversion cannot be rolled back to the original product
+  state, leaving accounts in an inconsistent or unsupported configuration.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

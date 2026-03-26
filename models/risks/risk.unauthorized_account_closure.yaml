@@ -1,0 +1,12 @@
+id: risk.unauthorized_account_closure
+name: Unauthorized Account Closure
+description: >
+  An account is closed without proper authorization from the account holder or
+  appropriate institutional authority, potentially causing customer harm.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.account_conversion.disclosure_consent_and_attestation
+name: Disclosure Consent and Attestation
+process_id: proc.account_conversion_v1
+description: >
+  Present required regulatory disclosures for the product change, capture
+  customer consent, and record attestation evidence.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

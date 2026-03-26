@@ -1,0 +1,13 @@
+id: map.prov.doxim
+provider_id: prov.doxim
+capability_ids:
+  - cap.account_statement_and_cycle_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

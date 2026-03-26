@@ -1,0 +1,10 @@
+id: sys.constraint_rules_engine
+name: Constraint Rules Engine
+description: >
+  Rules engine managing constraint priority, stacking logic, and interaction
+  rules for holds, blocks, levies, and garnishments on accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.overdraft_coverage_misconfiguration
+name: Overdraft Coverage Misconfiguration
+description: >
+  Overdraft coverage tiers or settings are incorrectly configured, resulting in
+  coverage that does not match the customer's elected options.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

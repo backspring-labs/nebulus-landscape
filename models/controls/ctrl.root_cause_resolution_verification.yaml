@@ -1,0 +1,12 @@
+id: ctrl.root_cause_resolution_verification
+name: Root Cause Resolution Verification
+description: >
+  Verify that the root cause of an account exception has been addressed and that
+  corrective actions prevent recurrence of the same issue.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

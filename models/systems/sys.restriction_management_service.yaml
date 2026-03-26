@@ -1,0 +1,10 @@
+id: sys.restriction_management_service
+name: Restriction Management Service
+description: >
+  Service for applying, tracking, and removing account-level restrictions driven
+  by regulatory, legal, risk, or operational events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

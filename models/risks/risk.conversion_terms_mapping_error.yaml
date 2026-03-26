@@ -1,0 +1,12 @@
+id: risk.conversion_terms_mapping_error
+name: Conversion Terms Mapping Error
+description: >
+  Account terms are incorrectly mapped to the target product during conversion,
+  resulting in wrong pricing, features, or contractual conditions.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

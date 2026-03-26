@@ -1,0 +1,10 @@
+id: sys.legal_order_intake_service
+name: Legal Order Intake Service
+description: >
+  Service receiving and processing inbound legal orders including levies,
+  garnishments, and subpoenas that affect deposit account constraints.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.status_transition_to_active
+name: Status Transition to Active
+process_id: proc.account_dormancy_reactivation
+description: >
+  Execute the formal account status transition from dormant to active,
+  re-enabling full account functionality and transactional capability.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

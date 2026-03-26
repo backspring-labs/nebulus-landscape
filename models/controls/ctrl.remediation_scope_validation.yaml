@@ -1,0 +1,12 @@
+id: ctrl.remediation_scope_validation
+name: Remediation Scope Validation
+description: >
+  Validate that the scope of remediation actions covers all affected accounts to
+  prevent incomplete remediation of systemic issues.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

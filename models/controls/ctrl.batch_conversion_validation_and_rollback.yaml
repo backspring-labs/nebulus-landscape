@@ -1,0 +1,12 @@
+id: ctrl.batch_conversion_validation_and_rollback
+name: Batch Conversion Validation and Rollback
+description: >
+  Validate batch account conversions with pre-execution checks and maintain rollback
+  capability to reverse mass conversions if errors are detected.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

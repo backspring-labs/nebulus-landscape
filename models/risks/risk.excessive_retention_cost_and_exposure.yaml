@@ -1,0 +1,12 @@
+id: risk.excessive_retention_cost_and_exposure
+name: Excessive Retention Cost and Exposure
+description: >
+  Account records are retained far beyond required periods, increasing storage costs
+  and expanding the data footprint exposed to breach or discovery requests.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

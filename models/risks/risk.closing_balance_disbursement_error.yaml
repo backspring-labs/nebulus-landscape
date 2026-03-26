@@ -1,0 +1,12 @@
+id: risk.closing_balance_disbursement_error
+name: Closing Balance Disbursement Error
+description: >
+  The remaining account balance is disbursed to the wrong party, in the wrong
+  amount, or through an incorrect method during account closure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

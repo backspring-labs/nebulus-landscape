@@ -1,0 +1,12 @@
+id: risk.incomplete_retention_or_archival
+name: Incomplete Retention or Archival
+description: >
+  Account records are not fully retained or archived upon closure, leaving gaps
+  in the institution's ability to meet regulatory record-keeping requirements.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

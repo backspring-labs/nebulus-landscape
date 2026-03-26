@@ -1,0 +1,12 @@
+id: risk.activation_before_controls_satisfied
+name: Activation Before Controls Satisfied
+description: >
+  The account is activated and made available for use before all required opening
+  controls and gates have been satisfied.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

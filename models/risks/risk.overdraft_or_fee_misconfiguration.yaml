@@ -1,0 +1,12 @@
+id: risk.overdraft_or_fee_misconfiguration
+name: Overdraft or Fee Misconfiguration
+description: >
+  Overdraft settings or fee parameters are incorrectly configured on the account,
+  resulting in improper fee charges or overdraft coverage behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

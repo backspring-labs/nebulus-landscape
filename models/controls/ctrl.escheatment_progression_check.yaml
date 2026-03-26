@@ -1,0 +1,12 @@
+id: ctrl.escheatment_progression_check
+name: Escheatment Progression Check
+description: >
+  Check the escheatment progression status of a dormant account before allowing
+  reactivation to prevent reactivation of accounts in active escheatment.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

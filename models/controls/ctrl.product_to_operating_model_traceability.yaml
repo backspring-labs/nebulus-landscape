@@ -1,0 +1,12 @@
+id: ctrl.product_to_operating_model_traceability
+name: Product to Operating Model Traceability
+description: >
+  Maintain traceability from each deposit product to its supporting operating model
+  components including systems, processes, and servicing capabilities.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.identity_reverification_assurance
+name: Identity Reverification Assurance
+description: >
+  Require identity reverification when reactivating a dormant account to mitigate
+  the risk of fraudulent reactivation by unauthorized parties.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

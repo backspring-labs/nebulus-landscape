@@ -1,0 +1,11 @@
+id: sys.reference_data_management_platform
+name: Reference Data Management Platform
+description: >
+  Enterprise platform for managing shared reference data including product codes,
+  classification schemes, and cross-system identifiers used across deposit account
+  operations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

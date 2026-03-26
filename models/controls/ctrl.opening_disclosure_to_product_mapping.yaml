@@ -1,0 +1,12 @@
+id: ctrl.opening_disclosure_to_product_mapping
+name: Opening Disclosure to Product Mapping
+description: >
+  Validate that the disclosures presented during account opening accurately correspond
+  to the selected product's terms, fees, and features.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.party_role_and_access_reestablishment
+name: Party Role and Access Reestablishment
+process_id: proc.account_dormancy_reactivation
+description: >
+  Revalidate and re-establish account party roles and access permissions that
+  were suspended or restricted during the dormancy period.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

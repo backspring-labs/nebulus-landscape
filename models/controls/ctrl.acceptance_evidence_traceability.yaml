@@ -1,0 +1,12 @@
+id: ctrl.acceptance_evidence_traceability
+name: Acceptance Evidence Traceability
+description: >
+  Retain traceable evidence of contract acceptance including timestamps, method of
+  acceptance, and the specific disclosure versions acknowledged by each party.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

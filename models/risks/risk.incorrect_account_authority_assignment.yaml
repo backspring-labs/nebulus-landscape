@@ -1,0 +1,12 @@
+id: risk.incorrect_account_authority_assignment
+name: Incorrect Account Authority Assignment
+description: >
+  Account-level authority roles such as signer, owner, or beneficiary are assigned
+  to the wrong party, granting inappropriate access or control.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.retention_disposition_orchestrator
+name: Retention Disposition Orchestrator
+description: >
+  Orchestration service managing the approval and execution of record disposition
+  actions when retention periods expire and no holds are in effect.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

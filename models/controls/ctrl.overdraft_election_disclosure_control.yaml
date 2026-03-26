@@ -1,0 +1,12 @@
+id: ctrl.overdraft_election_disclosure_control
+name: Overdraft Election Disclosure Control
+description: >
+  Ensure proper disclosure is provided and affirmative consent is captured before
+  enabling overdraft coverage on checking accounts per Regulation E.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

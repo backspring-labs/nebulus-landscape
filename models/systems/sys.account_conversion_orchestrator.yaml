@@ -1,0 +1,10 @@
+id: sys.account_conversion_orchestrator
+name: Account Conversion Orchestrator
+description: >
+  Orchestration service managing the end-to-end account product conversion
+  workflow including eligibility, terms mapping, and execution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

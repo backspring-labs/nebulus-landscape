@@ -1,0 +1,10 @@
+id: sys.closing_balance_calculator
+name: Closing Balance Calculator
+description: >
+  Service calculating final account balances including accrued interest,
+  outstanding fees, and pending transactions for account closure processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

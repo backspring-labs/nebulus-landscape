@@ -1,0 +1,10 @@
+id: sys.statement_delivery_platform
+name: Statement Delivery Platform
+description: >
+  Platform orchestrating statement delivery across channels including mail,
+  email, and digital portal based on customer preferences.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.missing_consent_for_new_product
+name: Missing Consent for New Product
+description: >
+  Customer consent for the new product terms is not obtained before conversion
+  execution, undermining the enforceability of the new contract.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

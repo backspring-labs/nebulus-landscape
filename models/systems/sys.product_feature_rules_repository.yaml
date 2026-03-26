@@ -1,0 +1,10 @@
+id: sys.product_feature_rules_repository
+name: Product Feature Rules Repository
+description: >
+  Repository of rules governing product feature configurations, eligibility
+  constraints, and feature interaction logic for deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

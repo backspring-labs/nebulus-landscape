@@ -1,0 +1,12 @@
+id: risk.premature_escheatment
+name: Premature Escheatment
+description: >
+  Account funds are remitted to the state before all required dormancy periods
+  and due-diligence contact attempts have been completed.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

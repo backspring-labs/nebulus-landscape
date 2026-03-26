@@ -1,0 +1,12 @@
+id: risk.interest_rate_misconfiguration
+name: Interest Rate Misconfiguration
+description: >
+  Account-level interest rate parameters are incorrectly configured, causing
+  customers to receive wrong interest accrual amounts.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

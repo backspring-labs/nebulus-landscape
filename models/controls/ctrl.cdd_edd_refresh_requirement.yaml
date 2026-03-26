@@ -1,0 +1,12 @@
+id: ctrl.cdd_edd_refresh_requirement
+name: CDD/EDD Refresh Requirement
+description: >
+  Require a refresh of customer due diligence and enhanced due diligence before
+  reactivating a dormant account to ensure current risk assessment.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.hold_application_authorization
+name: Hold Application Authorization
+description: >
+  Require appropriate authorization before applying holds or constraints to an
+  account based on hold type and regulatory requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

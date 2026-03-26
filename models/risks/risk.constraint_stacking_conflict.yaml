@@ -1,0 +1,12 @@
+id: risk.constraint_stacking_conflict
+name: Constraint Stacking Conflict
+description: >
+  Multiple holds or constraints on an account interact in conflicting ways, creating
+  ambiguity about which restrictions take priority or how funds are encumbered.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

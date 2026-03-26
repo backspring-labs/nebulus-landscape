@@ -1,0 +1,10 @@
+id: prov.infosys_finacle
+name: Infosys Finacle
+category: core_banking
+summary: >
+  Digital banking solution suite from Infosys providing core banking, e-banking,
+  and mobile banking platforms with account conversion and migration capabilities
+  for global financial institutions.
+status: stub
+source_refs: []
+tags: []

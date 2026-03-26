@@ -1,0 +1,12 @@
+id: ctrl.funding_readiness_prerequisite_matrix
+name: Funding Readiness Prerequisite Matrix
+description: >
+  Define and enforce the prerequisites that must be satisfied before an account
+  is enabled to receive deposits or process funding transactions.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.party_role_establishment
+name: Party Role Establishment
+process_id: proc.checking_account_opening_v1
+description: >
+  Establish account-level party roles including ownership, signing authority,
+  and any additional authorized parties for the new checking account.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

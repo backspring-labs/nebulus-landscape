@@ -1,0 +1,10 @@
+id: sys.closure_notification_publisher
+name: Closure Notification Publisher
+description: >
+  Service publishing account closure events to downstream systems, parties,
+  and regulatory reporting channels.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

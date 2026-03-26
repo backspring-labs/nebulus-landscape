@@ -1,0 +1,12 @@
+id: risk.unauthorized_account_change
+name: Unauthorized Account Change
+description: >
+  Account attributes are modified without proper authorization or customer consent,
+  potentially enabling fraud or causing unintended account behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

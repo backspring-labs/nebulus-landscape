@@ -1,0 +1,12 @@
+id: ctrl.overdraft_fee_policy_enforcement
+name: Overdraft Fee Policy Enforcement
+description: >
+  Enforce institutional overdraft fee policies including daily limits, de minimis
+  thresholds, and fee caps to prevent policy violations.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

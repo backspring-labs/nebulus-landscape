@@ -1,0 +1,12 @@
+id: stage.account_conversion.party_role_and_authorization_adjustment
+name: Party Role and Authorization Adjustment
+process_id: proc.account_conversion_v1
+description: >
+  Adjust account party roles, signing authorities, and access permissions
+  to align with the target product requirements and policies.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

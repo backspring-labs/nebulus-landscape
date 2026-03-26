@@ -1,0 +1,12 @@
+id: ctrl.conversion_disclosure_compliance_check
+name: Conversion Disclosure Compliance Check
+description: >
+  Verify that required change-in-terms disclosures are generated and delivered to
+  customers when account conversion alters product terms or conditions.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

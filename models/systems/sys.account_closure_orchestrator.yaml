@@ -1,0 +1,10 @@
+id: sys.account_closure_orchestrator
+name: Account Closure Orchestrator
+description: >
+  Orchestration service managing the end-to-end account closure workflow
+  including eligibility checks, obligation resolution, and downstream notifications.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

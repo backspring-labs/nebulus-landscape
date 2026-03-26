@@ -1,0 +1,12 @@
+id: ctrl.post_conversion_reconciliation_verification
+name: Post-Conversion Reconciliation Verification
+description: >
+  Perform post-conversion reconciliation to verify that account balances, terms,
+  features, and history are accurately reflected in the target state.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

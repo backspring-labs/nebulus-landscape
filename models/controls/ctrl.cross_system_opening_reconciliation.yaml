@@ -1,0 +1,12 @@
+id: ctrl.cross_system_opening_reconciliation
+name: Cross-System Opening Reconciliation
+description: >
+  Reconcile account opening records across origination, core banking, and downstream
+  systems to detect and resolve inconsistencies.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

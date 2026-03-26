@@ -1,0 +1,12 @@
+id: risk.incomplete_contract_formation
+name: Incomplete Contract Formation
+description: >
+  The account contract formation process is not fully completed, leaving the account
+  without all required agreements, disclosures, or signatures.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

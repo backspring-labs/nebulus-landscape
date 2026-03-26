@@ -1,0 +1,10 @@
+id: sys.dormancy_classification_rules_engine
+name: Dormancy Classification Rules Engine
+description: >
+  Rules engine classifying account dormancy status based on activity patterns,
+  product type, and jurisdiction-specific dormancy period requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

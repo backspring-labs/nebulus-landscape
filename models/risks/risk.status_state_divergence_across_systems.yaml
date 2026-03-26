@@ -1,0 +1,12 @@
+id: risk.status_state_divergence_across_systems
+name: Status State Divergence Across Systems
+description: >
+  The account lifecycle status differs between core banking and downstream systems,
+  leading to conflicting views of whether the account is active, restricted, or closed.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

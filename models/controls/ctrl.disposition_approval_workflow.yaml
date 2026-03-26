@@ -1,0 +1,12 @@
+id: ctrl.disposition_approval_workflow
+name: Disposition Approval Workflow
+description: >
+  Require formal approval through a governed workflow before account records are
+  disposed of at the end of their retention period.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

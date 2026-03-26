@@ -1,0 +1,12 @@
+id: stage.account_closure.interest_accrual_and_fee_finalization
+name: Interest Accrual and Fee Finalization
+process_id: proc.account_closure_v1
+description: >
+  Calculate final interest accrual, assess any remaining fees, and finalize
+  the account balance for closure disbursement.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

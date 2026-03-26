@@ -1,0 +1,10 @@
+id: sys.account_parameter_engine
+name: Account Parameter Engine
+description: >
+  Engine managing account-level configuration parameters including terms,
+  features, rate structures, and product options attached to account contracts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

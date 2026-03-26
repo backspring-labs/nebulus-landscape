@@ -1,0 +1,12 @@
+id: stage.account_closure.retention_archival_and_lifecycle_update
+name: Retention Archival and Lifecycle Update
+process_id: proc.account_closure_v1
+description: >
+  Apply retention schedules to closed account records, trigger archival processes,
+  and evaluate customer lifecycle impact if this was the last active account.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

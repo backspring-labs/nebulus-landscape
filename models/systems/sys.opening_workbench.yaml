@@ -1,0 +1,10 @@
+id: sys.opening_workbench
+name: Opening Workbench
+description: >
+  Operational workbench for bank staff to manage account opening cases,
+  review prerequisites, and resolve exceptions during the opening process.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

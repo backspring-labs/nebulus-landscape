@@ -1,0 +1,10 @@
+id: sys.account_lifecycle_state_machine
+name: Account Lifecycle State Machine
+description: >
+  State machine governing valid account lifecycle transitions, enforcing
+  authorized state changes and maintaining transition audit trails.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

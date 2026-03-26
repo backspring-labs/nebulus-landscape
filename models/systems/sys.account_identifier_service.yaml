@@ -1,0 +1,10 @@
+id: sys.account_identifier_service
+name: Account Identifier Service
+description: >
+  Service that generates and validates unique account identifiers and numbers,
+  ensuring uniqueness and compliance with institutional numbering schemes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

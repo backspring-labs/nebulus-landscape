@@ -1,0 +1,12 @@
+id: ctrl.statement_content_accuracy_reconciliation
+name: Statement Content Accuracy Reconciliation
+description: >
+  Reconcile statement content against source transaction and balance records to
+  ensure accuracy of reported information.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

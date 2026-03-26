@@ -1,0 +1,12 @@
+id: ctrl.litigation_hold_override_prevention
+name: Litigation Hold Override Prevention
+description: >
+  Prevent disposition of account records that are subject to an active litigation
+  hold regardless of retention schedule expiration.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

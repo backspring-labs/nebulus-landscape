@@ -1,0 +1,12 @@
+id: risk.escheat_reporting_data_quality
+name: Escheat Reporting Data Quality
+description: >
+  Unclaimed property reports submitted to state jurisdictions contain inaccurate
+  or incomplete data, risking rejection or regulatory action.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

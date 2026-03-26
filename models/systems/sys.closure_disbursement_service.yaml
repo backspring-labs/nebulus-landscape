@@ -1,0 +1,10 @@
+id: sys.closure_disbursement_service
+name: Closure Disbursement Service
+description: >
+  Service executing the disbursement of remaining account balances to designated
+  parties upon account closure.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

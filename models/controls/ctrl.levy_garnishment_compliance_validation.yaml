@@ -1,0 +1,12 @@
+id: ctrl.levy_garnishment_compliance_validation
+name: Levy Garnishment Compliance Validation
+description: >
+  Validate that levy and garnishment processing complies with applicable legal
+  requirements including priority rules, exempt amounts, and response deadlines.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

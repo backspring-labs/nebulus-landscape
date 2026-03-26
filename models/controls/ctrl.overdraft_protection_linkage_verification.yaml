@@ -1,0 +1,12 @@
+id: ctrl.overdraft_protection_linkage_verification
+name: Overdraft Protection Linkage Verification
+description: >
+  Verify that overdraft protection source account linkages are valid, active, and
+  correctly configured to fund overdraft coverage.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

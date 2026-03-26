@@ -1,0 +1,12 @@
+id: risk.conversion_to_ineligible_product
+name: Conversion to Ineligible Product
+description: >
+  An account is converted to a target product for which the customer or account
+  does not meet eligibility criteria, creating an invalid product assignment.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

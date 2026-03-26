@@ -1,0 +1,12 @@
+id: ctrl.rate_change_disclosure_compliance
+name: Rate Change Disclosure Compliance
+description: >
+  Ensure that required disclosures are provided to customers when interest rates
+  or fee schedules change in compliance with Regulation DD and other requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

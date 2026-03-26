@@ -1,0 +1,10 @@
+id: sys.deposit_product_catalog
+name: Deposit Product Catalog
+description: >
+  Central repository of deposit account product definitions including checking,
+  savings, and money market offerings with their feature sets and eligibility rules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

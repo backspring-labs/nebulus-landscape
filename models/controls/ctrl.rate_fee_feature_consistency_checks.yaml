@@ -1,0 +1,12 @@
+id: ctrl.rate_fee_feature_consistency_checks
+name: Rate Fee Feature Consistency Checks
+description: >
+  Validate that rate, fee, and feature configurations on an account are internally
+  consistent and aligned with the product definition.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

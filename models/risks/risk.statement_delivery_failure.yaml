@@ -1,0 +1,12 @@
+id: risk.statement_delivery_failure
+name: Statement Delivery Failure
+description: >
+  Generated statements are not successfully delivered to customers through their
+  selected channel, creating regulatory disclosure gaps.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

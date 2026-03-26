@@ -1,0 +1,12 @@
+id: risk.customer_vs_account_role_confusion
+name: Customer vs Account Role Confusion
+description: >
+  Customer-level relationship roles are conflated with account-level product roles,
+  causing incorrect authority decisions or access grants.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

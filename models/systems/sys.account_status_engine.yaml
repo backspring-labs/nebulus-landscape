@@ -1,0 +1,10 @@
+id: sys.account_status_engine
+name: Account Status Engine
+description: >
+  Engine managing account lifecycle status transitions including active, inactive,
+  dormant, restricted, frozen, and closed states.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.closure_record_retention_compliance
+name: Closure Record Retention Compliance
+description: >
+  Ensure that closed account records are retained in compliance with applicable
+  regulatory retention periods and internal policy requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

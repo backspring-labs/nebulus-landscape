@@ -1,0 +1,12 @@
+id: ctrl.terms_configuration_product_catalog_validation
+name: Terms Configuration Product Catalog Validation
+description: >
+  Validate that the account's terms and feature configuration matches the product
+  catalog definition to prevent misconfigured accounts.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

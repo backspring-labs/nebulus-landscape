@@ -1,0 +1,12 @@
+id: ctrl.account_role_evidence_requirements
+name: Account Role Evidence Requirements
+description: >
+  Define and enforce the evidence required to assign or modify party roles on an
+  account, including authorization documents and identity verification.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

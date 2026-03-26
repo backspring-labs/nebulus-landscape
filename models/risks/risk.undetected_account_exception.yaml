@@ -1,0 +1,12 @@
+id: risk.undetected_account_exception
+name: Undetected Account Exception
+description: >
+  Account-level processing errors, data quality defects, or anomalies go undetected,
+  allowing issues to persist and potentially affect customers or compliance.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

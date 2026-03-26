@@ -1,0 +1,10 @@
+id: sys.conversion_reconciliation_service
+name: Conversion Reconciliation Service
+description: >
+  Service performing post-conversion reconciliation to verify data integrity,
+  terms accuracy, and service continuity after account conversion.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

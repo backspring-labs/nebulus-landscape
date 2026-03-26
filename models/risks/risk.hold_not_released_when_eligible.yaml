@@ -1,0 +1,12 @@
+id: risk.hold_not_released_when_eligible
+name: Hold Not Released When Eligible
+description: >
+  An account hold remains in place after its release conditions have been met,
+  unnecessarily restricting customer access to funds.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

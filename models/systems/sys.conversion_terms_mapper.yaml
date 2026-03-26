@@ -1,0 +1,10 @@
+id: sys.conversion_terms_mapper
+name: Conversion Terms Mapper
+description: >
+  Service mapping account terms and features from source product to target
+  product during account conversion, identifying gaps and re-pricing needs.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

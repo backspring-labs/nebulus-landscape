@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.reactivation_request_and_eligibility
+name: Reactivation Request and Eligibility
+process_id: proc.account_dormancy_reactivation
+description: >
+  Receive dormant account reactivation requests and assess eligibility based on
+  dormancy duration, escheatment status, and product availability.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

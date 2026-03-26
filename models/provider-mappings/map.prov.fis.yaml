@@ -1,0 +1,13 @@
+id: map.prov.fis
+provider_id: prov.fis
+capability_ids:
+  - cap.account_hold_and_constraint_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

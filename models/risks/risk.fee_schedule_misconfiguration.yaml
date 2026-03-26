@@ -1,0 +1,12 @@
+id: risk.fee_schedule_misconfiguration
+name: Fee Schedule Misconfiguration
+description: >
+  Account fee schedules are incorrectly configured, resulting in overcharges,
+  undercharges, or application of fees not associated with the product.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

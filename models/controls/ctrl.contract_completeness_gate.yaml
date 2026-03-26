@@ -1,0 +1,12 @@
+id: ctrl.contract_completeness_gate
+name: Contract Completeness Gate
+description: >
+  Enforce a completeness gate requiring all contract elements including disclosures,
+  agreements, and signatures to be present before account creation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.premature_funding_enablement
+name: Premature Funding Enablement
+description: >
+  The account is enabled to receive funds before all required preconditions such
+  as identity verification or contract acceptance are satisfied.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

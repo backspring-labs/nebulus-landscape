@@ -1,0 +1,12 @@
+id: risk.mass_conversion_error
+name: Mass Conversion Error
+description: >
+  A batch or mass conversion operation applies incorrect mappings or configurations
+  across a large number of accounts, amplifying the impact of any single error.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

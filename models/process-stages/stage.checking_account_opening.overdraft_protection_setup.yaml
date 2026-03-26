@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.overdraft_protection_setup
+name: Overdraft Protection Setup
+process_id: proc.checking_account_opening_v1
+description: >
+  Capture overdraft election preferences, configure overdraft protection linkages,
+  and present required Regulation E disclosures for the checking account.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

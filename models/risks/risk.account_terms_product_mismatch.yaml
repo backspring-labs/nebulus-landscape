@@ -1,0 +1,12 @@
+id: risk.account_terms_product_mismatch
+name: Account Terms Product Mismatch
+description: >
+  Account-level terms and features do not match the governing product definition,
+  resulting in incorrect pricing, fees, or feature behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

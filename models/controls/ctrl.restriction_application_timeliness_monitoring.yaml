@@ -1,0 +1,12 @@
+id: ctrl.restriction_application_timeliness_monitoring
+name: Restriction Application Timeliness Monitoring
+description: >
+  Monitor that account restrictions are applied within required timeframes after
+  the triggering event to ensure regulatory and operational compliance.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

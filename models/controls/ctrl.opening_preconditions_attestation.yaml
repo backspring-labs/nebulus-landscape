@@ -1,0 +1,12 @@
+id: ctrl.opening_preconditions_attestation
+name: Opening Preconditions Attestation
+description: >
+  Require explicit attestation that all opening preconditions have been met before
+  the account creation transaction is committed.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

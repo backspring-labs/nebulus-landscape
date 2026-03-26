@@ -1,0 +1,12 @@
+id: ctrl.status_transition_authorization_matrix
+name: Status Transition Authorization Matrix
+description: >
+  Define and enforce which roles and conditions are authorized to trigger each
+  account status transition in the lifecycle state machine.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

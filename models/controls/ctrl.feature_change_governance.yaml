@@ -1,0 +1,12 @@
+id: ctrl.feature_change_governance
+name: Feature Change Governance
+description: >
+  Require review and approval for changes to account features to prevent unauthorized
+  or unintended modifications to product capabilities.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

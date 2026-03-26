@@ -1,0 +1,12 @@
+id: ctrl.retention_schedule_enforcement
+name: Retention Schedule Enforcement
+description: >
+  Enforce retention schedules on account records to prevent premature destruction
+  and ensure compliance with regulatory retention requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

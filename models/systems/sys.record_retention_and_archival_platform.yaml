@@ -1,0 +1,10 @@
+id: sys.record_retention_and_archival_platform
+name: Record Retention and Archival Platform
+description: >
+  Enterprise platform managing record retention schedules, archival execution,
+  and retrieval for account documents and transaction records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

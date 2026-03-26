@@ -1,0 +1,12 @@
+id: ctrl.rate_configuration_product_consistency_validation
+name: Rate Configuration Product Consistency Validation
+description: >
+  Validate that interest rate configurations on accounts are consistent with the
+  governing product definition and applicable rate structures.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.core_deposit_role_repository
+name: Core Deposit Role Repository
+description: >
+  Repository managing account-level party roles including ownership, signer,
+  beneficiary, and authorized-party relationships for deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

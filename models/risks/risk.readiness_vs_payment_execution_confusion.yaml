@@ -1,0 +1,12 @@
+id: risk.readiness_vs_payment_execution_confusion
+name: Readiness vs Payment Execution Confusion
+description: >
+  The boundary between funding readiness management and payment execution is unclear,
+  leading to duplicated or conflicting controls across domains.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

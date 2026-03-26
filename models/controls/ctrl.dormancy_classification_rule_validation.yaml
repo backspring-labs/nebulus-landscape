@@ -1,0 +1,12 @@
+id: ctrl.dormancy_classification_rule_validation
+name: Dormancy Classification Rule Validation
+description: >
+  Validate that dormancy classification rules correctly identify accounts as dormant
+  based on inactivity thresholds and applicable state requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

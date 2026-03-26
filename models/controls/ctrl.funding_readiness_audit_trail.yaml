@@ -1,0 +1,12 @@
+id: ctrl.funding_readiness_audit_trail
+name: Funding Readiness Audit Trail
+description: >
+  Capture an audit trail of all funding readiness state changes including enablement,
+  blocking, and unblocking events with timestamps and reason codes.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

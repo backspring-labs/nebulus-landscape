@@ -1,0 +1,10 @@
+id: sys.payment_disbursement_service
+name: Payment Disbursement Service
+description: >
+  Service executing outbound payment disbursements including closing balance
+  payouts, refunds, and directed transfers during account lifecycle events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.hold_management_service
+name: Hold Management Service
+description: >
+  Service managing the application, tracking, expiration, and release of
+  holds and blocks on deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

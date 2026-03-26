@@ -1,0 +1,12 @@
+id: stage.dormancy_reactivation.hold_and_constraint_review
+name: Hold and Constraint Review
+process_id: proc.account_dormancy_reactivation
+description: >
+  Review and resolve any holds, constraints, or blocks that were applied during
+  the dormancy period before reactivation can proceed.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

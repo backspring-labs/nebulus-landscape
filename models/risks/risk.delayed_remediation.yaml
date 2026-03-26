@@ -1,0 +1,12 @@
+id: risk.delayed_remediation
+name: Delayed Remediation
+description: >
+  Known account exceptions are not remediated within required timeframes, increasing
+  customer impact and regulatory exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

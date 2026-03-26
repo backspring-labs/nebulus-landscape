@@ -1,0 +1,12 @@
+id: ctrl.account_feature_audit_trail
+name: Account Feature Audit Trail
+description: >
+  Capture a complete audit trail of all account feature and terms changes including
+  the initiator, approval, old value, new value, and effective date.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

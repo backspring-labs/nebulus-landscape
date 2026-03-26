@@ -1,0 +1,12 @@
+id: ctrl.overdraft_coverage_configuration_governance
+name: Overdraft Coverage Configuration Governance
+description: >
+  Govern changes to overdraft coverage tiers and configuration parameters to
+  ensure alignment with product definitions and regulatory requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

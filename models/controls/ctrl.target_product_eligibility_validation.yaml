@@ -1,0 +1,12 @@
+id: ctrl.target_product_eligibility_validation
+name: Target Product Eligibility Validation
+description: >
+  Validate that the account and its parties meet all eligibility criteria for the
+  target product before executing an account conversion.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

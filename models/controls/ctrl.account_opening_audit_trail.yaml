@@ -1,0 +1,12 @@
+id: ctrl.account_opening_audit_trail
+name: Account Opening Audit Trail
+description: >
+  Capture and retain a complete audit trail of all actions, decisions, and system
+  events during the account opening process.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

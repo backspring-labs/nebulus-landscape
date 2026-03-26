@@ -1,0 +1,12 @@
+id: risk.restriction_not_applied_timely
+name: Restriction Not Applied Timely
+description: >
+  A required account restriction such as a regulatory freeze or legal hold is not
+  applied within the required timeframe, creating compliance exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

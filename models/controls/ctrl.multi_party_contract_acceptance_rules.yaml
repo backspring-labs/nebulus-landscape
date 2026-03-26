@@ -1,0 +1,12 @@
+id: ctrl.multi_party_contract_acceptance_rules
+name: Multi-Party Contract Acceptance Rules
+description: >
+  Enforce rules requiring all parties on a joint or multi-party account to complete
+  contract acceptance before the account is finalized.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

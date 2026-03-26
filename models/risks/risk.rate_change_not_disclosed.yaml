@@ -1,0 +1,12 @@
+id: risk.rate_change_not_disclosed
+name: Rate Change Not Disclosed
+description: >
+  Changes to account interest rates are not disclosed to the customer as required
+  by regulation, creating compliance violations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.account_closure.hold_and_constraint_resolution
+name: Hold and Constraint Resolution
+process_id: proc.account_closure_v1
+description: >
+  Identify and resolve outstanding holds, liens, garnishments, and other
+  constraints that must be cleared before account closure can proceed.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

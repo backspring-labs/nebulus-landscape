@@ -1,0 +1,12 @@
+id: ctrl.account_disclosure_presentment_requirements
+name: Account Disclosure Presentment Requirements
+description: >
+  Ensure all required disclosures are presented to the applicant in the correct
+  format and sequence before account contract acceptance.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

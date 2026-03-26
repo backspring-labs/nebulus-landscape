@@ -1,0 +1,12 @@
+id: ctrl.remediation_pre_post_reconciliation
+name: Remediation Pre-Post Reconciliation
+description: >
+  Perform pre- and post-remediation reconciliation to verify that corrective actions
+  achieved the intended outcome without introducing new errors.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

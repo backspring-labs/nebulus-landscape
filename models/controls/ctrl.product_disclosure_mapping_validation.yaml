@@ -1,0 +1,12 @@
+id: ctrl.product_disclosure_mapping_validation
+name: Product Disclosure Mapping Validation
+description: >
+  Validate that each deposit product is mapped to the correct set of required
+  disclosures before the product can be offered or opened.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

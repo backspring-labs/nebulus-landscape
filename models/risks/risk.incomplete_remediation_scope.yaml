@@ -1,0 +1,12 @@
+id: risk.incomplete_remediation_scope
+name: Incomplete Remediation Scope
+description: >
+  Remediation actions do not cover all affected accounts, leaving some customers
+  with unresolved issues from a systemic problem.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

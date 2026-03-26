@@ -1,0 +1,12 @@
+id: ctrl.retention_policy_application_validation
+name: Retention Policy Application Validation
+description: >
+  Validate that the correct retention policy is applied to closed account records
+  based on account type, jurisdiction, and regulatory requirements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

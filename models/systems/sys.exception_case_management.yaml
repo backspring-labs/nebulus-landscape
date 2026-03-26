@@ -1,0 +1,10 @@
+id: sys.exception_case_management
+name: Exception Case Management
+description: >
+  Case management system for tracking, assigning, and resolving account-level
+  exceptions through structured remediation workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

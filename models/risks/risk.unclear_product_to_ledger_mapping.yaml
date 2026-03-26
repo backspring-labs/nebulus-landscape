@@ -1,0 +1,12 @@
+id: risk.unclear_product_to_ledger_mapping
+name: Unclear Product to Ledger Mapping
+description: >
+  The mapping between product constructs and general ledger accounts is ambiguous
+  or undocumented, risking incorrect financial reporting.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

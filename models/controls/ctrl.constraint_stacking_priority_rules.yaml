@@ -1,0 +1,12 @@
+id: ctrl.constraint_stacking_priority_rules
+name: Constraint Stacking Priority Rules
+description: >
+  Enforce priority and stacking rules when multiple holds or constraints apply to
+  the same account to prevent conflicts and ensure correct resolution order.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

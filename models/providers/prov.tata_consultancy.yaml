@@ -1,0 +1,10 @@
+id: prov.tata_consultancy
+name: Tata Consultancy Services (TCS)
+category: core_banking
+summary: >
+  Global IT services and consulting firm providing BaNCS core banking platform
+  and large-scale account migration and conversion services for financial
+  institutions.
+status: stub
+source_refs: []
+tags: []

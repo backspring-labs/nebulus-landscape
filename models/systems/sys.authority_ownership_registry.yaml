@@ -1,0 +1,10 @@
+id: sys.authority_ownership_registry
+name: Authority Ownership Registry
+description: >
+  Registry tracking account ownership and authority structures including
+  signing authority, power of attorney, and fiduciary designations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

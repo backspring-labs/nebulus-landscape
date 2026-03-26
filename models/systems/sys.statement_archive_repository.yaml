@@ -1,0 +1,10 @@
+id: sys.statement_archive_repository
+name: Statement Archive Repository
+description: >
+  Long-term archive of generated account statements supporting retrieval
+  for customer requests, audits, and regulatory inquiries.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

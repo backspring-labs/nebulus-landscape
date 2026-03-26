@@ -1,0 +1,10 @@
+id: sys.contract_evidence_repository
+name: Contract Evidence Repository
+description: >
+  Repository storing signed agreements, acceptance evidence, and contract
+  artifacts associated with deposit account establishment.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

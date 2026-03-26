@@ -1,0 +1,12 @@
+id: risk.dormancy_detection_failure
+name: Dormancy Detection Failure
+description: >
+  Accounts meeting dormancy criteria are not detected or classified in a timely
+  manner, delaying required outreach and escheatment processing.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

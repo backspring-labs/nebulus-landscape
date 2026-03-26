@@ -1,0 +1,13 @@
+id: map.prov.kelmar
+provider_id: prov.kelmar
+capability_ids:
+  - cap.account_dormancy_and_escheat_coordination
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

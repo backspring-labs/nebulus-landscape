@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.product_selection_and_eligibility
+name: Product Selection and Eligibility
+process_id: proc.checking_account_opening_v1
+description: >
+  Validate the selected checking account product, assess customer eligibility,
+  and confirm product availability for the requested account opening.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.retention_compliance_audit
+name: Retention Compliance Audit
+description: >
+  Conduct periodic audits of record retention practices to verify compliance with
+  regulatory requirements and internal retention policies.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

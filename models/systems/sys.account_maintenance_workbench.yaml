@@ -1,0 +1,10 @@
+id: sys.account_maintenance_workbench
+name: Account Maintenance Workbench
+description: >
+  Operational workbench for processing account maintenance requests including
+  attribute changes, feature updates, and address modifications.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

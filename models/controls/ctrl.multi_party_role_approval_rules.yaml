@@ -1,0 +1,12 @@
+id: ctrl.multi_party_role_approval_rules
+name: Multi-Party Role Approval Rules
+description: >
+  Require appropriate approvals from existing account holders before new parties
+  can be added to or removed from account roles.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

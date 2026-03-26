@@ -1,0 +1,12 @@
+id: ctrl.account_role_change_audit_trail
+name: Account Role Change Audit Trail
+description: >
+  Capture a complete audit trail for all party role changes on accounts, including
+  who initiated the change, approval evidence, and effective dates.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

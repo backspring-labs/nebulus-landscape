@@ -1,0 +1,12 @@
+id: risk.reactivation_with_unresolved_holds
+name: Reactivation with Unresolved Holds
+description: >
+  A dormant account is reactivated while holds, liens, or constraints placed during
+  dormancy remain unreviewed or unresolved.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

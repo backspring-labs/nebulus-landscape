@@ -1,0 +1,10 @@
+id: sys.pricing_rate_repository
+name: Pricing Rate Repository
+description: >
+  Centralized store of interest rate schedules, pricing tiers, and rate-related
+  reference data used by deposit account products.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

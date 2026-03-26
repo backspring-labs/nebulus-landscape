@@ -1,0 +1,12 @@
+id: ctrl.interest_fee_configuration_audit_trail
+name: Interest Fee Configuration Audit Trail
+description: >
+  Capture an audit trail of all interest rate and fee configuration changes on
+  accounts including effective dates, old and new values, and approvals.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

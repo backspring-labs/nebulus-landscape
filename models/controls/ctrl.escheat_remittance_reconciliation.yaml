@@ -1,0 +1,12 @@
+id: ctrl.escheat_remittance_reconciliation
+name: Escheat Remittance Reconciliation
+description: >
+  Reconcile escheatment remittances against reported unclaimed property to ensure
+  accurate and complete transfer to state authorities.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

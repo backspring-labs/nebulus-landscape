@@ -1,0 +1,12 @@
+id: ctrl.escheat_deadline_monitoring
+name: Escheat Deadline Monitoring
+description: >
+  Monitor escheatment deadlines by jurisdiction to ensure unclaimed property is
+  reported and remitted within required timeframes.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

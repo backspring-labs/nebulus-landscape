@@ -1,0 +1,10 @@
+id: sys.e_statement_portal
+name: E-Statement Portal
+description: >
+  Customer-facing portal for accessing electronic statements, managing delivery
+  preferences, and retrieving historical statement documents.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

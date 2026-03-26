@@ -1,0 +1,12 @@
+id: risk.unexplained_funding_block
+name: Unexplained Funding Block
+description: >
+  The account is blocked from receiving funds without a clear reason code or
+  explanation, causing customer confusion and operational inefficiency.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.statement_generation_failure
+name: Statement Generation Failure
+description: >
+  Account statements fail to generate during the cycle run, leaving customers
+  without required periodic account disclosures.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.account_to_product_configuration_validation
+name: Account to Product Configuration Validation
+description: >
+  Validate that account-level configuration parameters are consistent with the
+  governing product catalog definition at account creation and modification.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

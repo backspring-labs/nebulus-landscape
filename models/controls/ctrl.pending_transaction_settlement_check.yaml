@@ -1,0 +1,12 @@
+id: ctrl.pending_transaction_settlement_check
+name: Pending Transaction Settlement Check
+description: >
+  Check for and resolve pending transactions before finalizing account closure
+  to prevent settlement failures on closed accounts.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

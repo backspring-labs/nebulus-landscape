@@ -1,0 +1,12 @@
+id: ctrl.conversion_terms_mapping_review
+name: Conversion Terms Mapping Review
+description: >
+  Review and validate the mapping of account terms from the source product to the
+  target product during conversion to prevent terms misapplication.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.operations_servicing_workbench
+name: Operations Servicing Workbench
+description: >
+  General-purpose operations workbench for bank staff to manage account servicing
+  tasks, restrictions, holds, and operational exceptions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

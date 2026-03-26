@@ -1,0 +1,12 @@
+id: risk.product_to_contract_drift
+name: Product to Contract Drift
+description: >
+  Product terms evolve over time but the associated contract documents are not
+  updated accordingly, creating drift between what is agreed and what is delivered.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.levy_garnishment_processing_error
+name: Levy Garnishment Processing Error
+description: >
+  A levy or garnishment order is processed incorrectly, resulting in wrong amounts
+  withheld, incorrect priority application, or missed compliance deadlines.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

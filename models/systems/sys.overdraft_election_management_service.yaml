@@ -1,0 +1,10 @@
+id: sys.overdraft_election_management_service
+name: Overdraft Election Management Service
+description: >
+  Service managing customer overdraft opt-in and opt-out elections, tracking
+  election status, and ensuring Regulation E compliance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

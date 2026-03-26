@@ -1,0 +1,12 @@
+id: ctrl.product_eligibility_validation
+name: Product Eligibility Validation
+description: >
+  Validate that the applicant meets all eligibility criteria for the selected
+  deposit product before proceeding with account opening.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.checking_account_opening.funding_readiness_and_initial_funding
+name: Funding Readiness and Initial Funding
+process_id: proc.checking_account_opening_v1
+description: >
+  Evaluate funding prerequisites, confirm account readiness to receive deposits,
+  and process the initial funding transaction for the new checking account.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

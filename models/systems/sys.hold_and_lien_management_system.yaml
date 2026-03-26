@@ -1,0 +1,10 @@
+id: sys.hold_and_lien_management_system
+name: Hold and Lien Management System
+description: >
+  System managing holds, liens, and encumbrances on deposit accounts including
+  application, tracking, priority stacking, and release processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.party_role_compatibility_check
+name: Party Role Compatibility Check
+description: >
+  Check that existing party roles on the account are compatible with the target
+  product's role requirements before executing conversion.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

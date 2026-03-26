@@ -1,0 +1,10 @@
+id: sys.dormancy_management_module
+name: Dormancy Management Module
+description: >
+  Module within the core banking ecosystem managing dormancy classification,
+  fee assessment, and reactivation processing for deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

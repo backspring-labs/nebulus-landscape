@@ -1,0 +1,12 @@
+id: ctrl.activation_dependency_matrix
+name: Activation Dependency Matrix
+description: >
+  Define and enforce the dependency matrix of conditions that must be satisfied
+  before an account can transition to active status.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.statement_cycle_configuration_governance
+name: Statement Cycle Configuration Governance
+description: >
+  Govern changes to statement cycle configurations to prevent misconfiguration
+  that could lead to missed or incorrectly timed statements.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

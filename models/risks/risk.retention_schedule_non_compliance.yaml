@@ -1,0 +1,12 @@
+id: risk.retention_schedule_non_compliance
+name: Retention Schedule Non-Compliance
+description: >
+  Account records are not retained according to the applicable federal or state
+  retention schedules, creating regulatory and legal discovery exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

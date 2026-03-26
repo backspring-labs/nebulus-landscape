@@ -1,0 +1,12 @@
+id: ctrl.cross_channel_product_consistency_review
+name: Cross-Channel Product Consistency Review
+description: >
+  Periodically review that product attributes, pricing, and disclosures are
+  consistent across all customer-facing channels.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

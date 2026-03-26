@@ -1,0 +1,12 @@
+id: ctrl.account_change_propagation_validation
+name: Account Change Propagation Validation
+description: >
+  Validate that account attribute changes are propagated to all downstream systems
+  and detect failures in change distribution.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

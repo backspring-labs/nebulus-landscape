@@ -1,0 +1,10 @@
+id: sys.remediation_orchestrator
+name: Remediation Orchestrator
+description: >
+  Orchestration service coordinating remediation actions across affected accounts,
+  managing scope, execution, and verification of corrective actions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

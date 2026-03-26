@@ -1,0 +1,12 @@
+id: risk.statement_cycle_misconfiguration
+name: Statement Cycle Misconfiguration
+description: >
+  Statement cycle parameters are incorrectly configured, causing statements to
+  generate at wrong intervals or with incorrect period boundaries.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.statement_cycle_configuration_service
+name: Statement Cycle Configuration Service
+description: >
+  Service managing statement cycle parameters including cycle dates, frequency,
+  and product-specific statement generation rules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

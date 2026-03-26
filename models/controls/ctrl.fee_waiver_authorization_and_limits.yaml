@@ -1,0 +1,12 @@
+id: ctrl.fee_waiver_authorization_and_limits
+name: Fee Waiver Authorization and Limits
+description: >
+  Enforce authorization requirements and limits for fee waivers to prevent abuse
+  and ensure waivers are granted within policy thresholds.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

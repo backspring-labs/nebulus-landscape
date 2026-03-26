@@ -1,0 +1,12 @@
+id: risk.multi_party_acceptance_error
+name: Multi-Party Acceptance Error
+description: >
+  In joint or multi-party account scenarios, not all required parties complete
+  acceptance, leaving the contract partially executed or unenforceable.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.dormancy_fee_regulatory_violation
+name: Dormancy Fee Regulatory Violation
+description: >
+  Dormancy or inactivity fees are assessed in violation of state-specific regulations
+  governing permissible charges on dormant accounts.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

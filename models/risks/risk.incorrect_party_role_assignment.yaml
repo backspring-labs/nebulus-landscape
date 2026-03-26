@@ -1,0 +1,12 @@
+id: risk.incorrect_party_role_assignment
+name: Incorrect Party Role Assignment
+description: >
+  Party roles such as owner, signer, or authorized user are incorrectly assigned
+  during account opening, granting wrong levels of access or authority.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

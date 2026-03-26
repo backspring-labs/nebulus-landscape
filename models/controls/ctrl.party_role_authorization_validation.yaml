@@ -1,0 +1,12 @@
+id: ctrl.party_role_authorization_validation
+name: Party Role Authorization Validation
+description: >
+  Validate that party role assignments on the account are properly authorized and
+  that all required parties have been verified before activation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

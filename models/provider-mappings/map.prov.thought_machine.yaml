@@ -1,0 +1,17 @@
+id: map.prov.thought_machine
+provider_id: prov.thought_machine
+capability_ids:
+  - cap.deposit_account_product_management
+  - cap.account_terms_and_feature_management
+  - cap.account_status_and_restriction_management
+  - cap.account_hold_and_constraint_management
+  - cap.account_interest_and_fee_configuration_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

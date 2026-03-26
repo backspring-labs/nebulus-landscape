@@ -1,0 +1,12 @@
+id: ctrl.address_change_verification
+name: Address Change Verification
+description: >
+  Verify account address changes through appropriate confirmation methods to
+  mitigate the risk of fraudulent address manipulation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

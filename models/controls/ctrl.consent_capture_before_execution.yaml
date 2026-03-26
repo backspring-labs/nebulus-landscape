@@ -1,0 +1,12 @@
+id: ctrl.consent_capture_before_execution
+name: Consent Capture Before Execution
+description: >
+  Capture explicit customer consent and attestation before executing an account
+  product conversion to ensure informed agreement to new terms.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

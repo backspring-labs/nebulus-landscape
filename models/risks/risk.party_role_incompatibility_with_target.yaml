@@ -1,0 +1,12 @@
+id: risk.party_role_incompatibility_with_target
+name: Party Role Incompatibility with Target
+description: >
+  Existing party roles on the account are incompatible with the target product's
+  role requirements, creating authorization or access issues after conversion.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.overdraft_election_audit_trail
+name: Overdraft Election Audit Trail
+description: >
+  Capture a complete audit trail of overdraft election changes including opt-in,
+  opt-out, and coverage tier modifications with consent evidence.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

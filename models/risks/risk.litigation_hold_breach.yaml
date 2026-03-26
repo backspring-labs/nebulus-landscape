@@ -1,0 +1,12 @@
+id: risk.litigation_hold_breach
+name: Litigation Hold Breach
+description: >
+  Account records subject to a litigation hold are destroyed or modified, violating
+  preservation obligations and creating spoliation risk.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

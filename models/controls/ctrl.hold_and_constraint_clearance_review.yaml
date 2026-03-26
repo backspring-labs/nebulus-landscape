@@ -1,0 +1,12 @@
+id: ctrl.hold_and_constraint_clearance_review
+name: Hold and Constraint Clearance Review
+description: >
+  Review all existing holds and constraints on a dormant account before reactivation
+  to determine which must be resolved or can be carried forward.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

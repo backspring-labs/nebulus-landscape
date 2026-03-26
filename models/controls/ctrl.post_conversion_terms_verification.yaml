@@ -1,0 +1,12 @@
+id: ctrl.post_conversion_terms_verification
+name: Post-Conversion Terms Verification
+description: >
+  Verify after conversion that the account's terms, features, and pricing accurately
+  reflect the target product definition.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

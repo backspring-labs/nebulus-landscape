@@ -1,0 +1,12 @@
+id: ctrl.conversion_data_integrity_validation
+name: Conversion Data Integrity Validation
+description: >
+  Validate data integrity during account conversion or migration to detect and
+  prevent data loss, corruption, or mapping errors.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

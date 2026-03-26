@@ -1,0 +1,10 @@
+id: sys.product_parameter_repository
+name: Product Parameter Repository
+description: >
+  Stores configurable product parameters including rate tiers, fee structures,
+  eligibility criteria, and rule packages that define deposit product behavior.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.levy_garnishment_processing_system
+name: Levy Garnishment Processing System
+description: >
+  System processing levy and garnishment orders, calculating applicable amounts,
+  and managing compliance with legal order requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

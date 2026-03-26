@@ -1,0 +1,12 @@
+id: ctrl.statement_delivery_confirmation
+name: Statement Delivery Confirmation
+description: >
+  Confirm successful delivery of statements through each channel and detect
+  delivery failures requiring remediation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

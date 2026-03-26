@@ -1,0 +1,12 @@
+id: risk.insufficient_due_diligence_contact
+name: Insufficient Due Diligence Contact
+description: >
+  Required due-diligence contact attempts before escheatment are not performed
+  or not adequately documented, creating compliance exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

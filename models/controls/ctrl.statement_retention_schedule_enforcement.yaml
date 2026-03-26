@@ -1,0 +1,12 @@
+id: ctrl.statement_retention_schedule_enforcement
+name: Statement Retention Schedule Enforcement
+description: >
+  Enforce retention schedules for generated statements to ensure compliance with
+  regulatory record-keeping requirements and customer access needs.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

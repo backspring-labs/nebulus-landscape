@@ -1,0 +1,10 @@
+id: sys.escheat_reporting_service
+name: Escheat Reporting Service
+description: >
+  Service generating unclaimed property reports and managing escheatment
+  remittance filings to state jurisdictions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

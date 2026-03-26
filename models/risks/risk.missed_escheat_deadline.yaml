@@ -1,0 +1,12 @@
+id: risk.missed_escheat_deadline
+name: Missed Escheat Deadline
+description: >
+  Required escheatment reporting or remittance deadlines are missed, resulting
+  in regulatory penalties and compliance violations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

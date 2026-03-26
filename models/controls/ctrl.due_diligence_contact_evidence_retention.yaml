@@ -1,0 +1,12 @@
+id: ctrl.due_diligence_contact_evidence_retention
+name: Due Diligence Contact Evidence Retention
+description: >
+  Retain evidence of all due diligence contact attempts for dormant accounts as
+  required by state unclaimed property statutes before escheatment.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

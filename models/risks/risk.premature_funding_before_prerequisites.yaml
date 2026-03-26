@@ -1,0 +1,12 @@
+id: risk.premature_funding_before_prerequisites
+name: Premature Funding Before Prerequisites
+description: >
+  The account receives initial funding before all opening prerequisites such as
+  identity verification and contract execution have been completed.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

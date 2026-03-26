@@ -1,0 +1,12 @@
+id: risk.overdraft_protection_linkage_failure
+name: Overdraft Protection Linkage Failure
+description: >
+  The linkage between an account and its overdraft protection source account is
+  broken or misconfigured, preventing protection from functioning as expected.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

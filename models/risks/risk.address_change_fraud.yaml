@@ -1,0 +1,12 @@
+id: risk.address_change_fraud
+name: Address Change Fraud
+description: >
+  A fraudulent address change is processed on an account, potentially enabling
+  statement redirection, card interception, or account takeover.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

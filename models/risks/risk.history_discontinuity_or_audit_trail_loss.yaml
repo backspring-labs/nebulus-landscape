@@ -1,0 +1,12 @@
+id: risk.history_discontinuity_or_audit_trail_loss
+name: History Discontinuity or Audit Trail Loss
+description: >
+  Account history or audit trail continuity is broken during conversion, making it
+  difficult to trace pre-conversion activity or demonstrate compliance.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

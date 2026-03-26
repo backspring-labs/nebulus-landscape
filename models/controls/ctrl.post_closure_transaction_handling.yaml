@@ -1,0 +1,12 @@
+id: ctrl.post_closure_transaction_handling
+name: Post-Closure Transaction Handling
+description: >
+  Define and enforce handling rules for transactions that arrive after account
+  closure to ensure proper rejection, return, or exception processing.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.accounts
+source_refs: []
+status: draft

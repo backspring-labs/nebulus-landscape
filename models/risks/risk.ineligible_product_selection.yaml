@@ -1,0 +1,12 @@
+id: risk.ineligible_product_selection
+name: Ineligible Product Selection
+description: >
+  A customer selects or is assigned a deposit product for which they do not meet
+  eligibility criteria, leading to an invalid account configuration.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

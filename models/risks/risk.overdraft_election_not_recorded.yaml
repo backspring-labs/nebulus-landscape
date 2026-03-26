@@ -1,0 +1,12 @@
+id: risk.overdraft_election_not_recorded
+name: Overdraft Election Not Recorded
+description: >
+  A customer's overdraft opt-in or opt-out election is not durably recorded,
+  undermining the ability to prove consent compliance.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.downstream_feature_interpretation_conflict
+name: Downstream Feature Interpretation Conflict
+description: >
+  Downstream systems interpret account feature configurations differently than
+  intended, leading to inconsistent transaction processing or fee assessment.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

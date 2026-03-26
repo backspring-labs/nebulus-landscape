@@ -1,0 +1,10 @@
+id: sys.account_servicing_workbench
+name: Account Servicing Workbench
+description: >
+  Operational workbench for bank staff to service deposit accounts, manage
+  party roles, and process account-level maintenance requests.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

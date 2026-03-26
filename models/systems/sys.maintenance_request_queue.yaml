@@ -1,0 +1,10 @@
+id: sys.maintenance_request_queue
+name: Maintenance Request Queue
+description: >
+  Queue managing inbound account maintenance requests, routing them to
+  appropriate processing workflows based on change type and authorization level.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

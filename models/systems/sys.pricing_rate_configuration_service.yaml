@@ -1,0 +1,10 @@
+id: sys.pricing_rate_configuration_service
+name: Pricing Rate Configuration Service
+description: >
+  Service for configuring and managing interest rate structures, fee schedules,
+  and pricing parameters at the account level.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

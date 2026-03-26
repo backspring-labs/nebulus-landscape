@@ -1,0 +1,10 @@
+id: sys.account_record_archive
+name: Account Record Archive
+description: >
+  Long-term archive for deposit account records including transaction history,
+  contracts, and regulatory documentation beyond active system retention.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

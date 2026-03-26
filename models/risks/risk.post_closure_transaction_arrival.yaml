@@ -1,0 +1,12 @@
+id: risk.post_closure_transaction_arrival
+name: Post-Closure Transaction Arrival
+description: >
+  Transactions arrive for an account after it has been closed, requiring exception
+  handling and potential customer communication.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

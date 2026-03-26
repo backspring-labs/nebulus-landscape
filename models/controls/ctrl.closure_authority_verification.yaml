@@ -1,0 +1,12 @@
+id: ctrl.closure_authority_verification
+name: Closure Authority Verification
+description: >
+  Verify that the party requesting account closure has the authority to do so
+  based on account ownership and role rules.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

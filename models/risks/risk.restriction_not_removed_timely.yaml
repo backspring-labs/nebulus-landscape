@@ -1,0 +1,12 @@
+id: risk.restriction_not_removed_timely
+name: Restriction Not Removed Timely
+description: >
+  An account restriction remains in effect after its governing condition has been
+  resolved, unnecessarily limiting customer access to their funds.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

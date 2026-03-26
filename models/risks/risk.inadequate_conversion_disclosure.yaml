@@ -1,0 +1,12 @@
+id: risk.inadequate_conversion_disclosure
+name: Inadequate Conversion Disclosure
+description: >
+  Customers are not adequately informed of changes to their account terms, features,
+  or pricing resulting from a product conversion.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

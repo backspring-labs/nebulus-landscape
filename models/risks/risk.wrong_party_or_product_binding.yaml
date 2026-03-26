@@ -1,0 +1,12 @@
+id: risk.wrong_party_or_product_binding
+name: Wrong Party or Product Binding
+description: >
+  The account is bound to the wrong customer, product type, or party role during
+  opening, resulting in incorrect ownership or product assignment.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

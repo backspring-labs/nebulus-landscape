@@ -1,0 +1,12 @@
+id: risk.unauthorized_status_transition
+name: Unauthorized Status Transition
+description: >
+  An account status change is executed without proper authorization, potentially
+  enabling unauthorized access or bypassing regulatory restrictions.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

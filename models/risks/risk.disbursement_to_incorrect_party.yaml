@@ -1,0 +1,12 @@
+id: risk.disbursement_to_incorrect_party
+name: Disbursement to Incorrect Party
+description: >
+  The closing balance is disbursed to the wrong party due to incorrect party role
+  data, outdated contact information, or processing error.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

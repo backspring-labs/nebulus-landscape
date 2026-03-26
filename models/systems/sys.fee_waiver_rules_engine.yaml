@@ -1,0 +1,10 @@
+id: sys.fee_waiver_rules_engine
+name: Fee Waiver Rules Engine
+description: >
+  Rules engine evaluating fee waiver eligibility based on account attributes,
+  relationship status, and institutional fee waiver policies.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

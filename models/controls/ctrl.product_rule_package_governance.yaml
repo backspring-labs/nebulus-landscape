@@ -1,0 +1,12 @@
+id: ctrl.product_rule_package_governance
+name: Product Rule Package Governance
+description: >
+  Ensure deposit product rule packages are reviewed, approved, and version-controlled
+  before activation to prevent inconsistent or unauthorized product configurations.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

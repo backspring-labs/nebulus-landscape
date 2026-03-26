@@ -1,0 +1,12 @@
+id: risk.hold_vs_status_boundary_confusion
+name: Hold vs Status Boundary Confusion
+description: >
+  The boundary between account-level holds and lifecycle status changes is unclear,
+  causing holds to be treated as status changes or vice versa.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

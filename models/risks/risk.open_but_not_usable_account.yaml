@@ -1,0 +1,12 @@
+id: risk.open_but_not_usable_account
+name: Open but Not Usable Account
+description: >
+  An account is marked as open but remains unusable due to missing activation
+  steps, unresolved blocks, or incomplete configuration.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.interest_rate_configuration_service
+name: Interest Rate Configuration Service
+description: >
+  Service for configuring account-level interest rate parameters including
+  tier structures, promotional rates, and rate change schedules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.overdraft_protection_linkage_engine
+name: Overdraft Protection Linkage Engine
+description: >
+  Engine managing overdraft protection source account linkages, transfer
+  priorities, and protection coverage relationships between accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

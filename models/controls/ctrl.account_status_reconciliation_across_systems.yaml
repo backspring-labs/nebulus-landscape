@@ -1,0 +1,12 @@
+id: ctrl.account_status_reconciliation_across_systems
+name: Account Status Reconciliation Across Systems
+description: >
+  Reconcile account lifecycle status across core banking and downstream systems
+  to detect and resolve state divergence.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.deposit_application_platform
+name: Deposit Application Platform
+description: >
+  Platform managing deposit account applications including data capture,
+  validation, and routing through the contract formation workflow.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

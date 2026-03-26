@@ -1,0 +1,11 @@
+id: sys.disclosure_package_repository
+name: Disclosure Package Repository
+description: >
+  Repository of versioned disclosure packages mapped to deposit products,
+  ensuring the correct regulatory disclosures are presented during account opening
+  and product changes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

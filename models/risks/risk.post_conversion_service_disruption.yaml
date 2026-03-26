@@ -1,0 +1,12 @@
+id: risk.post_conversion_service_disruption
+name: Post-Conversion Service Disruption
+description: >
+  Account services are disrupted following conversion due to incomplete system
+  updates, broken integrations, or unresolved configuration issues.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

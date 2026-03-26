@@ -1,0 +1,10 @@
+id: sys.archived_record_retrieval_service
+name: Archived Record Retrieval Service
+description: >
+  Service providing search and retrieval capabilities for archived account
+  records in response to customer, audit, or legal discovery requests.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

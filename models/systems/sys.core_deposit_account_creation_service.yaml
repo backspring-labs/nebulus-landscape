@@ -1,0 +1,10 @@
+id: sys.core_deposit_account_creation_service
+name: Core Deposit Account Creation Service
+description: >
+  Service responsible for establishing new deposit account records in the core
+  banking system, assigning account identifiers, and binding product configurations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

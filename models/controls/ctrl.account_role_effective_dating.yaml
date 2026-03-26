@@ -1,0 +1,12 @@
+id: ctrl.account_role_effective_dating
+name: Account Role Effective Dating
+description: >
+  Apply effective dating to all account party role assignments and changes to
+  maintain an accurate historical record of role tenure.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

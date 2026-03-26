@@ -1,0 +1,12 @@
+id: risk.inconsistent_opening_constraint_reflection
+name: Inconsistent Opening Constraint Reflection
+description: >
+  Opening-related constraints or blocks are not consistently reflected across all
+  channels and systems, allowing premature account usage.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

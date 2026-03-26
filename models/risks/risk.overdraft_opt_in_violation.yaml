@@ -1,0 +1,12 @@
+id: risk.overdraft_opt_in_violation
+name: Overdraft Opt-In Violation
+description: >
+  Overdraft coverage is applied to transactions without valid customer opt-in
+  consent, violating Regulation E requirements.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

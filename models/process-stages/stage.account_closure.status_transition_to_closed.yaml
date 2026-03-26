@@ -1,0 +1,12 @@
+id: stage.account_closure.status_transition_to_closed
+name: Status Transition to Closed
+process_id: proc.account_closure_v1
+description: >
+  Execute the formal account status transition to closed, publishing closure
+  events to downstream systems and updating the account lifecycle record.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

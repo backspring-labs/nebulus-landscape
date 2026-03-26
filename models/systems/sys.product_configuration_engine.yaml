@@ -1,0 +1,10 @@
+id: sys.product_configuration_engine
+name: Product Configuration Engine
+description: >
+  Engine managing deposit product configurations including terms, features,
+  eligibility rules, and pricing structures applied during account operations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

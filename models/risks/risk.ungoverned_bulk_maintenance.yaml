@@ -1,0 +1,12 @@
+id: risk.ungoverned_bulk_maintenance
+name: Ungoverned Bulk Maintenance
+description: >
+  Bulk account maintenance operations are executed without adequate review or
+  governance controls, risking widespread data quality or compliance issues.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

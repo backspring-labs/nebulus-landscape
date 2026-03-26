@@ -1,0 +1,12 @@
+id: risk.fee_waiver_abuse
+name: Fee Waiver Abuse
+description: >
+  Fee waiver rules are exploited or applied without proper authorization, resulting
+  in revenue loss or unfair treatment across customers.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

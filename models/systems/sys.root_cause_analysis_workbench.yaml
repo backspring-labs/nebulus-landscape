@@ -1,0 +1,10 @@
+id: sys.root_cause_analysis_workbench
+name: Root Cause Analysis Workbench
+description: >
+  Workbench supporting structured root cause analysis of account exceptions,
+  tracking findings and linking to remediation actions and preventive controls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

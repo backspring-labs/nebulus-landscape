@@ -1,0 +1,12 @@
+id: ctrl.conversion_rollback_capability_testing
+name: Conversion Rollback Capability Testing
+description: >
+  Test and validate rollback capabilities before executing account conversions to
+  ensure recovery is possible if conversion errors are detected.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

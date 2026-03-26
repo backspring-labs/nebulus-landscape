@@ -1,0 +1,12 @@
+id: ctrl.fee_schedule_product_consistency_validation
+name: Fee Schedule Product Consistency Validation
+description: >
+  Validate that fee schedule configurations on accounts match the product-level
+  fee definitions and detect unauthorized deviations.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

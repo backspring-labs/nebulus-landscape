@@ -1,0 +1,12 @@
+id: ctrl.closure_eligibility_checklist_enforcement
+name: Closure Eligibility Checklist Enforcement
+description: >
+  Enforce a closure eligibility checklist to prevent account closure when outstanding
+  obligations, pending transactions, or blocking conditions exist.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

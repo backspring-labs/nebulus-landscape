@@ -1,0 +1,12 @@
+id: ctrl.exception_detection_completeness_monitoring
+name: Exception Detection Completeness Monitoring
+description: >
+  Monitor the completeness of exception detection to ensure all account-level
+  processing errors, data defects, and anomalies are captured.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,9 @@
+id: prov.mambu
+name: Mambu
+category: core_banking
+summary: >
+  Cloud-native composable banking platform providing deposit and lending engine
+  capabilities with API-first architecture for digital banks and fintechs.
+status: stub
+source_refs: []
+tags: []

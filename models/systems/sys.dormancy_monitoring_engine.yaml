@@ -1,0 +1,10 @@
+id: sys.dormancy_monitoring_engine
+name: Dormancy Monitoring Engine
+description: >
+  Engine detecting and classifying accounts approaching or in dormant status
+  based on activity patterns and institutional dormancy rules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

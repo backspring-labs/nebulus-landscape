@@ -1,0 +1,12 @@
+id: ctrl.account_maintenance_authorization_matrix
+name: Account Maintenance Authorization Matrix
+description: >
+  Define and enforce authorization requirements for each type of account
+  maintenance change based on sensitivity and risk classification.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.account_attribute_change_service
+name: Account Attribute Change Service
+description: >
+  Service processing account attribute modifications including address changes,
+  nickname updates, and delivery preference adjustments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

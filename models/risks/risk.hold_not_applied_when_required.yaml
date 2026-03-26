@@ -1,0 +1,12 @@
+id: risk.hold_not_applied_when_required
+name: Hold Not Applied When Required
+description: >
+  A required hold, block, or constraint is not applied to an account when triggered
+  by a regulatory, legal, or risk event, allowing unauthorized fund movement.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

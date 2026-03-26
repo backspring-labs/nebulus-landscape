@@ -1,0 +1,10 @@
+id: sys.kyc_evidence_workbench
+name: KYC Evidence Workbench
+description: >
+  Workbench for reviewing and managing KYC evidence during customer due
+  diligence refresh, supporting dormancy reactivation and periodic reviews.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

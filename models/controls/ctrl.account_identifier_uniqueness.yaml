@@ -1,0 +1,12 @@
+id: ctrl.account_identifier_uniqueness
+name: Account Identifier Uniqueness
+description: >
+  Ensure that every new account receives a globally unique identifier and that
+  duplicate account numbers cannot be assigned across the platform.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

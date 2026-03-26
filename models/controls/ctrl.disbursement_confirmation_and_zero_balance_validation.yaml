@@ -1,0 +1,12 @@
+id: ctrl.disbursement_confirmation_and_zero_balance_validation
+name: Disbursement Confirmation and Zero Balance Validation
+description: >
+  Confirm that closing balance disbursement was successful and validate the account
+  reaches zero balance before completing the closure process.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

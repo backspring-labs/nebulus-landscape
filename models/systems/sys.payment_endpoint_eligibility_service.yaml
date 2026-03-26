@@ -1,0 +1,10 @@
+id: sys.payment_endpoint_eligibility_service
+name: Payment Endpoint Eligibility Service
+description: >
+  Service determining whether an account is eligible to participate as a payment
+  endpoint for credits, debits, and funding transactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

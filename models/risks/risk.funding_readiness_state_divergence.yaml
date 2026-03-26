@@ -1,0 +1,12 @@
+id: risk.funding_readiness_state_divergence
+name: Funding Readiness State Divergence
+description: >
+  The account's funding readiness state differs across origination and core banking
+  systems, leading to conflicting views of whether the account can accept deposits.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

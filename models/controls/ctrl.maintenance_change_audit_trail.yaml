@@ -1,0 +1,12 @@
+id: ctrl.maintenance_change_audit_trail
+name: Maintenance Change Audit Trail
+description: >
+  Capture a complete audit trail for all account maintenance changes including
+  before and after values, initiator, and approval evidence.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.product_availability_check
+name: Product Availability Check
+description: >
+  Verify that the account's product type is still available and has not been
+  discontinued before allowing dormant account reactivation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

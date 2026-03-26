@@ -1,0 +1,12 @@
+id: risk.retired_product_opening
+name: Retired Product Opening
+description: >
+  An account is opened under a product that has been retired or is no longer eligible
+  for new originations, resulting in unsupported account configurations.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

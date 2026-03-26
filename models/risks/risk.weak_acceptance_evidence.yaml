@@ -1,0 +1,12 @@
+id: risk.weak_acceptance_evidence
+name: Weak Acceptance Evidence
+description: >
+  Insufficient or non-durable evidence of customer acceptance of account terms,
+  undermining enforceability of the contract.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

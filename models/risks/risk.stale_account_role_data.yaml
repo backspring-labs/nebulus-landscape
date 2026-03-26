@@ -1,0 +1,12 @@
+id: risk.stale_account_role_data
+name: Stale Account Role Data
+description: >
+  Account party role records are not updated when real-world changes occur, leaving
+  outdated authority or ownership information on the account.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: stage.account_conversion.terms_and_feature_comparison
+name: Terms and Feature Comparison
+process_id: proc.account_conversion_v1
+description: >
+  Compare current account terms and features against the target product,
+  identifying changes in rates, fees, features, and customer impact.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.fee_schedule_management_service
+name: Fee Schedule Management Service
+description: >
+  Service managing fee schedule configurations, fee assessment rules, and
+  fee waiver eligibility for deposit accounts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

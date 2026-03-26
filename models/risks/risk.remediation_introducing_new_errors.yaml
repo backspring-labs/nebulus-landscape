@@ -1,0 +1,12 @@
+id: risk.remediation_introducing_new_errors
+name: Remediation Introducing New Errors
+description: >
+  The remediation process itself introduces new errors or data quality issues,
+  compounding the original problem across affected accounts.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

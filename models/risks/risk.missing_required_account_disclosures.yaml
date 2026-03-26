@@ -1,0 +1,12 @@
+id: risk.missing_required_account_disclosures
+name: Missing Required Account Disclosures
+description: >
+  Required regulatory disclosures are not presented or delivered to the customer
+  during account application or contract formation.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

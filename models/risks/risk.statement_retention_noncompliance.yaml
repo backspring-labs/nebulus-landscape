@@ -1,0 +1,12 @@
+id: risk.statement_retention_noncompliance
+name: Statement Retention Noncompliance
+description: >
+  Historical statements are not retained for the required regulatory period or
+  are prematurely purged, creating compliance and legal discovery gaps.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.archival_integrity_verification
+name: Archival Integrity Verification
+description: >
+  Verify the integrity and retrievability of archived account records through
+  periodic checks to ensure records remain accessible when needed.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

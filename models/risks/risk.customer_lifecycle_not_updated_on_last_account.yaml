@@ -1,0 +1,12 @@
+id: risk.customer_lifecycle_not_updated_on_last_account
+name: Customer Lifecycle Not Updated on Last Account
+description: >
+  When the last account for a customer is closed, the customer lifecycle state is
+  not updated accordingly, leaving the customer record in an incorrect state.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

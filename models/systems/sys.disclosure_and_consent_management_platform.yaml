@@ -1,0 +1,10 @@
+id: sys.disclosure_and_consent_management_platform
+name: Disclosure and Consent Management Platform
+description: >
+  Platform managing disclosure presentment, version tracking, and consent
+  capture for account conversions and product changes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

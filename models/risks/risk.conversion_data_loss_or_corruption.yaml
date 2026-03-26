@@ -1,0 +1,12 @@
+id: risk.conversion_data_loss_or_corruption
+name: Conversion Data Loss or Corruption
+description: >
+  Account data is lost or corrupted during product conversion or platform migration,
+  impacting account history, balances, or configuration integrity.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

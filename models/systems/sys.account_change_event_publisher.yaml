@@ -1,0 +1,10 @@
+id: sys.account_change_event_publisher
+name: Account Change Event Publisher
+description: >
+  Event publisher broadcasting account attribute changes to downstream systems
+  for propagation, notification, and audit purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

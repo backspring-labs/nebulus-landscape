@@ -1,0 +1,12 @@
+id: ctrl.terms_comparison_and_impact_disclosure
+name: Terms Comparison and Impact Disclosure
+description: >
+  Generate and present a clear comparison of current and target product terms to
+  the customer, disclosing the impact of conversion on fees, rates, and features.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.contract_version_control
+name: Contract Version Control
+description: >
+  Maintain version control over account contract templates to ensure the correct
+  and current version is used at the time of account formation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

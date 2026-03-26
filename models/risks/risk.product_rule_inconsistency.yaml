@@ -1,0 +1,12 @@
+id: risk.product_rule_inconsistency
+name: Product Rule Inconsistency
+description: >
+  Product rule packages contain conflicting or contradictory logic across channels
+  or product versions, leading to inconsistent account behavior.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

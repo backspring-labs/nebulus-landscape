@@ -1,0 +1,12 @@
+id: risk.maintenance_change_not_propagated
+name: Maintenance Change Not Propagated
+description: >
+  Account maintenance changes made in one system are not propagated to downstream
+  or dependent systems, leaving inconsistent account data across the ecosystem.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

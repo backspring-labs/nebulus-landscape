@@ -1,0 +1,10 @@
+id: sys.regulatory_restriction_intake_service
+name: Regulatory Restriction Intake Service
+description: >
+  Service processing inbound regulatory and legal restriction requests and
+  translating them into account-level restriction actions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

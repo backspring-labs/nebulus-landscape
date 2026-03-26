@@ -1,0 +1,12 @@
+id: risk.product_disclosure_misalignment
+name: Product Disclosure Misalignment
+description: >
+  Disclosure documents do not accurately reflect the current product terms, features,
+  or pricing, creating regulatory and customer-harm exposure.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

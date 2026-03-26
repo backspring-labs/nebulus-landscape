@@ -1,0 +1,17 @@
+id: map.prov.mambu
+provider_id: prov.mambu
+capability_ids:
+  - cap.deposit_account_product_management
+  - cap.account_terms_and_feature_management
+  - cap.account_status_and_restriction_management
+  - cap.account_interest_and_fee_configuration_management
+  - cap.account_overdraft_and_protection_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

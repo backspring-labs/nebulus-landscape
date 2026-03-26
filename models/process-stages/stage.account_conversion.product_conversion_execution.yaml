@@ -1,0 +1,12 @@
+id: stage.account_conversion.product_conversion_execution
+name: Product Conversion Execution
+process_id: proc.account_conversion_v1
+description: >
+  Execute the product conversion by applying new terms, features, rate
+  structures, and product codes to the account record.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: draft

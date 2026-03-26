@@ -1,0 +1,12 @@
+id: ctrl.account_opening_prerequisite_matrix
+name: Account Opening Prerequisite Matrix
+description: >
+  Define and enforce the set of prerequisites that must be satisfied before a new
+  deposit account can be opened, including identity verification and product eligibility.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

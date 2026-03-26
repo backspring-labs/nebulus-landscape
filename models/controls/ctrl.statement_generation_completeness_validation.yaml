@@ -1,0 +1,12 @@
+id: ctrl.statement_generation_completeness_validation
+name: Statement Generation Completeness Validation
+description: >
+  Validate that statements are generated for all eligible accounts in each cycle
+  and detect any accounts that were missed during generation.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.accounts
+source_refs: []
+status: draft

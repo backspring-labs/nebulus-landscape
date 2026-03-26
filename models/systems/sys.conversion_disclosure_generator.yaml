@@ -1,0 +1,10 @@
+id: sys.conversion_disclosure_generator
+name: Conversion Disclosure Generator
+description: >
+  Service generating required regulatory disclosures for account product
+  conversions, detailing changes to terms, fees, and features.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

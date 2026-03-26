@@ -1,0 +1,10 @@
+id: sys.data_migration_engine
+name: Data Migration Engine
+description: >
+  Engine executing account data migration between core banking platforms,
+  managing data mapping, transformation, and validation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

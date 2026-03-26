@@ -1,0 +1,12 @@
+id: ctrl.funding_block_reason_code_governance
+name: Funding Block Reason Code Governance
+description: >
+  Govern the taxonomy of reason codes used when funding is blocked to ensure
+  consistent classification and appropriate resolution paths.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.discontinued_product_reactivation
+name: Discontinued Product Reactivation
+description: >
+  A dormant account is reactivated under a product that has been discontinued or
+  retired, leaving the account in an unsupported product configuration.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: prov.pegasystems
+name: Pegasystems
+category: orchestration_and_workflow
+summary: >
+  Enterprise low-code platform providing case management, business process
+  automation, and decisioning capabilities for financial services operations
+  and customer service.
+status: stub
+source_refs: []
+tags: []

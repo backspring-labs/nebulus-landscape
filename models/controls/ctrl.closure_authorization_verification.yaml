@@ -1,0 +1,12 @@
+id: ctrl.closure_authorization_verification
+name: Closure Authorization Verification
+description: >
+  Verify that account closure requests are authorized by an eligible party with
+  appropriate authority over the account.
+domain_id: domain.accounts
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.accounts
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.case_management_system
+name: Case Management System
+description: >
+  General-purpose case management system supporting structured workflows for
+  account closure, conversion, dormancy, and other account lifecycle events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

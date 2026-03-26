@@ -1,0 +1,12 @@
+id: risk.overdraft_misconfiguration
+name: Overdraft Misconfiguration
+description: >
+  Overdraft settings are incorrectly configured during account opening, resulting
+  in coverage that does not match the customer's election or product rules.
+domain_id: domain.accounts
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft
