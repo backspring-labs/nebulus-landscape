@@ -1,0 +1,39 @@
+id: proc.account_dormancy_reactivation
+name: Account Dormancy Reactivation
+journey_id: journey.reactivate_dormant_account
+description: >
+  Operational process for reactivating a dormant deposit account, covering
+  eligibility assessment, customer re-verification, hold review, party role
+  re-establishment, status transition, and customer lifecycle update within the
+  Accounts domain.
+stage_ids:
+  - stage.dormancy_reactivation.reactivation_request_and_eligibility
+  - stage.dormancy_reactivation.customer_reverification
+  - stage.dormancy_reactivation.hold_and_constraint_review
+  - stage.dormancy_reactivation.party_role_and_access_reestablishment
+  - stage.dormancy_reactivation.status_transition_to_active
+  - stage.dormancy_reactivation.customer_lifecycle_update_and_completion
+risk_ids:
+  - risk.reactivation_of_escheatment_eligible_account
+  - risk.identity_fraud_on_dormant_account
+  - risk.reactivation_without_cdd_refresh
+  - risk.unauthorized_party_access_reestablishment
+  - risk.reactivation_with_unresolved_holds
+  - risk.discontinued_product_reactivation
+control_ids:
+  - ctrl.escheatment_progression_check
+  - ctrl.identity_reverification_assurance
+  - ctrl.cdd_edd_refresh_requirement
+  - ctrl.hold_and_constraint_clearance_review
+  - ctrl.party_role_revalidation
+  - ctrl.product_availability_check
+system_ids:
+  - sys.core_banking_platform
+  - sys.dormancy_management_module
+  - sys.customer_master
+  - sys.identity_verification_service
+  - sys.kyc_evidence_workbench
+  - sys.case_management_system
+source_refs: []
+status: draft
+confidence: medium

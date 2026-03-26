@@ -1,0 +1,43 @@
+id: proc.checking_account_opening_v1
+name: Checking Account Opening v1
+journey_id: journey.open_checking_account
+description: >
+  Operational process for opening a retail checking account, covering product
+  eligibility, contract formation, terms and feature configuration, overdraft
+  protection setup, funding readiness, and activation within the Accounts domain.
+stage_ids:
+  - stage.checking_account_opening.product_selection_and_eligibility
+  - stage.checking_account_opening.application_and_contract_formation
+  - stage.checking_account_opening.party_role_establishment
+  - stage.checking_account_opening.terms_and_feature_configuration
+  - stage.checking_account_opening.overdraft_protection_setup
+  - stage.checking_account_opening.funding_readiness_and_initial_funding
+  - stage.checking_account_opening.account_activation_and_completion
+risk_ids:
+  - risk.ineligible_product_selection
+  - risk.incomplete_contract_formation
+  - risk.incorrect_party_role_assignment
+  - risk.misconfigured_terms_or_features
+  - risk.overdraft_misconfiguration
+  - risk.premature_funding_before_prerequisites
+  - risk.activation_before_controls_satisfied
+control_ids:
+  - ctrl.product_eligibility_validation
+  - ctrl.contract_completeness_gate
+  - ctrl.party_role_authorization_validation
+  - ctrl.terms_configuration_product_catalog_validation
+  - ctrl.overdraft_election_disclosure_control
+  - ctrl.funding_precondition_gate
+  - ctrl.activation_dependency_matrix
+system_ids:
+  - sys.core_account_opening_platform
+  - sys.product_configuration_engine
+  - sys.customer_master
+  - sys.disclosure_presentment_service
+  - sys.consent_registry
+  - sys.overdraft_management_module
+  - sys.funding_service
+  - sys.lifecycle_rules_engine
+source_refs: []
+status: draft
+confidence: high

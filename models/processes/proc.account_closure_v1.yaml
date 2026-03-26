@@ -1,0 +1,39 @@
+id: proc.account_closure_v1
+name: Account Closure v1
+journey_id: journey.close_account
+description: >
+  Operational process for closing a deposit account, covering closure eligibility,
+  hold resolution, interest and fee finalization, balance disbursement, party role
+  deactivation, status transition, and retention/archival within the Accounts domain.
+stage_ids:
+  - stage.account_closure.closure_request_and_eligibility
+  - stage.account_closure.hold_and_constraint_resolution
+  - stage.account_closure.interest_accrual_and_fee_finalization
+  - stage.account_closure.balance_disbursement
+  - stage.account_closure.party_role_deactivation
+  - stage.account_closure.status_transition_to_closed
+  - stage.account_closure.retention_archival_and_lifecycle_update
+risk_ids:
+  - risk.closure_with_unresolved_holds
+  - risk.premature_closure_before_settlement
+  - risk.disbursement_to_incorrect_party
+  - risk.incomplete_retention_or_archival
+  - risk.unauthorized_closure_request
+  - risk.customer_lifecycle_not_updated_on_last_account
+control_ids:
+  - ctrl.hold_and_constraint_clearance_gate
+  - ctrl.closure_authority_verification
+  - ctrl.pending_transaction_settlement_check
+  - ctrl.disbursement_confirmation_and_zero_balance_validation
+  - ctrl.retention_policy_application_validation
+  - ctrl.customer_lifecycle_evaluation_trigger
+system_ids:
+  - sys.core_banking_platform
+  - sys.hold_and_lien_management_system
+  - sys.payment_disbursement_service
+  - sys.record_retention_and_archival_platform
+  - sys.customer_master
+  - sys.case_management_system
+source_refs: []
+status: draft
+confidence: high

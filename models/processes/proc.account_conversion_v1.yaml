@@ -1,0 +1,41 @@
+id: proc.account_conversion_v1
+name: Account Conversion v1
+journey_id: journey.convert_account_product
+description: >
+  Operational process for converting a deposit account from one product type to
+  another, covering eligibility assessment, terms mapping, disclosure and consent,
+  party role adjustment, conversion execution, status update, and completion within
+  the Accounts domain.
+stage_ids:
+  - stage.account_conversion.conversion_request_and_eligibility
+  - stage.account_conversion.terms_and_feature_comparison
+  - stage.account_conversion.disclosure_consent_and_attestation
+  - stage.account_conversion.party_role_and_authorization_adjustment
+  - stage.account_conversion.product_conversion_execution
+  - stage.account_conversion.status_and_restriction_update
+  - stage.account_conversion.completion_and_confirmation
+risk_ids:
+  - risk.conversion_to_ineligible_product
+  - risk.incorrect_terms_application_after_conversion
+  - risk.missing_consent_for_new_product
+  - risk.history_discontinuity_or_audit_trail_loss
+  - risk.mass_conversion_error
+  - risk.party_role_incompatibility_with_target
+control_ids:
+  - ctrl.target_product_eligibility_validation
+  - ctrl.terms_comparison_and_impact_disclosure
+  - ctrl.consent_capture_before_execution
+  - ctrl.conversion_audit_trail_with_snapshots
+  - ctrl.batch_conversion_validation_and_rollback
+  - ctrl.party_role_compatibility_check
+  - ctrl.post_conversion_terms_verification
+system_ids:
+  - sys.core_banking_platform
+  - sys.product_configuration_engine
+  - sys.customer_master
+  - sys.disclosure_and_consent_management_platform
+  - sys.case_management_system
+  - sys.notification_service
+source_refs: []
+status: draft
+confidence: medium
