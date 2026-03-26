@@ -1,0 +1,50 @@
+id: cap.account_opening
+name: Account Opening
+domain_id: domain.accounts
+description: >
+  Establish a new deposit account contract for an eligible customer under a
+  selected product once required upstream conditions are satisfied.
+value_stream_ids:
+  - vs.account_contract_establishment
+  - vs.deposit_account_acquisition
+  - vs.customer_to_account_conversion
+  - vs.account_activation_readiness
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.open_joint_account
+  - journey.small_business_relationship_start
+  - journey.resolve_account_opening_exception
+process_ids:
+  - proc.account_opening_v1
+  - proc.joint_account_opening
+  - proc.account_opening_exception_resolution
+  - proc.account_activation_preparation
+risk_ids:
+  - risk.opening_without_preconditions
+  - risk.wrong_party_or_product_binding
+  - risk.duplicate_account_creation
+  - risk.cross_system_opening_inconsistency
+  - risk.open_but_not_usable_account
+control_ids:
+  - ctrl.account_opening_prerequisite_matrix
+  - ctrl.account_identifier_uniqueness
+  - ctrl.opening_preconditions_attestation
+  - ctrl.cross_system_opening_reconciliation
+  - ctrl.account_opening_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.ncino
+  - prov.q2
+system_ids:
+  - sys.account_origination_platform
+  - sys.core_deposit_account_creation_service
+  - sys.account_identifier_service
+  - sys.opening_workbench
+  - sys.opening_exception_dashboard
+source_refs:
+  - src.ffiec_cip_account_opening_guidance
+status: draft
+confidence: high

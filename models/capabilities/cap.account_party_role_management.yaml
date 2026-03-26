@@ -1,0 +1,51 @@
+id: cap.account_party_role_management
+name: Account Party Role Management
+domain_id: domain.accounts
+description: >
+  Manage account-level ownership, signer, beneficiary, authorized-party, and
+  other product-role relationships distinct from the broader customer
+  relationship record.
+value_stream_ids:
+  - vs.account_contract_establishment
+  - vs.account_authority_governance
+  - vs.multi_party_account_management
+  - vs.account_servicing_enablement
+journey_ids:
+  - journey.open_joint_account
+  - journey.add_authorized_signer_to_account
+  - journey.add_beneficiary_to_account
+  - journey.remove_account_signer
+  - journey.close_account
+process_ids:
+  - proc.account_party_role_assignment
+  - proc.joint_account_opening
+  - proc.account_role_change_governance
+  - proc.account_closure_v1
+risk_ids:
+  - risk.incorrect_account_authority_assignment
+  - risk.joint_account_role_inconsistency
+  - risk.customer_vs_account_role_confusion
+  - risk.stale_account_role_data
+  - risk.unauthorized_role_change
+control_ids:
+  - ctrl.account_role_taxonomy_governance
+  - ctrl.account_role_evidence_requirements
+  - ctrl.multi_party_role_approval_rules
+  - ctrl.account_role_effective_dating
+  - ctrl.account_role_change_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.ncino
+system_ids:
+  - sys.core_deposit_role_repository
+  - sys.account_servicing_workbench
+  - sys.authority_ownership_registry
+  - sys.joint_account_setup_workflow
+  - sys.role_governance_audit_log
+source_refs:
+  - src.ffiec_cip_account_opening_guidance
+status: draft
+confidence: medium

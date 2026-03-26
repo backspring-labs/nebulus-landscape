@@ -1,0 +1,51 @@
+id: cap.account_funding_readiness_management
+name: Account Funding Readiness Management
+domain_id: domain.accounts
+description: >
+  Govern the account's readiness to receive opening deposits, ongoing
+  credits/debits, and funding-related preconditions without owning payment
+  execution.
+value_stream_ids:
+  - vs.account_activation_readiness
+  - vs.initial_funding_enablement
+  - vs.deposit_account_acquisition
+  - vs.operational_account_usability
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.fund_new_account
+  - journey.release_account_for_use
+  - journey.resolve_account_opening_exception
+process_ids:
+  - proc.account_opening_v1
+  - proc.initial_funding_readiness_evaluation
+  - proc.account_activation_preparation
+  - proc.account_opening_exception_resolution
+risk_ids:
+  - risk.premature_funding_enablement
+  - risk.unexplained_funding_block
+  - risk.funding_readiness_state_divergence
+  - risk.readiness_vs_payment_execution_confusion
+  - risk.inconsistent_opening_constraint_reflection
+control_ids:
+  - ctrl.funding_readiness_prerequisite_matrix
+  - ctrl.account_usability_state_reconciliation
+  - ctrl.funding_block_reason_code_governance
+  - ctrl.opening_to_funding_handoff_validation
+  - ctrl.funding_readiness_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+  - prov.alkami
+system_ids:
+  - sys.account_activation_readiness_service
+  - sys.opening_status_dashboard
+  - sys.product_usability_rules_engine
+  - sys.payment_endpoint_eligibility_service
+  - sys.operations_servicing_workbench
+source_refs:
+  - src.ecfr_reg_cc_12cfr229
+status: draft
+confidence: medium

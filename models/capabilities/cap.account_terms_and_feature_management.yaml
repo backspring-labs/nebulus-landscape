@@ -1,0 +1,50 @@
+id: cap.account_terms_and_feature_management
+name: Account Terms and Feature Management
+domain_id: domain.accounts
+description: >
+  Maintain account terms, pricing/fee features, interest features, overdraft
+  options, and product-level options attached to the account contract.
+value_stream_ids:
+  - vs.account_contract_establishment
+  - vs.account_feature_configuration
+  - vs.deposit_product_realization
+  - vs.account_maintenance
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.update_account_features
+  - journey.change_overdraft_settings
+  - journey.convert_account_product
+process_ids:
+  - proc.account_terms_configuration
+  - proc.account_opening_v1
+  - proc.account_feature_change_governance
+  - proc.account_conversion_v1
+risk_ids:
+  - risk.account_terms_product_mismatch
+  - risk.feature_configuration_inconsistency
+  - risk.ungoverned_terms_drift
+  - risk.downstream_feature_interpretation_conflict
+  - risk.overdraft_or_fee_misconfiguration
+control_ids:
+  - ctrl.account_to_product_configuration_validation
+  - ctrl.account_terms_effective_dating
+  - ctrl.feature_change_governance
+  - ctrl.rate_fee_feature_consistency_checks
+  - ctrl.account_feature_audit_trail
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.mambu
+  - prov.thought_machine
+system_ids:
+  - sys.account_parameter_engine
+  - sys.product_feature_rules_repository
+  - sys.pricing_rate_configuration_service
+  - sys.overdraft_settings_service
+  - sys.account_maintenance_workbench
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+status: draft
+confidence: high

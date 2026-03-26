@@ -1,0 +1,51 @@
+id: cap.account_application_and_contract_formation
+name: Account Application and Contract Formation
+domain_id: domain.accounts
+description: >
+  Manage the account-specific application, disclosure presentment, agreement
+  finalization, and contractual acceptance required to create the product
+  relationship.
+value_stream_ids:
+  - vs.account_contract_establishment
+  - vs.deposit_account_acquisition
+  - vs.disclosures_and_agreements
+  - vs.regulatory_compliant_account_opening
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.open_joint_account
+  - journey.accept_account_terms
+  - journey.correct_account_opening_document_issue
+process_ids:
+  - proc.account_contract_formation
+  - proc.account_disclosure_presentment_and_acceptance
+  - proc.account_application_completion
+  - proc.account_opening_v1
+risk_ids:
+  - risk.missing_required_account_disclosures
+  - risk.wrong_contract_version_accepted
+  - risk.weak_acceptance_evidence
+  - risk.product_to_contract_drift
+  - risk.multi_party_acceptance_error
+control_ids:
+  - ctrl.account_disclosure_presentment_requirements
+  - ctrl.contract_version_control
+  - ctrl.acceptance_evidence_traceability
+  - ctrl.opening_disclosure_to_product_mapping
+  - ctrl.multi_party_contract_acceptance_rules
+provider_ids:
+  - prov.docusign
+  - prov.q2
+  - prov.alkami
+  - prov.ncino
+  - prov.temenos
+system_ids:
+  - sys.deposit_application_platform
+  - sys.disclosure_presentment_service
+  - sys.esignature_platform
+  - sys.contract_evidence_repository
+  - sys.agreement_versioning_repository
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+status: draft
+confidence: high

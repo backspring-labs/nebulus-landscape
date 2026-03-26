@@ -1,0 +1,51 @@
+id: cap.deposit_account_product_management
+name: Deposit Account Product Management
+domain_id: domain.accounts
+description: >
+  Define and govern deposit-account product constructs such as checking and
+  savings offerings, feature sets, eligibility attributes, disclosure mappings,
+  and rule packages.
+value_stream_ids:
+  - vs.deposit_product_governance
+  - vs.deposit_account_acquisition
+  - vs.product_lifecycle_management
+  - vs.account_contract_establishment
+journey_ids:
+  - journey.open_savings_account
+  - journey.open_checking_account
+  - journey.select_deposit_product
+  - journey.convert_account_product
+  - journey.launch_new_deposit_product
+process_ids:
+  - proc.deposit_product_definition
+  - proc.deposit_product_change_governance
+  - proc.deposit_product_retirement
+  - proc.account_opening_v1
+risk_ids:
+  - risk.product_rule_inconsistency
+  - risk.product_disclosure_misalignment
+  - risk.retired_product_opening
+  - risk.pricing_or_rate_misconfiguration
+  - risk.unclear_product_to_ledger_mapping
+control_ids:
+  - ctrl.product_rule_package_governance
+  - ctrl.product_version_effective_dating
+  - ctrl.product_disclosure_mapping_validation
+  - ctrl.cross_channel_product_consistency_review
+  - ctrl.product_to_operating_model_traceability
+provider_ids:
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.mambu
+  - prov.thought_machine
+system_ids:
+  - sys.deposit_product_catalog
+  - sys.product_parameter_repository
+  - sys.pricing_rate_repository
+  - sys.disclosure_package_repository
+  - sys.reference_data_management_platform
+source_refs:
+  - src.ecfr_reg_dd_12cfr1030
+status: draft
+confidence: high
