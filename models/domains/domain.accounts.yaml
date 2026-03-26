@@ -1,0 +1,38 @@
+id: domain.accounts
+name: Accounts
+description: >
+  Durable business area responsible for establishing, governing, maintaining,
+  restricting, converting, and closing deposit account contracts such as
+  checking and savings, distinct from customer relationship ownership and
+  distinct from general-ledger accounting mechanics.
+capability_ids:
+  - cap.deposit_account_product_management
+  - cap.account_opening
+  - cap.account_application_and_contract_formation
+  - cap.account_party_role_management
+  - cap.account_terms_and_feature_management
+  - cap.account_funding_readiness_management
+  - cap.account_status_and_restriction_management
+  - cap.account_maintenance_management
+  - cap.account_hold_and_constraint_management
+  - cap.account_statement_and_cycle_management
+  - cap.account_interest_and_fee_configuration_management
+  - cap.account_overdraft_and_protection_management
+  - cap.account_dormancy_and_escheat_coordination
+  - cap.account_closure_management
+  - cap.account_conversion_and_migration_management
+  - cap.account_record_retention_and_archival
+  - cap.account_exception_and_remediation_management
+related_domain_ids:
+  - domain.customer
+  - domain.identity_access
+  - domain.risk_fraud
+  - domain.payments
+  - domain.orchestration_control
+  - domain.channels_experience
+  - domain.servicing
+  - domain.data_rewards
+  - domain.cards
+  - domain.ledger_core
+source_refs: []
+status: draft
