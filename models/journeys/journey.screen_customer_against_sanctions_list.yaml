@@ -1,0 +1,36 @@
+id: journey.screen_customer_against_sanctions_list
+name: Screen Customer Against Sanctions List
+description: >
+  The institution screens a customer or counterparty against OFAC and other
+  sanctions and watchlists at onboarding, periodic review, or triggered event,
+  evaluating potential matches and rendering a disposition decision.
+actor: compliance_analyst
+domain_ids:
+  - domain.risk_fraud
+  - domain.customer
+  - domain.payments
+capability_ids:
+  - cap.sanctions_and_watchlist_screening
+  - cap.alert_triage_and_disposition
+  - cap.customer_and_entity_risk_rating
+  - cap.case_investigation_management
+  - cap.enhanced_due_diligence_and_periodic_review_decisioning
+  - cap.financial_crime_risk_appetite_and_policy_management
+value_stream_id: vs.financial_crime_prevention
+process_id: proc.sanctions_screening_v1
+entry_points:
+  - customer_onboarding_trigger
+  - periodic_rescreening_batch
+  - list_update_trigger
+  - payment_counterparty_screening
+outcomes:
+  - no_match_confirmed
+  - potential_match_cleared
+  - true_match_confirmed_and_blocked
+  - escalated_to_ofac_compliance_officer
+source_refs:
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+  - src.fatf_risk_based_banking_guidance
+status: draft
+confidence: high

@@ -1,0 +1,39 @@
+id: journey.approve_or_decline_high_risk_transfer
+name: Approve or Decline High-Risk Transfer
+description: >
+  A payment or transfer flagged as high-risk by fraud scoring or sanctions
+  screening is routed for real-time or near-real-time decisioning by a risk
+  analyst or automated policy engine, resulting in approval, decline, or hold.
+actor: risk_analyst
+domain_ids:
+  - domain.risk_fraud
+  - domain.payments
+  - domain.accounts
+  - domain.customer
+capability_ids:
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.fraud_detection_and_scoring
+  - cap.sanctions_and_watchlist_screening
+  - cap.transaction_monitoring
+  - cap.alert_triage_and_disposition
+  - cap.customer_and_entity_risk_rating
+  - cap.risk_restriction_and_offboarding_decisioning
+value_stream_id: vs.financial_crime_prevention
+process_id: proc.high_risk_transfer_decisioning_v1
+entry_points:
+  - real_time_payment_intercept
+  - wire_transfer_review_queue
+  - ach_exception_queue
+  - international_transfer_screening
+outcomes:
+  - transfer_approved
+  - transfer_declined
+  - transfer_held_for_investigation
+  - transfer_approved_with_conditions
+source_refs:
+  - src.nacha_fraud_monitoring_rules_2026
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+  - src.fatf_risk_based_banking_guidance
+status: draft
+confidence: high

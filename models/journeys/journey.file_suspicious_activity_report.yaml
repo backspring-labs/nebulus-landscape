@@ -1,0 +1,36 @@
+id: journey.file_suspicious_activity_report
+name: File Suspicious Activity Report
+description: >
+  A BSA officer or authorized analyst prepares, reviews, approves, and
+  electronically files a Suspicious Activity Report (SAR) with FinCEN following
+  the identification of reportable suspicious activity.
+actor: bsa_officer
+domain_ids:
+  - domain.risk_fraud
+  - domain.customer
+  - domain.accounts
+  - domain.payments
+capability_ids:
+  - cap.suspicious_activity_reporting
+  - cap.case_investigation_management
+  - cap.alert_triage_and_disposition
+  - cap.regulatory_information_sharing_and_law_enforcement_response
+  - cap.financial_crime_program_governance_and_testing
+  - cap.compliance_issue_and_remediation_management
+value_stream_id: vs.financial_crime_prevention
+process_id: proc.sar_filing_v1
+entry_points:
+  - case_disposition_requiring_sar
+  - mandatory_filing_trigger
+  - continuing_activity_review
+outcomes:
+  - sar_filed_with_fincen
+  - sar_rejected_for_remediation
+  - continuing_sar_scheduled
+  - referred_to_law_enforcement
+source_refs:
+  - src.fincen_sar_faq_2025
+  - src.ffiec_bsaaml_manual_2026
+  - src.ffiec_suspicious_activity_monitoring_appendix_s
+status: draft
+confidence: high

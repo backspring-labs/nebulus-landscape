@@ -1,0 +1,38 @@
+id: journey.investigate_fraud_alert
+name: Investigate Fraud Alert
+description: >
+  A fraud analyst receives a system-generated fraud alert, triages the alert,
+  investigates the underlying activity, and renders a disposition decision to
+  confirm, escalate, or dismiss the alert.
+actor: fraud_analyst
+domain_ids:
+  - domain.risk_fraud
+  - domain.customer
+  - domain.accounts
+  - domain.payments
+capability_ids:
+  - cap.fraud_detection_and_scoring
+  - cap.alert_triage_and_disposition
+  - cap.case_investigation_management
+  - cap.transaction_monitoring
+  - cap.account_and_relationship_surveillance
+  - cap.fraud_rules_and_model_governance
+  - cap.suspicious_activity_reporting
+value_stream_id: vs.financial_crime_prevention
+process_id: proc.fraud_alert_investigation_v1
+entry_points:
+  - fraud_alert_queue
+  - case_management_assignment
+  - real_time_fraud_escalation
+outcomes:
+  - alert_confirmed_and_case_opened
+  - alert_escalated_to_senior_investigator
+  - alert_dismissed_as_false_positive
+  - suspicious_activity_report_filed
+source_refs:
+  - src.ffiec_bsaaml_manual_2026
+  - src.ffiec_suspicious_activity_monitoring_appendix_s
+  - src.fincen_sar_faq_2025
+  - src.nacha_fraud_monitoring_rules_2026
+status: draft
+confidence: high
