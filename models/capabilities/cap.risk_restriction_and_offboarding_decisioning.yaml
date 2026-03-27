@@ -1,0 +1,51 @@
+id: cap.risk_restriction_and_offboarding_decisioning
+name: Risk Restriction & Offboarding Decisioning
+domain_id: domain.risk_fraud
+description: >
+  Evaluate and decision account restrictions, relationship limitations, and customer
+  offboarding actions based on financial crime risk, fraud risk, policy violations, and
+  regulatory requirements while managing legal and reputational considerations.
+value_stream_ids:
+  - vs.financial_crime_detection
+  - vs.regulatory_compliance
+  - vs.trusted_customer_relationship
+  - vs.risk_mitigation
+journey_ids:
+  - journey.account_restriction_decision
+  - journey.customer_offboarding_risk_review
+  - journey.risk_based_service_limitation
+  - journey.restriction_appeal_review
+  - journey.regulatory_driven_account_closure
+process_ids:
+  - proc.restriction_risk_assessment
+  - proc.offboarding_decisioning
+  - proc.restriction_implementation_coordination
+  - proc.restriction_appeal_evaluation
+  - proc.regulatory_closure_compliance_check
+  - proc.offboarding_documentation_and_reporting
+risk_ids:
+  - risk.premature_account_restriction
+  - risk.delayed_restriction_on_high_risk_account
+  - risk.offboarding_without_regulatory_compliance
+  - risk.restriction_decision_inconsistency
+  - risk.legal_exposure_from_offboarding_action
+control_ids:
+  - ctrl.restriction_decision_governance
+  - ctrl.offboarding_regulatory_compliance_check
+  - ctrl.restriction_consistency_review
+  - ctrl.restriction_appeal_process_timeliness
+  - ctrl.offboarding_documentation_completeness
+  - ctrl.legal_review_for_high_risk_offboarding
+provider_ids:
+  - prov.nice_actimize
+  - prov.oracle_financial_services
+  - prov.fiserv
+  - prov.in_house_risk_platforms
+system_ids:
+  - sys.restriction_decisioning_engine
+  - sys.offboarding_workflow_platform
+  - sys.account_restriction_management_system
+  - sys.regulatory_closure_tracking_system
+source_refs: []
+status: draft
+confidence: high

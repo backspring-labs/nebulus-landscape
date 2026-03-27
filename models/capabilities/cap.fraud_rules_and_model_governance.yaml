@@ -1,0 +1,52 @@
+id: cap.fraud_rules_and_model_governance
+name: Fraud Rules & Model Governance
+domain_id: domain.risk_fraud
+description: >
+  Govern the lifecycle of fraud detection rules, machine learning models, and scoring
+  thresholds through structured development, validation, deployment, monitoring, and
+  retirement processes to ensure detection effectiveness and regulatory compliance.
+value_stream_ids:
+  - vs.fraud_prevention
+  - vs.financial_crime_detection
+  - vs.regulatory_compliance
+  - vs.operational_efficiency
+journey_ids:
+  - journey.fraud_rule_change_request
+  - journey.fraud_model_development_and_validation
+  - journey.fraud_model_production_deployment
+  - journey.fraud_model_performance_review
+  - journey.fraud_rule_retirement
+process_ids:
+  - proc.fraud_rule_development_and_testing
+  - proc.fraud_model_validation
+  - proc.fraud_model_deployment_governance
+  - proc.fraud_model_performance_monitoring
+  - proc.fraud_rule_tuning_and_calibration
+  - proc.fraud_model_inventory_management
+risk_ids:
+  - risk.unvalidated_fraud_model_in_production
+  - risk.fraud_model_drift_undetected
+  - risk.unauthorized_fraud_rule_change
+  - risk.fraud_rule_conflict_or_redundancy
+  - risk.inadequate_fraud_model_documentation
+control_ids:
+  - ctrl.fraud_model_validation_before_deployment
+  - ctrl.fraud_model_performance_monitoring_cadence
+  - ctrl.fraud_rule_change_approval_workflow
+  - ctrl.fraud_model_inventory_completeness
+  - ctrl.fraud_model_documentation_standards
+  - ctrl.segregation_of_model_development_and_validation
+provider_ids:
+  - prov.fico
+  - prov.featurespace
+  - prov.sas
+  - prov.datarobot
+  - prov.nice_actimize
+system_ids:
+  - sys.fraud_model_governance_platform
+  - sys.fraud_rule_management_system
+  - sys.model_validation_and_testing_environment
+  - sys.model_performance_monitoring_dashboard
+source_refs: []
+status: draft
+confidence: high

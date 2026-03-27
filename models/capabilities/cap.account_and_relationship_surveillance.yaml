@@ -1,0 +1,50 @@
+id: cap.account_and_relationship_surveillance
+name: Account & Relationship Surveillance
+domain_id: domain.risk_fraud
+description: >
+  Continuously monitor account-level behavior, relationship patterns, and entity networks
+  to detect anomalies, emerging risks, and indicators of financial crime that may not
+  surface through individual transaction monitoring alone.
+value_stream_ids:
+  - vs.financial_crime_detection
+  - vs.trusted_customer_relationship
+  - vs.regulatory_compliance
+journey_ids:
+  - journey.account_behavior_anomaly_detection
+  - journey.relationship_network_analysis
+  - journey.dormant_account_reactivation_surveillance
+  - journey.account_risk_profile_reassessment
+  - journey.beneficial_ownership_change_detection
+process_ids:
+  - proc.account_behavior_profiling
+  - proc.relationship_network_monitoring
+  - proc.account_anomaly_alert_generation
+  - proc.dormant_account_surveillance
+  - proc.entity_network_analysis
+  - proc.account_surveillance_coverage_review
+risk_ids:
+  - risk.undetected_account_behavior_anomaly
+  - risk.hidden_beneficial_ownership_change
+  - risk.dormant_account_exploitation
+  - risk.relationship_network_risk_unidentified
+  - risk.account_surveillance_coverage_gap
+control_ids:
+  - ctrl.account_behavior_baseline_calibration
+  - ctrl.relationship_network_review_frequency
+  - ctrl.dormant_account_monitoring_rules
+  - ctrl.entity_resolution_accuracy_validation
+  - ctrl.account_surveillance_scenario_governance
+provider_ids:
+  - prov.nice_actimize
+  - prov.quantexa
+  - prov.oracle_financial_services
+  - prov.sas
+  - prov.verafin
+system_ids:
+  - sys.account_surveillance_engine
+  - sys.entity_resolution_platform
+  - sys.relationship_network_analytics_tool
+  - sys.account_behavior_profiling_system
+source_refs: []
+status: draft
+confidence: medium

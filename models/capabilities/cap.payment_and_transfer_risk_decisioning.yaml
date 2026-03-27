@@ -1,0 +1,53 @@
+id: cap.payment_and_transfer_risk_decisioning
+name: Payment & Transfer Risk Decisioning
+domain_id: domain.risk_fraud
+description: >
+  Evaluate and decision payment and transfer requests for financial crime risk, fraud risk,
+  and policy compliance in real time and near-real time, applying risk-based controls that
+  balance interdiction effectiveness with customer experience.
+value_stream_ids:
+  - vs.payment_integrity
+  - vs.fraud_prevention
+  - vs.regulatory_compliance
+  - vs.trusted_customer_relationship
+journey_ids:
+  - journey.real_time_payment_risk_check
+  - journey.wire_transfer_risk_review
+  - journey.ach_transfer_risk_evaluation
+  - journey.international_payment_risk_screening
+  - journey.payment_hold_and_release_decision
+process_ids:
+  - proc.payment_risk_scoring
+  - proc.payment_sanctions_screening
+  - proc.payment_velocity_check
+  - proc.payment_beneficiary_risk_evaluation
+  - proc.payment_hold_decisioning
+  - proc.payment_risk_policy_application
+risk_ids:
+  - risk.illicit_payment_not_interdicted
+  - risk.excessive_payment_false_declines
+  - risk.payment_risk_latency_exceeds_sla
+  - risk.payment_policy_bypass
+  - risk.beneficiary_risk_not_assessed
+control_ids:
+  - ctrl.payment_risk_model_validation
+  - ctrl.payment_decline_rate_monitoring
+  - ctrl.payment_risk_latency_sla_monitoring
+  - ctrl.payment_policy_override_governance
+  - ctrl.payment_risk_coverage_review
+  - ctrl.beneficiary_screening_completeness
+provider_ids:
+  - prov.fico
+  - prov.featurespace
+  - prov.nice_actimize
+  - prov.feedzai
+  - prov.swift
+  - prov.bottomline_technologies
+system_ids:
+  - sys.payment_risk_decisioning_engine
+  - sys.payment_screening_platform
+  - sys.payment_hold_management_system
+  - sys.payment_risk_analytics_dashboard
+source_refs: []
+status: draft
+confidence: high

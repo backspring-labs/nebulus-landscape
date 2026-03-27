@@ -1,0 +1,53 @@
+id: cap.transaction_monitoring
+name: Transaction Monitoring
+domain_id: domain.risk_fraud
+description: >
+  Monitor customer transactions across channels, products, and counterparties to detect
+  patterns indicative of money laundering, terrorist financing, fraud, and other financial
+  crimes through rules-based and analytics-driven surveillance.
+value_stream_ids:
+  - vs.financial_crime_detection
+  - vs.payment_integrity
+  - vs.regulatory_compliance
+  - vs.trusted_customer_relationship
+journey_ids:
+  - journey.suspicious_transaction_detection
+  - journey.transaction_alert_review
+  - journey.transaction_pattern_investigation
+  - journey.batch_transaction_surveillance
+  - journey.real_time_transaction_screening
+process_ids:
+  - proc.transaction_scenario_execution
+  - proc.transaction_alert_generation
+  - proc.transaction_threshold_calibration
+  - proc.transaction_data_enrichment
+  - proc.transaction_monitoring_coverage_review
+  - proc.transaction_backlog_management
+risk_ids:
+  - risk.undetected_suspicious_transaction_pattern
+  - risk.excessive_transaction_alert_volume
+  - risk.transaction_monitoring_coverage_gap
+  - risk.stale_transaction_monitoring_scenarios
+  - risk.transaction_data_quality_degradation
+control_ids:
+  - ctrl.transaction_scenario_validation_and_tuning
+  - ctrl.transaction_alert_volume_monitoring
+  - ctrl.transaction_monitoring_coverage_assessment
+  - ctrl.transaction_data_completeness_checks
+  - ctrl.transaction_monitoring_threshold_governance
+  - ctrl.suspicious_activity_detection_timeliness
+provider_ids:
+  - prov.nice_actimize
+  - prov.oracle_financial_services
+  - prov.sas
+  - prov.verafin
+  - prov.fiserv
+  - prov.featurespace
+system_ids:
+  - sys.transaction_monitoring_engine
+  - sys.transaction_alert_management_platform
+  - sys.transaction_data_warehouse
+  - sys.scenario_tuning_and_governance_tool
+source_refs: []
+status: draft
+confidence: high
