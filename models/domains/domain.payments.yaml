@@ -1,0 +1,41 @@
+id: domain.payments
+name: Payments
+description: >
+  Durable business area responsible for initiating, validating, routing,
+  executing, clearing, settling, and managing the lifecycle of money movement
+  instructions across all payment rails and transfer types supported by the
+  institution, distinct from account contract governance, risk decisioning,
+  card processing, and general-ledger posting.
+capability_ids:
+  - cap.payment_initiation_and_validation
+  - cap.payment_rail_selection_and_routing
+  - cap.payment_message_formatting_and_transformation
+  - cap.outbound_payment_transmission
+  - cap.inbound_payment_processing
+  - cap.payment_lifecycle_state_management
+  - cap.payment_clearing_management
+  - cap.payment_settlement_management
+  - cap.payment_return_and_exception_processing
+  - cap.payment_hold_and_release_management
+  - cap.payment_scheduling_and_recurrence
+  - cap.internal_transfer_management
+  - cap.beneficiary_and_payee_management
+  - cap.payment_regulatory_compliance_management
+  - cap.payment_confirmation_and_notification
+  - cap.payment_reconciliation
+  - cap.funds_availability_management
+  - cap.remittance_information_management
+related_domain_ids:
+  - domain.accounts
+  - domain.customer
+  - domain.identity_access
+  - domain.risk_fraud
+  - domain.orchestration_control
+  - domain.channels_experience
+  - domain.servicing
+  - domain.data_rewards
+  - domain.cards
+  - domain.networks_schemes
+  - domain.ledger_core
+source_refs: []
+status: draft
