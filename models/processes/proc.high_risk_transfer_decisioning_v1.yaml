@@ -1,0 +1,48 @@
+id: proc.high_risk_transfer_decisioning_v1
+name: High-Risk Transfer Decisioning v1
+journey_id: journey.approve_or_decline_high_risk_transfer
+description: >
+  Operational process for intercepting, evaluating, and decisioning payments
+  and transfers flagged as high-risk by fraud scoring, sanctions screening, or
+  transaction monitoring rules, from real-time intercept through approval,
+  decline, or investigative hold.
+stage_ids:
+  - stage.high_risk_transfer.transfer_intercept_and_risk_flag
+  - stage.high_risk_transfer.risk_data_enrichment_and_context_assembly
+  - stage.high_risk_transfer.automated_policy_evaluation
+  - stage.high_risk_transfer.analyst_review_and_decision
+  - stage.high_risk_transfer.decision_execution_and_release
+  - stage.high_risk_transfer.post_decision_monitoring_and_feedback
+  - stage.high_risk_transfer.exception_escalation_and_override
+risk_ids:
+  - risk.false_decline_customer_impact
+  - risk.approved_fraudulent_transfer
+  - risk.sanctions_evasion_through_structuring
+  - risk.decision_latency_exceeding_sla
+  - risk.override_without_authorization
+  - risk.incomplete_risk_context_at_decision
+  - risk.feedback_loop_degradation
+control_ids:
+  - ctrl.real_time_risk_scoring_threshold
+  - ctrl.sanctions_screening_at_payment
+  - ctrl.velocity_and_pattern_rules
+  - ctrl.analyst_decision_authority_matrix
+  - ctrl.override_dual_authorization
+  - ctrl.decision_sla_enforcement
+  - ctrl.post_decision_feedback_loop
+system_ids:
+  - sys.payment_processing_platform
+  - sys.fraud_detection_engine
+  - sys.sanctions_screening_engine
+  - sys.transaction_monitoring_system
+  - sys.alert_management_platform
+  - sys.customer_master
+  - sys.core_banking_platform
+  - sys.risk_decisioning_engine
+source_refs:
+  - src.nacha_fraud_monitoring_rules_2026
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+  - src.fatf_risk_based_banking_guidance
+status: draft
+confidence: high

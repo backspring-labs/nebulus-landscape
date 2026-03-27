@@ -1,0 +1,47 @@
+id: proc.sanctions_screening_and_match_review_v1
+name: Sanctions Screening and Match Review v1
+journey_id: journey.screen_customer_against_sanctions_list
+description: >
+  Operational process for screening customers, counterparties, and transactions
+  against OFAC, UN, EU, and other sanctions and watchlists, evaluating potential
+  matches, and rendering disposition decisions from initial screening through
+  escalation or clearance.
+stage_ids:
+  - stage.sanctions_screening.screening_trigger_and_list_selection
+  - stage.sanctions_screening.automated_screening_execution
+  - stage.sanctions_screening.potential_match_queue_assignment
+  - stage.sanctions_screening.match_review_and_adjudication
+  - stage.sanctions_screening.escalation_and_true_match_confirmation
+  - stage.sanctions_screening.blocking_and_restriction_execution
+  - stage.sanctions_screening.clearance_documentation_and_closure
+risk_ids:
+  - risk.stale_sanctions_list
+  - risk.screening_coverage_gap
+  - risk.false_negative_match
+  - risk.excessive_false_positives
+  - risk.delayed_blocking_action
+  - risk.incomplete_match_review_documentation
+  - risk.ofac_reporting_failure
+control_ids:
+  - ctrl.list_currency_verification
+  - ctrl.screening_coverage_matrix
+  - ctrl.match_scoring_threshold_governance
+  - ctrl.mandatory_match_review_fields
+  - ctrl.true_match_escalation_protocol
+  - ctrl.blocking_action_sla
+  - ctrl.clearance_documentation_requirements
+system_ids:
+  - sys.sanctions_screening_engine
+  - sys.watchlist_management_platform
+  - sys.alert_management_platform
+  - sys.case_management_system
+  - sys.customer_master
+  - sys.payment_processing_platform
+  - sys.ofac_reporting_system
+  - sys.evidence_repository
+source_refs:
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+  - src.fatf_risk_based_banking_guidance
+status: draft
+confidence: high

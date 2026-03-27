@@ -1,0 +1,47 @@
+id: proc.sar_filing_v1
+name: SAR Filing v1
+journey_id: journey.file_suspicious_activity_report
+description: >
+  Operational process for preparing, reviewing, approving, and electronically
+  filing a Suspicious Activity Report (SAR) with FinCEN, from initial case
+  referral through filing confirmation, continuing activity monitoring, and
+  record retention.
+stage_ids:
+  - stage.sar_filing.case_referral_and_filing_determination
+  - stage.sar_filing.sar_narrative_and_form_preparation
+  - stage.sar_filing.quality_review_and_compliance_approval
+  - stage.sar_filing.electronic_filing_and_confirmation
+  - stage.sar_filing.post_filing_record_management
+  - stage.sar_filing.continuing_activity_review
+  - stage.sar_filing.law_enforcement_referral_and_information_sharing
+risk_ids:
+  - risk.missed_sar_filing_obligation
+  - risk.sar_narrative_deficiency
+  - risk.filing_deadline_breach
+  - risk.incomplete_subject_information
+  - risk.premature_customer_tipping
+  - risk.continuing_activity_oversight_gap
+  - risk.inadequate_record_retention
+control_ids:
+  - ctrl.sar_filing_trigger_rules
+  - ctrl.sar_narrative_quality_checklist
+  - ctrl.filing_deadline_tracking
+  - ctrl.subject_information_completeness_gate
+  - ctrl.anti_tipping_controls
+  - ctrl.continuing_activity_review_schedule
+  - ctrl.sar_record_retention_policy
+system_ids:
+  - sys.case_management_system
+  - sys.sar_filing_system
+  - sys.fincen_bsa_efiling_gateway
+  - sys.customer_master
+  - sys.core_banking_platform
+  - sys.transaction_monitoring_system
+  - sys.evidence_repository
+  - sys.records_management_system
+source_refs:
+  - src.fincen_sar_faq_2025
+  - src.ffiec_bsaaml_manual_2026
+  - src.ffiec_suspicious_activity_monitoring_appendix_s
+status: draft
+confidence: high
