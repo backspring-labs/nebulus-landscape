@@ -6,6 +6,7 @@ description: >
   transactional use after satisfying re-verification, compliance, and
   operational prerequisites.
 actor: retail_customer
+entry_capability_id: cap.account_dormancy_and_escheat_coordination
 domain_ids:
   - domain.accounts
   - domain.customer

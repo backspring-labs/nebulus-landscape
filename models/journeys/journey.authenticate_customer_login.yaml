@@ -4,6 +4,7 @@ description: >
   A customer authenticates to access digital banking and establish a governed,
   runtime-trusted session.
 actor: customer
+entry_capability_id: cap.authentication
 domain_ids:
   - domain.identity_access
   - domain.channels_experience

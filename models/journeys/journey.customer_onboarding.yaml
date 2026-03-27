@@ -4,6 +4,7 @@ description: >
   A new-to-bank individual progresses from applicant to established customer through
   controlled intake, resolution, evidence collection, and customer-record creation.
 actor: prospective_customer
+entry_capability_id: cap.customer_application_intake
 domain_ids:
   - domain.customer
   - domain.identity_access

@@ -4,6 +4,7 @@ description: >
   Customer or institution terminates the customer relationship through a governed
   path that coordinates lifecycle state changes, dependency review, and retention triggers.
 actor: customer_or_institution
+entry_capability_id: cap.customer_exit_management
 domain_ids:
   - domain.customer
   - domain.accounts

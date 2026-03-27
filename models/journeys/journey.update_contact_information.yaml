@@ -4,6 +4,7 @@ description: >
   Existing customer updates address, phone, email, or related contact points through
   a controlled maintenance path with verification, validation, and downstream propagation.
 actor: existing_customer
+entry_capability_id: cap.customer_contact_management
 domain_ids:
   - domain.customer
   - domain.identity_access

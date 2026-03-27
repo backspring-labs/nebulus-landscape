@@ -4,6 +4,7 @@ description: >
   An administrator or operator performs a high-risk privileged action under
   stronger assurance, governance, and evidence requirements.
 actor: administrator
+entry_capability_id: cap.privileged_access_governance
 domain_ids:
   - domain.identity_access
   - domain.orchestration_control

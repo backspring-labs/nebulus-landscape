@@ -4,6 +4,7 @@ description: >
   A customer restores account access after forgotten credentials, lost device,
   lockout, or suspected compromise.
 actor: customer
+entry_capability_id: cap.identity_recovery_and_reset_management
 domain_ids:
   - domain.identity_access
   - domain.channels_experience

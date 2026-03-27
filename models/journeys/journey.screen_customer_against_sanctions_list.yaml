@@ -5,6 +5,7 @@ description: >
   sanctions and watchlists at onboarding, periodic review, or triggered event,
   evaluating potential matches and rendering a disposition decision.
 actor: compliance_analyst
+entry_capability_id: cap.sanctions_and_watchlist_screening
 domain_ids:
   - domain.risk_fraud
   - domain.customer

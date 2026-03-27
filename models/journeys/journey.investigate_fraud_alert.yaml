@@ -5,6 +5,7 @@ description: >
   investigates the underlying activity, and renders a disposition decision to
   confirm, escalate, or dismiss the alert.
 actor: fraud_analyst
+entry_capability_id: cap.alert_triage_and_disposition
 domain_ids:
   - domain.risk_fraud
   - domain.customer

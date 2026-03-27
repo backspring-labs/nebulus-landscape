@@ -4,6 +4,7 @@ description: >
   Identity & Access removes or constrains customer access state after a
   customer relationship exits or becomes restricted.
 actor: institution_operations
+entry_capability_id: cap.post_exit_access_governance
 domain_ids:
   - domain.identity_access
   - domain.customer

@@ -5,6 +5,7 @@ description: >
   the customer relationship, satisfies onboarding controls, creates the account,
   and transitions the customer into an active state.
 actor: retail_customer
+entry_capability_id: cap.customer_acquisition_management
 domain_ids:
   - domain.customer
   - domain.identity_access

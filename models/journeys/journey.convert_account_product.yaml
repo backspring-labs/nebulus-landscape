@@ -6,6 +6,7 @@ description: >
   and party roles while preserving account history and maintaining regulatory
   and operational continuity.
 actor: retail_customer
+entry_capability_id: cap.deposit_account_product_management
 domain_ids:
   - domain.accounts
   - domain.customer

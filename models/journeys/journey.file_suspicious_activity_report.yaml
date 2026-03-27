@@ -5,6 +5,7 @@ description: >
   electronically files a Suspicious Activity Report (SAR) with FinCEN following
   the identification of reportable suspicious activity.
 actor: bsa_officer
+entry_capability_id: cap.suspicious_activity_reporting
 domain_ids:
   - domain.risk_fraud
   - domain.customer

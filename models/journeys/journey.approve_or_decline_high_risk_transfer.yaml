@@ -5,6 +5,7 @@ description: >
   screening is routed for real-time or near-real-time decisioning by a risk
   analyst or automated policy engine, resulting in approval, decline, or hold.
 actor: risk_analyst
+entry_capability_id: cap.payment_and_transfer_risk_decisioning
 domain_ids:
   - domain.risk_fraud
   - domain.payments

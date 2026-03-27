@@ -6,6 +6,7 @@ description: >
   cleared, regulatory retention requirements are addressed, and the account
   transitions to a closed terminal state.
 actor: retail_customer
+entry_capability_id: cap.account_closure_management
 domain_ids:
   - domain.accounts
   - domain.customer
