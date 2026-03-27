@@ -1,0 +1,13 @@
+id: map.prov.in_house_risk_platforms
+provider_id: prov.in_house_risk_platforms
+capability_ids:
+  - cap.risk_restriction_and_offboarding_decisioning
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

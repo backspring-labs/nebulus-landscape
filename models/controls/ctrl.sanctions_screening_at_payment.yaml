@@ -1,0 +1,13 @@
+id: ctrl.sanctions_screening_at_payment
+name: Sanctions Screening at Payment
+description: >
+  Screen all payment and transfer transactions against sanctions lists at
+  the point of execution to prevent prohibited transactions from being
+  processed.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

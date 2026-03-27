@@ -1,0 +1,12 @@
+id: risk.inconsistent_risk_tolerance_across_business_lines
+name: Inconsistent Risk Tolerance Across Business Lines
+description: >
+  Different business lines apply divergent risk tolerance thresholds for the same
+  financial crime risk types, creating uneven control coverage and regulatory exposure.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.list_currency_verification
+name: List Currency Verification
+description: >
+  Verify that sanctions and watchlist data used in screening is current and
+  reflects the latest published updates from OFAC, UN, EU, and other
+  applicable authorities before executing screening runs.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

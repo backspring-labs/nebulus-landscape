@@ -1,0 +1,16 @@
+id: stage.sar_filing.quality_review_and_compliance_approval
+name: Quality Review and Compliance Approval
+process_id: proc.sar_filing_v1
+description: >
+  Conduct quality review of the SAR narrative and form, obtain
+  compliance officer approval, and validate filing readiness.
+order: 3
+system_ids:
+  - sys.sar_filing_system
+risk_ids:
+  - risk.sar_narrative_deficiency
+control_ids:
+  - ctrl.sar_narrative_quality_review
+  - ctrl.sar_approval_workflow_enforcement
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.screening_coverage_completeness
+name: Screening Coverage Completeness
+description: >
+  Verify that all required customer, counterparty, and transaction populations
+  are subject to sanctions and watchlist screening with no gaps in coverage
+  across products, channels, or entity types.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

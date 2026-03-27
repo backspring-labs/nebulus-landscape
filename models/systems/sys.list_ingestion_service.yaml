@@ -1,0 +1,10 @@
+id: sys.list_ingestion_service
+name: List Ingestion Service
+description: >
+  Service for ingesting, validating, and distributing sanctions list
+  and watchlist updates to screening engines.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

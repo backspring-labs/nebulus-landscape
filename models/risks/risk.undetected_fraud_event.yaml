@@ -1,0 +1,12 @@
+id: risk.undetected_fraud_event
+name: Undetected Fraud Event
+description: >
+  A fraudulent transaction, application, or account activity is not detected by
+  fraud detection systems, resulting in financial loss or customer harm.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

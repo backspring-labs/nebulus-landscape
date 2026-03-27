@@ -1,0 +1,12 @@
+id: risk.inaccurate_or_incomplete_sar_narrative
+name: Inaccurate or Incomplete SAR Narrative
+description: >
+  A SAR narrative contains inaccurate information or fails to adequately describe
+  the suspicious activity, weakening the report's value to law enforcement and regulators.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

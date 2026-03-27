@@ -1,0 +1,10 @@
+id: sys.regulatory_change_tracker
+name: Regulatory Change Tracker
+description: >
+  System for tracking regulatory changes, assessing impact on financial
+  crime policies, and managing implementation timelines.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.314a_search_and_response_system
+name: 314(a) Search and Response System
+description: >
+  System for processing FinCEN 314(a) requests including automated
+  customer searches and response submission.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

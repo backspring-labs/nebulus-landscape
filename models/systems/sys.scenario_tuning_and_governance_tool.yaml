@@ -1,0 +1,10 @@
+id: sys.scenario_tuning_and_governance_tool
+name: Scenario Tuning and Governance Tool
+description: >
+  Tool for managing transaction monitoring scenario development, tuning,
+  threshold calibration, and governance workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

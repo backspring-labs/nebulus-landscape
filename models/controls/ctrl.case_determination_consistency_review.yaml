@@ -1,0 +1,13 @@
+id: ctrl.case_determination_consistency_review
+name: Case Determination Consistency Review
+description: >
+  Review case investigation determinations for consistency across investigators
+  and case types to identify training needs, policy gaps, or decision quality
+  issues.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.model_performance_back_testing
+name: Model Performance Back-Testing
+description: >
+  Periodically back-test risk rating and scoring models against actual outcomes
+  to assess predictive accuracy and identify model drift or degradation requiring
+  recalibration.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

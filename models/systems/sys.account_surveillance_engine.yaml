@@ -1,0 +1,10 @@
+id: sys.account_surveillance_engine
+name: Account Surveillance Engine
+description: >
+  Engine for continuously monitoring account-level behavior and
+  relationship patterns to detect anomalies and emerging risks.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

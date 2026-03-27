@@ -1,0 +1,14 @@
+id: map.prov.fincen
+provider_id: prov.fincen
+capability_ids:
+  - cap.suspicious_activity_reporting
+  - cap.regulatory_information_sharing_and_law_enforcement_response
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

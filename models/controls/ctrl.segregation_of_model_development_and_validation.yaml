@@ -1,0 +1,13 @@
+id: ctrl.segregation_of_model_development_and_validation
+name: Segregation of Model Development and Validation
+description: >
+  Enforce organizational separation between fraud model development and
+  independent model validation functions to ensure objective assessment
+  of model performance and risk.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.relationship_network_analytics_tool
+name: Relationship Network Analytics Tool
+description: >
+  Tool for analyzing relationship networks and entity connections to
+  identify hidden risks and suspicious patterns.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

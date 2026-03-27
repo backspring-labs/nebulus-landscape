@@ -1,0 +1,10 @@
+id: sys.transaction_alert_management_platform
+name: Transaction Alert Management Platform
+description: >
+  Platform for managing transaction monitoring alerts including
+  prioritization, assignment, and disposition tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

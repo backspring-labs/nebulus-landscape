@@ -1,0 +1,17 @@
+id: stage.fraud_alert_investigation.case_opening_and_evidence_assembly
+name: Case Opening and Evidence Assembly
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Open an investigation case, gather relevant evidence from transaction,
+  account, and customer systems, and assemble the case file.
+order: 3
+system_ids:
+  - sys.case_management_system
+  - sys.evidence_repository
+  - sys.core_banking_platform
+risk_ids:
+  - risk.incomplete_investigation_evidence
+control_ids:
+  - ctrl.mandatory_investigation_checklist
+source_refs: []
+status: draft

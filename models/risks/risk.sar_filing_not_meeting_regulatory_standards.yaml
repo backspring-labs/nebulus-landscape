@@ -1,0 +1,12 @@
+id: risk.sar_filing_not_meeting_regulatory_standards
+name: SAR Filing Not Meeting Regulatory Standards
+description: >
+  Filed SARs do not meet FinCEN or examiner quality standards for completeness,
+  accuracy, or timeliness, resulting in examination findings or enforcement actions.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

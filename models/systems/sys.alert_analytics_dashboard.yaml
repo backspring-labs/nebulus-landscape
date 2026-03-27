@@ -1,0 +1,10 @@
+id: sys.alert_analytics_dashboard
+name: Alert Analytics Dashboard
+description: >
+  Dashboard for monitoring alert volumes, disposition rates, aging,
+  quality metrics, and false positive trends.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

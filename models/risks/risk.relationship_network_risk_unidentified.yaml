@@ -1,0 +1,12 @@
+id: risk.relationship_network_risk_unidentified
+name: Relationship Network Risk Unidentified
+description: >
+  Risk arising from interconnected entity relationships or shared network patterns
+  is not identified, missing coordinated or layered financial crime activity.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

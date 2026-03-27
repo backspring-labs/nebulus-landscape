@@ -1,0 +1,12 @@
+id: risk.insufficient_alert_documentation
+name: Insufficient Alert Documentation
+description: >
+  Alert disposition decisions are not adequately documented, weakening the audit trail
+  and reducing the institution's ability to defend decisions to regulators.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

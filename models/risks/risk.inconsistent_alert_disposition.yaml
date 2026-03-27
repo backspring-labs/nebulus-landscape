@@ -1,0 +1,12 @@
+id: risk.inconsistent_alert_disposition
+name: Inconsistent Alert Disposition
+description: >
+  Similar alerts receive different disposition outcomes depending on the analyst,
+  indicating inconsistent application of triage standards and decision criteria.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

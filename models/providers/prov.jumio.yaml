@@ -1,0 +1,9 @@
+id: prov.jumio
+name: Jumio
+category: identity_risk
+summary: >
+  AI-powered identity verification and eKYC platform providing document
+  verification, biometric authentication, and onboarding risk decisioning.
+status: stub
+source_refs: []
+tags: []

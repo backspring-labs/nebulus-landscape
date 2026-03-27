@@ -1,0 +1,10 @@
+id: sys.onboarding_decision_engine
+name: Onboarding Decision Engine
+description: >
+  Decision engine for rendering risk-based accept, reject, refer, or
+  conditional-approval decisions during customer onboarding.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

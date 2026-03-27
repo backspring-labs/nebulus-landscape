@@ -1,0 +1,10 @@
+id: sys.risk_rating_case_management
+name: Risk Rating Case Management
+description: >
+  Case management system for handling risk rating overrides, exceptions,
+  and periodic risk rating review workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

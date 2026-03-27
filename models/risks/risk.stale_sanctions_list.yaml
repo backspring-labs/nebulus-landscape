@@ -1,0 +1,12 @@
+id: risk.stale_sanctions_list
+name: Stale Sanctions List
+description: >
+  The sanctions screening system operates against outdated list data, missing recently
+  added designations and potentially clearing prohibited parties.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

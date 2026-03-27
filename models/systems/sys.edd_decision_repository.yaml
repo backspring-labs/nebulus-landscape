@@ -1,0 +1,10 @@
+id: sys.edd_decision_repository
+name: EDD Decision Repository
+description: >
+  Repository for storing enhanced due diligence decisions, supporting
+  evidence, and relationship continuation determinations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

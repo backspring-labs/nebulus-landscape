@@ -1,0 +1,10 @@
+id: sys.financial_crime_policy_repository
+name: Financial Crime Policy Repository
+description: >
+  Central repository for financial crime risk appetite statements, policies,
+  procedures, and tolerance thresholds.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

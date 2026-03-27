@@ -1,0 +1,12 @@
+id: risk.alert_backlog_exceeds_sla
+name: Alert Backlog Exceeds SLA
+description: >
+  The volume of unreviewed alerts exceeds service level agreements, delaying
+  investigation of potentially suspicious activity beyond acceptable timeframes.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

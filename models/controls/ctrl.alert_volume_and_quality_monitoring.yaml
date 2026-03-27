@@ -1,0 +1,13 @@
+id: ctrl.alert_volume_and_quality_monitoring
+name: Alert Volume and Quality Monitoring
+description: >
+  Monitor fraud alert volumes, true positive rates, and quality metrics to
+  identify calibration issues, emerging fraud patterns, or detection system
+  anomalies requiring attention.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

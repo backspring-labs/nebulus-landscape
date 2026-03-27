@@ -1,0 +1,10 @@
+id: sys.fraud_case_management
+name: Fraud Case Management
+description: >
+  Case management system for tracking and managing fraud investigations
+  from alert through resolution and downstream referral.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

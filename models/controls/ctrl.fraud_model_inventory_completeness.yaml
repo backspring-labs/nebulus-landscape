@@ -1,0 +1,13 @@
+id: ctrl.fraud_model_inventory_completeness
+name: Fraud Model Inventory Completeness
+description: >
+  Maintain a complete and current inventory of all fraud detection models and
+  rules in production, including version, validation status, owner, and
+  deployment date to support governance and audit.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

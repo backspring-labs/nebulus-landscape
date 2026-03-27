@@ -1,0 +1,13 @@
+id: map.prov.wolters_kluwer
+provider_id: prov.wolters_kluwer
+capability_ids:
+  - cap.financial_crime_risk_appetite_and_policy_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

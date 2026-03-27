@@ -1,0 +1,9 @@
+id: prov.dow_jones
+name: Dow Jones Risk & Compliance
+category: sanctions_screening
+summary: >
+  Risk and compliance data provider offering sanctions lists, PEP databases,
+  adverse media screening, and enhanced due diligence intelligence.
+status: stub
+source_refs: []
+tags: []

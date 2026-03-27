@@ -1,0 +1,10 @@
+id: sys.account_behavior_profiling_system
+name: Account Behavior Profiling System
+description: >
+  System for building and maintaining behavioral profiles of accounts
+  to establish baselines and detect deviations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.sanctions_screening_engine
+name: Sanctions Screening Engine
+description: >
+  Engine for screening customers, counterparties, and transactions against
+  sanctions lists, PEP databases, and regulatory watchlists.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

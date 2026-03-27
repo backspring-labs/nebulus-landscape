@@ -1,0 +1,17 @@
+id: stage.sanctions_screening.match_review_and_adjudication
+name: Match Review and Adjudication
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Review potential matches, gather additional context, and adjudicate
+  whether the match is a true match or false positive.
+order: 4
+system_ids:
+  - sys.alert_management_platform
+  - sys.case_management_system
+  - sys.customer_master
+risk_ids:
+  - risk.incomplete_match_review_documentation
+control_ids:
+  - ctrl.mandatory_match_review_fields
+source_refs: []
+status: draft

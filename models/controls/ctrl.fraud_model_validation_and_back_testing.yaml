@@ -1,0 +1,13 @@
+id: ctrl.fraud_model_validation_and_back_testing
+name: Fraud Model Validation and Back-Testing
+description: >
+  Validate fraud detection models through independent review and back-testing
+  against known fraud outcomes to assess model accuracy, identify drift, and
+  ensure ongoing detection effectiveness.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

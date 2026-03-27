@@ -1,0 +1,12 @@
+id: ctrl.periodic_rating_refresh_schedule
+name: Periodic Rating Refresh Schedule
+description: >
+  Enforce a risk-tiered schedule for periodic refresh of customer risk ratings
+  to prevent ratings from becoming stale and ensure ongoing accuracy.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

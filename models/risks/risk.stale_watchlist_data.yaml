@@ -1,0 +1,12 @@
+id: risk.stale_watchlist_data
+name: Stale Watchlist Data
+description: >
+  Sanctions and watchlist data used for screening is not current, potentially missing
+  recently designated entities or retaining delisted ones.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

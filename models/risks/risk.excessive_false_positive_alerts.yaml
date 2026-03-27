@@ -1,0 +1,12 @@
+id: risk.excessive_false_positive_alerts
+name: Excessive False Positive Alerts
+description: >
+  Screening generates an unmanageable volume of false positive alerts, overwhelming
+  review capacity and increasing the likelihood that true matches are missed.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,18 @@
+id: stage.fraud_alert_investigation.alert_receipt_and_queue_assignment
+name: Alert Receipt and Queue Assignment
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Receive fraud alerts from detection systems, validate alert data
+  completeness, and assign to appropriate review queues based on
+  priority and type.
+order: 1
+system_ids:
+  - sys.fraud_detection_engine
+  - sys.alert_management_platform
+risk_ids:
+  - risk.alert_queue_overflow
+control_ids:
+  - ctrl.alert_priority_scoring_model
+  - ctrl.sla_based_queue_management
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.inadequate_staff_training_and_competency
+name: Inadequate Staff Training and Competency
+description: >
+  Financial crime compliance staff lack adequate training or demonstrated competency
+  to perform their roles effectively, increasing the risk of program failures.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

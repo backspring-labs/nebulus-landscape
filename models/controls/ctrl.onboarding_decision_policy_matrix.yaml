@@ -1,0 +1,13 @@
+id: ctrl.onboarding_decision_policy_matrix
+name: Onboarding Decision Policy Matrix
+description: >
+  Define and enforce a policy matrix that maps combinations of identity risk
+  signals, fraud indicators, and compliance factors to accept, reject, refer,
+  or conditional-approval decisions for onboarding.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

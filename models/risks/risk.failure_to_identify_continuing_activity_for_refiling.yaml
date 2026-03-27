@@ -1,0 +1,12 @@
+id: risk.failure_to_identify_continuing_activity_for_refiling
+name: Failure to Identify Continuing Activity for Refiling
+description: >
+  Continuing suspicious activity by a previously reported subject is not identified
+  for SAR refiling, violating the continuing activity reporting obligation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

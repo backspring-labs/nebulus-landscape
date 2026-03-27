@@ -1,0 +1,14 @@
+id: map.prov.hummingbird
+provider_id: prov.hummingbird
+capability_ids:
+  - cap.case_investigation_management
+  - cap.suspicious_activity_reporting
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

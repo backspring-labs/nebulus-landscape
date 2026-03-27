@@ -1,0 +1,13 @@
+id: ctrl.interdiction_timeliness_sla
+name: Interdiction Timeliness SLA
+description: >
+  Enforce service level agreements for fraud interdiction actions to ensure
+  that confirmed or high-confidence fraud events are blocked or contained
+  within acceptable time windows to minimize loss.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

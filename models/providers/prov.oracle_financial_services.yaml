@@ -1,0 +1,9 @@
+id: prov.oracle_financial_services
+name: Oracle Financial Services
+category: transaction_monitoring
+summary: >
+  Enterprise financial services software suite offering transaction monitoring,
+  case management, suspicious activity reporting, and regulatory compliance.
+status: stub
+source_refs: []
+tags: []

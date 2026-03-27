@@ -1,0 +1,12 @@
+id: risk.alert_queue_overflow
+name: Alert Queue Overflow
+description: >
+  The fraud alert queue exceeds manageable capacity, causing alerts to age beyond
+  SLA thresholds and increasing the risk of missed true positives.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

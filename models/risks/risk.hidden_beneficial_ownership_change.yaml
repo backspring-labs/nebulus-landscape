@@ -1,0 +1,12 @@
+id: risk.hidden_beneficial_ownership_change
+name: Hidden Beneficial Ownership Change
+description: >
+  A change in beneficial ownership of an entity account is not detected or reported,
+  potentially concealing sanctioned or high-risk parties behind the relationship.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

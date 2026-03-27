@@ -1,0 +1,13 @@
+id: ctrl.sar_completeness_validation
+name: SAR Completeness Validation
+description: >
+  Validate that all required SAR form fields are complete and accurate before
+  submission, including subject information, transaction details, and filing
+  institution data.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.incomplete_investigation_missing_material_evidence
+name: Incomplete Investigation Missing Material Evidence
+description: >
+  A financial crime investigation is closed without gathering all material evidence,
+  resulting in an incomplete record that may not support regulatory reporting or defense.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

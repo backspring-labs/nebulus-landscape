@@ -1,0 +1,13 @@
+id: ctrl.sar_filing_deadline_monitoring
+name: SAR Filing Deadline Monitoring
+description: >
+  Monitor SAR filing deadlines to ensure all suspicious activity reports are
+  filed within the regulatory 30-day window from initial detection, with
+  escalation for approaching or breached deadlines.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

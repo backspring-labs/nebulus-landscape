@@ -1,0 +1,12 @@
+id: risk.illicit_payment_not_interdicted
+name: Illicit Payment Not Interdicted
+description: >
+  A payment or transfer associated with financial crime, sanctions violation, or fraud
+  is not blocked or held, allowing illicit funds to move through the institution.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

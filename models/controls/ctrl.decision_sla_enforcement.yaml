@@ -1,0 +1,13 @@
+id: ctrl.decision_sla_enforcement
+name: Decision SLA Enforcement
+description: >
+  Enforce service level agreements for high-risk transfer decisioning to ensure
+  timely resolution of flagged transactions and minimize customer impact from
+  extended holds.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

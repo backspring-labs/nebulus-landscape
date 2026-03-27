@@ -1,0 +1,10 @@
+id: sys.regulatory_filing_gateway
+name: Regulatory Filing Gateway
+description: >
+  Gateway for electronically submitting regulatory filings including
+  SARs and CTRs to FinCEN and other regulatory bodies.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

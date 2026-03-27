@@ -1,0 +1,12 @@
+id: risk.model_drift_in_fraud_scoring
+name: Model Drift in Fraud Scoring
+description: >
+  Fraud scoring models degrade in accuracy over time due to evolving fraud tactics
+  or population changes, reducing detection effectiveness.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

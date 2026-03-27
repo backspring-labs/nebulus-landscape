@@ -1,0 +1,12 @@
+id: risk.missed_sanctions_match
+name: Missed Sanctions Match
+description: >
+  A true sanctions or watchlist match is not identified during screening due to
+  matching algorithm limitations, data quality issues, or coverage gaps.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

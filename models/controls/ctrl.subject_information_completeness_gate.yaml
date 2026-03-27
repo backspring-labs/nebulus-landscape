@@ -1,0 +1,13 @@
+id: ctrl.subject_information_completeness_gate
+name: Subject Information Completeness Gate
+description: >
+  Validate that all available subject identifying information is captured
+  in the SAR filing before submission, ensuring maximum utility for law
+  enforcement and regulatory agencies.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

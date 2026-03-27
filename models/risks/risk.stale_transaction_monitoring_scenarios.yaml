@@ -1,0 +1,12 @@
+id: risk.stale_transaction_monitoring_scenarios
+name: Stale Transaction Monitoring Scenarios
+description: >
+  Transaction monitoring rules and scenarios have not been updated to reflect current
+  typologies, regulatory guidance, or changes in the institution's risk profile.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

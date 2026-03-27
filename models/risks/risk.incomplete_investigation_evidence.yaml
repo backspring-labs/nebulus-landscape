@@ -1,0 +1,12 @@
+id: risk.incomplete_investigation_evidence
+name: Incomplete Investigation Evidence
+description: >
+  A fraud investigation case is progressed or closed without assembling all relevant
+  evidence, weakening case quality and regulatory defensibility.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

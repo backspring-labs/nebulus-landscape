@@ -1,0 +1,12 @@
+id: risk.identity_signal_latency
+name: Identity Signal Latency
+description: >
+  Identity risk signals arrive too late to inform the onboarding decision within
+  acceptable timeframes, forcing decisions with incomplete risk context.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.excessive_transaction_alert_volume
+name: Excessive Transaction Alert Volume
+description: >
+  Transaction monitoring generates more alerts than the investigation team can
+  effectively review, leading to backlogs and potential missed suspicious activity.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

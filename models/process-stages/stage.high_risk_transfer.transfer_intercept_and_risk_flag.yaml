@@ -1,0 +1,18 @@
+id: stage.high_risk_transfer.transfer_intercept_and_risk_flag
+name: Transfer Intercept and Risk Flag
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Intercept payment or transfer flagged by fraud scoring, sanctions
+  screening, or transaction monitoring rules for risk evaluation.
+order: 1
+system_ids:
+  - sys.payment_processing_platform
+  - sys.fraud_detection_engine
+  - sys.sanctions_screening_engine
+risk_ids:
+  - risk.approved_fraudulent_transfer
+control_ids:
+  - ctrl.real_time_risk_scoring_threshold
+  - ctrl.sanctions_screening_at_payment
+source_refs: []
+status: draft

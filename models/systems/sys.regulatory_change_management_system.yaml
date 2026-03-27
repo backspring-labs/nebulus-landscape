@@ -1,0 +1,10 @@
+id: sys.regulatory_change_management_system
+name: Regulatory Change Management System
+description: >
+  System for tracking regulatory changes, assessing their impact on
+  compliance programs, and managing implementation workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

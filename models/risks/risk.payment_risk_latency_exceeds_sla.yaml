@@ -1,0 +1,12 @@
+id: risk.payment_risk_latency_exceeds_sla
+name: Payment Risk Latency Exceeds SLA
+description: >
+  Payment risk evaluation takes longer than the defined service level agreement,
+  causing payment processing delays and customer dissatisfaction.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

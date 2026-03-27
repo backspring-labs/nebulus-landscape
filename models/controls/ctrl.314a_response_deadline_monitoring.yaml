@@ -1,0 +1,13 @@
+id: ctrl.314a_response_deadline_monitoring
+name: 314(a) Response Deadline Monitoring
+description: >
+  Monitor and enforce response deadlines for FinCEN 314(a) information requests
+  to ensure the institution searches its records and responds within the
+  required 14-day timeframe.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

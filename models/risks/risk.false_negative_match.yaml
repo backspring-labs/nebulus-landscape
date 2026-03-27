@@ -1,0 +1,12 @@
+id: risk.false_negative_match
+name: False Negative Match
+description: >
+  A true sanctions or watchlist match is not identified by the screening algorithm,
+  allowing a prohibited or high-risk party to pass screening undetected.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

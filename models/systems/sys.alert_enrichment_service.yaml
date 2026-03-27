@@ -1,0 +1,10 @@
+id: sys.alert_enrichment_service
+name: Alert Enrichment Service
+description: >
+  Service for enriching alerts with contextual data from customer,
+  transaction, and risk systems to support triage decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

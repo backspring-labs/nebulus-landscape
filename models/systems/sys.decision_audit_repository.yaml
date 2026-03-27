@@ -1,0 +1,10 @@
+id: sys.decision_audit_repository
+name: Decision Audit Repository
+description: >
+  Repository for storing onboarding and risk decision audit trails,
+  rationale documentation, and override records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

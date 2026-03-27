@@ -1,0 +1,12 @@
+id: risk.unauthorized_sar_disclosure
+name: Unauthorized SAR Disclosure
+description: >
+  Information about a SAR filing or its contents is disclosed to unauthorized parties,
+  including the subject of the report, violating BSA confidentiality requirements.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

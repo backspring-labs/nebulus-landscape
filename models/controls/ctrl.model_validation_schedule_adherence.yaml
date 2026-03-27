@@ -1,0 +1,13 @@
+id: ctrl.model_validation_schedule_adherence
+name: Model Validation Schedule Adherence
+description: >
+  Monitor adherence to the model validation schedule to ensure all financial
+  crime models are validated at required intervals and overdue validations
+  are escalated to model risk governance.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

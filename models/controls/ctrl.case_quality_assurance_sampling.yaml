@@ -1,0 +1,13 @@
+id: ctrl.case_quality_assurance_sampling
+name: Case Quality Assurance Sampling
+description: >
+  Conduct periodic sampling-based quality assurance reviews of completed
+  investigations to assess thoroughness, accuracy of findings, and compliance
+  with investigative standards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

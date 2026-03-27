@@ -1,0 +1,13 @@
+id: ctrl.regulatory_change_implementation_tracking
+name: Regulatory Change Implementation Tracking
+description: >
+  Track the implementation of regulatory changes affecting the financial crime
+  program to ensure timely updates to policies, procedures, systems, and
+  training before effective dates.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

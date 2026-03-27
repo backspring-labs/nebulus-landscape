@@ -1,0 +1,12 @@
+id: risk.missed_or_late_314a_response
+name: Missed or Late 314(a) Response
+description: >
+  A 314(a) information request from FinCEN is not responded to within the required
+  timeframe, violating BSA program participation obligations.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

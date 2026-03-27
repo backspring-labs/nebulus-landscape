@@ -1,0 +1,12 @@
+id: risk.relationship_retained_despite_unacceptable_risk
+name: Relationship Retained Despite Unacceptable Risk
+description: >
+  A customer relationship is continued despite risk findings that exceed the institution's
+  risk appetite, due to inadequate escalation or decisioning failures.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

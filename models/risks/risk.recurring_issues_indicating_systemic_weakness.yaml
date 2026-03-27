@@ -1,0 +1,12 @@
+id: risk.recurring_issues_indicating_systemic_weakness
+name: Recurring Issues Indicating Systemic Weakness
+description: >
+  The same or similar compliance issues recur across examination cycles, indicating
+  systemic program weaknesses that have not been adequately resolved.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

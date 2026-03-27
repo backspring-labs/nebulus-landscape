@@ -1,0 +1,10 @@
+id: sys.customer_risk_rating_engine
+name: Customer Risk Rating Engine
+description: >
+  Engine for calculating, assigning, and maintaining financial crime risk
+  ratings for customers and entities based on risk factor models.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

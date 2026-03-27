@@ -1,0 +1,12 @@
+id: risk.delayed_restriction_on_high_risk_account
+name: Delayed Restriction on High-Risk Account
+description: >
+  A restriction or offboarding action for a high-risk account is not executed promptly,
+  allowing continued exposure to financial crime or regulatory non-compliance.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

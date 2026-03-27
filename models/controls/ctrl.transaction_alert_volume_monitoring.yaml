@@ -1,0 +1,13 @@
+id: ctrl.transaction_alert_volume_monitoring
+name: Transaction Alert Volume Monitoring
+description: >
+  Monitor transaction monitoring alert volumes and trends to detect anomalies,
+  capacity constraints, or threshold miscalibrations that could impact detection
+  effectiveness or operational sustainability.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

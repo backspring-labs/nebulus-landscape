@@ -1,0 +1,18 @@
+id: map.prov.verafin
+provider_id: prov.verafin
+capability_ids:
+  - cap.transaction_monitoring
+  - cap.account_and_relationship_surveillance
+  - cap.alert_triage_and_disposition
+  - cap.case_investigation_management
+  - cap.suspicious_activity_reporting
+  - cap.regulatory_information_sharing_and_law_enforcement_response
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

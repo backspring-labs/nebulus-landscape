@@ -1,0 +1,10 @@
+id: sys.alert_management_platform
+name: Alert Management Platform
+description: >
+  Platform for receiving, enriching, prioritizing, and dispositioning
+  alerts from fraud, AML, and sanctions screening systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

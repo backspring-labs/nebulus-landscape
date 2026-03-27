@@ -1,0 +1,12 @@
+id: risk.undetected_suspicious_transaction_pattern
+name: Undetected Suspicious Transaction Pattern
+description: >
+  Transaction monitoring fails to detect patterns indicative of money laundering,
+  terrorist financing, or other financial crimes due to scenario gaps or tuning issues.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

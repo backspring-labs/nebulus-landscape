@@ -1,0 +1,13 @@
+id: ctrl.override_dual_authorization
+name: Override Dual Authorization
+description: >
+  Require dual authorization for any override of an automated risk decline
+  or hold decision on a high-risk transfer, with documented justification
+  and audit trail.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.screening_alert_case_management
+name: Screening Alert Case Management
+description: >
+  Case management system for reviewing, adjudicating, and dispositioning
+  sanctions and watchlist screening alerts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

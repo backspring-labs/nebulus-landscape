@@ -1,0 +1,12 @@
+id: risk.inadequate_fraud_model_documentation
+name: Inadequate Fraud Model Documentation
+description: >
+  Fraud models lack sufficient documentation of methodology, assumptions, limitations,
+  and validation results, undermining regulatory defensibility and knowledge transfer.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

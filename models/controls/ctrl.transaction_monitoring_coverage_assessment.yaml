@@ -1,0 +1,13 @@
+id: ctrl.transaction_monitoring_coverage_assessment
+name: Transaction Monitoring Coverage Assessment
+description: >
+  Periodically assess transaction monitoring coverage across products, channels,
+  and transaction types to identify surveillance gaps and ensure comprehensive
+  detection of suspicious activity.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.unvalidated_risk_rating_override
+name: Unvalidated Risk Rating Override
+description: >
+  A manual override of a customer's risk rating is applied without adequate justification,
+  approval, or documentation, potentially masking true risk exposure.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

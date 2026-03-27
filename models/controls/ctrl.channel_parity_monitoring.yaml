@@ -1,0 +1,13 @@
+id: ctrl.channel_parity_monitoring
+name: Channel Parity Monitoring
+description: >
+  Monitor onboarding decision outcomes across channels to detect inconsistencies
+  in risk decisioning that could indicate policy gaps or implementation
+  discrepancies between digital and branch channels.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.fraud_detection_coverage_review
+name: Fraud Detection Coverage Review
+description: >
+  Periodically review fraud detection coverage across products, channels,
+  and fraud typologies to identify gaps and ensure comprehensive surveillance
+  against known and emerging fraud vectors.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

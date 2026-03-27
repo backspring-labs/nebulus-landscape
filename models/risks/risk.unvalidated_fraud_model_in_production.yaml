@@ -1,0 +1,12 @@
+id: risk.unvalidated_fraud_model_in_production
+name: Unvalidated Fraud Model in Production
+description: >
+  A fraud detection model is deployed or continues to operate in production without
+  completing required independent validation, violating model risk management standards.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

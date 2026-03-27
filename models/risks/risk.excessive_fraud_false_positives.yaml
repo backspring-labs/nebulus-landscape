@@ -1,0 +1,12 @@
+id: risk.excessive_fraud_false_positives
+name: Excessive Fraud False Positives
+description: >
+  Fraud detection systems generate an excessive volume of false positive alerts,
+  degrading analyst productivity and increasing the risk of overlooking true fraud.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

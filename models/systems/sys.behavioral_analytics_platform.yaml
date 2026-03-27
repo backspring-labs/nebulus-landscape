@@ -1,0 +1,10 @@
+id: sys.behavioral_analytics_platform
+name: Behavioral Analytics Platform
+description: >
+  Platform for analyzing customer and account behavioral patterns to
+  detect anomalies and emerging fraud indicators.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

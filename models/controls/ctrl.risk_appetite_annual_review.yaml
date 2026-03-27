@@ -1,0 +1,13 @@
+id: ctrl.risk_appetite_annual_review
+name: Risk Appetite Annual Review
+description: >
+  Ensure the financial crime risk appetite statement is reviewed and reaffirmed
+  at least annually by senior management and the board to reflect current
+  regulatory expectations and institutional risk posture.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

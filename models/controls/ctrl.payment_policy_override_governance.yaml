@@ -1,0 +1,13 @@
+id: ctrl.payment_policy_override_governance
+name: Payment Policy Override Governance
+description: >
+  Require authorized approval and documentation for any override of automated
+  payment risk decisions, with audit trail and periodic review of override
+  patterns and outcomes.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

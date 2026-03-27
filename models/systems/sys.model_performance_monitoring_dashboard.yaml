@@ -1,0 +1,10 @@
+id: sys.model_performance_monitoring_dashboard
+name: Model Performance Monitoring Dashboard
+description: >
+  Dashboard for monitoring fraud model performance metrics including
+  detection rates, false positive rates, and model drift indicators.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

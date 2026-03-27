@@ -1,0 +1,12 @@
+id: risk.incomplete_risk_context_at_decision
+name: Incomplete Risk Context at Decision
+description: >
+  The analyst reviewing a high-risk transfer does not have complete risk context
+  including customer history, counterparty data, and prior alerts at the time of decision.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

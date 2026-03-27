@@ -1,0 +1,13 @@
+id: ctrl.alert_disposition_consistency_review
+name: Alert Disposition Consistency Review
+description: >
+  Review alert disposition decisions for consistency across analysts and alert
+  types to identify training gaps, policy ambiguities, or decision quality
+  issues requiring corrective action.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

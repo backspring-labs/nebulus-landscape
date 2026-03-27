@@ -1,0 +1,10 @@
+id: sys.sar_narrative_generation_tool
+name: SAR Narrative Generation Tool
+description: >
+  Tool for drafting and assembling SAR narratives from investigation
+  findings, transaction data, and subject information.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,16 @@
+id: stage.sanctions_screening.clearance_documentation_and_closure
+name: Clearance Documentation and Closure
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Document clearance rationale for false positives, complete case
+  records, and close the screening alert with full audit trail.
+order: 7
+system_ids:
+  - sys.case_management_system
+  - sys.evidence_repository
+risk_ids:
+  - risk.incomplete_match_review_documentation
+control_ids:
+  - ctrl.clearance_documentation_requirements
+source_refs: []
+status: draft

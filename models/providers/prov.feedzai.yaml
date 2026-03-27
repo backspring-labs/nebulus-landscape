@@ -1,0 +1,9 @@
+id: prov.feedzai
+name: Feedzai
+category: fraud_detection
+summary: >
+  AI-powered financial crime prevention platform providing real-time fraud
+  detection, transaction risk scoring, and payment decisioning.
+status: stub
+source_refs: []
+tags: []

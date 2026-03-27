@@ -1,0 +1,13 @@
+id: ctrl.tolerance_threshold_monitoring
+name: Tolerance Threshold Monitoring
+description: >
+  Continuously monitor financial crime risk metrics against defined tolerance
+  thresholds and trigger alerts or escalations when thresholds are approached
+  or breached.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

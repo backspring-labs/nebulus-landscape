@@ -1,0 +1,13 @@
+id: ctrl.alert_disposition_quality_review
+name: Alert Disposition Quality Review
+description: >
+  Conduct quality assurance reviews of screening alert dispositions to ensure
+  match determinations are accurate, well-documented, and consistent with
+  established adjudication standards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

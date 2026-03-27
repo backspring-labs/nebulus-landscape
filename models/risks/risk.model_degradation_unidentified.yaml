@@ -1,0 +1,12 @@
+id: risk.model_degradation_unidentified
+name: Model Degradation Unidentified
+description: >
+  Degradation in model performance across financial crime detection systems is not
+  identified through validation or monitoring processes in a timely manner.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

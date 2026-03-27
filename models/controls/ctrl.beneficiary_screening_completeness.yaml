@@ -1,0 +1,13 @@
+id: ctrl.beneficiary_screening_completeness
+name: Beneficiary Screening Completeness
+description: >
+  Ensure all payment beneficiaries and counterparties are screened against
+  sanctions, watchlists, and risk databases before transfer execution to
+  prevent payments to prohibited or high-risk entities.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

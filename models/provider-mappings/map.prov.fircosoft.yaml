@@ -1,0 +1,13 @@
+id: map.prov.fircosoft
+provider_id: prov.fircosoft
+capability_ids:
+  - cap.sanctions_and_watchlist_screening
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

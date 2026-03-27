@@ -1,0 +1,10 @@
+id: sys.testing_and_audit_management_system
+name: Testing and Audit Management System
+description: >
+  System for planning, executing, and tracking independent testing and
+  audit activities for financial crime compliance programs.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

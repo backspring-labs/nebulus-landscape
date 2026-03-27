@@ -1,0 +1,15 @@
+id: stage.fraud_alert_investigation.disposition_and_decision
+name: Disposition and Decision
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Render a disposition decision on the fraud alert based on investigation
+  findings, applying four-eyes review where required.
+order: 5
+system_ids:
+  - sys.case_management_system
+risk_ids:
+  - risk.disposition_without_adequate_review
+control_ids:
+  - ctrl.four_eyes_disposition_review
+source_refs: []
+status: draft

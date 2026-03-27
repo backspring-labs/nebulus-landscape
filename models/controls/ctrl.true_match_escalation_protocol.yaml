@@ -1,0 +1,13 @@
+id: ctrl.true_match_escalation_protocol
+name: True Match Escalation Protocol
+description: >
+  Define and enforce an escalation protocol for confirmed true matches on
+  sanctions screening, including immediate notification to compliance, blocking
+  actions, and OFAC reporting procedures.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

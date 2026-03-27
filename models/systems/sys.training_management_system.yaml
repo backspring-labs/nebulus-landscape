@@ -1,0 +1,10 @@
+id: sys.training_management_system
+name: Training Management System
+description: >
+  System for managing financial crime compliance training curriculum,
+  delivery, completion tracking, and competency assessments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

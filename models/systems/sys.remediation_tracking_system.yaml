@@ -1,0 +1,10 @@
+id: sys.remediation_tracking_system
+name: Remediation Tracking System
+description: >
+  System for tracking remediation plans, milestones, execution progress,
+  and effectiveness validation for compliance issues.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

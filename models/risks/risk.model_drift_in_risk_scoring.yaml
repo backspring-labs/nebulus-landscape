@@ -1,0 +1,12 @@
+id: risk.model_drift_in_risk_scoring
+name: Model Drift in Risk Scoring
+description: >
+  The customer risk scoring model's predictive accuracy has degraded over time due to
+  shifts in population characteristics or behavioral patterns, producing unreliable ratings.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

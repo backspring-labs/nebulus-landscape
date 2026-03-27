@@ -1,0 +1,12 @@
+id: risk.account_surveillance_coverage_gap
+name: Account Surveillance Coverage Gap
+description: >
+  Certain account types or relationship structures are not covered by account-level
+  surveillance, creating monitoring blind spots beyond transaction-level detection.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

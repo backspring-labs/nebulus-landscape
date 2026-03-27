@@ -1,0 +1,10 @@
+id: sys.transaction_monitoring_engine
+name: Transaction Monitoring Engine
+description: >
+  Engine for monitoring customer transactions across channels and products
+  using rules-based and analytics-driven surveillance scenarios.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

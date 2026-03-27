@@ -1,0 +1,13 @@
+id: ctrl.filing_deadline_tracking
+name: Filing Deadline Tracking
+description: >
+  Track SAR filing deadlines from the date of initial detection to ensure
+  filings are submitted within the regulatory 30-day requirement, with
+  alerts for approaching deadlines.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

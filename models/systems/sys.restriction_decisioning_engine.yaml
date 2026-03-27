@@ -1,0 +1,10 @@
+id: sys.restriction_decisioning_engine
+name: Restriction Decisioning Engine
+description: >
+  Engine for evaluating and decisioning account restrictions and
+  relationship limitations based on risk and policy criteria.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

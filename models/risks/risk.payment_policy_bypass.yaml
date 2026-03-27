@@ -1,0 +1,12 @@
+id: risk.payment_policy_bypass
+name: Payment Policy Bypass
+description: >
+  A payment or transfer circumvents required risk policy checks due to system
+  misconfiguration, exception handling gaps, or unauthorized overrides.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

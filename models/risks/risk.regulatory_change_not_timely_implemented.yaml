@@ -1,0 +1,12 @@
+id: risk.regulatory_change_not_timely_implemented
+name: Regulatory Change Not Timely Implemented
+description: >
+  Changes to BSA/AML, fraud, or sanctions regulations are not assessed and implemented
+  in the compliance program before their effective date.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

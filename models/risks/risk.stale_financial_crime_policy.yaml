@@ -1,0 +1,12 @@
+id: risk.stale_financial_crime_policy
+name: Stale Financial Crime Policy
+description: >
+  Financial crime policies are not updated to reflect current regulatory requirements,
+  emerging threats, or changes in institutional risk appetite, leading to compliance gaps.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.information_sharing_audit_trail
+name: Information Sharing Audit Trail
+description: >
+  Maintain a complete audit trail of all regulatory information sharing and law
+  enforcement response activities, including requests received, searches
+  performed, responses provided, and approvals obtained.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

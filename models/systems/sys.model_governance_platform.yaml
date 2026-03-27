@@ -1,0 +1,10 @@
+id: sys.model_governance_platform
+name: Model Governance Platform
+description: >
+  Platform for managing the lifecycle of risk rating models including
+  validation, performance monitoring, and version control.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

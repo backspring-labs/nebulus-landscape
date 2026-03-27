@@ -1,0 +1,13 @@
+id: ctrl.edd_trigger_completeness_monitoring
+name: EDD Trigger Completeness Monitoring
+description: >
+  Monitor that all defined enhanced due diligence trigger events are being
+  captured and evaluated to prevent missed EDD obligations arising from
+  incomplete trigger coverage.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

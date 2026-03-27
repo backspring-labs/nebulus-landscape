@@ -1,0 +1,10 @@
+id: sys.issue_analytics_dashboard
+name: Issue Analytics Dashboard
+description: >
+  Dashboard for monitoring compliance issue trends, remediation aging,
+  recurring patterns, and program health metrics.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

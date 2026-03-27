@@ -1,0 +1,12 @@
+id: risk.alert_fatigue_degrading_quality
+name: Alert Fatigue Degrading Quality
+description: >
+  High alert volumes cause analyst fatigue, leading to degraded review quality,
+  faster but less thorough dispositions, and increased risk of missed true positives.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

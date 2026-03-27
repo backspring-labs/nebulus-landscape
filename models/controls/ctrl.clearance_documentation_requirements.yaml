@@ -1,0 +1,13 @@
+id: ctrl.clearance_documentation_requirements
+name: Clearance Documentation Requirements
+description: >
+  Enforce documentation requirements for sanctions screening clearance
+  decisions, including the specific evidence and rationale used to determine
+  a potential match is a false positive.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

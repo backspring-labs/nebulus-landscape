@@ -1,0 +1,13 @@
+id: ctrl.restriction_appeal_process_timeliness
+name: Restriction Appeal Process Timeliness
+description: >
+  Monitor and enforce timeliness of restriction appeal reviews to ensure
+  customers receive timely response to appeals and restrictions are not
+  maintained longer than warranted.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

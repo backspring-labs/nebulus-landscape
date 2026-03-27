@@ -1,0 +1,12 @@
+id: risk.insufficient_edd_depth
+name: Insufficient EDD Depth
+description: >
+  Enhanced due diligence review does not adequately investigate the customer's risk
+  factors, resulting in superficial analysis that fails to identify material concerns.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

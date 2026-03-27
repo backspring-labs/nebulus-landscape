@@ -1,0 +1,10 @@
+id: sys.watchlist_management_platform
+name: Watchlist Management Platform
+description: >
+  Platform for managing sanctions lists, watchlists, and PEP databases
+  including list ingestion, updates, and version control.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

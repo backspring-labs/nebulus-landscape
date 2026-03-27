@@ -1,0 +1,13 @@
+id: ctrl.fraud_model_documentation_standards
+name: Fraud Model Documentation Standards
+description: >
+  Enforce documentation standards for fraud models including methodology,
+  assumptions, limitations, validation results, and performance metrics
+  to support regulatory examination and model risk management.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

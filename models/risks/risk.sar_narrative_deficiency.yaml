@@ -1,0 +1,12 @@
+id: risk.sar_narrative_deficiency
+name: SAR Narrative Deficiency
+description: >
+  The SAR narrative fails to clearly and completely describe the suspicious activity,
+  the subjects involved, and the institution's response, reducing investigative value.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

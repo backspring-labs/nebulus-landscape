@@ -1,0 +1,10 @@
+id: sys.fraud_model_governance_platform
+name: Fraud Model Governance Platform
+description: >
+  Platform for governing fraud detection model lifecycle including
+  development, validation, deployment, and performance monitoring.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

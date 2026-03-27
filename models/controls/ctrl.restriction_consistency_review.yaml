@@ -1,0 +1,13 @@
+id: ctrl.restriction_consistency_review
+name: Restriction Consistency Review
+description: >
+  Review restriction and offboarding decisions for consistency across similar
+  risk profiles and fact patterns to identify potential disparate treatment
+  or policy application gaps.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

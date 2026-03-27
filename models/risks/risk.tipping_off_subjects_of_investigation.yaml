@@ -1,0 +1,12 @@
+id: risk.tipping_off_subjects_of_investigation
+name: Tipping Off Subjects of Investigation
+description: >
+  Subjects of financial crime investigations or SAR filings are inadvertently or
+  deliberately alerted to the existence of the investigation or report.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

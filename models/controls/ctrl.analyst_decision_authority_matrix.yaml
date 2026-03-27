@@ -1,0 +1,13 @@
+id: ctrl.analyst_decision_authority_matrix
+name: Analyst Decision Authority Matrix
+description: >
+  Define and enforce an authority matrix specifying which analysts can approve,
+  decline, or hold high-risk transfers based on transaction value, risk score,
+  and payment type.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

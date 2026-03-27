@@ -1,0 +1,13 @@
+id: ctrl.sar_confidentiality_access_controls
+name: SAR Confidentiality Access Controls
+description: >
+  Restrict access to SAR-related information and filing records to authorized
+  personnel only, enforcing need-to-know principles to prevent unauthorized
+  disclosure or tipping off of subjects.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

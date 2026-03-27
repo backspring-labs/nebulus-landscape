@@ -1,0 +1,13 @@
+id: ctrl.remediation_effectiveness_validation
+name: Remediation Effectiveness Validation
+description: >
+  Validate the effectiveness of completed remediation actions through
+  independent testing or evidence review to confirm the root cause has been
+  addressed and the issue will not recur.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

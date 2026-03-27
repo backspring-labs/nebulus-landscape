@@ -1,0 +1,12 @@
+id: risk.continuing_activity_oversight_gap
+name: Continuing Activity Oversight Gap
+description: >
+  Post-SAR monitoring for continuing suspicious activity is not performed or is
+  inadequate, missing the obligation to file continuation SARs within 90 days.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

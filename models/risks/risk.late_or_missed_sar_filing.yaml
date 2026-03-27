@@ -1,0 +1,12 @@
+id: risk.late_or_missed_sar_filing
+name: Late or Missed SAR Filing
+description: >
+  A Suspicious Activity Report is filed after the regulatory deadline or not filed
+  at all, creating a BSA/AML compliance violation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

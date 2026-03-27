@@ -1,0 +1,13 @@
+id: ctrl.suspicious_activity_detection_timeliness
+name: Suspicious Activity Detection Timeliness
+description: >
+  Monitor the elapsed time from transaction occurrence to alert generation
+  to ensure suspicious activity is detected within acceptable timeframes
+  for timely investigation and reporting.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

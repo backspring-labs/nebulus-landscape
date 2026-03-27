@@ -1,0 +1,12 @@
+id: risk.offboarding_without_regulatory_compliance
+name: Offboarding Without Regulatory Compliance
+description: >
+  A customer offboarding action is executed without completing required regulatory
+  steps such as SAR filing, record retention, or notification obligations.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

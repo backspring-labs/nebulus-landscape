@@ -1,0 +1,12 @@
+id: risk.ofac_reporting_failure
+name: OFAC Reporting Failure
+description: >
+  A required OFAC blocking or reject report is not filed accurately or within the
+  mandated timeframe, creating a sanctions compliance violation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

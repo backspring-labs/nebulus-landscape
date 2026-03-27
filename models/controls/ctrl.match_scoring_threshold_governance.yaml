@@ -1,0 +1,13 @@
+id: ctrl.match_scoring_threshold_governance
+name: Match Scoring Threshold Governance
+description: >
+  Govern the setting and periodic review of match scoring thresholds in
+  sanctions screening to balance detection sensitivity with operational
+  capacity for match review.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

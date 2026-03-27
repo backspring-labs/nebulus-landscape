@@ -1,0 +1,13 @@
+id: ctrl.offboarding_documentation_completeness
+name: Offboarding Documentation Completeness
+description: >
+  Validate that all customer offboarding actions are fully documented with
+  risk basis, decision rationale, regulatory considerations, and approval
+  chain to support regulatory defense.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

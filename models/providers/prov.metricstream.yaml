@@ -1,0 +1,9 @@
+id: prov.metricstream
+name: MetricStream
+category: grc
+summary: >
+  Enterprise GRC platform providing compliance management, issue tracking,
+  regulatory change management, and risk remediation workflows.
+status: stub
+source_refs: []
+tags: []

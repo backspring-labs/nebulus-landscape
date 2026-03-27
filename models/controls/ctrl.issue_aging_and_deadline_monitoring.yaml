@@ -1,0 +1,13 @@
+id: ctrl.issue_aging_and_deadline_monitoring
+name: Issue Aging and Deadline Monitoring
+description: >
+  Monitor compliance issue aging and remediation deadlines to detect overdue
+  items and trigger escalations for issues approaching or exceeding committed
+  resolution timelines.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

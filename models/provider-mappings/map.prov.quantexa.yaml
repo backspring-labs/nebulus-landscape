@@ -1,0 +1,13 @@
+id: map.prov.quantexa
+provider_id: prov.quantexa
+capability_ids:
+  - cap.account_and_relationship_surveillance
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.entity_resolution_platform
+name: Entity Resolution Platform
+description: >
+  Platform for resolving and linking entities across data sources to
+  support network analysis and relationship surveillance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,16 @@
+id: stage.high_risk_transfer.automated_policy_evaluation
+name: Automated Policy Evaluation
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Apply automated risk policies and rules to determine whether the
+  transfer can be auto-approved, auto-declined, or requires analyst review.
+order: 3
+system_ids:
+  - sys.risk_decisioning_engine
+risk_ids:
+  - risk.sanctions_evasion_through_structuring
+control_ids:
+  - ctrl.real_time_risk_scoring_threshold
+  - ctrl.velocity_and_pattern_rules
+source_refs: []
+status: draft

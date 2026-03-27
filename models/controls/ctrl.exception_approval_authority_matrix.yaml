@@ -1,0 +1,13 @@
+id: ctrl.exception_approval_authority_matrix
+name: Exception Approval Authority Matrix
+description: >
+  Define and enforce an authority matrix specifying who may approve exceptions
+  to financial crime policies, with escalation tiers based on exception severity
+  and risk impact.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

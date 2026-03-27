@@ -1,0 +1,12 @@
+id: risk.inconsistent_decision_across_channels
+name: Inconsistent Decision Across Channels
+description: >
+  Onboarding risk decisions vary across channels for equivalent applicant profiles
+  due to differing signal availability or policy application.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

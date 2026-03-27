@@ -1,0 +1,10 @@
+id: sys.periodic_review_workflow_engine
+name: Periodic Review Workflow Engine
+description: >
+  Workflow engine for scheduling, assigning, and tracking periodic
+  customer risk reviews and EDD reassessments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

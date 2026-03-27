@@ -1,0 +1,12 @@
+id: risk.improper_law_enforcement_request_handling
+name: Improper Law Enforcement Request Handling
+description: >
+  A law enforcement request, subpoena, or court order is handled improperly due to
+  inadequate validation, delayed response, or unauthorized disclosure of the request itself.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

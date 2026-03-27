@@ -1,0 +1,13 @@
+id: ctrl.dormant_account_monitoring_rules
+name: Dormant Account Monitoring Rules
+description: >
+  Define and enforce monitoring rules for dormant accounts to detect suspicious
+  reactivation patterns, unusual transactions, or unauthorized access that may
+  indicate account exploitation.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

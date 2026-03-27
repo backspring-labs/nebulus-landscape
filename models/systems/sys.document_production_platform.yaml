@@ -1,0 +1,10 @@
+id: sys.document_production_platform
+name: Document Production Platform
+description: >
+  Platform for assembling and producing documents in response to
+  regulatory examinations, audits, and law enforcement requests.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

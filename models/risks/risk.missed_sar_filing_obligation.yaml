@@ -1,0 +1,12 @@
+id: risk.missed_sar_filing_obligation
+name: Missed SAR Filing Obligation
+description: >
+  Suspicious activity that meets SAR filing thresholds is not identified or referred
+  for reporting, resulting in a failure to file a required regulatory report.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

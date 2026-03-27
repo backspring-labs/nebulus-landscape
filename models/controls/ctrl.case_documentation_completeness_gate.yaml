@@ -1,0 +1,13 @@
+id: ctrl.case_documentation_completeness_gate
+name: Case Documentation Completeness Gate
+description: >
+  Enforce a documentation completeness gate that prevents case closure until
+  all required investigation documentation, evidence, and disposition rationale
+  are recorded in the case file.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

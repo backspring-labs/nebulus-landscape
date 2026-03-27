@@ -1,0 +1,12 @@
+id: risk.regulatory_commitment_breach
+name: Regulatory Commitment Breach
+description: >
+  The institution fails to meet a commitment made to regulators in response to
+  examination findings, MRAs, or consent orders, escalating enforcement risk.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

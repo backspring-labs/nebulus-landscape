@@ -1,0 +1,13 @@
+id: ctrl.sar_narrative_quality_checklist
+name: SAR Narrative Quality Checklist
+description: >
+  Apply a standardized quality checklist to SAR narratives to ensure they
+  address all required elements including who, what, when, where, why, and
+  how of the suspicious activity.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

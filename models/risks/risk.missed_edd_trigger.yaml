@@ -1,0 +1,12 @@
+id: risk.missed_edd_trigger
+name: Missed EDD Trigger
+description: >
+  An event or condition that should trigger enhanced due diligence is not detected
+  or routed for review, leaving a high-risk relationship without adequate scrutiny.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

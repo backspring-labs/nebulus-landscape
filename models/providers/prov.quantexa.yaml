@@ -1,0 +1,9 @@
+id: prov.quantexa
+name: Quantexa
+category: fraud_detection
+summary: >
+  Decision intelligence platform using entity resolution and network analytics
+  to detect financial crime, fraud, and hidden relationship risks.
+status: stub
+source_refs: []
+tags: []

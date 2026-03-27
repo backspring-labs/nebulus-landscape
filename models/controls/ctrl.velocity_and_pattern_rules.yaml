@@ -1,0 +1,13 @@
+id: ctrl.velocity_and_pattern_rules
+name: Velocity and Pattern Rules
+description: >
+  Apply velocity checks and pattern-based rules to payment and transfer
+  activity to detect structuring, rapid fund movement, and other suspicious
+  transaction patterns indicative of financial crime.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

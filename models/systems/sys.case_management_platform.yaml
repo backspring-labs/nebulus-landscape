@@ -1,0 +1,10 @@
+id: sys.case_management_platform
+name: Case Management Platform
+description: >
+  Enterprise platform for managing financial crime and fraud investigation
+  cases through their full lifecycle from creation to closure.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

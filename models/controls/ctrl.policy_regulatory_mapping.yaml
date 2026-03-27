@@ -1,0 +1,13 @@
+id: ctrl.policy_regulatory_mapping
+name: Policy Regulatory Mapping
+description: >
+  Map each financial crime policy to its originating regulatory requirements
+  to ensure complete coverage and facilitate impact assessment when regulations
+  change.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.investigation_workflow_engine
+name: Investigation Workflow Engine
+description: >
+  Workflow engine for orchestrating investigation steps, evidence
+  collection, review assignments, and escalation paths.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

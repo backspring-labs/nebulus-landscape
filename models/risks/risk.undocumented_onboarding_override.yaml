@@ -1,0 +1,12 @@
+id: risk.undocumented_onboarding_override
+name: Undocumented Onboarding Override
+description: >
+  An onboarding risk decision override is applied without adequate documentation
+  of the rationale and approving authority, weakening the audit trail.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

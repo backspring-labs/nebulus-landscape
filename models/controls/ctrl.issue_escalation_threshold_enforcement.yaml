@@ -1,0 +1,13 @@
+id: ctrl.issue_escalation_threshold_enforcement
+name: Issue Escalation Threshold Enforcement
+description: >
+  Enforce defined escalation thresholds based on issue severity, aging, and
+  remediation status to ensure timely management awareness and intervention
+  for critical compliance issues.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

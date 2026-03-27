@@ -1,0 +1,13 @@
+id: ctrl.sar_filing_trigger_rules
+name: SAR Filing Trigger Rules
+description: >
+  Define and enforce rules that identify when investigation findings or case
+  outcomes require initiation of a SAR filing, ensuring no reportable
+  suspicious activity is missed.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

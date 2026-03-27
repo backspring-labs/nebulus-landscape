@@ -1,0 +1,10 @@
+id: sys.payment_risk_decisioning_engine
+name: Payment Risk Decisioning Engine
+description: >
+  Real-time decisioning engine for evaluating payment and transfer
+  requests against fraud, sanctions, and policy risk criteria.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

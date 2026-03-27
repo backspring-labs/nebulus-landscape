@@ -1,0 +1,9 @@
+id: prov.hummingbird
+name: Hummingbird
+category: case_management
+summary: >
+  Financial crime compliance platform providing case management, SAR filing
+  automation, and investigation workflow for BSA/AML programs.
+status: stub
+source_refs: []
+tags: []

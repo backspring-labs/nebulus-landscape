@@ -1,0 +1,10 @@
+id: sys.account_restriction_management_system
+name: Account Restriction Management System
+description: >
+  System for managing account-level restrictions, service limitations,
+  and their implementation across downstream systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

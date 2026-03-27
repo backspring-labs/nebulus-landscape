@@ -1,0 +1,9 @@
+id: prov.featurespace
+name: Featurespace
+category: fraud_detection
+summary: >
+  Adaptive behavioral analytics platform for real-time fraud and financial crime
+  detection using machine learning and anomaly detection models.
+status: stub
+source_refs: []
+tags: []

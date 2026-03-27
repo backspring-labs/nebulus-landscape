@@ -1,0 +1,13 @@
+id: ctrl.decision_audit_trail
+name: Decision Audit Trail
+description: >
+  Capture and retain a complete audit trail for every onboarding risk decision
+  including inputs, signals evaluated, decision rationale, and outcome to support
+  regulatory examination and quality review.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

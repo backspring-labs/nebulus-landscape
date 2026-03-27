@@ -1,0 +1,15 @@
+id: stage.sanctions_screening.potential_match_queue_assignment
+name: Potential Match Queue Assignment
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Route potential matches to appropriate review queues based on match
+  score, list type, and entity risk profile.
+order: 3
+system_ids:
+  - sys.alert_management_platform
+risk_ids:
+  - risk.excessive_false_positives
+control_ids:
+  - ctrl.match_scoring_threshold_governance
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.regulatory_closure_tracking_system
+name: Regulatory Closure Tracking System
+description: >
+  System for tracking regulatory-driven account closures and ensuring
+  compliance with closure requirements and timelines.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.records_management_system
+name: Records Management System
+description: >
+  System for managing regulatory record retention, archival, and
+  disposition in compliance with BSA/AML recordkeeping requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.incomplete_match_review_documentation
+name: Incomplete Match Review Documentation
+description: >
+  Sanctions match review decisions are not adequately documented with rationale and
+  supporting evidence, weakening the audit trail for regulatory examination.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

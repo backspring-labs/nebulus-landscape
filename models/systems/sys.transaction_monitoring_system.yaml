@@ -1,0 +1,10 @@
+id: sys.transaction_monitoring_system
+name: Transaction Monitoring System
+description: >
+  System for monitoring transactions to detect suspicious patterns
+  and generate alerts for investigation and regulatory reporting.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

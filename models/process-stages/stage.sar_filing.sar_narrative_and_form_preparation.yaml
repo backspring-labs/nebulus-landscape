@@ -1,0 +1,20 @@
+id: stage.sar_filing.sar_narrative_and_form_preparation
+name: SAR Narrative and Form Preparation
+process_id: proc.sar_filing_v1
+description: >
+  Draft the SAR narrative, assemble subject information, and complete
+  the FinCEN SAR form fields from investigation findings.
+order: 2
+system_ids:
+  - sys.sar_filing_system
+  - sys.case_management_system
+  - sys.customer_master
+  - sys.core_banking_platform
+risk_ids:
+  - risk.sar_narrative_deficiency
+  - risk.incomplete_subject_information
+control_ids:
+  - ctrl.sar_narrative_quality_checklist
+  - ctrl.subject_information_completeness_gate
+source_refs: []
+status: draft

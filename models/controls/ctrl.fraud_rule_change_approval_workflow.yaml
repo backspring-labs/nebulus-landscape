@@ -1,0 +1,13 @@
+id: ctrl.fraud_rule_change_approval_workflow
+name: Fraud Rule Change Approval Workflow
+description: >
+  Enforce a structured approval workflow for all fraud rule changes including
+  impact analysis, testing results review, and sign-off by authorized governance
+  personnel before production deployment.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

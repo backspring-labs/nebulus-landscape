@@ -1,0 +1,13 @@
+id: ctrl.training_completion_and_competency_monitoring
+name: Training Completion and Competency Monitoring
+description: >
+  Monitor financial crime training completion rates and competency assessment
+  results to ensure all relevant staff maintain required knowledge and skills
+  for their roles.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

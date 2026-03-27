@@ -1,0 +1,9 @@
+id: prov.fincen
+name: FinCEN
+category: grc
+summary: >
+  U.S. Financial Crimes Enforcement Network providing BSA e-filing systems,
+  314(a)/314(b) information sharing programs, and regulatory guidance.
+status: stub
+source_refs: []
+tags: []

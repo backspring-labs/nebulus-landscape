@@ -1,0 +1,12 @@
+id: risk.incomplete_risk_factor_data
+name: Incomplete Risk Factor Data
+description: >
+  Key risk factor inputs required for accurate customer risk rating are missing or
+  incomplete, leading to unreliable risk assessments.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

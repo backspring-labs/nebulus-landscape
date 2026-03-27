@@ -1,0 +1,13 @@
+id: ctrl.alert_documentation_completeness_check
+name: Alert Documentation Completeness Check
+description: >
+  Validate that alert disposition records contain all required documentation
+  elements including rationale, evidence reviewed, and decision basis before
+  allowing disposition closure.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

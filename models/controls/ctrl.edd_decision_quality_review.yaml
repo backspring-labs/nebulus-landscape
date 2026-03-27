@@ -1,0 +1,13 @@
+id: ctrl.edd_decision_quality_review
+name: EDD Decision Quality Review
+description: >
+  Conduct quality assurance reviews of enhanced due diligence decisions to
+  ensure adequate depth of analysis, appropriate documentation, and consistency
+  with policy standards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.transaction_monitoring_threshold_governance
+name: Transaction Monitoring Threshold Governance
+description: >
+  Govern the approval, documentation, and periodic review of transaction
+  monitoring thresholds to ensure changes follow established change management
+  procedures and maintain detection effectiveness.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

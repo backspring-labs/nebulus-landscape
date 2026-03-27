@@ -1,0 +1,10 @@
+id: sys.payment_processing_platform
+name: Payment Processing Platform
+description: >
+  Platform for processing payments and transfers including routing,
+  execution, and integration with risk screening systems.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,13 @@
+id: ctrl.risk_rating_model_validation
+name: Risk Rating Model Validation
+description: >
+  Validate customer risk rating models through independent review and back-testing
+  to ensure rating accuracy, discrimination power, and alignment with regulatory
+  expectations.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

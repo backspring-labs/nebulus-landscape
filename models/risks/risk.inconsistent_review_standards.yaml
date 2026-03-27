@@ -1,0 +1,12 @@
+id: risk.inconsistent_review_standards
+name: Inconsistent Review Standards
+description: >
+  Periodic review and EDD standards vary across reviewers, teams, or business lines,
+  resulting in uneven risk assessment quality and regulatory defensibility.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

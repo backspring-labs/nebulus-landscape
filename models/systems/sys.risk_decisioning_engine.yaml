@@ -1,0 +1,10 @@
+id: sys.risk_decisioning_engine
+name: Risk Decisioning Engine
+description: >
+  Engine for rendering real-time risk decisions on transactions,
+  payments, and account actions based on aggregated risk signals.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

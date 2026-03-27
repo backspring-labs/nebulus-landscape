@@ -1,0 +1,12 @@
+id: risk.delayed_blocking_action
+name: Delayed Blocking Action
+description: >
+  A confirmed sanctions match does not result in timely blocking or rejection of the
+  transaction or relationship, violating OFAC requirements.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

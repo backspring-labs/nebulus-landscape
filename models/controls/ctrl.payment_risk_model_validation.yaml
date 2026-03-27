@@ -1,0 +1,13 @@
+id: ctrl.payment_risk_model_validation
+name: Payment Risk Model Validation
+description: >
+  Validate payment and transfer risk scoring models through independent review
+  and performance analysis to ensure accurate risk assessment and appropriate
+  interdiction decisions.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.mandatory_investigation_checklist
+name: Mandatory Investigation Checklist
+description: >
+  Require completion of a standardized investigation checklist for all fraud
+  cases to ensure consistent evidence gathering, analysis steps, and
+  documentation across investigators.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

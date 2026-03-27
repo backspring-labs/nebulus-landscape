@@ -1,0 +1,12 @@
+id: risk.beneficiary_risk_not_assessed
+name: Beneficiary Risk Not Assessed
+description: >
+  The risk profile of a payment beneficiary is not evaluated before transfer execution,
+  potentially enabling funds flow to sanctioned or high-risk counterparties.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

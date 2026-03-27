@@ -1,0 +1,13 @@
+id: ctrl.fraud_score_threshold_calibration
+name: Fraud Score Threshold Calibration
+description: >
+  Govern the calibration and periodic review of fraud score thresholds to
+  balance detection sensitivity, false positive rates, and customer experience
+  impact across channels and products.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,14 @@
+id: map.prov.dow_jones
+provider_id: prov.dow_jones
+capability_ids:
+  - cap.sanctions_and_watchlist_screening
+  - cap.enhanced_due_diligence_and_periodic_review_decisioning
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

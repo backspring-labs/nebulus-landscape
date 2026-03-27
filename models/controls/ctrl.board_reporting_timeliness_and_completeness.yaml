@@ -1,0 +1,13 @@
+id: ctrl.board_reporting_timeliness_and_completeness
+name: Board Reporting Timeliness and Completeness
+description: >
+  Ensure financial crime program reports to the board and senior management
+  are delivered on schedule and contain all required content including program
+  status, metrics, issues, and regulatory developments.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

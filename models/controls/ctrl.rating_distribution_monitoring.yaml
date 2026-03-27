@@ -1,0 +1,13 @@
+id: ctrl.rating_distribution_monitoring
+name: Rating Distribution Monitoring
+description: >
+  Monitor the distribution of customer risk ratings across tiers to detect
+  concentration anomalies, drift, or unexpected shifts that may indicate model
+  degradation or data quality issues.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

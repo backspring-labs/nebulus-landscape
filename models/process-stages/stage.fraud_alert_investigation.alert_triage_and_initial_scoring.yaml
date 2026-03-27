@@ -1,0 +1,18 @@
+id: stage.fraud_alert_investigation.alert_triage_and_initial_scoring
+name: Alert Triage and Initial Scoring
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Perform initial triage of fraud alerts, enrich with contextual data,
+  and score for investigation priority to determine disposition path.
+order: 2
+system_ids:
+  - sys.alert_management_platform
+  - sys.customer_master
+  - sys.transaction_monitoring_system
+risk_ids:
+  - risk.false_positive_fatigue
+  - risk.missed_true_positive
+control_ids:
+  - ctrl.alert_priority_scoring_model
+source_refs: []
+status: draft

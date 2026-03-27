@@ -1,0 +1,13 @@
+id: ctrl.restriction_decision_governance
+name: Restriction Decision Governance
+description: >
+  Govern account restriction and service limitation decisions through a
+  structured authority matrix and approval process to ensure proportionate,
+  documented, and legally defensible actions.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: ctrl.account_behavior_baseline_calibration
+name: Account Behavior Baseline Calibration
+description: >
+  Calibrate and periodically review account behavior baselines used for anomaly
+  detection to ensure surveillance models reflect current customer activity
+  patterns and reduce false alerts.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

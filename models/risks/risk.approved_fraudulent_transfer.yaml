@@ -1,0 +1,12 @@
+id: risk.approved_fraudulent_transfer
+name: Approved Fraudulent Transfer
+description: >
+  A fraudulent transfer is approved and executed because risk controls fail to detect
+  or adequately assess the fraud indicators, resulting in financial loss.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.insufficient_board_and_management_oversight
+name: Insufficient Board and Management Oversight
+description: >
+  The board and senior management do not receive adequate or timely information about
+  financial crime program performance, limiting their ability to provide effective oversight.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

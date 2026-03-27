@@ -1,0 +1,13 @@
+id: ctrl.alert_to_case_audit_trail
+name: Alert-to-Case Audit Trail
+description: >
+  Maintain a complete audit trail linking fraud alerts through triage,
+  investigation, disposition, and any downstream referrals to support
+  regulatory examination and quality review.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

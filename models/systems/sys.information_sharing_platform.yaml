@@ -1,0 +1,10 @@
+id: sys.information_sharing_platform
+name: Information Sharing Platform
+description: >
+  Platform for managing regulatory information-sharing programs including
+  314(a) and 314(b) request processing and response tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

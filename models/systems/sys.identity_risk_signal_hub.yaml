@@ -1,0 +1,10 @@
+id: sys.identity_risk_signal_hub
+name: Identity Risk Signal Hub
+description: >
+  Hub for aggregating identity risk signals, fraud indicators, and compliance
+  factors from multiple verification and screening sources.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

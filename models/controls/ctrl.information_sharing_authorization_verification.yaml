@@ -1,0 +1,13 @@
+id: ctrl.information_sharing_authorization_verification
+name: Information Sharing Authorization Verification
+description: >
+  Verify that all information sharing requests and responses are authorized
+  under applicable regulatory programs and legal frameworks before disclosing
+  customer or transaction information.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

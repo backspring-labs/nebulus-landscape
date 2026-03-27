@@ -1,0 +1,12 @@
+id: risk.insufficient_remediation_validation
+name: Insufficient Remediation Validation
+description: >
+  Remediation actions are closed without adequate validation that the corrective measures
+  are effective and the underlying issue is fully resolved.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.false_decline_customer_impact
+name: False Decline Customer Impact
+description: >
+  A legitimate high-value transfer is declined due to false risk signals, causing
+  customer dissatisfaction, relationship damage, and potential revenue loss.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

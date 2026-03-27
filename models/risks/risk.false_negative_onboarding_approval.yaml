@@ -1,0 +1,12 @@
+id: risk.false_negative_onboarding_approval
+name: False Negative Onboarding Approval
+description: >
+  A high-risk or fraudulent applicant is approved for onboarding because risk signals
+  fail to trigger a rejection or referral decision.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

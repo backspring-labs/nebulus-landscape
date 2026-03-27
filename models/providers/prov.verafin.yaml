@@ -1,0 +1,9 @@
+id: prov.verafin
+name: Verafin (Nasdaq)
+category: transaction_monitoring
+summary: >
+  Cloud-based financial crime detection platform providing transaction monitoring,
+  fraud detection, BSA/AML compliance, and case management for banks and credit unions.
+status: stub
+source_refs: []
+tags: []

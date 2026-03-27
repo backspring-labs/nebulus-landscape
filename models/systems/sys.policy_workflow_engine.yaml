@@ -1,0 +1,10 @@
+id: sys.policy_workflow_engine
+name: Policy Workflow Engine
+description: >
+  Workflow engine for managing policy authoring, review, approval,
+  and attestation processes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

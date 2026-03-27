@@ -1,0 +1,15 @@
+id: stage.sanctions_screening.escalation_and_true_match_confirmation
+name: Escalation and True Match Confirmation
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Escalate confirmed true matches to senior compliance for verification
+  and determine required blocking or interdiction actions.
+order: 5
+system_ids:
+  - sys.case_management_system
+risk_ids:
+  - risk.delayed_blocking_action
+control_ids:
+  - ctrl.true_match_escalation_protocol
+source_refs: []
+status: draft

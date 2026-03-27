@@ -1,0 +1,12 @@
+id: risk.filing_deadline_breach
+name: Filing Deadline Breach
+description: >
+  A SAR is not filed within the 30-day regulatory deadline from the date of initial
+  detection, creating a BSA/AML compliance violation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

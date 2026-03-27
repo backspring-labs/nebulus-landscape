@@ -1,0 +1,12 @@
+id: risk.insufficient_case_documentation_for_regulatory_defense
+name: Insufficient Case Documentation for Regulatory Defense
+description: >
+  Investigation case files lack sufficient documentation to defend the institution's
+  findings and decisions during regulatory examination or legal proceedings.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

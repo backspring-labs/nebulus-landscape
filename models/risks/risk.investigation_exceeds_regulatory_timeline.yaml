@@ -1,0 +1,12 @@
+id: risk.investigation_exceeds_regulatory_timeline
+name: Investigation Exceeds Regulatory Timeline
+description: >
+  A case investigation is not completed within regulatory-mandated timelines,
+  potentially delaying required SAR filings or other regulatory obligations.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

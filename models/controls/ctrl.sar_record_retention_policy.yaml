@@ -1,0 +1,13 @@
+id: ctrl.sar_record_retention_policy
+name: SAR Record Retention Policy
+description: >
+  Enforce retention of SAR filings, supporting documentation, and related
+  investigation records for the regulatory minimum of five years from the
+  date of filing, with access controls and integrity safeguards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

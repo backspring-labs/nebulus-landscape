@@ -1,0 +1,10 @@
+id: sys.risk_appetite_dashboard
+name: Risk Appetite Dashboard
+description: >
+  Dashboard for monitoring financial crime risk appetite metrics,
+  tolerance thresholds, and policy adherence indicators.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

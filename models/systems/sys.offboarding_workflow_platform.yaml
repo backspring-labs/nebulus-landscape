@@ -1,0 +1,10 @@
+id: sys.offboarding_workflow_platform
+name: Offboarding Workflow Platform
+description: >
+  Platform for managing customer offboarding workflows driven by risk,
+  policy, or regulatory decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

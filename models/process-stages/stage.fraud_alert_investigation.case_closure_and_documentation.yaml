@@ -1,0 +1,17 @@
+id: stage.fraud_alert_investigation.case_closure_and_documentation
+name: Case Closure and Documentation
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Finalize case documentation, complete all required fields, and close
+  the case with a complete audit trail.
+order: 7
+system_ids:
+  - sys.case_management_system
+  - sys.evidence_repository
+risk_ids:
+  - risk.disposition_without_adequate_review
+control_ids:
+  - ctrl.case_documentation_completeness_gate
+  - ctrl.alert_to_case_audit_trail
+source_refs: []
+status: draft

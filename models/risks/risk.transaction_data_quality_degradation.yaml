@@ -1,0 +1,12 @@
+id: risk.transaction_data_quality_degradation
+name: Transaction Data Quality Degradation
+description: >
+  The quality or completeness of transaction data feeding monitoring systems deteriorates,
+  reducing the accuracy and reliability of alert generation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

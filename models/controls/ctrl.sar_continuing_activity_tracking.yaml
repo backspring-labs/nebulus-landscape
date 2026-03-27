@@ -1,0 +1,13 @@
+id: ctrl.sar_continuing_activity_tracking
+name: SAR Continuing Activity Tracking
+description: >
+  Track subjects of prior SAR filings for continuing suspicious activity and
+  ensure timely filing of continuation SARs within the required 90-day review
+  cycle.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,19 @@
+id: stage.fraud_alert_investigation.post_disposition_actions
+name: Post-Disposition Actions
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Execute post-disposition actions including customer notification,
+  account restrictions, SAR referral determination, and loss recovery
+  initiation.
+order: 6
+system_ids:
+  - sys.case_management_system
+  - sys.sar_filing_system
+  - sys.core_banking_platform
+risk_ids:
+  - risk.delayed_customer_notification
+  - risk.sar_referral_missed
+control_ids:
+  - ctrl.sar_referral_trigger_rules
+source_refs: []
+status: draft

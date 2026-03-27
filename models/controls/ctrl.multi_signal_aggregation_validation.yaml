@@ -1,0 +1,13 @@
+id: ctrl.multi_signal_aggregation_validation
+name: Multi-Signal Aggregation Validation
+description: >
+  Validate that all required identity and risk signals are aggregated and
+  evaluated before rendering an onboarding decision, preventing decisions
+  based on incomplete data.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

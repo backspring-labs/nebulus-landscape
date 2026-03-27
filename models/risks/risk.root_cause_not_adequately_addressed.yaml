@@ -1,0 +1,12 @@
+id: risk.root_cause_not_adequately_addressed
+name: Root Cause Not Adequately Addressed
+description: >
+  Remediation efforts address symptoms rather than root causes, resulting in recurring
+  issues and ineffective corrective action.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

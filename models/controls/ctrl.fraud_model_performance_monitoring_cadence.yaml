@@ -1,0 +1,13 @@
+id: ctrl.fraud_model_performance_monitoring_cadence
+name: Fraud Model Performance Monitoring Cadence
+description: >
+  Enforce a defined cadence for monitoring fraud model performance metrics
+  to detect degradation, drift, or emerging gaps in detection capability
+  requiring recalibration or revalidation.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

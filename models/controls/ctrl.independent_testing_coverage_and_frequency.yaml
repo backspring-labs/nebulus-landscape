@@ -1,0 +1,13 @@
+id: ctrl.independent_testing_coverage_and_frequency
+name: Independent Testing Coverage and Frequency
+description: >
+  Ensure independent testing of the financial crime compliance program covers
+  all required areas at a risk-based frequency, with scope and methodology
+  aligned to regulatory expectations.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

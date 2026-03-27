@@ -1,0 +1,12 @@
+id: risk.override_without_authorization
+name: Override Without Authorization
+description: >
+  A risk decision on a high-risk transfer is overridden without proper dual authorization
+  or documented approval from an authorized decision-maker.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

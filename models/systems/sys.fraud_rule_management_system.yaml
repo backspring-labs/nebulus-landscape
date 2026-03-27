@@ -1,0 +1,10 @@
+id: sys.fraud_rule_management_system
+name: Fraud Rule Management System
+description: >
+  System for managing fraud detection rules including development,
+  testing, deployment, tuning, and retirement workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

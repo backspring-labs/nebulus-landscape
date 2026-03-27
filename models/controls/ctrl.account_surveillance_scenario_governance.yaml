@@ -1,0 +1,13 @@
+id: ctrl.account_surveillance_scenario_governance
+name: Account Surveillance Scenario Governance
+description: >
+  Govern the development, approval, and periodic review of account and
+  relationship surveillance scenarios to ensure alignment with evolving
+  financial crime typologies and regulatory expectations.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

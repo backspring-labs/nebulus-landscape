@@ -1,0 +1,12 @@
+id: risk.decision_latency_exceeding_sla
+name: Decision Latency Exceeding SLA
+description: >
+  Risk evaluation of a high-risk transfer takes longer than the service level agreement,
+  delaying payment processing and degrading customer experience.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

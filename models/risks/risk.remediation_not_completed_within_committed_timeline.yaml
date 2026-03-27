@@ -1,0 +1,12 @@
+id: risk.remediation_not_completed_within_committed_timeline
+name: Remediation Not Completed Within Committed Timeline
+description: >
+  A compliance issue remediation is not completed by the committed deadline, potentially
+  breaching regulatory commitments or consent order requirements.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

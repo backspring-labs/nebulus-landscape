@@ -1,0 +1,13 @@
+id: ctrl.investigator_workload_monitoring
+name: Investigator Workload Monitoring
+description: >
+  Monitor investigator caseload and workload distribution to identify capacity
+  constraints, ensure equitable assignment, and prevent investigation quality
+  degradation due to excessive volume.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

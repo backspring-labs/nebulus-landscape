@@ -1,0 +1,10 @@
+id: sys.payment_screening_platform
+name: Payment Screening Platform
+description: >
+  Platform for screening payment messages against sanctions lists,
+  embargoed countries, and high-risk beneficiary databases.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

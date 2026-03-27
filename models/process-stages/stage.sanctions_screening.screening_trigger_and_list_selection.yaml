@@ -1,0 +1,16 @@
+id: stage.sanctions_screening.screening_trigger_and_list_selection
+name: Screening Trigger and List Selection
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Identify the screening trigger event, determine applicable sanctions
+  and watchlists, and prepare the screening request.
+order: 1
+system_ids:
+  - sys.sanctions_screening_engine
+  - sys.watchlist_management_platform
+risk_ids:
+  - risk.screening_coverage_gap
+control_ids:
+  - ctrl.screening_coverage_matrix
+source_refs: []
+status: draft

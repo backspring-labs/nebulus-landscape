@@ -1,0 +1,12 @@
+id: risk.excessive_payment_false_declines
+name: Excessive Payment False Declines
+description: >
+  Legitimate payments are declined at an excessive rate due to overly sensitive risk
+  controls, harming customer experience and generating operational burden.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

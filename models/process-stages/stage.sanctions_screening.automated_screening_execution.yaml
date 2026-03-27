@@ -1,0 +1,17 @@
+id: stage.sanctions_screening.automated_screening_execution
+name: Automated Screening Execution
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Execute automated screening against selected sanctions lists and
+  watchlists using fuzzy matching algorithms and scoring thresholds.
+order: 2
+system_ids:
+  - sys.sanctions_screening_engine
+risk_ids:
+  - risk.false_negative_match
+  - risk.stale_sanctions_list
+control_ids:
+  - ctrl.list_currency_verification
+  - ctrl.match_scoring_threshold_governance
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.disposition_without_adequate_review
+name: Disposition Without Adequate Review
+description: >
+  A fraud alert or case is dispositioned without sufficient analysis or supervisory
+  review, potentially allowing suspicious activity to go uninvestigated.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,9 @@
+id: prov.datarobot
+name: DataRobot
+category: fraud_detection
+summary: >
+  Enterprise AI platform for automated machine learning model development,
+  deployment, and governance used in fraud model lifecycle management.
+status: stub
+source_refs: []
+tags: []

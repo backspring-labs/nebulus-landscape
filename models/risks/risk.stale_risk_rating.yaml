@@ -1,0 +1,12 @@
+id: risk.stale_risk_rating
+name: Stale Risk Rating
+description: >
+  A customer's risk rating has not been refreshed within the required periodic review
+  cycle, leaving it potentially misaligned with the customer's current risk profile.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

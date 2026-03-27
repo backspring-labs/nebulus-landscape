@@ -1,0 +1,10 @@
+id: sys.edd_case_management
+name: EDD Case Management
+description: >
+  Case management system for enhanced due diligence reviews, periodic
+  customer reviews, and relationship continuation decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

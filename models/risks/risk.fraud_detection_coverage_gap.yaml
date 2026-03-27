@@ -1,0 +1,12 @@
+id: risk.fraud_detection_coverage_gap
+name: Fraud Detection Coverage Gap
+description: >
+  Certain transaction types, channels, or fraud vectors are not covered by fraud
+  detection rules or models, creating blind spots in the detection framework.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

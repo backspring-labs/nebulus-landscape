@@ -1,0 +1,13 @@
+id: ctrl.policy_version_governance
+name: Policy Version Governance
+description: >
+  Maintain version control and change history for all financial crime policies,
+  ensuring that only approved versions are in effect and prior versions are
+  archived with full audit trail.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

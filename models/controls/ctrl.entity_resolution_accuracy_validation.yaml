@@ -1,0 +1,13 @@
+id: ctrl.entity_resolution_accuracy_validation
+name: Entity Resolution Accuracy Validation
+description: >
+  Validate the accuracy of entity resolution algorithms used in relationship
+  surveillance to ensure correct linking of related entities and minimize
+  false associations or missed connections.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

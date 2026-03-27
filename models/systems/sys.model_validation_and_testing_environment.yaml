@@ -1,0 +1,10 @@
+id: sys.model_validation_and_testing_environment
+name: Model Validation and Testing Environment
+description: >
+  Isolated environment for validating, back-testing, and stress-testing
+  fraud detection and risk scoring models before production deployment.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

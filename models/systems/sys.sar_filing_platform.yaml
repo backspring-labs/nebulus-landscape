@@ -1,0 +1,10 @@
+id: sys.sar_filing_platform
+name: SAR Filing Platform
+description: >
+  Platform for preparing, reviewing, approving, and managing Suspicious
+  Activity Reports including narrative generation and filing tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

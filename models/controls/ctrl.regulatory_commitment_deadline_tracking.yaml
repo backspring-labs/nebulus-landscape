@@ -1,0 +1,13 @@
+id: ctrl.regulatory_commitment_deadline_tracking
+name: Regulatory Commitment Deadline Tracking
+description: >
+  Track deadlines for regulatory commitments, MRAs, consent order requirements,
+  and examination findings to ensure the institution meets all committed
+  remediation timelines.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

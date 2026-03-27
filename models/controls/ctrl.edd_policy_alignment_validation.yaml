@@ -1,0 +1,13 @@
+id: ctrl.edd_policy_alignment_validation
+name: EDD Policy Alignment Validation
+description: >
+  Validate that EDD triggers, assessment criteria, and decision thresholds
+  remain aligned with current financial crime policies and regulatory
+  requirements through periodic policy mapping reviews.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,17 @@
+id: map.prov.featurespace
+provider_id: prov.featurespace
+capability_ids:
+  - cap.identity_and_onboarding_risk_decisioning
+  - cap.fraud_detection_and_scoring
+  - cap.transaction_monitoring
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.fraud_rules_and_model_governance
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

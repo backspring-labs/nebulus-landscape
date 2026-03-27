@@ -1,0 +1,12 @@
+id: risk.unauthorized_information_disclosure
+name: Unauthorized Information Disclosure
+description: >
+  Confidential financial crime investigation or regulatory information is disclosed
+  to unauthorized parties, violating information sharing agreements or regulations.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

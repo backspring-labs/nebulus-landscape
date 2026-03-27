@@ -1,0 +1,10 @@
+id: sys.fraud_detection_engine
+name: Fraud Detection Engine
+description: >
+  Real-time and batch fraud detection engine using rules, models, and
+  behavioral analytics to score and flag potential fraud events.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

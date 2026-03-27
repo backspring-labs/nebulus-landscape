@@ -1,0 +1,13 @@
+id: ctrl.recurring_issue_pattern_analysis
+name: Recurring Issue Pattern Analysis
+description: >
+  Analyze compliance issue data for recurring patterns that may indicate
+  systemic weaknesses, root cause inadequacy, or program design flaws
+  requiring broader corrective action.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

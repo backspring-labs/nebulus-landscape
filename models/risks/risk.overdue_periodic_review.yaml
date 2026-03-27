@@ -1,0 +1,12 @@
+id: risk.overdue_periodic_review
+name: Overdue Periodic Review
+description: >
+  A customer's periodic risk review is not completed within the required timeframe,
+  allowing the relationship to continue without current risk assessment.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

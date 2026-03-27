@@ -1,0 +1,16 @@
+id: stage.sar_filing.continuing_activity_review
+name: Continuing Activity Review
+process_id: proc.sar_filing_v1
+description: >
+  Monitor subjects of filed SARs for continuing suspicious activity
+  and determine whether supplemental SAR filings are required.
+order: 6
+system_ids:
+  - sys.case_management_system
+  - sys.transaction_monitoring_system
+risk_ids:
+  - risk.continuing_activity_oversight_gap
+control_ids:
+  - ctrl.continuing_activity_review_schedule
+source_refs: []
+status: draft

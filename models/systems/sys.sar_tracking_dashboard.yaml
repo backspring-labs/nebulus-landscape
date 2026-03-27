@@ -1,0 +1,10 @@
+id: sys.sar_tracking_dashboard
+name: SAR Tracking Dashboard
+description: >
+  Dashboard for tracking SAR filing status, deadlines, continuing
+  activity reviews, and filing volume metrics.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

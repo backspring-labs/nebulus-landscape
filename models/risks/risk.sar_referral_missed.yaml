@@ -1,0 +1,12 @@
+id: risk.sar_referral_missed
+name: SAR Referral Missed
+description: >
+  A fraud investigation that meets SAR filing criteria is not referred for suspicious
+  activity reporting, resulting in a missed filing obligation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

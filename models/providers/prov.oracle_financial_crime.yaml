@@ -1,0 +1,9 @@
+id: prov.oracle_financial_crime
+name: Oracle Financial Crime and Compliance Management
+category: transaction_monitoring
+summary: >
+  Enterprise financial crime and compliance management suite covering AML,
+  fraud detection, sanctions screening, and customer risk rating.
+status: stub
+source_refs: []
+tags: []

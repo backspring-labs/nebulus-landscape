@@ -1,0 +1,10 @@
+id: sys.ofac_reporting_system
+name: OFAC Reporting System
+description: >
+  System for managing OFAC blocking reports, rejected transaction
+  reporting, and sanctions compliance documentation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

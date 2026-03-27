@@ -1,0 +1,12 @@
+id: risk.false_positive_fatigue
+name: False Positive Fatigue
+description: >
+  A high volume of false positive fraud alerts causes analyst fatigue, leading to
+  cursory reviews and increased likelihood of dismissing genuine fraud indicators.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.delayed_list_update_ingestion
+name: Delayed List Update Ingestion
+description: >
+  Updates to sanctions and watchlists are not ingested into the screening system
+  promptly, creating a window during which new designations are not screened against.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

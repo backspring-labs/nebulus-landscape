@@ -1,0 +1,13 @@
+id: map.prov.pwc
+provider_id: prov.pwc
+capability_ids:
+  - cap.financial_crime_program_governance_and_testing
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

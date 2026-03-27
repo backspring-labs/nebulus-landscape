@@ -1,0 +1,13 @@
+id: ctrl.remediation_milestone_tracking
+name: Remediation Milestone Tracking
+description: >
+  Track progress against remediation plan milestones to ensure corrective
+  actions are advancing on schedule and deviations are identified and
+  addressed promptly.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

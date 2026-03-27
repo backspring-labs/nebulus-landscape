@@ -1,0 +1,13 @@
+id: ctrl.alert_priority_scoring_model
+name: Alert Priority Scoring Model
+description: >
+  Apply a risk-based priority scoring model to incoming fraud alerts to ensure
+  high-risk alerts are triaged and investigated first, optimizing investigator
+  capacity and detection effectiveness.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

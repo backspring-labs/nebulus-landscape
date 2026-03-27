@@ -1,0 +1,13 @@
+id: ctrl.payment_decline_rate_monitoring
+name: Payment Decline Rate Monitoring
+description: >
+  Monitor payment and transfer decline rates to detect excessive false declines
+  that could indicate model miscalibration or policy issues impacting customer
+  experience and legitimate transaction throughput.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.transaction_monitoring_coverage_gap
+name: Transaction Monitoring Coverage Gap
+description: >
+  Certain products, channels, or transaction types are not adequately covered by
+  transaction monitoring scenarios, creating surveillance blind spots.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

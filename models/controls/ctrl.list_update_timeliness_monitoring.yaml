@@ -1,0 +1,13 @@
+id: ctrl.list_update_timeliness_monitoring
+name: List Update Timeliness Monitoring
+description: >
+  Monitor the timeliness of sanctions and watchlist data ingestion to ensure
+  list updates are applied within required timeframes and screening reflects
+  the most current regulatory lists.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

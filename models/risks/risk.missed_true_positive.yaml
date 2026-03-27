@@ -1,0 +1,12 @@
+id: risk.missed_true_positive
+name: Missed True Positive
+description: >
+  A genuine fraud alert is incorrectly dispositioned as a false positive, allowing
+  fraudulent activity to continue without investigation or interdiction.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

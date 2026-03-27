@@ -1,0 +1,12 @@
+id: risk.sanctions_evasion_through_structuring
+name: Sanctions Evasion Through Structuring
+description: >
+  Sanctioned parties evade screening by structuring transfers through intermediaries
+  or splitting transactions to avoid detection thresholds.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

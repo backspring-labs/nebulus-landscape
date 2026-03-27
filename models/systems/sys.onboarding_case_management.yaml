@@ -1,0 +1,10 @@
+id: sys.onboarding_case_management
+name: Onboarding Case Management
+description: >
+  Case management system for tracking and managing onboarding risk
+  decisions, referrals, and escalation workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

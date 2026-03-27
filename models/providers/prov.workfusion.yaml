@@ -1,0 +1,9 @@
+id: prov.workfusion
+name: WorkFusion
+category: case_management
+summary: >
+  AI-powered automation platform for financial crime compliance, providing
+  intelligent alert triage, case investigation automation, and SAR filing.
+status: stub
+source_refs: []
+tags: []

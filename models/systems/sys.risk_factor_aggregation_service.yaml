@@ -1,0 +1,10 @@
+id: sys.risk_factor_aggregation_service
+name: Risk Factor Aggregation Service
+description: >
+  Service for aggregating risk factor data from multiple sources to
+  support customer and entity risk rating calculations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

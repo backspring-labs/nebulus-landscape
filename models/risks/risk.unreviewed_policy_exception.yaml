@@ -1,0 +1,12 @@
+id: risk.unreviewed_policy_exception
+name: Unreviewed Policy Exception
+description: >
+  Policy exceptions remain active without periodic review or reapproval,
+  allowing risk exposures to persist beyond their intended scope or duration.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

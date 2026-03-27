@@ -1,0 +1,12 @@
+id: risk.legal_exposure_from_offboarding_action
+name: Legal Exposure from Offboarding Action
+description: >
+  An offboarding or restriction action creates legal liability due to inadequate
+  documentation, discriminatory patterns, or failure to follow required procedures.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

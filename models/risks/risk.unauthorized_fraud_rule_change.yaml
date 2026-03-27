@@ -1,0 +1,12 @@
+id: risk.unauthorized_fraud_rule_change
+name: Unauthorized Fraud Rule Change
+description: >
+  A fraud detection rule or threshold is modified without proper change governance
+  approval, potentially weakening detection capabilities or introducing errors.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,9 @@
+id: prov.ibm_openpages
+name: IBM OpenPages
+category: grc
+summary: >
+  AI-powered GRC platform providing regulatory compliance management, issue
+  tracking, risk assessment, and financial crime program governance.
+status: stub
+source_refs: []
+tags: []

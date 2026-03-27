@@ -1,0 +1,13 @@
+id: ctrl.law_enforcement_request_validation
+name: Law Enforcement Request Validation
+description: >
+  Validate the legitimacy and legal authority of law enforcement requests
+  including subpoenas, court orders, and informal requests before producing
+  customer information or records.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

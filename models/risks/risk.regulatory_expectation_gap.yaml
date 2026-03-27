@@ -1,0 +1,12 @@
+id: risk.regulatory_expectation_gap
+name: Regulatory Expectation Gap
+description: >
+  The institution's financial crime program does not meet evolving regulatory
+  expectations, resulting in examination findings or enforcement actions.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

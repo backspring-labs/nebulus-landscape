@@ -1,0 +1,9 @@
+id: prov.in_house_risk_platforms
+name: In-House Risk Platforms
+category: fraud_detection
+summary: >
+  Internally built risk management platforms and custom tooling developed by the
+  institution for proprietary risk decisioning and restriction management.
+status: stub
+source_refs: []
+tags: []

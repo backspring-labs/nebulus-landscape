@@ -1,0 +1,13 @@
+id: ctrl.case_aging_and_sla_monitoring
+name: Case Aging and SLA Monitoring
+description: >
+  Monitor investigation case aging and service level agreement adherence to
+  detect capacity issues and ensure cases are resolved within regulatory
+  and internal timelines.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

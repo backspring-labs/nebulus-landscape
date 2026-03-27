@@ -1,0 +1,9 @@
+id: prov.fico
+name: FICO
+category: fraud_detection
+summary: >
+  Analytics and decisioning platform providing fraud detection scoring, payment
+  risk decisioning, and model governance for financial institutions.
+status: stub
+source_refs: []
+tags: []

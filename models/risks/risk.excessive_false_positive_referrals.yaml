@@ -1,0 +1,12 @@
+id: risk.excessive_false_positive_referrals
+name: Excessive False Positive Referrals
+description: >
+  An excessive volume of legitimate applicants are referred for manual review due to
+  overly sensitive risk thresholds, degrading customer experience and operational efficiency.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

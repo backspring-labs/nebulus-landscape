@@ -1,0 +1,10 @@
+id: sys.model_risk_management_platform
+name: Model Risk Management Platform
+description: >
+  Platform for managing model risk across the enterprise including model
+  inventory, validation scheduling, and performance reporting.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

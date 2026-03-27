@@ -1,0 +1,12 @@
+id: risk.investigator_capacity_bottleneck
+name: Investigator Capacity Bottleneck
+description: >
+  Investigator workload exceeds capacity, causing case backlogs, delayed investigations,
+  and increased risk of missed regulatory deadlines.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

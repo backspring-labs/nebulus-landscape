@@ -1,0 +1,13 @@
+id: ctrl.fraud_model_validation_before_deployment
+name: Fraud Model Validation Before Deployment
+description: >
+  Require independent model validation and approval before any fraud detection
+  model is deployed to production, ensuring the model meets performance,
+  fairness, and regulatory standards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

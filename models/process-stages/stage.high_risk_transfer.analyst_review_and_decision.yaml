@@ -1,0 +1,18 @@
+id: stage.high_risk_transfer.analyst_review_and_decision
+name: Analyst Review and Decision
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Present enriched transfer context to an analyst for manual review
+  and risk-based approve, decline, or hold decision.
+order: 4
+system_ids:
+  - sys.alert_management_platform
+  - sys.risk_decisioning_engine
+risk_ids:
+  - risk.decision_latency_exceeding_sla
+  - risk.false_decline_customer_impact
+control_ids:
+  - ctrl.analyst_decision_authority_matrix
+  - ctrl.decision_sla_enforcement
+source_refs: []
+status: draft

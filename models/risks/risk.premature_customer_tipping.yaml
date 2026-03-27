@@ -1,0 +1,12 @@
+id: risk.premature_customer_tipping
+name: Premature Customer Tipping
+description: >
+  Actions taken during the SAR filing process inadvertently alert the customer or
+  subject to the investigation, violating anti-tipping requirements.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

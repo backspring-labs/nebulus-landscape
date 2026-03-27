@@ -1,0 +1,16 @@
+id: stage.sar_filing.electronic_filing_and_confirmation
+name: Electronic Filing and Confirmation
+process_id: proc.sar_filing_v1
+description: >
+  Submit the SAR electronically through the FinCEN BSA E-Filing system
+  and receive filing confirmation and tracking number.
+order: 4
+system_ids:
+  - sys.sar_filing_system
+  - sys.fincen_bsa_efiling_gateway
+risk_ids:
+  - risk.filing_deadline_breach
+control_ids:
+  - ctrl.filing_deadline_tracking
+source_refs: []
+status: draft

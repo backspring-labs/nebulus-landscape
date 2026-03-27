@@ -1,0 +1,9 @@
+id: prov.fircosoft
+name: Fircosoft (Accuity)
+category: sanctions_screening
+summary: >
+  Sanctions and watchlist screening engine for filtering transactions, customers,
+  and counterparties against global sanctions and PEP lists.
+status: stub
+source_refs: []
+tags: []

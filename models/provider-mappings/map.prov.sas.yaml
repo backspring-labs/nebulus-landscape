@@ -1,0 +1,20 @@
+id: map.prov.sas
+provider_id: prov.sas
+capability_ids:
+  - cap.financial_crime_risk_appetite_and_policy_management
+  - cap.customer_and_entity_risk_rating
+  - cap.fraud_detection_and_scoring
+  - cap.transaction_monitoring
+  - cap.account_and_relationship_surveillance
+  - cap.alert_triage_and_disposition
+  - cap.fraud_rules_and_model_governance
+  - cap.case_investigation_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.issue_management_platform
+name: Issue Management Platform
+description: >
+  Platform for tracking compliance issues, deficiencies, and findings
+  from intake through root cause analysis and remediation closure.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

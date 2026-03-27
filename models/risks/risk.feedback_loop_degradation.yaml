@@ -1,0 +1,12 @@
+id: risk.feedback_loop_degradation
+name: Feedback Loop Degradation
+description: >
+  Post-decision outcomes are not fed back to risk scoring models and rules, causing
+  detection effectiveness to degrade over time as models cannot learn from results.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

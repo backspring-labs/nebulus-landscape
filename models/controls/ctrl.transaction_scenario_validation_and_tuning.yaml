@@ -1,0 +1,13 @@
+id: ctrl.transaction_scenario_validation_and_tuning
+name: Transaction Scenario Validation and Tuning
+description: >
+  Validate and periodically tune transaction monitoring scenarios through
+  back-testing and effectiveness analysis to ensure detection rules remain
+  calibrated against evolving financial crime typologies.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

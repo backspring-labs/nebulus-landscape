@@ -1,0 +1,13 @@
+id: ctrl.fuzzy_matching_threshold_calibration
+name: Fuzzy Matching Threshold Calibration
+description: >
+  Govern the calibration and periodic review of fuzzy matching thresholds
+  in sanctions screening to balance detection sensitivity against false
+  positive volume.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

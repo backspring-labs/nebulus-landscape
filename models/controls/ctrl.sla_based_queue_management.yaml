@@ -1,0 +1,13 @@
+id: ctrl.sla_based_queue_management
+name: SLA-Based Queue Management
+description: >
+  Manage fraud alert queues using service level agreements to ensure alerts
+  are reviewed within defined timeframes based on priority, with escalation
+  for aging items.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

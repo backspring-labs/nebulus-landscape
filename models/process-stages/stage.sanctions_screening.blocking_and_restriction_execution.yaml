@@ -1,0 +1,18 @@
+id: stage.sanctions_screening.blocking_and_restriction_execution
+name: Blocking and Restriction Execution
+process_id: proc.sanctions_screening_and_match_review_v1
+description: >
+  Execute account blocking, transaction rejection, or other restriction
+  actions and file required OFAC reports for true matches.
+order: 6
+system_ids:
+  - sys.payment_processing_platform
+  - sys.ofac_reporting_system
+  - sys.core_banking_platform
+risk_ids:
+  - risk.delayed_blocking_action
+  - risk.ofac_reporting_failure
+control_ids:
+  - ctrl.blocking_action_sla
+source_refs: []
+status: draft

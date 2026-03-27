@@ -1,0 +1,13 @@
+id: ctrl.anti_tipping_controls
+name: Anti-Tipping Controls
+description: >
+  Implement controls to prevent disclosure of SAR filing activity to subjects
+  of the report, including access restrictions, communication protocols, and
+  staff training on confidentiality obligations.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

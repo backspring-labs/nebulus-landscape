@@ -1,0 +1,16 @@
+id: stage.high_risk_transfer.post_decision_monitoring_and_feedback
+name: Post-Decision Monitoring and Feedback
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Monitor outcomes of transfer decisions and feed results back to
+  scoring models and rules to improve detection accuracy.
+order: 6
+system_ids:
+  - sys.fraud_detection_engine
+  - sys.transaction_monitoring_system
+risk_ids:
+  - risk.feedback_loop_degradation
+control_ids:
+  - ctrl.post_decision_feedback_loop
+source_refs: []
+status: draft

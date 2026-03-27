@@ -1,0 +1,13 @@
+id: ctrl.payment_risk_latency_sla_monitoring
+name: Payment Risk Latency SLA Monitoring
+description: >
+  Monitor payment risk decisioning latency against defined service level
+  agreements to ensure real-time and near-real-time risk checks do not
+  degrade payment processing performance.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

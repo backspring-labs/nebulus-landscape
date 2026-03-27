@@ -1,0 +1,13 @@
+id: ctrl.fraud_rule_change_governance
+name: Fraud Rule Change Governance
+description: >
+  Govern changes to fraud detection rules through a structured approval process
+  including impact assessment, testing, and documentation to prevent unintended
+  detection gaps or excessive false positives.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

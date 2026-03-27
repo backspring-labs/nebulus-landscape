@@ -1,0 +1,10 @@
+id: sys.payment_hold_management_system
+name: Payment Hold Management System
+description: >
+  System for managing payment holds, release workflows, and investigative
+  hold queues for flagged transactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

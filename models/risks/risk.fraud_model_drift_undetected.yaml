@@ -1,0 +1,12 @@
+id: risk.fraud_model_drift_undetected
+name: Fraud Model Drift Undetected
+description: >
+  Degradation in fraud model performance is not identified through ongoing monitoring,
+  allowing detection accuracy to decline without corrective action.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

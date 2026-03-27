@@ -1,0 +1,12 @@
+id: risk.failure_to_maintain_information_sharing_records
+name: Failure to Maintain Information Sharing Records
+description: >
+  Records of information sharing activities under 314(a), 314(b), or law enforcement
+  programs are not adequately maintained, weakening the audit trail.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

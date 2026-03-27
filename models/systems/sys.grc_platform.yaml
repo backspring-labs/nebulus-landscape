@@ -1,0 +1,10 @@
+id: sys.grc_platform
+name: GRC Platform
+description: >
+  Enterprise governance, risk, and compliance platform for managing
+  financial crime program oversight, testing, and issue management.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

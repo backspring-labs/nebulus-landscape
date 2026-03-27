@@ -1,0 +1,12 @@
+id: risk.delayed_fraud_interdiction
+name: Delayed Fraud Interdiction
+description: >
+  Fraud is detected but not interdicted quickly enough, allowing additional
+  fraudulent transactions or account compromise to occur before action is taken.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

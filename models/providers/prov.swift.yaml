@@ -1,0 +1,9 @@
+id: prov.swift
+name: SWIFT
+category: sanctions_screening
+summary: >
+  Global financial messaging network providing payment screening, sanctions
+  filtering, and compliance services for cross-border transactions.
+status: stub
+source_refs: []
+tags: []

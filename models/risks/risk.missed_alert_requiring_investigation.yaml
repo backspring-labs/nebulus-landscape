@@ -1,0 +1,12 @@
+id: risk.missed_alert_requiring_investigation
+name: Missed Alert Requiring Investigation
+description: >
+  An alert warranting investigation is incorrectly dispositioned as a false positive
+  or cleared without adequate review, allowing suspicious activity to go uninvestigated.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

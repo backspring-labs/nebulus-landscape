@@ -1,0 +1,13 @@
+id: ctrl.false_positive_rate_monitoring
+name: False Positive Rate Monitoring
+description: >
+  Monitor and report on the false positive rate of onboarding risk decisions
+  to identify excessive referrals that degrade customer experience and
+  operational efficiency without commensurate risk reduction.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

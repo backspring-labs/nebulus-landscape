@@ -1,0 +1,13 @@
+id: ctrl.post_decision_feedback_loop
+name: Post-Decision Feedback Loop
+description: >
+  Capture outcome data from high-risk transfer decisions and feed results back
+  to risk scoring models and rule engines to improve detection accuracy and
+  reduce false positives over time.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

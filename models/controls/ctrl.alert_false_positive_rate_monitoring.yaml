@@ -1,0 +1,13 @@
+id: ctrl.alert_false_positive_rate_monitoring
+name: Alert False Positive Rate Monitoring
+description: >
+  Monitor false positive rates across alert types and detection systems to
+  identify calibration issues, alert fatigue risks, and opportunities for
+  tuning improvements.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

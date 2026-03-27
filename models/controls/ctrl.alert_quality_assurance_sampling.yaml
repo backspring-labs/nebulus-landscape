@@ -1,0 +1,13 @@
+id: ctrl.alert_quality_assurance_sampling
+name: Alert Quality Assurance Sampling
+description: >
+  Conduct periodic sampling-based quality assurance reviews of alert triage
+  and disposition decisions to assess accuracy, completeness, and adherence
+  to established standards.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

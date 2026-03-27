@@ -1,0 +1,16 @@
+id: stage.high_risk_transfer.exception_escalation_and_override
+name: Exception Escalation and Override
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Handle exception scenarios requiring senior authorization to override
+  automated decisions, with dual-authorization controls and documentation.
+order: 7
+system_ids:
+  - sys.alert_management_platform
+  - sys.risk_decisioning_engine
+risk_ids:
+  - risk.override_without_authorization
+control_ids:
+  - ctrl.override_dual_authorization
+source_refs: []
+status: draft

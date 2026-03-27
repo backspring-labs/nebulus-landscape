@@ -1,0 +1,12 @@
+id: ctrl.board_attestation_tracking
+name: Board Attestation Tracking
+description: >
+  Track and ensure timely completion of board and senior management attestations
+  for financial crime risk appetite, policies, and program adequacy certifications.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

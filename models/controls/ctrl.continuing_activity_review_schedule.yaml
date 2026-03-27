@@ -1,0 +1,13 @@
+id: ctrl.continuing_activity_review_schedule
+name: Continuing Activity Review Schedule
+description: >
+  Enforce a 90-day review schedule for subjects of prior SAR filings to
+  assess whether suspicious activity is continuing and determine if a
+  continuation SAR filing is required.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

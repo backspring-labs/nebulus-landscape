@@ -1,0 +1,18 @@
+id: stage.fraud_alert_investigation.investigation_and_analysis
+name: Investigation and Analysis
+process_id: proc.fraud_alert_investigation_v1
+description: >
+  Conduct detailed investigation of the fraud alert including transaction
+  analysis, customer behavior review, and link analysis to determine
+  findings.
+order: 4
+system_ids:
+  - sys.case_management_system
+  - sys.transaction_monitoring_system
+  - sys.customer_master
+risk_ids:
+  - risk.incomplete_investigation_evidence
+control_ids:
+  - ctrl.mandatory_investigation_checklist
+source_refs: []
+status: draft

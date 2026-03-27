@@ -1,0 +1,13 @@
+id: ctrl.sar_narrative_quality_review
+name: SAR Narrative Quality Review
+description: >
+  Review SAR narratives for completeness, accuracy, and clarity before filing
+  to ensure they meet regulatory standards and adequately describe the
+  suspicious activity, subjects, and supporting evidence.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

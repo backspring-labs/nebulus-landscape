@@ -1,0 +1,10 @@
+id: sys.fincen_bsa_efiling_gateway
+name: FinCEN BSA E-Filing Gateway
+description: >
+  Gateway for electronically filing BSA reports including SARs and CTRs
+  with the FinCEN BSA E-Filing system.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

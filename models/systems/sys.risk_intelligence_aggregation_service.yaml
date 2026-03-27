@@ -1,0 +1,10 @@
+id: sys.risk_intelligence_aggregation_service
+name: Risk Intelligence Aggregation Service
+description: >
+  Service for aggregating risk intelligence from multiple sources to
+  support EDD assessments and periodic review decisions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

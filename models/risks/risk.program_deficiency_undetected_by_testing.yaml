@@ -1,0 +1,12 @@
+id: risk.program_deficiency_undetected_by_testing
+name: Program Deficiency Undetected by Testing
+description: >
+  Independent testing or audit fails to identify material deficiencies in the financial
+  crime compliance program due to inadequate scope, methodology, or expertise.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

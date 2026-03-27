@@ -1,0 +1,13 @@
+id: ctrl.testing_finding_remediation_tracking
+name: Testing Finding Remediation Tracking
+description: >
+  Track remediation of findings from independent testing, internal audit,
+  and regulatory examinations to ensure timely resolution and validation
+  of corrective actions.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: corrective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

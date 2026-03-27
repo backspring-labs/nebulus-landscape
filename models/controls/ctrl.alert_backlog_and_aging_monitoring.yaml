@@ -1,0 +1,13 @@
+id: ctrl.alert_backlog_and_aging_monitoring
+name: Alert Backlog and Aging Monitoring
+description: >
+  Monitor alert queue backlogs and aging metrics to detect capacity constraints
+  or processing delays that could result in missed investigation timelines or
+  regulatory SLA breaches.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

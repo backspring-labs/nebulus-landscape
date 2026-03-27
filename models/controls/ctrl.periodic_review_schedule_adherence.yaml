@@ -1,0 +1,13 @@
+id: ctrl.periodic_review_schedule_adherence
+name: Periodic Review Schedule Adherence
+description: >
+  Track and enforce adherence to the risk-tiered periodic review schedule,
+  ensuring all customer reviews are completed within their required timeframes
+  and overdue reviews are escalated.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

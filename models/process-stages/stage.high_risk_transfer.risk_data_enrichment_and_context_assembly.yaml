@@ -1,0 +1,17 @@
+id: stage.high_risk_transfer.risk_data_enrichment_and_context_assembly
+name: Risk Data Enrichment and Context Assembly
+process_id: proc.high_risk_transfer_decisioning_v1
+description: >
+  Enrich the flagged transfer with customer, counterparty, and
+  transaction context data to support the risk decision.
+order: 2
+system_ids:
+  - sys.customer_master
+  - sys.transaction_monitoring_system
+  - sys.core_banking_platform
+risk_ids:
+  - risk.incomplete_risk_context_at_decision
+control_ids:
+  - ctrl.velocity_and_pattern_rules
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.understated_customer_risk_rating
+name: Understated Customer Risk Rating
+description: >
+  A customer's financial crime risk rating is lower than warranted by their actual
+  risk profile, resulting in insufficient monitoring and due diligence controls.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

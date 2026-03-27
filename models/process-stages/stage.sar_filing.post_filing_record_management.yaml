@@ -1,0 +1,17 @@
+id: stage.sar_filing.post_filing_record_management
+name: Post-Filing Record Management
+process_id: proc.sar_filing_v1
+description: >
+  Archive the filed SAR, supporting evidence, and case documentation
+  in compliance with BSA recordkeeping requirements.
+order: 5
+system_ids:
+  - sys.sar_filing_system
+  - sys.evidence_repository
+  - sys.records_management_system
+risk_ids:
+  - risk.inadequate_record_retention
+control_ids:
+  - ctrl.sar_record_retention_policy
+source_refs: []
+status: draft

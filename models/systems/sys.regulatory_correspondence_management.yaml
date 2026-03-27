@@ -1,0 +1,10 @@
+id: sys.regulatory_correspondence_management
+name: Regulatory Correspondence Management
+description: >
+  System for managing correspondence with regulators and law enforcement
+  agencies including tracking, response, and recordkeeping.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

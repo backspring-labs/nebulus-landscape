@@ -1,0 +1,9 @@
+id: prov.sas
+name: SAS
+category: fraud_detection
+summary: >
+  Advanced analytics and AI platform providing fraud detection, AML transaction
+  monitoring, and risk scoring solutions for financial institutions.
+status: stub
+source_refs: []
+tags: []

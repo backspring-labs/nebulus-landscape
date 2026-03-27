@@ -1,0 +1,12 @@
+id: risk.screening_coverage_gap
+name: Screening Coverage Gap
+description: >
+  Certain customer types, transaction channels, or counterparty relationships are not
+  included in sanctions and watchlist screening, creating compliance blind spots.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

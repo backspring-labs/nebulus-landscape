@@ -1,0 +1,10 @@
+id: sys.transaction_data_warehouse
+name: Transaction Data Warehouse
+description: >
+  Data warehouse for storing enriched transaction data used by
+  monitoring engines, analytics, and investigation tools.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.case_analytics_dashboard
+name: Case Analytics Dashboard
+description: >
+  Dashboard for monitoring case volumes, aging, investigator workload,
+  determination consistency, and SLA compliance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,13 @@
+id: ctrl.relationship_exit_escalation_path
+name: Relationship Exit Escalation Path
+description: >
+  Define and enforce an escalation path for recommending customer relationship
+  exit when EDD or periodic review findings indicate unacceptable risk that
+  cannot be mitigated through enhanced controls.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.risk_fraud
+source_refs: []
+status: draft

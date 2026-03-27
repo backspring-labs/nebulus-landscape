@@ -1,0 +1,9 @@
+id: prov.archer
+name: Archer (RSA)
+category: grc
+summary: >
+  Integrated risk management platform providing GRC capabilities including
+  compliance issue tracking, remediation management, and regulatory reporting.
+status: stub
+source_refs: []
+tags: []

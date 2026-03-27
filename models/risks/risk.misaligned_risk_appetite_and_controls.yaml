@@ -1,0 +1,12 @@
+id: risk.misaligned_risk_appetite_and_controls
+name: Misaligned Risk Appetite and Controls
+description: >
+  The institution's financial crime controls do not adequately reflect
+  its stated risk appetite, creating gaps between tolerated and actual risk exposure.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

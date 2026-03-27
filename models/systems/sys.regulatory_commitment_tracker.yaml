@@ -1,0 +1,10 @@
+id: sys.regulatory_commitment_tracker
+name: Regulatory Commitment Tracker
+description: >
+  System for tracking regulatory commitments, MRAs, consent order
+  requirements, and their remediation deadlines.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

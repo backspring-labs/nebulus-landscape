@@ -1,0 +1,12 @@
+id: risk.inadequate_record_retention
+name: Inadequate Record Retention
+description: >
+  SAR-related records and supporting documentation are not retained for the required
+  five-year period, creating a BSA recordkeeping violation.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

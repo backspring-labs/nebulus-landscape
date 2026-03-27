@@ -1,0 +1,13 @@
+id: ctrl.alert_escalation_timeliness_tracking
+name: Alert Escalation Timeliness Tracking
+description: >
+  Track the timeliness of alert escalations from triage to investigation to
+  ensure high-priority alerts are routed to investigators within defined
+  service level agreements.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

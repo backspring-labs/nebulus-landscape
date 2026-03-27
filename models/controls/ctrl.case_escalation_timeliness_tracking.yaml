@@ -1,0 +1,13 @@
+id: ctrl.case_escalation_timeliness_tracking
+name: Case Escalation Timeliness Tracking
+description: >
+  Track the timeliness of case escalations to supervisory review, peer review,
+  or SAR referral to ensure high-priority cases receive timely attention and
+  regulatory deadlines are met.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft

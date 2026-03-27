@@ -1,0 +1,12 @@
+id: risk.premature_account_restriction
+name: Premature Account Restriction
+description: >
+  An account is restricted before sufficient evidence or proper governance review,
+  causing unjustified customer harm and potential regulatory or legal exposure.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

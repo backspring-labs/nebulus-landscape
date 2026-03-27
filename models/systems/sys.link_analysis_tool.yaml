@@ -1,0 +1,10 @@
+id: sys.link_analysis_tool
+name: Link Analysis Tool
+description: >
+  Visual analytics tool for investigating relationships, connections,
+  and patterns across entities, accounts, and transactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

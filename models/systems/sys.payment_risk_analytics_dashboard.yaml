@@ -1,0 +1,10 @@
+id: sys.payment_risk_analytics_dashboard
+name: Payment Risk Analytics Dashboard
+description: >
+  Dashboard for monitoring payment risk metrics, decline rates,
+  interdiction effectiveness, and latency SLA performance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

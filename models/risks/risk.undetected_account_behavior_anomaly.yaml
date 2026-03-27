@@ -1,0 +1,12 @@
+id: risk.undetected_account_behavior_anomaly
+name: Undetected Account Behavior Anomaly
+description: >
+  Anomalous account-level behavior indicative of financial crime is not detected by
+  surveillance systems, allowing suspicious activity to continue unmonitored.
+domain_id: domain.risk_fraud
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

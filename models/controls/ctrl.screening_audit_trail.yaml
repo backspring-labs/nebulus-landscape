@@ -1,0 +1,13 @@
+id: ctrl.screening_audit_trail
+name: Screening Audit Trail
+description: >
+  Capture and retain a complete audit trail for all sanctions screening events,
+  including screening inputs, match results, disposition decisions, and
+  escalation actions to support regulatory examination.
+domain_id: domain.risk_fraud
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.risk_fraud
+source_refs: []
+status: draft
