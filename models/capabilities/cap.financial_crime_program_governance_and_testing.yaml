@@ -1,0 +1,56 @@
+id: cap.financial_crime_program_governance_and_testing
+name: Financial Crime Program Governance & Testing
+domain_id: domain.risk_fraud
+description: >
+  Govern, oversee, and test the institution's financial crime compliance program
+  including BSA/AML, fraud, and sanctions programs through independent testing,
+  model validation, regulatory change management, training administration, and
+  program effectiveness assessment to ensure ongoing regulatory compliance and
+  program adequacy.
+value_stream_ids:
+  - vs.regulatory_compliance
+  - vs.risk_management
+  - vs.operational_efficiency
+journey_ids:
+  - journey.independent_testing_and_audit
+  - journey.model_validation_and_governance
+  - journey.regulatory_change_assessment
+  - journey.training_and_competency_management
+  - journey.program_effectiveness_assessment
+process_ids:
+  - proc.independent_testing_planning_and_execution
+  - proc.testing_findings_documentation_and_reporting
+  - proc.model_validation_and_performance_review
+  - proc.regulatory_change_impact_assessment
+  - proc.policy_and_procedure_update_management
+  - proc.training_curriculum_and_delivery_management
+  - proc.program_effectiveness_metrics_and_reporting
+  - proc.board_and_committee_reporting
+risk_ids:
+  - risk.program_deficiency_undetected_by_testing
+  - risk.model_degradation_unidentified
+  - risk.regulatory_change_not_timely_implemented
+  - risk.inadequate_staff_training_and_competency
+  - risk.insufficient_board_and_management_oversight
+control_ids:
+  - ctrl.independent_testing_coverage_and_frequency
+  - ctrl.testing_finding_remediation_tracking
+  - ctrl.model_validation_schedule_adherence
+  - ctrl.regulatory_change_implementation_tracking
+  - ctrl.training_completion_and_competency_monitoring
+  - ctrl.board_reporting_timeliness_and_completeness
+provider_ids:
+  - prov.deloitte
+  - prov.kpmg
+  - prov.pwc
+  - prov.ernst_and_young
+  - prov.promontory
+system_ids:
+  - sys.grc_platform
+  - sys.testing_and_audit_management_system
+  - sys.model_risk_management_platform
+  - sys.training_management_system
+  - sys.regulatory_change_management_system
+source_refs: []
+status: draft
+confidence: high

@@ -1,0 +1,54 @@
+id: cap.suspicious_activity_reporting
+name: Suspicious Activity Reporting
+domain_id: domain.risk_fraud
+description: >
+  Prepare, review, approve, file, and manage Suspicious Activity Reports (SARs) and
+  equivalent regulatory filings with applicable authorities in response to identified
+  suspicious activity, ensuring timely, accurate, and complete reporting in compliance
+  with BSA/AML and other financial crime regulations.
+value_stream_ids:
+  - vs.regulatory_compliance
+  - vs.financial_crime_detection
+  - vs.risk_management
+journey_ids:
+  - journey.sar_drafting_and_narrative_preparation
+  - journey.sar_review_and_approval
+  - journey.sar_filing_and_submission
+  - journey.sar_amendment_and_continuing_activity
+  - journey.sar_regulatory_inquiry_response
+process_ids:
+  - proc.sar_trigger_identification_and_initiation
+  - proc.sar_narrative_drafting_and_assembly
+  - proc.sar_quality_review_and_approval
+  - proc.sar_electronic_filing_and_submission
+  - proc.sar_continuing_activity_monitoring_and_refiling
+  - proc.sar_amendment_and_correction
+  - proc.sar_recordkeeping_and_retention
+risk_ids:
+  - risk.late_or_missed_sar_filing
+  - risk.inaccurate_or_incomplete_sar_narrative
+  - risk.sar_filing_not_meeting_regulatory_standards
+  - risk.unauthorized_sar_disclosure
+  - risk.failure_to_identify_continuing_activity_for_refiling
+control_ids:
+  - ctrl.sar_filing_deadline_monitoring
+  - ctrl.sar_narrative_quality_review
+  - ctrl.sar_completeness_validation
+  - ctrl.sar_approval_workflow_enforcement
+  - ctrl.sar_confidentiality_access_controls
+  - ctrl.sar_continuing_activity_tracking
+provider_ids:
+  - prov.nice_actimize
+  - prov.verafin
+  - prov.oracle_financial_services
+  - prov.hummingbird
+  - prov.fincen
+system_ids:
+  - sys.sar_filing_platform
+  - sys.case_management_system
+  - sys.sar_narrative_generation_tool
+  - sys.regulatory_filing_gateway
+  - sys.sar_tracking_dashboard
+source_refs: []
+status: draft
+confidence: high

@@ -1,0 +1,54 @@
+id: cap.compliance_issue_and_remediation_management
+name: Compliance Issue & Remediation Management
+domain_id: domain.risk_fraud
+description: >
+  Identify, track, escalate, and remediate compliance issues, deficiencies, and
+  findings arising from internal testing, regulatory examinations, audits, and
+  self-identified gaps across the financial crime compliance program, ensuring
+  timely resolution and sustainable corrective action.
+value_stream_ids:
+  - vs.regulatory_compliance
+  - vs.risk_management
+  - vs.operational_efficiency
+journey_ids:
+  - journey.issue_identification_and_logging
+  - journey.issue_root_cause_analysis
+  - journey.remediation_planning_and_execution
+  - journey.issue_validation_and_closure
+  - journey.regulatory_commitment_tracking
+process_ids:
+  - proc.issue_intake_and_classification
+  - proc.issue_severity_assessment_and_prioritization
+  - proc.root_cause_analysis_and_documentation
+  - proc.remediation_plan_development_and_approval
+  - proc.remediation_execution_and_milestone_tracking
+  - proc.remediation_validation_and_effectiveness_testing
+  - proc.issue_closure_and_documentation
+  - proc.regulatory_commitment_and_mra_tracking
+risk_ids:
+  - risk.remediation_not_completed_within_committed_timeline
+  - risk.root_cause_not_adequately_addressed
+  - risk.recurring_issues_indicating_systemic_weakness
+  - risk.regulatory_commitment_breach
+  - risk.insufficient_remediation_validation
+control_ids:
+  - ctrl.issue_aging_and_deadline_monitoring
+  - ctrl.remediation_milestone_tracking
+  - ctrl.issue_escalation_threshold_enforcement
+  - ctrl.remediation_effectiveness_validation
+  - ctrl.recurring_issue_pattern_analysis
+  - ctrl.regulatory_commitment_deadline_tracking
+provider_ids:
+  - prov.servicenow
+  - prov.archer
+  - prov.metricstream
+  - prov.ibm_openpages
+system_ids:
+  - sys.issue_management_platform
+  - sys.grc_platform
+  - sys.remediation_tracking_system
+  - sys.regulatory_commitment_tracker
+  - sys.issue_analytics_dashboard
+source_refs: []
+status: draft
+confidence: high

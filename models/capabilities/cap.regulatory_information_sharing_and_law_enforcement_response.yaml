@@ -1,0 +1,53 @@
+id: cap.regulatory_information_sharing_and_law_enforcement_response
+name: Regulatory Information Sharing & Law Enforcement Response
+domain_id: domain.risk_fraud
+description: >
+  Manage the institution's participation in regulatory information-sharing programs
+  and respond to law enforcement requests, including 314(a) and 314(b) program
+  participation, subpoena and court order processing, and coordination with regulatory
+  and law enforcement agencies on financial crime matters.
+value_stream_ids:
+  - vs.regulatory_compliance
+  - vs.financial_crime_detection
+  - vs.risk_management
+journey_ids:
+  - journey.314a_request_processing
+  - journey.314b_information_sharing
+  - journey.law_enforcement_subpoena_response
+  - journey.regulatory_examination_support
+  - journey.interagency_coordination
+process_ids:
+  - proc.314a_request_receipt_and_search
+  - proc.314a_match_verification_and_response
+  - proc.314b_sharing_request_and_response
+  - proc.law_enforcement_request_intake_and_validation
+  - proc.subpoena_and_court_order_processing
+  - proc.information_sharing_recordkeeping
+  - proc.regulatory_examination_document_production
+risk_ids:
+  - risk.missed_or_late_314a_response
+  - risk.unauthorized_information_disclosure
+  - risk.improper_law_enforcement_request_handling
+  - risk.failure_to_maintain_information_sharing_records
+  - risk.tipping_off_subjects_of_investigation
+control_ids:
+  - ctrl.314a_response_deadline_monitoring
+  - ctrl.information_sharing_authorization_verification
+  - ctrl.law_enforcement_request_validation
+  - ctrl.information_disclosure_access_controls
+  - ctrl.information_sharing_audit_trail
+  - ctrl.tipping_off_prevention_controls
+provider_ids:
+  - prov.fincen
+  - prov.nice_actimize
+  - prov.verafin
+  - prov.oracle_financial_services
+system_ids:
+  - sys.information_sharing_platform
+  - sys.314a_search_and_response_system
+  - sys.law_enforcement_request_tracking_system
+  - sys.document_production_platform
+  - sys.regulatory_correspondence_management
+source_refs: []
+status: draft
+confidence: high

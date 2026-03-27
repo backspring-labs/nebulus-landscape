@@ -1,0 +1,55 @@
+id: cap.case_investigation_management
+name: Case Investigation Management
+domain_id: domain.risk_fraud
+description: >
+  Manage the end-to-end lifecycle of financial crime and fraud investigations from
+  case creation through resolution, including evidence gathering, analysis, documentation,
+  and determination of findings to support regulatory reporting and remediation actions.
+value_stream_ids:
+  - vs.financial_crime_detection
+  - vs.fraud_prevention
+  - vs.regulatory_compliance
+  - vs.operational_efficiency
+journey_ids:
+  - journey.case_creation_and_assignment
+  - journey.evidence_gathering_and_analysis
+  - journey.investigator_review_and_determination
+  - journey.case_escalation_and_peer_review
+  - journey.case_closure_and_documentation
+process_ids:
+  - proc.case_creation_and_intake
+  - proc.case_assignment_and_workload_balancing
+  - proc.evidence_collection_and_assembly
+  - proc.investigative_analysis_and_link_analysis
+  - proc.case_determination_and_findings_documentation
+  - proc.case_escalation_and_supervisory_review
+  - proc.case_closure_and_archival
+  - proc.case_quality_assurance_review
+risk_ids:
+  - risk.incomplete_investigation_missing_material_evidence
+  - risk.investigation_exceeds_regulatory_timeline
+  - risk.inconsistent_case_determination_standards
+  - risk.insufficient_case_documentation_for_regulatory_defense
+  - risk.investigator_capacity_bottleneck
+control_ids:
+  - ctrl.case_aging_and_sla_monitoring
+  - ctrl.case_determination_consistency_review
+  - ctrl.case_documentation_completeness_check
+  - ctrl.case_quality_assurance_sampling
+  - ctrl.case_escalation_timeliness_tracking
+  - ctrl.investigator_workload_monitoring
+provider_ids:
+  - prov.nice_actimize
+  - prov.verafin
+  - prov.oracle_financial_services
+  - prov.sas
+  - prov.hummingbird
+system_ids:
+  - sys.case_management_platform
+  - sys.evidence_repository
+  - sys.link_analysis_tool
+  - sys.investigation_workflow_engine
+  - sys.case_analytics_dashboard
+source_refs: []
+status: draft
+confidence: high
