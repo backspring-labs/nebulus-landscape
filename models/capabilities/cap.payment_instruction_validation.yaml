@@ -1,0 +1,52 @@
+id: cap.payment_instruction_validation
+name: Payment Instruction Validation
+domain_id: domain.payments
+description: >
+  Validate payment instructions for data completeness, format correctness, business rule
+  compliance, and referential integrity before the instruction advances to routing,
+  authorization, or execution, preventing downstream failures and rework.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.regulatory_compliance
+  - vs.customer_self_service
+journey_ids:
+  - journey.payment_instruction_pre_submission_check
+  - journey.batch_payment_file_validation
+  - journey.international_payment_format_validation
+  - journey.payment_repair_and_resubmission
+process_ids:
+  - proc.payment_field_completeness_check
+  - proc.payment_format_and_schema_validation
+  - proc.payment_business_rule_evaluation
+  - proc.payment_referential_integrity_check
+  - proc.payment_exception_routing_and_repair
+  - proc.payment_validation_rule_management
+risk_ids:
+  - risk.payment_rejected_downstream_due_to_validation_gap
+  - risk.invalid_payment_reaches_clearing_network
+  - risk.validation_rule_drift_from_network_standards
+  - risk.payment_repair_delays_exceed_sla
+  - risk.batch_file_corruption_not_detected
+control_ids:
+  - ctrl.payment_validation_coverage_monitoring
+  - ctrl.network_format_specification_currency
+  - ctrl.payment_exception_rate_monitoring
+  - ctrl.validation_rule_change_governance
+  - ctrl.batch_file_integrity_verification
+  - ctrl.payment_repair_sla_tracking
+provider_ids:
+  - prov.volante_technologies
+  - prov.bottomline_technologies
+  - prov.finastra
+  - prov.swift
+  - prov.fis
+  - prov.fiserv
+system_ids:
+  - sys.payment_validation_engine
+  - sys.payment_message_format_validator
+  - sys.payment_exception_management_system
+  - sys.payment_repair_workstation
+source_refs: []
+status: draft
+confidence: high

@@ -1,0 +1,52 @@
+id: cap.payment_limit_and_cutoff_management
+name: Payment Limit & Cutoff Management
+domain_id: domain.payments
+description: >
+  Define, enforce, and manage payment amount limits, frequency limits, and processing
+  cutoff times across payment types, channels, customer segments, and rails, ensuring
+  payments comply with institutional risk appetite and network operating windows.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.fraud_prevention
+  - vs.regulatory_compliance
+  - vs.customer_self_service
+journey_ids:
+  - journey.payment_limit_check
+  - journey.payment_cutoff_enforcement
+  - journey.payment_limit_exception_request
+  - journey.payment_limit_configuration
+  - journey.next_day_payment_scheduling
+process_ids:
+  - proc.payment_amount_limit_evaluation
+  - proc.payment_frequency_limit_evaluation
+  - proc.payment_cutoff_time_enforcement
+  - proc.payment_limit_exception_processing
+  - proc.payment_limit_configuration_management
+  - proc.cutoff_time_schedule_maintenance
+risk_ids:
+  - risk.payment_exceeds_institutional_risk_limit
+  - risk.payment_submitted_after_cutoff_missed
+  - risk.limit_configuration_error
+  - risk.excessive_limit_exceptions_granted
+  - risk.cutoff_time_drift_from_network_schedule
+control_ids:
+  - ctrl.payment_limit_enforcement_verification
+  - ctrl.cutoff_time_synchronization_monitoring
+  - ctrl.limit_exception_approval_governance
+  - ctrl.limit_configuration_change_audit
+  - ctrl.limit_utilization_monitoring
+  - ctrl.cutoff_time_adherence_reporting
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.aci_worldwide
+  - prov.bottomline_technologies
+system_ids:
+  - sys.payment_limit_engine
+  - sys.payment_cutoff_management_service
+  - sys.limit_configuration_platform
+  - sys.payment_scheduling_engine
+source_refs: []
+status: draft
+confidence: high

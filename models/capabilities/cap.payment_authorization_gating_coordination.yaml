@@ -1,0 +1,52 @@
+id: cap.payment_authorization_gating_coordination
+name: Payment Authorization & Gating Coordination
+domain_id: domain.payments
+description: >
+  Orchestrate the collection and evaluation of all required authorizations, approvals, and
+  gate checks for a payment instruction before it is released for execution, coordinating
+  across risk, compliance, balance, limit, and business approval requirements.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.fraud_prevention
+  - vs.regulatory_compliance
+  - vs.operational_efficiency
+journey_ids:
+  - journey.single_payment_authorization
+  - journey.dual_approval_payment_release
+  - journey.batch_payment_authorization
+  - journey.payment_gate_exception_resolution
+  - journey.high_value_payment_escalation
+process_ids:
+  - proc.payment_authorization_gate_orchestration
+  - proc.payment_approval_workflow_management
+  - proc.payment_balance_sufficiency_check
+  - proc.payment_gate_status_aggregation
+  - proc.payment_authorization_timeout_management
+  - proc.payment_release_decisioning
+risk_ids:
+  - risk.payment_released_without_required_authorization
+  - risk.payment_gate_deadlock_or_timeout
+  - risk.authorization_bypass_due_to_system_failure
+  - risk.dual_control_circumvention
+  - risk.payment_stuck_in_authorization_queue
+control_ids:
+  - ctrl.payment_gate_completeness_verification
+  - ctrl.dual_control_enforcement
+  - ctrl.authorization_timeout_escalation
+  - ctrl.payment_release_audit_trail
+  - ctrl.gate_bypass_governance
+  - ctrl.authorization_queue_aging_monitoring
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.bottomline_technologies
+  - prov.finastra
+  - prov.aci_worldwide
+system_ids:
+  - sys.payment_authorization_orchestrator
+  - sys.payment_approval_workflow_engine
+  - sys.payment_gate_status_dashboard
+  - sys.payment_release_control_system
+source_refs: []
+status: draft
+confidence: high

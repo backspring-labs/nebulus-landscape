@@ -1,0 +1,53 @@
+id: cap.payment_routing_and_rail_selection
+name: Payment Routing & Rail Selection
+domain_id: domain.payments
+description: >
+  Determine the optimal payment rail, clearing network, and routing path for each payment
+  instruction based on payment attributes, recipient capabilities, cost, speed requirements,
+  and institutional preferences, ensuring payments reach their destination efficiently.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.revenue_generation
+  - vs.customer_self_service
+journey_ids:
+  - journey.domestic_payment_routing
+  - journey.international_payment_routing
+  - journey.real_time_payment_routing
+  - journey.payment_rail_fallback_selection
+  - journey.bulk_payment_routing_optimization
+process_ids:
+  - proc.payment_rail_eligibility_evaluation
+  - proc.payment_routing_rule_application
+  - proc.correspondent_bank_selection
+  - proc.payment_cost_optimization
+  - proc.payment_rail_fallback_execution
+  - proc.routing_table_maintenance
+risk_ids:
+  - risk.payment_routed_to_suboptimal_rail
+  - risk.payment_routing_failure_no_fallback
+  - risk.correspondent_bank_relationship_gap
+  - risk.routing_table_stale_or_incorrect
+  - risk.real_time_rail_unavailability
+control_ids:
+  - ctrl.routing_rule_effectiveness_monitoring
+  - ctrl.rail_availability_monitoring
+  - ctrl.correspondent_bank_relationship_review
+  - ctrl.routing_table_currency_validation
+  - ctrl.payment_cost_benchmarking
+  - ctrl.fallback_routing_testing
+provider_ids:
+  - prov.swift
+  - prov.the_clearing_house
+  - prov.federal_reserve
+  - prov.aci_worldwide
+  - prov.bottomline_technologies
+  - prov.finastra
+system_ids:
+  - sys.payment_routing_engine
+  - sys.rail_selection_service
+  - sys.correspondent_banking_directory
+  - sys.payment_network_gateway
+source_refs: []
+status: draft
+confidence: high

@@ -1,0 +1,53 @@
+id: cap.payment_initiation_management
+name: Payment Initiation Management
+domain_id: domain.payments
+description: >
+  Capture, normalize, and orchestrate payment instructions from all origination channels and
+  party types into a canonical payment order that downstream payment processing capabilities
+  can act upon, regardless of payment rail, channel, or initiator type.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.operational_efficiency
+  - vs.revenue_generation
+journey_ids:
+  - journey.customer_initiated_payment
+  - journey.business_originated_batch_payment
+  - journey.scheduled_recurring_payment
+  - journey.branch_teller_payment
+  - journey.api_partner_payment_initiation
+process_ids:
+  - proc.payment_instruction_capture
+  - proc.payment_instruction_normalization
+  - proc.payment_template_management
+  - proc.recurring_payment_schedule_management
+  - proc.payment_initiation_channel_orchestration
+  - proc.payment_draft_and_save
+risk_ids:
+  - risk.duplicate_payment_initiation
+  - risk.payment_instruction_data_loss
+  - risk.channel_inconsistent_payment_experience
+  - risk.unauthorized_payment_initiation
+  - risk.recurring_payment_missed_execution
+control_ids:
+  - ctrl.duplicate_payment_detection
+  - ctrl.payment_initiation_authentication_verification
+  - ctrl.channel_parity_monitoring
+  - ctrl.recurring_payment_schedule_integrity_check
+  - ctrl.payment_instruction_completeness_validation
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.finastra
+  - prov.q2
+system_ids:
+  - sys.payment_initiation_hub
+  - sys.online_banking_payment_module
+  - sys.mobile_banking_payment_module
+  - sys.payment_template_engine
+  - sys.recurring_payment_scheduler
+source_refs: []
+status: draft
+confidence: high

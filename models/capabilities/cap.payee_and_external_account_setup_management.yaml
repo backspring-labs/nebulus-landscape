@@ -1,0 +1,53 @@
+id: cap.payee_and_external_account_setup_management
+name: Payee & External Account Setup Management
+domain_id: domain.payments
+description: >
+  Establish, validate, maintain, and deactivate payee records and external account linkages
+  that serve as trusted destinations for outbound payments and transfers, ensuring accuracy
+  of routing information and reducing misdirected payment risk.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.fraud_prevention
+  - vs.operational_efficiency
+journey_ids:
+  - journey.consumer_payee_enrollment
+  - journey.business_vendor_payee_setup
+  - journey.external_account_linking
+  - journey.payee_information_update
+  - journey.payee_deactivation
+process_ids:
+  - proc.payee_enrollment_and_validation
+  - proc.external_account_verification
+  - proc.payee_record_maintenance
+  - proc.payee_deactivation
+  - proc.biller_directory_synchronization
+  - proc.payee_duplicate_detection
+risk_ids:
+  - risk.misdirected_payment_due_to_invalid_payee
+  - risk.fraudulent_payee_enrollment
+  - risk.stale_payee_routing_information
+  - risk.external_account_ownership_not_verified
+  - risk.payee_data_inconsistency_across_channels
+control_ids:
+  - ctrl.payee_account_micro_deposit_verification
+  - ctrl.payee_routing_number_validation
+  - ctrl.payee_enrollment_fraud_screening
+  - ctrl.stale_payee_review_and_revalidation
+  - ctrl.external_account_ownership_verification
+  - ctrl.payee_change_notification
+provider_ids:
+  - prov.fiserv
+  - prov.fis
+  - prov.jack_henry
+  - prov.plaid
+  - prov.mx
+  - prov.yodlee
+system_ids:
+  - sys.payee_management_platform
+  - sys.external_account_verification_service
+  - sys.biller_directory_service
+  - sys.account_aggregation_platform
+source_refs: []
+status: draft
+confidence: high
