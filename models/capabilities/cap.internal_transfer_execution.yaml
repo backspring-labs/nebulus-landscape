@@ -1,0 +1,52 @@
+id: cap.internal_transfer_execution
+name: Internal Transfer Execution
+domain_id: domain.payments
+description: >
+  Execute fund movements between accounts held within the same institution, including
+  intrabank account-to-account transfers, loan payments from deposit accounts, and
+  inter-product sweeps, with real-time or same-day posting and immediate balance reflection.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.operational_efficiency
+  - vs.liquidity_management
+journey_ids:
+  - journey.customer_account_to_account_transfer
+  - journey.loan_payment_from_deposit
+  - journey.sweep_between_accounts
+  - journey.branch_teller_internal_transfer
+  - journey.business_intercompany_transfer
+process_ids:
+  - proc.internal_transfer_posting
+  - proc.internal_transfer_balance_validation
+  - proc.internal_transfer_hold_and_memo_post
+  - proc.internal_transfer_reversal_and_correction
+  - proc.sweep_execution
+  - proc.internal_transfer_cutoff_management
+risk_ids:
+  - risk.internal_transfer_insufficient_funds
+  - risk.internal_transfer_posting_failure
+  - risk.unauthorized_internal_transfer
+  - risk.sweep_misconfiguration
+  - risk.internal_transfer_duplicate_execution
+control_ids:
+  - ctrl.internal_transfer_balance_sufficiency_check
+  - ctrl.internal_transfer_posting_reconciliation
+  - ctrl.internal_transfer_authorization_verification
+  - ctrl.sweep_configuration_validation
+  - ctrl.internal_transfer_duplicate_detection
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.finastra
+system_ids:
+  - sys.core_banking_transfer_engine
+  - sys.real_time_posting_engine
+  - sys.sweep_management_platform
+  - sys.general_ledger
+  - sys.memo_post_engine
+source_refs: []
+status: draft
+confidence: high

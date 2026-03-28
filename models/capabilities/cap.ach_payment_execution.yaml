@@ -1,0 +1,56 @@
+id: cap.ach_payment_execution
+name: ACH Payment Execution
+domain_id: domain.payments
+description: >
+  Execute outbound and inbound ACH payment instructions through the Automated Clearing House
+  network, including origination, file generation, transmission, return and exception handling,
+  and settlement coordination for both credit and debit transactions.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.revenue_generation
+  - vs.regulatory_compliance
+journey_ids:
+  - journey.customer_ach_payment
+  - journey.business_ach_batch_origination
+  - journey.ach_direct_deposit_receipt
+  - journey.ach_return_and_exception_handling
+  - journey.ach_same_day_payment
+process_ids:
+  - proc.ach_file_generation_and_formatting
+  - proc.ach_file_transmission
+  - proc.ach_return_processing
+  - proc.ach_noc_processing
+  - proc.ach_settlement_coordination
+  - proc.ach_prefunding_and_exposure_management
+  - proc.ach_same_day_window_management
+risk_ids:
+  - risk.ach_file_transmission_failure
+  - risk.ach_return_and_unauthorized_debit
+  - risk.ach_prefunding_shortfall
+  - risk.ach_nacha_rule_noncompliance
+  - risk.ach_originator_fraud
+  - risk.ach_duplicate_file_submission
+control_ids:
+  - ctrl.ach_file_integrity_validation
+  - ctrl.ach_nacha_format_compliance_check
+  - ctrl.ach_prefunding_balance_verification
+  - ctrl.ach_return_deadline_monitoring
+  - ctrl.ach_duplicate_file_detection
+  - ctrl.ach_originator_exposure_limit_check
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.the_clearing_house
+  - prov.federal_reserve
+  - prov.aci_worldwide
+system_ids:
+  - sys.ach_origination_platform
+  - sys.ach_file_processor
+  - sys.ach_return_management_system
+  - sys.ach_settlement_engine
+  - sys.nacha_compliance_validator
+source_refs: []
+status: draft
+confidence: high

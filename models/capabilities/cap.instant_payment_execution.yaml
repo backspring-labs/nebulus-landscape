@@ -1,0 +1,54 @@
+id: cap.instant_payment_execution
+name: Instant Payment Execution
+domain_id: domain.payments
+description: >
+  Execute real-time payment instructions through instant payment networks such as RTP and
+  FedNow, including message construction, real-time credit transfer, request-for-payment
+  processing, immediate confirmation, and 24/7/365 availability management.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.revenue_generation
+  - vs.competitive_differentiation
+journey_ids:
+  - journey.customer_instant_payment
+  - journey.business_instant_payment
+  - journey.request_for_payment_receipt
+  - journey.instant_payment_receipt
+  - journey.gig_economy_instant_payout
+process_ids:
+  - proc.instant_payment_message_construction
+  - proc.instant_payment_network_submission
+  - proc.instant_payment_confirmation_processing
+  - proc.request_for_payment_processing
+  - proc.instant_payment_prefunding_management
+  - proc.instant_payment_availability_monitoring
+risk_ids:
+  - risk.instant_payment_irrevocability
+  - risk.instant_payment_fraud_velocity
+  - risk.instant_payment_liquidity_shortfall
+  - risk.instant_payment_network_unavailability
+  - risk.instant_payment_message_rejection
+control_ids:
+  - ctrl.instant_payment_real_time_fraud_screening
+  - ctrl.instant_payment_prefunding_balance_check
+  - ctrl.instant_payment_velocity_limit_enforcement
+  - ctrl.instant_payment_network_health_monitoring
+  - ctrl.instant_payment_message_validation
+provider_ids:
+  - prov.the_clearing_house
+  - prov.federal_reserve
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.aci_worldwide
+  - prov.volante_technologies
+system_ids:
+  - sys.rtp_network_interface
+  - sys.fednow_network_interface
+  - sys.instant_payment_processing_engine
+  - sys.real_time_fraud_engine
+  - sys.instant_payment_liquidity_manager
+source_refs: []
+status: draft
+confidence: high

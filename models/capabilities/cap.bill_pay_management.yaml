@@ -1,0 +1,53 @@
+id: cap.bill_pay_management
+name: Bill Pay Management
+domain_id: domain.payments
+description: >
+  Manage the end-to-end bill payment lifecycle including biller directory management, electronic
+  and check-based bill payment execution, e-bill presentment, payment scheduling, and payment
+  status tracking for consumer and small business customers.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.customer_retention
+  - vs.revenue_generation
+journey_ids:
+  - journey.customer_one_time_bill_payment
+  - journey.customer_recurring_bill_payment
+  - journey.ebill_presentment_and_payment
+  - journey.bill_pay_payment_inquiry
+  - journey.biller_addition_and_management
+process_ids:
+  - proc.biller_directory_management
+  - proc.bill_payment_instruction_processing
+  - proc.ebill_presentment_and_delivery
+  - proc.bill_pay_check_issuance
+  - proc.bill_pay_electronic_remittance
+  - proc.bill_pay_payment_status_tracking
+  - proc.bill_pay_exception_and_research
+risk_ids:
+  - risk.bill_pay_late_payment
+  - risk.bill_pay_duplicate_payment
+  - risk.biller_directory_stale_data
+  - risk.bill_pay_check_fraud
+  - risk.bill_pay_remittance_mismatch
+control_ids:
+  - ctrl.bill_pay_delivery_date_calculation
+  - ctrl.bill_pay_duplicate_detection
+  - ctrl.biller_directory_refresh_validation
+  - ctrl.bill_pay_check_fraud_monitoring
+  - ctrl.bill_pay_remittance_reconciliation
+provider_ids:
+  - prov.fiserv
+  - prov.fis
+  - prov.jack_henry
+  - prov.mastercard
+  - prov.payveris
+system_ids:
+  - sys.bill_pay_platform
+  - sys.biller_directory_service
+  - sys.ebill_presentment_engine
+  - sys.bill_pay_check_print_and_mail
+  - sys.bill_pay_electronic_remittance_gateway
+source_refs: []
+status: draft
+confidence: medium

@@ -1,0 +1,58 @@
+id: cap.wire_transfer_execution
+name: Wire Transfer Execution
+domain_id: domain.payments
+description: >
+  Execute domestic and international wire transfer instructions through Fedwire, CHIPS, and
+  SWIFT networks, including message formatting, correspondent bank routing, sanctions and
+  compliance screening integration, settlement, and confirmation delivery.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.revenue_generation
+  - vs.regulatory_compliance
+  - vs.customer_self_service
+journey_ids:
+  - journey.customer_domestic_wire
+  - journey.customer_international_wire
+  - journey.business_high_value_wire
+  - journey.incoming_wire_receipt
+  - journey.wire_repair_and_investigation
+process_ids:
+  - proc.wire_message_formatting
+  - proc.wire_correspondent_routing
+  - proc.wire_sanctions_screening_integration
+  - proc.wire_settlement_and_funding
+  - proc.wire_confirmation_delivery
+  - proc.wire_repair_and_amendment
+  - proc.incoming_wire_processing
+risk_ids:
+  - risk.wire_sanctions_screening_miss
+  - risk.wire_correspondent_routing_error
+  - risk.wire_irrevocable_erroneous_transfer
+  - risk.wire_fraud_and_social_engineering
+  - risk.wire_cutoff_missed
+  - risk.wire_message_format_rejection
+control_ids:
+  - ctrl.wire_sanctions_screening_completion_gate
+  - ctrl.wire_dual_approval_for_high_value
+  - ctrl.wire_correspondent_routing_validation
+  - ctrl.wire_cutoff_time_enforcement
+  - ctrl.wire_message_format_validation
+  - ctrl.wire_beneficiary_confirmation
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.swift
+  - prov.federal_reserve
+  - prov.bottomline_technologies
+  - prov.finastra
+system_ids:
+  - sys.wire_transfer_platform
+  - sys.swift_interface
+  - sys.fedwire_interface
+  - sys.sanctions_screening_engine
+  - sys.wire_investigation_workbench
+  - sys.correspondent_bank_directory
+source_refs: []
+status: draft
+confidence: high

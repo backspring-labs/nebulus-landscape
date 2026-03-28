@@ -1,0 +1,52 @@
+id: cap.recurring_and_scheduled_payment_management
+name: Recurring and Scheduled Payment Management
+domain_id: domain.payments
+description: >
+  Manage the lifecycle of future-dated and recurring payment instructions, including schedule
+  definition, execution triggering, retry and exception handling, customer notification, and
+  schedule modification and cancellation across all payment types and rails.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.operational_efficiency
+  - vs.customer_retention
+journey_ids:
+  - journey.customer_recurring_payment_setup
+  - journey.customer_scheduled_payment
+  - journey.recurring_payment_modification
+  - journey.recurring_payment_failure_resolution
+  - journey.scheduled_payment_cancellation
+process_ids:
+  - proc.recurring_schedule_definition
+  - proc.scheduled_payment_execution_triggering
+  - proc.recurring_payment_retry_management
+  - proc.recurring_payment_expiration_management
+  - proc.scheduled_payment_notification
+  - proc.recurring_payment_modification_and_cancellation
+risk_ids:
+  - risk.recurring_payment_missed_execution
+  - risk.recurring_payment_insufficient_funds
+  - risk.scheduled_payment_stale_instruction
+  - risk.recurring_payment_orphaned_schedule
+  - risk.recurring_payment_unauthorized_modification
+control_ids:
+  - ctrl.recurring_payment_execution_monitoring
+  - ctrl.recurring_payment_preflight_balance_check
+  - ctrl.scheduled_payment_instruction_revalidation
+  - ctrl.recurring_payment_orphan_detection
+  - ctrl.recurring_payment_modification_authorization
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.q2
+system_ids:
+  - sys.payment_scheduler
+  - sys.recurring_payment_engine
+  - sys.payment_execution_orchestrator
+  - sys.customer_notification_service
+  - sys.payment_calendar_service
+source_refs: []
+status: draft
+confidence: high
