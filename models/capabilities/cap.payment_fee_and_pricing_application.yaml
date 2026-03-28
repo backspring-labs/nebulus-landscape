@@ -1,0 +1,54 @@
+id: cap.payment_fee_and_pricing_application
+name: Payment Fee and Pricing Application
+domain_id: domain.payments
+description: >
+  Calculate, apply, and manage fees and pricing for payment transactions based on payment type,
+  rail, customer segment, relationship pricing, and contractual terms, ensuring accurate fee
+  assessment, transparent disclosure, and proper revenue recognition across the payment lifecycle.
+value_stream_ids:
+  - vs.revenue_generation
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.regulatory_compliance
+journey_ids:
+  - journey.payment_fee_assessment
+  - journey.corporate_payment_pricing_negotiation
+  - journey.payment_fee_disclosure_and_consent
+  - journey.payment_fee_dispute_resolution
+  - journey.payment_fee_waiver_and_refund
+process_ids:
+  - proc.payment_fee_calculation
+  - proc.payment_fee_schedule_management
+  - proc.payment_pricing_tier_determination
+  - proc.payment_fee_assessment_and_posting
+  - proc.payment_fee_disclosure_and_notification
+  - proc.payment_fee_waiver_and_reversal
+  - proc.payment_fee_revenue_recognition
+risk_ids:
+  - risk.incorrect_fee_calculation
+  - risk.fee_schedule_misconfiguration
+  - risk.fee_disclosure_noncompliance
+  - risk.fee_revenue_leakage
+  - risk.unauthorized_fee_waiver
+control_ids:
+  - ctrl.fee_calculation_accuracy_validation
+  - ctrl.fee_schedule_change_approval_workflow
+  - ctrl.fee_disclosure_regulatory_compliance_check
+  - ctrl.fee_revenue_reconciliation
+  - ctrl.fee_waiver_authorization_and_limit_check
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.finastra
+  - prov.oracle_financial_services
+system_ids:
+  - sys.payment_fee_engine
+  - sys.payment_pricing_platform
+  - sys.fee_schedule_management_system
+  - sys.fee_posting_and_accounting_system
+  - sys.fee_disclosure_and_notification_system
+source_refs: []
+status: draft
+confidence: medium

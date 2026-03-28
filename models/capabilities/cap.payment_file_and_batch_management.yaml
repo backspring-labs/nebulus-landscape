@@ -1,0 +1,57 @@
+id: cap.payment_file_and_batch_management
+name: Payment File and Batch Management
+domain_id: domain.payments
+description: >
+  Receive, validate, parse, and manage payment instruction files and batches from internal and
+  external originators, transforming bulk payment submissions into individual payment instructions
+  that can be processed through the payment pipeline while maintaining batch-level integrity,
+  tracking, and reconciliation.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.revenue_generation
+  - vs.regulatory_compliance
+journey_ids:
+  - journey.business_ach_batch_origination
+  - journey.corporate_payroll_batch_submission
+  - journey.vendor_payment_batch_processing
+  - journey.government_benefit_disbursement_batch
+  - journey.correspondent_bank_file_exchange
+process_ids:
+  - proc.payment_file_receipt_and_acknowledgment
+  - proc.payment_file_format_validation
+  - proc.payment_file_parsing_and_instruction_extraction
+  - proc.batch_header_and_control_validation
+  - proc.batch_totals_balancing_and_reconciliation
+  - proc.file_and_batch_lifecycle_tracking
+  - proc.file_rejection_and_error_notification
+risk_ids:
+  - risk.payment_file_corruption_or_truncation
+  - risk.batch_total_mismatch
+  - risk.duplicate_file_submission
+  - risk.file_format_noncompliance
+  - risk.partial_batch_processing_failure
+  - risk.file_delivery_delay_beyond_cutoff
+control_ids:
+  - ctrl.file_checksum_and_hash_verification
+  - ctrl.batch_record_count_and_total_validation
+  - ctrl.duplicate_file_detection
+  - ctrl.file_format_schema_compliance_check
+  - ctrl.batch_processing_completeness_verification
+  - ctrl.file_delivery_timeliness_monitoring
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.aci_worldwide
+  - prov.bottomline_technologies
+  - prov.finastra
+system_ids:
+  - sys.payment_file_gateway
+  - sys.batch_processing_engine
+  - sys.file_validation_platform
+  - sys.batch_reconciliation_system
+  - sys.file_archive_and_retrieval_system
+source_refs: []
+status: draft
+confidence: high

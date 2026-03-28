@@ -1,0 +1,53 @@
+id: cap.payment_status_and_tracking
+name: Payment Status and Tracking
+domain_id: domain.payments
+description: >
+  Maintain a real-time, authoritative view of payment lifecycle state from initiation through
+  final settlement or terminal disposition, providing status visibility to internal operations,
+  customers, and external parties while supporting inquiry resolution and regulatory reporting.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.operational_efficiency
+  - vs.regulatory_compliance
+journey_ids:
+  - journey.customer_payment_status_inquiry
+  - journey.operations_payment_investigation
+  - journey.corporate_payment_tracking
+  - journey.regulatory_payment_tracing
+  - journey.partner_payment_status_notification
+process_ids:
+  - proc.payment_status_lifecycle_management
+  - proc.payment_event_capture_and_correlation
+  - proc.payment_status_notification_delivery
+  - proc.payment_inquiry_resolution
+  - proc.payment_trace_and_investigation
+  - proc.payment_status_reporting_and_analytics
+risk_ids:
+  - risk.payment_status_desynchronization
+  - risk.payment_status_update_latency
+  - risk.incomplete_payment_audit_trail
+  - risk.customer_visible_status_inaccuracy
+  - risk.regulatory_trace_inability
+control_ids:
+  - ctrl.payment_status_consistency_reconciliation
+  - ctrl.payment_event_completeness_monitoring
+  - ctrl.status_update_latency_threshold_alerting
+  - ctrl.payment_audit_trail_integrity_verification
+  - ctrl.customer_facing_status_accuracy_validation
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.swift
+  - prov.aci_worldwide
+  - prov.volante_technologies
+system_ids:
+  - sys.payment_status_hub
+  - sys.payment_event_store
+  - sys.payment_notification_engine
+  - sys.payment_inquiry_platform
+  - sys.payment_tracking_dashboard
+source_refs: []
+status: draft
+confidence: high

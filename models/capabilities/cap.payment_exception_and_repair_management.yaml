@@ -1,0 +1,55 @@
+id: cap.payment_exception_and_repair_management
+name: Payment Exception and Repair Management
+domain_id: domain.payments
+description: >
+  Identify, queue, triage, and resolve payment exceptions that prevent straight-through processing,
+  including data quality issues, validation failures, routing errors, and processing anomalies,
+  enabling operations teams to repair and resubmit payments while maintaining audit trails and
+  meeting processing deadlines.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.regulatory_compliance
+  - vs.customer_self_service
+journey_ids:
+  - journey.payment_exception_triage_and_repair
+  - journey.payment_data_quality_remediation
+  - journey.payment_routing_exception_resolution
+  - journey.payment_processing_deadline_escalation
+  - journey.customer_payment_issue_resolution
+process_ids:
+  - proc.payment_exception_detection_and_capture
+  - proc.payment_exception_categorization_and_prioritization
+  - proc.payment_exception_queue_management
+  - proc.payment_data_repair_and_enrichment
+  - proc.payment_exception_resubmission
+  - proc.payment_exception_escalation_and_aging
+risk_ids:
+  - risk.payment_exception_missed_processing_deadline
+  - risk.incorrect_payment_repair_introducing_new_errors
+  - risk.payment_exception_queue_backlog_accumulation
+  - risk.unauthorized_payment_modification_during_repair
+  - risk.exception_pattern_indicating_systemic_issue
+control_ids:
+  - ctrl.payment_exception_aging_and_escalation_monitoring
+  - ctrl.payment_repair_dual_verification
+  - ctrl.exception_queue_volume_threshold_alerting
+  - ctrl.payment_modification_audit_trail_capture
+  - ctrl.exception_pattern_analysis_and_root_cause_reporting
+  - ctrl.processing_deadline_countdown_monitoring
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.aci_worldwide
+  - prov.bottomline_technologies
+  - prov.pega
+system_ids:
+  - sys.payment_exception_workbench
+  - sys.payment_repair_queue_manager
+  - sys.payment_exception_analytics_platform
+  - sys.payment_resubmission_engine
+  - sys.payment_operations_dashboard
+source_refs: []
+status: draft
+confidence: high

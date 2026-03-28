@@ -1,0 +1,59 @@
+id: cap.payment_return_reversal_and_recall_management
+name: Payment Return, Reversal, and Recall Management
+domain_id: domain.payments
+description: >
+  Process and manage the return, reversal, and recall of payments across all payment rails,
+  including originating and receiving institution workflows, reason code management, regulatory
+  deadline compliance, customer and counterparty communication, and the corresponding accounting
+  and ledger adjustments.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.operational_efficiency
+  - vs.regulatory_compliance
+  - vs.risk_management
+journey_ids:
+  - journey.ach_return_processing
+  - journey.wire_recall_request
+  - journey.instant_payment_recall
+  - journey.customer_payment_reversal_request
+  - journey.unauthorized_payment_return
+  - journey.payment_return_notification
+process_ids:
+  - proc.payment_return_initiation_and_processing
+  - proc.payment_reversal_execution
+  - proc.payment_recall_request_management
+  - proc.return_reason_code_assignment_and_validation
+  - proc.return_deadline_monitoring_and_compliance
+  - proc.return_accounting_and_ledger_adjustment
+  - proc.return_customer_notification_and_communication
+risk_ids:
+  - risk.return_deadline_breach
+  - risk.incorrect_return_reason_code
+  - risk.duplicate_return_processing
+  - risk.recall_request_nonresponse
+  - risk.return_accounting_mismatch
+  - risk.fraudulent_return_exploitation
+control_ids:
+  - ctrl.return_deadline_compliance_monitoring
+  - ctrl.return_reason_code_validation
+  - ctrl.duplicate_return_detection
+  - ctrl.recall_response_deadline_tracking
+  - ctrl.return_accounting_reconciliation
+  - ctrl.return_authorization_verification
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.the_clearing_house
+  - prov.federal_reserve
+  - prov.swift
+  - prov.aci_worldwide
+system_ids:
+  - sys.payment_return_processing_engine
+  - sys.payment_reversal_system
+  - sys.recall_management_platform
+  - sys.return_reason_code_manager
+  - sys.return_accounting_system
+source_refs: []
+status: draft
+confidence: high

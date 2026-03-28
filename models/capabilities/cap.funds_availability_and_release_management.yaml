@@ -1,0 +1,52 @@
+id: cap.funds_availability_and_release_management
+name: Funds Availability and Release Management
+domain_id: domain.payments
+description: >
+  Determine, apply, and manage funds availability schedules for incoming payments and deposits,
+  coordinating hold placement and release based on regulatory requirements, risk assessment,
+  and institutional policy to balance customer access to funds with settlement and fraud risk.
+value_stream_ids:
+  - vs.payment_execution
+  - vs.customer_self_service
+  - vs.regulatory_compliance
+  - vs.risk_management
+journey_ids:
+  - journey.customer_deposit_funds_availability
+  - journey.check_deposit_hold_management
+  - journey.ach_credit_funds_availability
+  - journey.wire_transfer_funds_release
+  - journey.exception_hold_review_and_release
+process_ids:
+  - proc.funds_availability_schedule_determination
+  - proc.regulatory_hold_application
+  - proc.risk_based_hold_assessment
+  - proc.funds_hold_placement_and_notification
+  - proc.funds_release_scheduling_and_execution
+  - proc.exception_hold_review_and_override
+risk_ids:
+  - risk.premature_funds_release_before_settlement
+  - risk.regulatory_hold_noncompliance
+  - risk.customer_dissatisfaction_from_excessive_holds
+  - risk.fraud_loss_from_early_availability
+  - risk.hold_release_system_failure
+control_ids:
+  - ctrl.regulation_cc_hold_schedule_compliance
+  - ctrl.risk_based_hold_threshold_monitoring
+  - ctrl.funds_release_settlement_status_verification
+  - ctrl.hold_notification_delivery_confirmation
+  - ctrl.exception_hold_approval_authorization
+provider_ids:
+  - prov.fis
+  - prov.fiserv
+  - prov.jack_henry
+  - prov.temenos
+  - prov.finastra
+system_ids:
+  - sys.funds_availability_engine
+  - sys.hold_management_system
+  - sys.deposit_processing_platform
+  - sys.funds_release_scheduler
+  - sys.hold_notification_system
+source_refs: []
+status: draft
+confidence: medium
