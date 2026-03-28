@@ -1,0 +1,52 @@
+id: proc.wire_transfer_v1
+name: Wire Transfer v1
+journey_id: journey.send_wire_transfer
+description: >
+  Operational process for executing a domestic or international wire transfer,
+  from initiation and beneficiary validation through sanctions screening,
+  approval workflow, Fedwire or SWIFT message generation, transmission,
+  settlement confirmation, and exception handling.
+stage_ids:
+  - stage.wire_transfer.initiation_and_beneficiary_validation
+  - stage.wire_transfer.instruction_validation_and_eligibility
+  - stage.wire_transfer.sanctions_screening_and_risk_gating
+  - stage.wire_transfer.approval_workflow_and_authorization
+  - stage.wire_transfer.message_formatting_and_transmission
+  - stage.wire_transfer.settlement_confirmation_and_reconciliation
+  - stage.wire_transfer.exception_repair_and_return_handling
+risk_ids:
+  - risk.beneficiary_name_account_mismatch
+  - risk.sanctions_evasion_through_intermediaries
+  - risk.wire_fraud_social_engineering
+  - risk.message_formatting_rejection
+  - risk.fedwire_or_swift_transmission_failure
+  - risk.settlement_delay_or_failure
+  - risk.approval_bypass_for_high_value_wire
+  - risk.duplicate_wire_submission
+control_ids:
+  - ctrl.beneficiary_validation_and_confirmation
+  - ctrl.ofac_and_sanctions_screening_at_wire
+  - ctrl.wire_fraud_risk_scoring
+  - ctrl.dual_approval_for_high_value_wires
+  - ctrl.message_format_validation_pre_transmission
+  - ctrl.fedwire_swift_transmission_confirmation
+  - ctrl.wire_duplicate_detection
+  - ctrl.settlement_reconciliation_matching
+system_ids:
+  - sys.payment_processing_platform
+  - sys.core_banking_platform
+  - sys.wire_transfer_platform
+  - sys.sanctions_screening_engine
+  - sys.fraud_detection_engine
+  - sys.customer_master
+  - sys.notification_service
+  - sys.settlement_and_reconciliation_system
+source_refs:
+  - src.fedwire_funds_service_operating_circular
+  - src.swift_standards_and_usage_guidelines
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+  - src.reg_j_funds_transfers
+  - src.ucc_article_4a
+status: draft
+confidence: high

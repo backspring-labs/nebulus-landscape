@@ -1,0 +1,42 @@
+id: proc.internal_account_transfer_v1
+name: Internal Account Transfer v1
+journey_id: journey.transfer_between_own_accounts
+description: >
+  Operational process for executing a fund transfer between two accounts owned
+  by the same customer at the same institution, from initiation and validation
+  through debit-credit posting, confirmation delivery, and exception handling.
+stage_ids:
+  - stage.internal_transfer.initiation_and_account_selection
+  - stage.internal_transfer.instruction_validation_and_eligibility
+  - stage.internal_transfer.limit_and_cutoff_evaluation
+  - stage.internal_transfer.authorization_and_risk_gating
+  - stage.internal_transfer.debit_credit_execution
+  - stage.internal_transfer.confirmation_and_notification
+  - stage.internal_transfer.exception_and_reversal_handling
+risk_ids:
+  - risk.insufficient_funds_at_execution
+  - risk.duplicate_transfer_submission
+  - risk.posting_imbalance_between_accounts
+  - risk.transfer_limit_bypass
+  - risk.cutoff_time_misapplication
+  - risk.confirmation_delivery_failure
+  - risk.account_status_change_during_execution
+control_ids:
+  - ctrl.real_time_balance_sufficiency_check
+  - ctrl.duplicate_transfer_detection
+  - ctrl.debit_credit_atomicity_enforcement
+  - ctrl.transfer_limit_enforcement
+  - ctrl.cutoff_time_validation
+  - ctrl.confirmation_delivery_verification
+  - ctrl.account_status_pre_execution_check
+system_ids:
+  - sys.payment_processing_platform
+  - sys.core_banking_platform
+  - sys.customer_master
+  - sys.notification_service
+  - sys.digital_banking_platform
+source_refs:
+  - src.reg_e_electronic_fund_transfers
+  - src.ucc_article_4a
+status: draft
+confidence: high

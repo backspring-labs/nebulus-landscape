@@ -1,0 +1,49 @@
+id: proc.instant_payment_v1
+name: Instant Payment v1
+journey_id: journey.send_instant_payment
+description: >
+  Operational process for executing a real-time payment through an instant
+  payment rail (RTP or FedNow), from initiation and payee resolution through
+  pre-validation, fraud screening, irrevocability controls, real-time clearing
+  and settlement, and immediate confirmation delivery.
+stage_ids:
+  - stage.instant_payment.initiation_and_payee_resolution
+  - stage.instant_payment.instruction_validation_and_pre_validation
+  - stage.instant_payment.fraud_screening_and_risk_gating
+  - stage.instant_payment.irrevocability_confirmation_and_debit
+  - stage.instant_payment.clearing_and_credit_notification
+  - stage.instant_payment.settlement_and_reconciliation
+  - stage.instant_payment.exception_and_request_for_return
+risk_ids:
+  - risk.irrevocable_payment_to_wrong_recipient
+  - risk.fraud_on_instant_rail_no_recall
+  - risk.payee_resolution_mismatch
+  - risk.real_time_screening_latency_breach
+  - risk.network_timeout_or_rejection
+  - risk.settlement_position_breach
+  - risk.request_for_return_denial
+control_ids:
+  - ctrl.payee_confirmation_before_irrevocability
+  - ctrl.real_time_fraud_screening_sla
+  - ctrl.irrevocability_point_of_no_return_gate
+  - ctrl.instant_payment_velocity_and_limit_enforcement
+  - ctrl.network_response_timeout_handling
+  - ctrl.settlement_position_monitoring
+  - ctrl.request_for_return_processing_rules
+system_ids:
+  - sys.payment_processing_platform
+  - sys.core_banking_platform
+  - sys.instant_payment_gateway
+  - sys.fraud_detection_engine
+  - sys.sanctions_screening_engine
+  - sys.customer_master
+  - sys.notification_service
+  - sys.settlement_and_reconciliation_system
+source_refs:
+  - src.tch_rtp_operating_rules
+  - src.fednow_service_operating_circular
+  - src.ofac_compliance_framework
+  - src.reg_e_electronic_fund_transfers
+  - src.ffiec_bsaaml_manual_2026
+status: draft
+confidence: high

@@ -1,0 +1,50 @@
+id: proc.external_ach_transfer_v1
+name: External ACH Transfer v1
+journey_id: journey.send_external_ach_transfer
+description: >
+  Operational process for executing an outbound ACH transfer to an external
+  account at another financial institution, from initiation and recipient
+  validation through OFAC screening, NACHA file generation, transmission to
+  the ACH operator, settlement tracking, and return processing.
+stage_ids:
+  - stage.ach_transfer.initiation_and_recipient_validation
+  - stage.ach_transfer.instruction_validation_and_eligibility
+  - stage.ach_transfer.risk_screening_and_fraud_gating
+  - stage.ach_transfer.limit_cutoff_and_batch_assignment
+  - stage.ach_transfer.file_generation_and_transmission
+  - stage.ach_transfer.settlement_tracking_and_reconciliation
+  - stage.ach_transfer.return_and_exception_processing
+risk_ids:
+  - risk.invalid_recipient_routing_or_account
+  - risk.sanctions_match_on_recipient
+  - risk.ach_return_due_to_nsf
+  - risk.nacha_file_formatting_error
+  - risk.batch_transmission_failure
+  - risk.settlement_reconciliation_break
+  - risk.unauthorized_ach_debit_claim
+  - risk.cutoff_time_miss_delaying_settlement
+control_ids:
+  - ctrl.recipient_account_validation
+  - ctrl.ofac_screening_at_initiation
+  - ctrl.ach_fraud_scoring_and_velocity_check
+  - ctrl.nacha_file_format_validation
+  - ctrl.batch_transmission_confirmation
+  - ctrl.settlement_reconciliation_matching
+  - ctrl.return_processing_sla_enforcement
+  - ctrl.ach_limit_and_cutoff_enforcement
+system_ids:
+  - sys.payment_processing_platform
+  - sys.core_banking_platform
+  - sys.ach_origination_platform
+  - sys.sanctions_screening_engine
+  - sys.fraud_detection_engine
+  - sys.customer_master
+  - sys.notification_service
+  - sys.settlement_and_reconciliation_system
+source_refs:
+  - src.nacha_operating_rules_2026
+  - src.reg_e_electronic_fund_transfers
+  - src.ofac_compliance_framework
+  - src.ffiec_bsaaml_manual_2026
+status: draft
+confidence: high
