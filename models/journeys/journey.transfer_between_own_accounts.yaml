@@ -1,0 +1,37 @@
+id: journey.transfer_between_own_accounts
+name: Transfer Between Own Accounts
+description: >
+  Customer initiates and completes a fund transfer between two accounts they own
+  at the same institution, with validation of account eligibility, balance
+  sufficiency, applicable limits, and real-time or near-real-time posting to
+  both the source and destination accounts.
+actor: retail_customer
+entry_capability_id: cap.payment_initiation_management
+domain_ids:
+  - domain.payments
+  - domain.accounts
+  - domain.ledger_core
+  - domain.channels_experience
+  - domain.risk_fraud
+capability_ids:
+  - cap.payment_initiation_management
+  - cap.payment_instruction_validation
+  - cap.payment_authorization_gating_coordination
+  - cap.payment_limit_and_cutoff_management
+  - cap.payment_status_and_tracking
+  - cap.payment_fee_and_pricing_application
+value_stream_id: vs.fund_movement
+process_id: proc.internal_transfer_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_mobile
+  - customer_request_branch
+  - customer_request_call_center
+outcomes:
+  - transfer_completed
+  - source_account_debited
+  - destination_account_credited
+  - transfer_confirmation_delivered
+source_refs: []
+status: draft
+confidence: high

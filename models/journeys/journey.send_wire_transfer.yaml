@@ -1,0 +1,43 @@
+id: journey.send_wire_transfer
+name: Send Wire Transfer
+description: >
+  Customer or institution initiates a domestic or international wire transfer,
+  with beneficiary validation, OFAC and sanctions screening, approval workflows
+  for high-value transfers, Fedwire or SWIFT message generation, and tracking
+  through to final settlement confirmation.
+actor: retail_customer
+entry_capability_id: cap.payment_initiation_management
+domain_ids:
+  - domain.payments
+  - domain.accounts
+  - domain.ledger_core
+  - domain.risk_fraud
+  - domain.compliance
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.payment_initiation_management
+  - cap.payment_instruction_validation
+  - cap.payment_routing_and_rail_selection
+  - cap.payment_authorization_gating_coordination
+  - cap.payment_limit_and_cutoff_management
+  - cap.payment_status_and_tracking
+  - cap.payment_fee_and_pricing_application
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.payment_exception_and_repair_management
+value_stream_id: vs.fund_movement
+process_id: proc.wire_transfer_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_branch
+  - customer_request_call_center
+  - institution_initiated_wire
+outcomes:
+  - wire_transfer_submitted
+  - source_account_debited
+  - wire_message_transmitted
+  - wire_settled
+  - transfer_confirmation_delivered
+source_refs: []
+status: draft
+confidence: high

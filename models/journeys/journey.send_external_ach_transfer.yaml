@@ -1,0 +1,45 @@
+id: journey.send_external_ach_transfer
+name: Send External ACH Transfer
+description: >
+  Customer initiates an outbound ACH transfer to an external account at another
+  financial institution, with validation of recipient details, OFAC and fraud
+  screening, limit enforcement, NACHA-compliant file generation, and tracking
+  through settlement.
+actor: retail_customer
+entry_capability_id: cap.payment_initiation_management
+domain_ids:
+  - domain.payments
+  - domain.accounts
+  - domain.ledger_core
+  - domain.risk_fraud
+  - domain.compliance
+  - domain.channels_experience
+  - domain.orchestration_control
+capability_ids:
+  - cap.payment_initiation_management
+  - cap.payment_instruction_validation
+  - cap.payment_routing_and_rail_selection
+  - cap.payment_authorization_gating_coordination
+  - cap.payment_limit_and_cutoff_management
+  - cap.payment_file_and_batch_management
+  - cap.payment_status_and_tracking
+  - cap.payment_fee_and_pricing_application
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.payment_return_reversal_and_recall_management
+value_stream_id: vs.fund_movement
+process_id: proc.external_ach_transfer_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_mobile
+  - customer_request_branch
+  - customer_request_call_center
+  - scheduled_recurring_transfer
+outcomes:
+  - ach_transfer_submitted
+  - source_account_debited
+  - ach_file_transmitted_to_fed_or_ean
+  - transfer_settled
+  - transfer_confirmation_delivered
+source_refs: []
+status: draft
+confidence: high

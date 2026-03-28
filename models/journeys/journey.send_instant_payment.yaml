@@ -1,0 +1,40 @@
+id: journey.send_instant_payment
+name: Send Instant Payment
+description: >
+  Customer initiates a real-time payment through an instant payment rail
+  (e.g., RTP or FedNow), with payee resolution, fraud and risk screening,
+  irrevocability controls, real-time clearing and settlement, and immediate
+  confirmation to both sender and receiver.
+actor: retail_customer
+entry_capability_id: cap.payment_initiation_management
+domain_ids:
+  - domain.payments
+  - domain.accounts
+  - domain.ledger_core
+  - domain.risk_fraud
+  - domain.compliance
+  - domain.channels_experience
+capability_ids:
+  - cap.payment_initiation_management
+  - cap.payment_instruction_validation
+  - cap.payment_routing_and_rail_selection
+  - cap.payment_authorization_gating_coordination
+  - cap.payment_limit_and_cutoff_management
+  - cap.payment_status_and_tracking
+  - cap.payment_fee_and_pricing_application
+  - cap.payment_and_transfer_risk_decisioning
+  - cap.payment_exception_and_repair_management
+value_stream_id: vs.fund_movement
+process_id: proc.instant_payment_v1
+entry_points:
+  - customer_request_digital
+  - customer_request_mobile
+outcomes:
+  - instant_payment_completed
+  - source_account_debited
+  - destination_credited_in_real_time
+  - confirmation_delivered_to_sender
+  - credit_notification_delivered_to_receiver
+source_refs: []
+status: draft
+confidence: high
