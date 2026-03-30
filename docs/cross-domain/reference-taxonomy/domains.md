@@ -17,7 +17,7 @@ Planned domains for the nebulus-landscape canonical model, in recommended bootst
 | 1 | Customer | `domain.customer` | Complete (18 capabilities, 4 journeys, 4 processes) |
 | 2 | Identity & Access | `domain.identity_access` | Complete (17 capabilities, 4 journeys, 4 processes) |
 | 3 | Accounts | `domain.accounts` | Complete (17 capabilities, 4 journeys, 4 processes) |
-| 4 | Payments | `domain.payments` | Domain researched (18 capabilities identified) |
+| 4 | Payments | `domain.payments` | Complete (18 capabilities, 4 journeys, 4 processes) |
 | 5 | Risk & Fraud | `domain.risk_fraud` | Complete (17 capabilities, 4 journeys, 4 processes) |
 | 6 | Orchestration & Control | `domain.orchestration_control` | Planned |
 | 7 | Channels & Experience | `domain.channels_experience` | Planned |
