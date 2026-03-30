@@ -1,0 +1,13 @@
+id: stage.internal_transfer.limit_and_cutoff_evaluation
+name: Limit and Cutoff Evaluation
+process_id: proc.internal_account_transfer_v1
+description: >
+  Evaluate the transfer against applicable amount limits, frequency
+  limits, and processing cutoff times.
+order: 3
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

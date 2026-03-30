@@ -1,0 +1,21 @@
+id: map.prov.aci_worldwide
+provider_id: prov.aci_worldwide
+capability_ids:
+  - cap.payment_routing_and_rail_selection
+  - cap.payment_authorization_gating_coordination
+  - cap.payment_limit_and_cutoff_management
+  - cap.ach_payment_execution
+  - cap.instant_payment_execution
+  - cap.payment_file_and_batch_management
+  - cap.payment_status_and_tracking
+  - cap.payment_exception_and_repair_management
+  - cap.payment_return_reversal_and_recall_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.batch_record_count_and_total_validation
+name: Batch Record Count and Total Validation
+description: >
+  Validate that batch header record counts and dollar totals match the actual records parsed
+  from the file to detect missing, added, or altered payment instructions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

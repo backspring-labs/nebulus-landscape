@@ -1,0 +1,12 @@
+id: risk.account_status_change_during_execution
+name: Account Status Change During Execution
+description: >
+  An account's status changes (e.g., frozen, closed, restricted) between payment initiation
+  and execution, causing the transaction to fail or execute against an ineligible account.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

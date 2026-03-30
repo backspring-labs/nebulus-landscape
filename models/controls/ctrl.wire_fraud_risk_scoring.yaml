@@ -1,0 +1,12 @@
+id: ctrl.wire_fraud_risk_scoring
+name: Wire Fraud Risk Scoring
+description: >
+  Apply fraud risk scoring models to wire transfer requests to detect suspicious patterns
+  indicative of social engineering, business email compromise, or other wire fraud schemes.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

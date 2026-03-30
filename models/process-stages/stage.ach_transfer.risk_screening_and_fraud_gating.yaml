@@ -1,0 +1,13 @@
+id: stage.ach_transfer.risk_screening_and_fraud_gating
+name: Risk Screening and Fraud Gating
+process_id: proc.external_ach_transfer_v1
+description: >
+  Screen the ACH transfer against OFAC sanctions lists and evaluate
+  fraud risk scoring and velocity checks.
+order: 3
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

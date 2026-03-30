@@ -1,0 +1,10 @@
+id: sys.payment_repair_workstation
+name: Payment Repair Workstation
+description: >
+  Operator workstation for repairing, enriching, and resubmitting
+  payment instructions that failed validation or processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.recurring_payment_modification_authorization
+name: Recurring Payment Modification Authorization
+description: >
+  Verify that modifications to recurring payment schedules are authorized by an appropriately
+  entitled party before changes to amount, frequency, or payee take effect.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

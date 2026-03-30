@@ -1,0 +1,12 @@
+id: ctrl.recurring_payment_preflight_balance_check
+name: Recurring Payment Preflight Balance Check
+description: >
+  Check account balance availability before executing a recurring payment to reduce failed
+  transaction rates and improve the customer experience for scheduled payments.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

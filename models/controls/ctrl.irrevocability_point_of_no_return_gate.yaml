@@ -1,0 +1,12 @@
+id: ctrl.irrevocability_point_of_no_return_gate
+name: Irrevocability Point-of-No-Return Gate
+description: >
+  Enforce a final authorization gate before the instant payment crosses the point of irrevocability,
+  ensuring all required checks are complete before the transaction becomes irreversible.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

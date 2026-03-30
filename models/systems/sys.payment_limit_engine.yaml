@@ -1,0 +1,11 @@
+id: sys.payment_limit_engine
+name: Payment Limit Engine
+description: >
+  Engine enforcing payment amount limits, frequency limits, and
+  velocity controls across payment types, channels, and customer
+  segments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

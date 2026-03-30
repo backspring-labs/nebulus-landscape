@@ -1,0 +1,12 @@
+id: ctrl.status_update_latency_threshold_alerting
+name: Status Update Latency Threshold Alerting
+description: >
+  Alert when payment status updates exceed defined latency thresholds, indicating potential
+  processing delays or system integration issues that affect status visibility.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

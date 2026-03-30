@@ -1,0 +1,12 @@
+id: risk.biller_directory_stale_data
+name: Biller Directory Stale Data
+description: >
+  Biller directory entries contain outdated addresses, account numbers, or routing information,
+  causing bill payments to be misdirected or rejected.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

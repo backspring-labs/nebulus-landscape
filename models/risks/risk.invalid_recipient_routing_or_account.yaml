@@ -1,0 +1,12 @@
+id: risk.invalid_recipient_routing_or_account
+name: Invalid Recipient Routing or Account
+description: >
+  A payment is submitted with an invalid routing number or account number for the recipient,
+  causing the transaction to be rejected or misdirected.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

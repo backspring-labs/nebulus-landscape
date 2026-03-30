@@ -1,0 +1,12 @@
+id: ctrl.limit_utilization_monitoring
+name: Limit Utilization Monitoring
+description: >
+  Monitor payment limit utilization rates across customer segments and payment types to identify
+  customers consistently hitting limits and detect potential limit configuration issues.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

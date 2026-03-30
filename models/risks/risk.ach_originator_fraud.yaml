@@ -1,0 +1,12 @@
+id: risk.ach_originator_fraud
+name: ACH Originator Fraud
+description: >
+  An ACH originator submits fraudulent transactions, and the institution as ODFI bears
+  liability for returns and losses due to inadequate originator oversight.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

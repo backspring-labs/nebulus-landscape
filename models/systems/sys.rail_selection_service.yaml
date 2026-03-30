@@ -1,0 +1,10 @@
+id: sys.rail_selection_service
+name: Rail Selection Service
+description: >
+  Service evaluating payment rail eligibility, cost, and speed to
+  select the optimal rail for each payment instruction.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

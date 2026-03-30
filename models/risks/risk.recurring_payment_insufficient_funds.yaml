@@ -1,0 +1,12 @@
+id: risk.recurring_payment_insufficient_funds
+name: Recurring Payment Insufficient Funds
+description: >
+  A recurring payment fails at execution time due to insufficient funds, with no proactive
+  notification or pre-check to prevent the failure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

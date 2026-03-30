@@ -1,0 +1,12 @@
+id: ctrl.bill_pay_delivery_date_calculation
+name: Bill Pay Delivery Date Calculation
+description: >
+  Accurately calculate payment delivery dates based on biller processing windows, payment
+  method, and calendar rules to ensure payments arrive by the customer's intended due date.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

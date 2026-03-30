@@ -1,0 +1,12 @@
+id: ctrl.debit_credit_atomicity_enforcement
+name: Debit-Credit Atomicity Enforcement
+description: >
+  Ensure that debit and credit legs of an internal transfer are executed atomically, so that
+  both complete successfully or both are rolled back to prevent one-sided postings.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

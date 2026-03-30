@@ -1,0 +1,13 @@
+id: stage.internal_transfer.debit_credit_execution
+name: Debit-Credit Execution
+process_id: proc.internal_account_transfer_v1
+description: >
+  Execute the atomic debit from the source account and credit to the
+  destination account with real-time balance reflection.
+order: 5
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

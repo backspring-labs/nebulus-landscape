@@ -1,0 +1,13 @@
+id: stage.internal_transfer.authorization_and_risk_gating
+name: Authorization and Risk Gating
+process_id: proc.internal_account_transfer_v1
+description: >
+  Verify customer authorization and evaluate the transfer against
+  fraud and risk rules before permitting execution.
+order: 4
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

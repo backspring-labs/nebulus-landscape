@@ -1,0 +1,10 @@
+id: sys.recall_management_platform
+name: Recall Management Platform
+description: >
+  Platform managing payment recall requests and responses across
+  instant payment and wire transfer rails.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

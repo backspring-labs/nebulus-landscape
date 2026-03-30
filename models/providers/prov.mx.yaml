@@ -1,0 +1,9 @@
+id: prov.mx
+name: MX
+category: account_aggregation
+summary: >
+  Financial data platform providing account aggregation, data enhancement,
+  and analytics services for financial institutions and fintechs.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,10 @@
+id: sys.correspondent_bank_directory
+name: Correspondent Bank Directory
+description: >
+  Directory maintaining correspondent bank details, BIC codes, and
+  routing information for international wire transfer processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

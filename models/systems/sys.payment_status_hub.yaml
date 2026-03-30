@@ -1,0 +1,11 @@
+id: sys.payment_status_hub
+name: Payment Status Hub
+description: >
+  Central hub maintaining authoritative payment lifecycle state
+  and providing status visibility to all consuming systems and
+  channels.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

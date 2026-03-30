@@ -1,0 +1,12 @@
+id: risk.payment_submitted_after_cutoff_missed
+name: Payment Submitted After Cutoff Missed
+description: >
+  A payment submitted after the applicable network or processing cutoff time is not intercepted,
+  resulting in failed settlement or unexpected next-day processing.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

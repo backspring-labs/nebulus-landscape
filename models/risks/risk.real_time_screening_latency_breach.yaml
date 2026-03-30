@@ -1,0 +1,12 @@
+id: risk.real_time_screening_latency_breach
+name: Real-Time Screening Latency Breach
+description: >
+  Sanctions or fraud screening for a real-time payment exceeds the network's latency requirements,
+  causing timeout, rejection, or bypass of required checks.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

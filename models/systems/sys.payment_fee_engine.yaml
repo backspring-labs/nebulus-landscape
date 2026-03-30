@@ -1,0 +1,10 @@
+id: sys.payment_fee_engine
+name: Payment Fee Engine
+description: >
+  Engine calculating payment transaction fees based on payment type,
+  rail, customer segment, and contractual pricing terms.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

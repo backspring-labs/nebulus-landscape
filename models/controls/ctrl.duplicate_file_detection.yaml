@@ -1,0 +1,12 @@
+id: ctrl.duplicate_file_detection
+name: Duplicate File Detection
+description: >
+  Detect and prevent the processing of duplicate payment files by comparing file identifiers,
+  timestamps, and content signatures against previously received files.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

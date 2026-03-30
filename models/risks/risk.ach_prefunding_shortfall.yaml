@@ -1,0 +1,12 @@
+id: risk.ach_prefunding_shortfall
+name: ACH Prefunding Shortfall
+description: >
+  Insufficient prefunding for ACH origination causes transactions to be rejected or delayed,
+  impacting customer payments and institutional standing.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

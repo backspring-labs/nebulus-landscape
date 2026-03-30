@@ -1,0 +1,12 @@
+id: risk.settlement_delay_or_failure
+name: Settlement Delay or Failure
+description: >
+  Payment settlement is delayed or fails due to liquidity issues, network problems, or
+  correspondent bank processing errors, impacting fund availability.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

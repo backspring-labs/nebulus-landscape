@@ -1,0 +1,12 @@
+id: ctrl.file_format_schema_compliance_check
+name: File Format Schema Compliance Check
+description: >
+  Validate payment files against expected format schemas and specifications before parsing
+  to detect structural issues that could cause processing failures or data loss.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.payment_pricing_platform
+name: Payment Pricing Platform
+description: >
+  Platform managing payment pricing tiers, relationship-based pricing,
+  and contractual fee structures across customer segments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

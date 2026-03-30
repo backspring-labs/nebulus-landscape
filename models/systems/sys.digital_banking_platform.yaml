@@ -1,0 +1,11 @@
+id: sys.digital_banking_platform
+name: Digital Banking Platform
+description: >
+  Customer-facing digital banking platform providing online and mobile
+  banking capabilities including payment initiation and account
+  management.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

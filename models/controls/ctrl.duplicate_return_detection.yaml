@@ -1,0 +1,12 @@
+id: ctrl.duplicate_return_detection
+name: Duplicate Return Detection
+description: >
+  Detect and prevent the processing of duplicate payment returns by comparing return attributes
+  against previously processed returns for the same original transaction.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

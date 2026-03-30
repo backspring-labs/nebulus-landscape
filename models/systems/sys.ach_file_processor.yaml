@@ -1,0 +1,10 @@
+id: sys.ach_file_processor
+name: ACH File Processor
+description: >
+  Processor handling ACH file generation, parsing, validation, and
+  NACHA format compliance for inbound and outbound ACH transactions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

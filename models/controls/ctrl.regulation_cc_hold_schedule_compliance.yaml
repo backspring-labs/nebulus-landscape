@@ -1,0 +1,12 @@
+id: ctrl.regulation_cc_hold_schedule_compliance
+name: Regulation CC Hold Schedule Compliance
+description: >
+  Ensure that funds availability hold schedules comply with Regulation CC requirements,
+  including maximum hold periods, exception hold criteria, and required customer notifications.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

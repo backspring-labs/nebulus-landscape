@@ -1,0 +1,12 @@
+id: ctrl.beneficiary_validation_and_confirmation
+name: Beneficiary Validation and Confirmation
+description: >
+  Validate wire transfer beneficiary details for completeness and accuracy, and confirm
+  beneficiary information with the originator before releasing the wire for transmission.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

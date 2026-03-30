@@ -1,0 +1,12 @@
+id: ctrl.ach_fraud_scoring_and_velocity_check
+name: ACH Fraud Scoring and Velocity Check
+description: >
+  Apply fraud scoring models and velocity checks to outbound ACH transactions to detect
+  potentially fraudulent activity patterns before file transmission.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

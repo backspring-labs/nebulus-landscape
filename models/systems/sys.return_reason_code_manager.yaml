@@ -1,0 +1,10 @@
+id: sys.return_reason_code_manager
+name: Return Reason Code Manager
+description: >
+  Manager maintaining return reason code catalogs and validating
+  reason code assignment for payment returns across rails.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

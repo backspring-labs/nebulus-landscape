@@ -1,0 +1,12 @@
+id: risk.bill_pay_check_fraud
+name: Bill Pay Check Fraud
+description: >
+  Bill pay checks are intercepted, altered, or counterfeited, resulting in misdirected funds
+  and financial loss to the customer or institution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

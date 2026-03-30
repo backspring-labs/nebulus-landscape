@@ -1,0 +1,12 @@
+id: risk.payment_status_desynchronization
+name: Payment Status Desynchronization
+description: >
+  The payment status recorded internally diverges from the actual state at the clearing network
+  or receiving institution, leading to incorrect reporting or customer communication.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.wire_duplicate_detection
+name: Wire Duplicate Detection
+description: >
+  Detect and prevent duplicate wire transfer submissions by comparing key wire attributes
+  against recent wire history to avoid costly duplicate irrevocable transfers.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

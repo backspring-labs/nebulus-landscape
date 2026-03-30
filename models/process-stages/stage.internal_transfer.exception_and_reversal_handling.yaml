@@ -1,0 +1,13 @@
+id: stage.internal_transfer.exception_and_reversal_handling
+name: Exception and Reversal Handling
+process_id: proc.internal_account_transfer_v1
+description: >
+  Handle transfer exceptions, posting failures, and process reversal
+  requests with appropriate accounting corrections.
+order: 7
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

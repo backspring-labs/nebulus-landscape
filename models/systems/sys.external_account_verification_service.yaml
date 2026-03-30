@@ -1,0 +1,10 @@
+id: sys.external_account_verification_service
+name: External Account Verification Service
+description: >
+  Service for verifying external account ownership and validity
+  through micro-deposits, instant verification, or other methods.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

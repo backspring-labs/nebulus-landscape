@@ -1,0 +1,12 @@
+id: risk.recurring_payment_missed_execution
+name: Recurring Payment Missed Execution
+description: >
+  A scheduled or recurring payment fails to execute at its designated time due to system error,
+  configuration issue, or scheduling oversight.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: stage.ach_transfer.settlement_tracking_and_reconciliation
+name: Settlement Tracking and Reconciliation
+process_id: proc.external_ach_transfer_v1
+description: >
+  Track ACH settlement status and reconcile settlement reports
+  against originated transactions to confirm completion.
+order: 6
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

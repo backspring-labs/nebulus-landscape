@@ -1,0 +1,12 @@
+id: ctrl.recurring_payment_schedule_integrity_check
+name: Recurring Payment Schedule Integrity Check
+description: >
+  Validate that recurring payment schedules remain consistent, properly sequenced, and aligned
+  with the customer's current authorization and account status before each scheduled execution.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

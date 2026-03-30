@@ -1,0 +1,10 @@
+id: sys.payment_execution_orchestrator
+name: Payment Execution Orchestrator
+description: >
+  Orchestrator coordinating payment execution across validation,
+  authorization, routing, and rail-specific processing steps.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

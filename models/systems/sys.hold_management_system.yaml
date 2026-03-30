@@ -1,0 +1,10 @@
+id: sys.hold_management_system
+name: Hold Management System
+description: >
+  System managing payment-related hold placement, tracking, and
+  release based on availability schedules and risk assessment.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,13 @@
+id: stage.ach_transfer.initiation_and_recipient_validation
+name: Initiation and Recipient Validation
+process_id: proc.external_ach_transfer_v1
+description: >
+  Capture the ACH transfer instruction and validate recipient account
+  and routing information for accuracy and completeness.
+order: 1
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

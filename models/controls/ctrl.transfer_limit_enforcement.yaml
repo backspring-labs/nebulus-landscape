@@ -1,0 +1,12 @@
+id: ctrl.transfer_limit_enforcement
+name: Transfer Limit Enforcement
+description: >
+  Enforce per-transaction and cumulative transfer limits based on account type, customer segment,
+  and channel to manage risk exposure from internal fund movements.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

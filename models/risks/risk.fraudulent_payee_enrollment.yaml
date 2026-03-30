@@ -1,0 +1,12 @@
+id: risk.fraudulent_payee_enrollment
+name: Fraudulent Payee Enrollment
+description: >
+  A fraudulent or fictitious payee is enrolled in the payment system, enabling unauthorized
+  fund transfers to accounts controlled by bad actors.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

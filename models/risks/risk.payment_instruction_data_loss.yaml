@@ -1,0 +1,12 @@
+id: risk.payment_instruction_data_loss
+name: Payment Instruction Data Loss
+description: >
+  Payment instruction data is lost or corrupted between initiation and execution, causing
+  the payment to fail silently or execute with incorrect details.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

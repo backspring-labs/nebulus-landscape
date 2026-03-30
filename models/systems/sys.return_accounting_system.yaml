@@ -1,0 +1,10 @@
+id: sys.return_accounting_system
+name: Return Accounting System
+description: >
+  System managing the accounting and ledger adjustments associated
+  with payment returns, reversals, and recalls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.payment_repair_dual_verification
+name: Payment Repair Dual Verification
+description: >
+  Require independent verification of payment data repairs before resubmission to prevent the
+  introduction of new errors during the repair process.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

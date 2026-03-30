@@ -1,0 +1,12 @@
+id: risk.payment_exception_missed_processing_deadline
+name: Payment Exception Missed Processing Deadline
+description: >
+  A payment exception is not resolved before the applicable processing or return deadline,
+  resulting in regulatory noncompliance or financial loss.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

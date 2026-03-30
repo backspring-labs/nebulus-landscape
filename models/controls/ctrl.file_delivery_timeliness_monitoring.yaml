@@ -1,0 +1,12 @@
+id: ctrl.file_delivery_timeliness_monitoring
+name: File Delivery Timeliness Monitoring
+description: >
+  Monitor payment file delivery against expected schedules and cutoff times to detect late
+  arrivals that may impact processing windows or settlement deadlines.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

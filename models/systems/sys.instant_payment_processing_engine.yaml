@@ -1,0 +1,11 @@
+id: sys.instant_payment_processing_engine
+name: Instant Payment Processing Engine
+description: >
+  Engine processing real-time payment instructions through instant
+  payment networks with sub-second message construction and
+  confirmation handling.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

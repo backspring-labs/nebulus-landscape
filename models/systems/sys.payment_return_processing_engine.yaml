@@ -1,0 +1,10 @@
+id: sys.payment_return_processing_engine
+name: Payment Return Processing Engine
+description: >
+  Engine processing payment returns across all rails including reason
+  code validation, deadline tracking, and accounting adjustments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

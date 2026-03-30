@@ -1,0 +1,10 @@
+id: sys.ach_origination_platform
+name: ACH Origination Platform
+description: >
+  Platform for originating outbound ACH payment instructions including
+  file generation, formatting, and transmission to ACH operators.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

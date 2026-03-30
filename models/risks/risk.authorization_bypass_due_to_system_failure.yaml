@@ -1,0 +1,12 @@
+id: risk.authorization_bypass_due_to_system_failure
+name: Authorization Bypass Due to System Failure
+description: >
+  A system failure or degraded mode causes payment authorization controls to be bypassed,
+  allowing payments to proceed without required checks.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

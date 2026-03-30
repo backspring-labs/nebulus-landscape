@@ -1,0 +1,12 @@
+id: risk.wire_message_format_rejection
+name: Wire Message Format Rejection
+description: >
+  A wire transfer message is rejected by Fedwire or SWIFT due to formatting errors, missing
+  required fields, or noncompliance with message standards.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

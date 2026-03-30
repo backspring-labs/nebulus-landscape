@@ -1,0 +1,12 @@
+id: risk.internal_transfer_posting_failure
+name: Internal Transfer Posting Failure
+description: >
+  An internal transfer debits one account but fails to credit the other, creating a ledger
+  imbalance that requires manual correction.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

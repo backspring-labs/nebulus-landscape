@@ -1,0 +1,10 @@
+id: sys.file_validation_platform
+name: File Validation Platform
+description: >
+  Platform validating payment file format, schema compliance,
+  integrity, and batch control totals before processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

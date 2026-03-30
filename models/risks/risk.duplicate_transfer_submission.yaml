@@ -1,0 +1,12 @@
+id: risk.duplicate_transfer_submission
+name: Duplicate Transfer Submission
+description: >
+  The same transfer is submitted more than once due to user error, system retry, or inadequate
+  duplicate detection, resulting in unintended double movement of funds.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

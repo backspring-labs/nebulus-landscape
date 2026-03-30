@@ -1,0 +1,12 @@
+id: ctrl.recurring_payment_execution_monitoring
+name: Recurring Payment Execution Monitoring
+description: >
+  Monitor recurring payment execution to detect missed, failed, or delayed scheduled payments
+  and trigger alerts for timely investigation and remediation.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.return_accounting_mismatch
+name: Return Accounting Mismatch
+description: >
+  The accounting entries for a payment return do not correctly reverse the original transaction,
+  causing ledger imbalances or incorrect account balances.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

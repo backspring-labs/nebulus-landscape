@@ -1,0 +1,12 @@
+id: risk.routing_table_stale_or_incorrect
+name: Routing Table Stale or Incorrect
+description: >
+  Payment routing tables contain outdated or incorrect entries, causing payments to be
+  misdirected, delayed, or rejected by receiving institutions.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.fraud_on_instant_rail_no_recall
+name: Fraud on Instant Rail No Recall
+description: >
+  Fraudulent transactions executed over instant payment rails cannot be recalled, and the speed
+  of settlement prevents interception after initiation.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

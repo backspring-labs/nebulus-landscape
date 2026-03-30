@@ -1,0 +1,12 @@
+id: ctrl.risk_based_hold_threshold_monitoring
+name: Risk-Based Hold Threshold Monitoring
+description: >
+  Monitor risk-based hold placement rates and thresholds to ensure holds are applied consistently
+  and proportionally to actual risk, avoiding excessive holds that harm customer experience.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.payment_inquiry_platform
+name: Payment Inquiry Platform
+description: >
+  Platform supporting payment inquiry resolution, tracing, and
+  investigation for customer service and operations teams.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

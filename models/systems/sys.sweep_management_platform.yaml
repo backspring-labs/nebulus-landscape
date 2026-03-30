@@ -1,0 +1,10 @@
+id: sys.sweep_management_platform
+name: Sweep Management Platform
+description: >
+  Platform managing automated fund sweep configurations and execution
+  between accounts based on balance thresholds and schedules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

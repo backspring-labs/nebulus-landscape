@@ -1,0 +1,12 @@
+id: risk.sanctions_evasion_through_intermediaries
+name: Sanctions Evasion Through Intermediaries
+description: >
+  Sanctioned parties use intermediary banks or layered transactions to evade sanctions screening,
+  and the evasion technique is not detected by existing controls.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

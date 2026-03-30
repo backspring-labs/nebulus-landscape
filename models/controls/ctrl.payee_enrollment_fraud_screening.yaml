@@ -1,0 +1,12 @@
+id: ctrl.payee_enrollment_fraud_screening
+name: Payee Enrollment Fraud Screening
+description: >
+  Screen new payee enrollments against known fraud indicators, suspicious patterns, and watchlists
+  to prevent the establishment of fraudulent payment destinations.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

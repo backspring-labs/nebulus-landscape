@@ -1,0 +1,10 @@
+id: sys.correspondent_banking_directory
+name: Correspondent Banking Directory
+description: >
+  Directory maintaining correspondent bank relationships, routing
+  information, and intermediary bank details for cross-border payments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

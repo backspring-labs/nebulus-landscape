@@ -1,0 +1,12 @@
+id: ctrl.fee_waiver_authorization_and_limit_check
+name: Fee Waiver Authorization and Limit Check
+description: >
+  Verify that payment fee waivers are authorized by appropriately entitled personnel and remain
+  within defined waiver limits to prevent excessive or unauthorized fee reversals.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

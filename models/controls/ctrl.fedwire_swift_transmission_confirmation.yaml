@@ -1,0 +1,12 @@
+id: ctrl.fedwire_swift_transmission_confirmation
+name: Fedwire/SWIFT Transmission Confirmation
+description: >
+  Confirm successful transmission and acceptance of wire messages by the Fedwire or SWIFT
+  network, and alert on transmission failures requiring immediate investigation.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

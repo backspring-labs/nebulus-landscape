@@ -1,0 +1,10 @@
+id: sys.hold_notification_system
+name: Hold Notification System
+description: >
+  System generating and delivering hold placement and release
+  notifications to customers as required by regulation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

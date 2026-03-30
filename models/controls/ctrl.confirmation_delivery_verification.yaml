@@ -1,0 +1,12 @@
+id: ctrl.confirmation_delivery_verification
+name: Confirmation Delivery Verification
+description: >
+  Verify that transfer confirmation notifications are successfully delivered to the initiator
+  and relevant account holders through their preferred communication channels.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

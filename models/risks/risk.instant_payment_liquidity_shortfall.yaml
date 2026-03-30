@@ -1,0 +1,12 @@
+id: risk.instant_payment_liquidity_shortfall
+name: Instant Payment Liquidity Shortfall
+description: >
+  Insufficient pre-funded liquidity in the instant payment settlement account causes payment
+  rejections or requires emergency funding actions.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

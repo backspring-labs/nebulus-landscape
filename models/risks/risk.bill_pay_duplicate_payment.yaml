@@ -1,0 +1,12 @@
+id: risk.bill_pay_duplicate_payment
+name: Bill Pay Duplicate Payment
+description: >
+  A bill payment is sent more than once to the same biller for the same obligation, resulting
+  in overpayment and customer inconvenience.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

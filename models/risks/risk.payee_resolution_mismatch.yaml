@@ -1,0 +1,12 @@
+id: risk.payee_resolution_mismatch
+name: Payee Resolution Mismatch
+description: >
+  The payee resolved during payment execution does not match the intended recipient due to
+  ambiguous identifiers, directory errors, or name-matching failures.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.network_timeout_or_rejection
+name: Network Timeout or Rejection
+description: >
+  A payment message times out or is rejected by the clearing network, leaving the payment
+  in an indeterminate state requiring investigation and resolution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

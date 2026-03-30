@@ -1,0 +1,10 @@
+id: sys.payment_resubmission_engine
+name: Payment Resubmission Engine
+description: >
+  Engine managing the resubmission of repaired payment instructions
+  back into the processing pipeline with proper audit trail.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

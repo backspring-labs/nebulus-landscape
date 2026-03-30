@@ -1,0 +1,10 @@
+id: sys.recurring_payment_scheduler
+name: Recurring Payment Scheduler
+description: >
+  Scheduler managing the lifecycle of recurring and future-dated
+  payment instructions including schedule execution triggering.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

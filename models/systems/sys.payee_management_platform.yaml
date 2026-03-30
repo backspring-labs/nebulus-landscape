@@ -1,0 +1,10 @@
+id: sys.payee_management_platform
+name: Payee Management Platform
+description: >
+  Platform for establishing, validating, maintaining, and deactivating
+  payee records and external account linkages for outbound payments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

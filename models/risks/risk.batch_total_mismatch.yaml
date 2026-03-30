@@ -1,0 +1,12 @@
+id: risk.batch_total_mismatch
+name: Batch Total Mismatch
+description: >
+  The control totals in a payment batch header or trailer do not match the actual transaction
+  contents, indicating possible data loss or tampering.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

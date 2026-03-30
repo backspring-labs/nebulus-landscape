@@ -1,0 +1,12 @@
+id: risk.recurring_payment_unauthorized_modification
+name: Recurring Payment Unauthorized Modification
+description: >
+  A recurring payment schedule is modified without proper customer authorization, changing
+  amounts, frequencies, or recipients without consent.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

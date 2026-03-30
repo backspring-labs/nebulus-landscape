@@ -1,0 +1,10 @@
+id: sys.payment_release_control_system
+name: Payment Release Control System
+description: >
+  System controlling the final release of payments after all
+  authorization gates and approval requirements are satisfied.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

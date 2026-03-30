@@ -1,0 +1,12 @@
+id: ctrl.internal_transfer_duplicate_detection
+name: Internal Transfer Duplicate Detection
+description: >
+  Detect and prevent duplicate internal transfer executions by comparing transfer attributes
+  against recent transaction history within a configurable time window.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

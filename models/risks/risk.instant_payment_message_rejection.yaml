@@ -1,0 +1,12 @@
+id: risk.instant_payment_message_rejection
+name: Instant Payment Message Rejection
+description: >
+  An instant payment message is rejected by the network due to formatting errors, validation
+  failures, or participant status issues, requiring retry or alternative handling.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

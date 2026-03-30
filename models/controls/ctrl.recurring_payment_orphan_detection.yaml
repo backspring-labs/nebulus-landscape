@@ -1,0 +1,12 @@
+id: ctrl.recurring_payment_orphan_detection
+name: Recurring Payment Orphan Detection
+description: >
+  Detect orphaned recurring payment schedules where the associated account has been closed,
+  restricted, or the customer relationship has been terminated.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

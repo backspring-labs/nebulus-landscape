@@ -1,0 +1,12 @@
+id: risk.instant_payment_network_unavailability
+name: Instant Payment Network Unavailability
+description: >
+  The instant payment network becomes unavailable, preventing real-time payment execution and
+  requiring fallback handling or customer communication.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

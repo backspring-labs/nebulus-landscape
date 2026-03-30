@@ -1,0 +1,12 @@
+id: ctrl.payment_exception_aging_and_escalation_monitoring
+name: Payment Exception Aging and Escalation Monitoring
+description: >
+  Monitor the age of payment exceptions in repair queues and automatically escalate items
+  approaching processing deadlines to prevent SLA breaches and missed cutoff times.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

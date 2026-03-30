@@ -1,0 +1,12 @@
+id: ctrl.correspondent_bank_relationship_review
+name: Correspondent Bank Relationship Review
+description: >
+  Periodically review correspondent banking relationships for continued viability, risk posture,
+  and routing accuracy to ensure international payment paths remain valid and compliant.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

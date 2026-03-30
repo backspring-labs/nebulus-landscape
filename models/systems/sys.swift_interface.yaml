@@ -1,0 +1,11 @@
+id: sys.swift_interface
+name: SWIFT Interface
+description: >
+  Interface providing connectivity to the SWIFT network for
+  international wire transfer message formatting, transmission,
+  and receipt.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

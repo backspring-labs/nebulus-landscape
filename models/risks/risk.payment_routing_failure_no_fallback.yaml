@@ -1,0 +1,12 @@
+id: risk.payment_routing_failure_no_fallback
+name: Payment Routing Failure No Fallback
+description: >
+  A payment cannot be routed to its intended rail and no fallback routing path is available,
+  causing the payment to fail entirely.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

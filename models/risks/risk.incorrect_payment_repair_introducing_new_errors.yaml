@@ -1,0 +1,12 @@
+id: risk.incorrect_payment_repair_introducing_new_errors
+name: Incorrect Payment Repair Introducing New Errors
+description: >
+  A manual payment repair action introduces new data errors or inconsistencies, compounding
+  the original exception rather than resolving it.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

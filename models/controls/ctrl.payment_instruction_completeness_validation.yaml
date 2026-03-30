@@ -1,0 +1,12 @@
+id: ctrl.payment_instruction_completeness_validation
+name: Payment Instruction Completeness Validation
+description: >
+  Validate that all required fields and attributes of a payment instruction are present and
+  populated before the instruction advances to downstream processing stages.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.rail_availability_monitoring
+name: Rail Availability Monitoring
+description: >
+  Continuously monitor the availability and health of payment rails and clearing networks to
+  enable proactive routing adjustments and prevent payment failures due to network outages.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

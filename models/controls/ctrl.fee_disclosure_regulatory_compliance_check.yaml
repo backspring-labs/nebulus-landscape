@@ -1,0 +1,12 @@
+id: ctrl.fee_disclosure_regulatory_compliance_check
+name: Fee Disclosure Regulatory Compliance Check
+description: >
+  Verify that payment fee disclosures meet regulatory requirements for transparency, timing,
+  and content before fees are assessed to customers.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

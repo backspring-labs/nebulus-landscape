@@ -1,0 +1,12 @@
+id: ctrl.payee_confirmation_before_irrevocability
+name: Payee Confirmation Before Irrevocability
+description: >
+  Confirm payee identity and account details with the sender before the instant payment reaches
+  the point of irrevocability to reduce misdirected payment risk.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

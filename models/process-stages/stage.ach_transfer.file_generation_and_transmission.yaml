@@ -1,0 +1,13 @@
+id: stage.ach_transfer.file_generation_and_transmission
+name: File Generation and Transmission
+process_id: proc.external_ach_transfer_v1
+description: >
+  Generate the NACHA-formatted ACH file and transmit it to the ACH
+  operator for clearing and settlement processing.
+order: 5
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

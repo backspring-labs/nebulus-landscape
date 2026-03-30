@@ -1,0 +1,12 @@
+id: risk.wire_correspondent_routing_error
+name: Wire Correspondent Routing Error
+description: >
+  A wire transfer is routed through an incorrect correspondent bank, causing delays, additional
+  fees, or failed delivery to the beneficiary.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.payment_tracking_dashboard
+name: Payment Tracking Dashboard
+description: >
+  Dashboard providing real-time visibility into payment processing
+  status, volumes, and operational metrics.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

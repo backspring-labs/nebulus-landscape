@@ -1,0 +1,12 @@
+id: risk.wire_cutoff_missed
+name: Wire Cutoff Missed
+description: >
+  A wire transfer misses the Fedwire or SWIFT processing cutoff, delaying settlement by at
+  least one business day and potentially breaching customer commitments.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

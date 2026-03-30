@@ -1,0 +1,12 @@
+id: risk.batch_transmission_failure
+name: Batch Transmission Failure
+description: >
+  A payment batch file fails to transmit to the clearing network or processor due to
+  connectivity, authentication, or infrastructure failures.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

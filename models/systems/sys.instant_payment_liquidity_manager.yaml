@@ -1,0 +1,10 @@
+id: sys.instant_payment_liquidity_manager
+name: Instant Payment Liquidity Manager
+description: >
+  Manager monitoring and maintaining prefunding positions and
+  liquidity for instant payment network participation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

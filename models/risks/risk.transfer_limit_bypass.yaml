@@ -1,0 +1,12 @@
+id: risk.transfer_limit_bypass
+name: Transfer Limit Bypass
+description: >
+  A transfer exceeding established limits is processed without being blocked or escalated
+  for approval, due to control gaps or misconfiguration.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.return_authorization_verification
+name: Return Authorization Verification
+description: >
+  Verify that payment return initiations are authorized by appropriately entitled personnel
+  and comply with return eligibility criteria before processing.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

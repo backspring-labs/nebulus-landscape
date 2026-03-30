@@ -1,0 +1,12 @@
+id: risk.customer_dissatisfaction_from_excessive_holds
+name: Customer Dissatisfaction from Excessive Holds
+description: >
+  Funds availability holds are applied more broadly or for longer durations than necessary,
+  causing customer frustration and potential fair lending concerns.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

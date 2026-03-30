@@ -1,0 +1,12 @@
+id: risk.nacha_file_formatting_error
+name: NACHA File Formatting Error
+description: >
+  An ACH file does not conform to NACHA formatting requirements, causing rejection by the
+  ACH operator and delaying all transactions in the file.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

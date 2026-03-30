@@ -1,0 +1,10 @@
+id: sys.deposit_processing_platform
+name: Deposit Processing Platform
+description: >
+  Platform processing incoming deposits and coordinating funds
+  availability determination and hold application.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

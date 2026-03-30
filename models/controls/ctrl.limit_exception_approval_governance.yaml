@@ -1,0 +1,12 @@
+id: ctrl.limit_exception_approval_governance
+name: Limit Exception Approval Governance
+description: >
+  Require formal approval workflows for payment limit exceptions, with defined authority levels
+  and documentation requirements to prevent excessive or unauthorized limit overrides.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

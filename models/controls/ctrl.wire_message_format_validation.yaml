@@ -1,0 +1,12 @@
+id: ctrl.wire_message_format_validation
+name: Wire Message Format Validation
+description: >
+  Validate wire transfer messages against Fedwire, CHIPS, or SWIFT format specifications
+  before transmission to prevent rejections due to formatting errors.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,11 @@
+id: sys.settlement_and_reconciliation_system
+name: Settlement and Reconciliation System
+description: >
+  System tracking payment settlement status and performing
+  reconciliation between internal records and external network
+  settlement reports.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

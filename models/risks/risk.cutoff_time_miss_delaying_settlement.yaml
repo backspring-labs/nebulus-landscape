@@ -1,0 +1,12 @@
+id: risk.cutoff_time_miss_delaying_settlement
+name: Cutoff Time Miss Delaying Settlement
+description: >
+  A payment misses the applicable processing cutoff time, causing settlement to be delayed
+  to the next available processing window.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.general_ledger
+name: General Ledger
+description: >
+  Institutional general ledger system recording all financial
+  transactions and maintaining the authoritative books of record.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

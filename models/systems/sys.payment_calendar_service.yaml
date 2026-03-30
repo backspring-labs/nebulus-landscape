@@ -1,0 +1,10 @@
+id: sys.payment_calendar_service
+name: Payment Calendar Service
+description: >
+  Service managing payment processing calendars, business day
+  calculations, and holiday schedules across payment rails.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

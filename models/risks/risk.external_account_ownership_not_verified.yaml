@@ -1,0 +1,12 @@
+id: risk.external_account_ownership_not_verified
+name: External Account Ownership Not Verified
+description: >
+  An external account linked for payment purposes is not verified for ownership, enabling
+  unauthorized debits or credits to accounts not belonging to the customer.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

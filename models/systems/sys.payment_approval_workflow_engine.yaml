@@ -1,0 +1,10 @@
+id: sys.payment_approval_workflow_engine
+name: Payment Approval Workflow Engine
+description: >
+  Workflow engine managing payment approval processes including
+  dual-approval, multi-level authorization, and escalation workflows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

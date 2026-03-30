@@ -1,0 +1,12 @@
+id: risk.customer_visible_status_inaccuracy
+name: Customer-Visible Status Inaccuracy
+description: >
+  The payment status displayed to the customer does not reflect the actual processing state,
+  eroding trust and generating unnecessary support inquiries.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

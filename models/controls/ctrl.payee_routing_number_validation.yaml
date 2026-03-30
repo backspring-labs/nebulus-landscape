@@ -1,0 +1,12 @@
+id: ctrl.payee_routing_number_validation
+name: Payee Routing Number Validation
+description: >
+  Validate that payee routing numbers are structurally correct, currently active, and correspond
+  to a valid financial institution before accepting the payee record for payment use.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

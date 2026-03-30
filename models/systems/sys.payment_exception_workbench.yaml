@@ -1,0 +1,10 @@
+id: sys.payment_exception_workbench
+name: Payment Exception Workbench
+description: >
+  Operator workbench for triaging, investigating, and resolving
+  payment exceptions that prevent straight-through processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

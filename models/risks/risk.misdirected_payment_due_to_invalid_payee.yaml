@@ -1,0 +1,12 @@
+id: risk.misdirected_payment_due_to_invalid_payee
+name: Misdirected Payment Due to Invalid Payee
+description: >
+  A payment is sent to the wrong recipient because payee account or routing information
+  is incorrect, outdated, or fraudulently altered.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

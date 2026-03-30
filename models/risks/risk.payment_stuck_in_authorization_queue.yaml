@@ -1,0 +1,12 @@
+id: risk.payment_stuck_in_authorization_queue
+name: Payment Stuck in Authorization Queue
+description: >
+  A payment remains in an authorization queue without action due to missing approvers, unclear
+  ownership, or notification failures, delaying processing beyond acceptable limits.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

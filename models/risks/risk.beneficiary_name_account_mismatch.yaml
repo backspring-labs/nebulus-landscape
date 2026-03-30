@@ -1,0 +1,12 @@
+id: risk.beneficiary_name_account_mismatch
+name: Beneficiary Name-Account Mismatch
+description: >
+  The beneficiary name on a wire transfer does not match the account holder at the receiving
+  institution, potentially indicating misdirection or fraud.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

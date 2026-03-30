@@ -1,0 +1,12 @@
+id: risk.stale_payee_routing_information
+name: Stale Payee Routing Information
+description: >
+  Payee routing or account information becomes outdated and is not refreshed, causing payments
+  to be misdirected or rejected at the receiving institution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

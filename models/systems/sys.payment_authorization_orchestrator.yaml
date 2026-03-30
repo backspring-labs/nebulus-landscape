@@ -1,0 +1,10 @@
+id: sys.payment_authorization_orchestrator
+name: Payment Authorization Orchestrator
+description: >
+  Orchestrator coordinating the collection and evaluation of all
+  required authorizations and gate checks before payment release.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.payment_validation_engine
+name: Payment Validation Engine
+description: >
+  Engine validating payment instructions for data completeness,
+  format correctness, and business rule compliance before execution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

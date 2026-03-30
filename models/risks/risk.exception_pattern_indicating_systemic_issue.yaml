@@ -1,0 +1,12 @@
+id: risk.exception_pattern_indicating_systemic_issue
+name: Exception Pattern Indicating Systemic Issue
+description: >
+  Recurring payment exceptions with common root causes are not identified as a systemic pattern,
+  allowing the underlying issue to persist and generate continued operational burden.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

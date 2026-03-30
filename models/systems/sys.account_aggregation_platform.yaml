@@ -1,0 +1,10 @@
+id: sys.account_aggregation_platform
+name: Account Aggregation Platform
+description: >
+  Platform aggregating external account data from other financial
+  institutions to support account linking and verification.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.ach_return_and_unauthorized_debit
+name: ACH Return and Unauthorized Debit
+description: >
+  ACH transactions are returned as unauthorized debits, exposing the institution to financial
+  loss and potential NACHA rule violations.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

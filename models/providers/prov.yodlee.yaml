@@ -1,0 +1,10 @@
+id: prov.yodlee
+name: Yodlee
+category: account_aggregation
+summary: >
+  Financial data aggregation platform providing account verification,
+  transaction enrichment, and data connectivity services for financial
+  institutions.
+status: stub
+source_refs: []
+tags: []

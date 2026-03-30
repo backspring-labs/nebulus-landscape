@@ -1,0 +1,12 @@
+id: ctrl.recipient_account_validation
+name: Recipient Account Validation
+description: >
+  Validate that the recipient account number and routing information are structurally correct
+  and correspond to an active account at the receiving institution before ACH submission.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.bill_pay_remittance_mismatch
+name: Bill Pay Remittance Mismatch
+description: >
+  Bill payment remittance information does not match the biller's expected format or account
+  identifiers, causing misapplication of the payment by the biller.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

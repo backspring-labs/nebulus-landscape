@@ -1,0 +1,12 @@
+id: risk.insufficient_funds_at_execution
+name: Insufficient Funds at Execution
+description: >
+  A payment fails at execution time because the source account has insufficient available
+  funds, and the shortfall was not detected during pre-validation.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

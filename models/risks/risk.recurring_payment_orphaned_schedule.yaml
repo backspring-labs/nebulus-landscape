@@ -1,0 +1,12 @@
+id: risk.recurring_payment_orphaned_schedule
+name: Recurring Payment Orphaned Schedule
+description: >
+  A recurring payment schedule remains active after the underlying account, payee, or
+  authorization has been closed or revoked, causing unexpected execution attempts.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

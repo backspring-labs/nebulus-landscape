@@ -1,0 +1,10 @@
+id: sys.real_time_fraud_engine
+name: Real-Time Fraud Engine
+description: >
+  Fraud detection engine optimized for real-time payment screening
+  with sub-second response times to support instant payment rails.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

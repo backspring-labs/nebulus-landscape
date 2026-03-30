@@ -1,0 +1,12 @@
+id: risk.wire_fraud_and_social_engineering
+name: Wire Fraud and Social Engineering
+description: >
+  Wire transfers are initiated based on fraudulent instructions obtained through social
+  engineering, business email compromise, or impersonation attacks.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

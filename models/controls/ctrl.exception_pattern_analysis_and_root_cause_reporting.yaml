@@ -1,0 +1,12 @@
+id: ctrl.exception_pattern_analysis_and_root_cause_reporting
+name: Exception Pattern Analysis and Root Cause Reporting
+description: >
+  Analyze payment exception patterns to identify systemic root causes such as data quality
+  issues, validation rule gaps, or upstream system problems for corrective action.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

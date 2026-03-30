@@ -1,0 +1,12 @@
+id: risk.payee_data_inconsistency_across_channels
+name: Payee Data Inconsistency Across Channels
+description: >
+  Payee information differs across channels or systems, causing confusion, misdirected payments,
+  or inability to consolidate payee management.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

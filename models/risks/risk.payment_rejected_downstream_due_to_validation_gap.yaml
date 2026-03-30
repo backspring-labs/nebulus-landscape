@@ -1,0 +1,12 @@
+id: risk.payment_rejected_downstream_due_to_validation_gap
+name: Payment Rejected Downstream Due to Validation Gap
+description: >
+  A payment passes internal validation but is rejected by a downstream clearing network or correspondent
+  due to missing or incorrect fields not caught during origination validation.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.ebill_presentment_engine
+name: eBill Presentment Engine
+description: >
+  Engine receiving, processing, and presenting electronic bills to
+  customers for review and payment within digital banking channels.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

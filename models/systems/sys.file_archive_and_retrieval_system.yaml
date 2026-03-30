@@ -1,0 +1,10 @@
+id: sys.file_archive_and_retrieval_system
+name: File Archive and Retrieval System
+description: >
+  System archiving processed payment files and supporting retrieval
+  for audit, investigation, and regulatory inquiry purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

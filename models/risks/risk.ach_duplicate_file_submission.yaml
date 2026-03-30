@@ -1,0 +1,12 @@
+id: risk.ach_duplicate_file_submission
+name: ACH Duplicate File Submission
+description: >
+  The same ACH file is submitted to the network more than once, causing duplicate transactions
+  and requiring costly reversal and reconciliation efforts.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

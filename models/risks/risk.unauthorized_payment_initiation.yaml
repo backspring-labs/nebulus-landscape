@@ -1,0 +1,12 @@
+id: risk.unauthorized_payment_initiation
+name: Unauthorized Payment Initiation
+description: >
+  A payment is initiated by a party without proper authorization, due to compromised credentials,
+  insufficient access controls, or social engineering.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.file_format_noncompliance
+name: File Format Noncompliance
+description: >
+  A payment file does not conform to the required format specification of the target network
+  or processor, causing rejection of the entire file or individual records.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

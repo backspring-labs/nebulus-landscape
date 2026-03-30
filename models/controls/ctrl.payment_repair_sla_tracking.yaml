@@ -1,0 +1,12 @@
+id: ctrl.payment_repair_sla_tracking
+name: Payment Repair SLA Tracking
+description: >
+  Track the elapsed time for payment exceptions in repair queues against defined SLAs and
+  escalate items approaching processing deadlines to prevent missed cutoff times.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,13 @@
+id: stage.ach_transfer.return_and_exception_processing
+name: Return and Exception Processing
+process_id: proc.external_ach_transfer_v1
+description: >
+  Process ACH returns, notifications of change, and exception items
+  with reason code handling and deadline compliance.
+order: 7
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: ctrl.wire_cutoff_time_enforcement
+name: Wire Cutoff Time Enforcement
+description: >
+  Enforce wire transfer submission deadlines aligned with Fedwire, CHIPS, and SWIFT operating
+  windows to prevent late submissions that cannot be processed same-day.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

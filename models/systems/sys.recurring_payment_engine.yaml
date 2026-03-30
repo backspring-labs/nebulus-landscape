@@ -1,0 +1,10 @@
+id: sys.recurring_payment_engine
+name: Recurring Payment Engine
+description: >
+  Engine managing recurring payment schedule lifecycle including
+  creation, modification, execution triggering, retry, and expiration.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

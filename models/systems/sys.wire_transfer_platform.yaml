@@ -1,0 +1,11 @@
+id: sys.wire_transfer_platform
+name: Wire Transfer Platform
+description: >
+  Platform managing the end-to-end wire transfer lifecycle including
+  message formatting, routing, transmission, and confirmation for
+  domestic and international wires.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

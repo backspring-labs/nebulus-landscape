@@ -1,0 +1,13 @@
+id: stage.wire_transfer.approval_workflow_and_authorization
+name: Approval Workflow and Authorization
+process_id: proc.wire_transfer_v1
+description: >
+  Route the wire through required approval workflows including
+  dual-approval for high-value transfers and authorization checks.
+order: 4
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

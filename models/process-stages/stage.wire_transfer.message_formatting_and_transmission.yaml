@@ -1,0 +1,13 @@
+id: stage.wire_transfer.message_formatting_and_transmission
+name: Message Formatting and Transmission
+process_id: proc.wire_transfer_v1
+description: >
+  Format the wire message according to Fedwire or SWIFT standards
+  and transmit to the appropriate network for processing.
+order: 5
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.unauthorized_ach_debit_claim
+name: Unauthorized ACH Debit Claim
+description: >
+  A customer or receiving institution claims an ACH debit was unauthorized, triggering a return
+  and potential financial loss to the originating institution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

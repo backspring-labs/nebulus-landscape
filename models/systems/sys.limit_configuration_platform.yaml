@@ -1,0 +1,10 @@
+id: sys.limit_configuration_platform
+name: Limit Configuration Platform
+description: >
+  Platform for defining and managing payment limit configurations
+  across customer segments, payment types, and channels.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

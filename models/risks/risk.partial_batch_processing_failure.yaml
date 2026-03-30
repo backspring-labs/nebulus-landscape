@@ -1,0 +1,12 @@
+id: risk.partial_batch_processing_failure
+name: Partial Batch Processing Failure
+description: >
+  Only a subset of transactions in a payment batch are processed successfully, and the partial
+  failure is not detected or reconciled promptly.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.customer_facing_status_accuracy_validation
+name: Customer-Facing Status Accuracy Validation
+description: >
+  Validate that payment status information presented to customers accurately reflects the
+  authoritative payment state to prevent confusion and reduce inquiry volume.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

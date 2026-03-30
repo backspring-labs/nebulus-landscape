@@ -1,0 +1,12 @@
+id: risk.fee_disclosure_noncompliance
+name: Fee Disclosure Noncompliance
+description: >
+  Payment fees are not disclosed to customers in compliance with regulatory requirements such
+  as Regulation E or Regulation Z, creating legal and reputational exposure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

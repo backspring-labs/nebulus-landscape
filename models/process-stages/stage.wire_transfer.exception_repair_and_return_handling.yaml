@@ -1,0 +1,13 @@
+id: stage.wire_transfer.exception_repair_and_return_handling
+name: Exception, Repair, and Return Handling
+process_id: proc.wire_transfer_v1
+description: >
+  Handle wire exceptions, message rejections, repair requests,
+  amendments, and return processing with proper investigation.
+order: 7
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

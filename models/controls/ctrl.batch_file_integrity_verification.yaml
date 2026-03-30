@@ -1,0 +1,12 @@
+id: ctrl.batch_file_integrity_verification
+name: Batch File Integrity Verification
+description: >
+  Verify the integrity of payment batch files through checksum validation, record count matching,
+  and total amount balancing to detect corruption or truncation before processing.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

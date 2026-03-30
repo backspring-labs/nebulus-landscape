@@ -1,0 +1,12 @@
+id: ctrl.payment_gate_completeness_verification
+name: Payment Gate Completeness Verification
+description: >
+  Verify that all required authorization gates have been evaluated and cleared before a payment
+  is released for execution, preventing premature release of insufficiently authorized payments.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

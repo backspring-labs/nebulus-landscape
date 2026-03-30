@@ -1,0 +1,10 @@
+id: sys.payment_message_format_validator
+name: Payment Message Format Validator
+description: >
+  Validator ensuring payment messages conform to network-specific
+  format specifications and schema requirements before transmission.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

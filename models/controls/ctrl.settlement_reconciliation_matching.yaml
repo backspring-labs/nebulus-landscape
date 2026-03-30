@@ -1,0 +1,12 @@
+id: ctrl.settlement_reconciliation_matching
+name: Settlement Reconciliation Matching
+description: >
+  Reconcile payment settlement entries against originated transactions to verify that all
+  payments settled as expected and detect any discrepancies requiring investigation.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

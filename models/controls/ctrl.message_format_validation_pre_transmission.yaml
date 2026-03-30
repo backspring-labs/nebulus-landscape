@@ -1,0 +1,12 @@
+id: ctrl.message_format_validation_pre_transmission
+name: Message Format Validation Pre-Transmission
+description: >
+  Validate wire transfer message format and content against Fedwire or SWIFT specifications
+  immediately before transmission to prevent network rejections.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

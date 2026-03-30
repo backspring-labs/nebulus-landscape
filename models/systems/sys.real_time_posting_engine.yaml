@@ -1,0 +1,10 @@
+id: sys.real_time_posting_engine
+name: Real-Time Posting Engine
+description: >
+  Engine providing real-time debit and credit posting to account
+  balances with immediate balance reflection.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

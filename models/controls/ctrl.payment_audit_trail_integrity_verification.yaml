@@ -1,0 +1,12 @@
+id: ctrl.payment_audit_trail_integrity_verification
+name: Payment Audit Trail Integrity Verification
+description: >
+  Verify the integrity and completeness of payment audit trails to ensure all transaction
+  events are immutably recorded and available for regulatory inquiry and investigation.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

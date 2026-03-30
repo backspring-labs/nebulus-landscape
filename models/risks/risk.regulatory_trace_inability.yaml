@@ -1,0 +1,12 @@
+id: risk.regulatory_trace_inability
+name: Regulatory Trace Inability
+description: >
+  The institution cannot produce a complete end-to-end trace of a payment when required by
+  regulators, due to gaps in tracking data or system fragmentation.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

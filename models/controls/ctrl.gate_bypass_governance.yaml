@@ -1,0 +1,12 @@
+id: ctrl.gate_bypass_governance
+name: Gate Bypass Governance
+description: >
+  Govern and restrict the ability to bypass payment authorization gates, requiring elevated
+  approval and audit documentation for any gate override or exception.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

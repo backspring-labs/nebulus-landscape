@@ -1,0 +1,12 @@
+id: risk.payment_exceeds_institutional_risk_limit
+name: Payment Exceeds Institutional Risk Limit
+description: >
+  A payment is processed that exceeds established institutional, channel, or customer risk limits,
+  exposing the institution to unacceptable credit or operational risk.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

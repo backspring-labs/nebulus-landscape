@@ -1,0 +1,10 @@
+id: prov.volante_technologies
+name: Volante Technologies
+category: payment_processing
+summary: >
+  Cloud-native payments and financial messaging platform providing
+  payment processing, message transformation, and compliance solutions
+  across all major payment rails and messaging standards.
+status: stub
+source_refs: []
+tags: []

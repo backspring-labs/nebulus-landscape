@@ -1,0 +1,12 @@
+id: risk.payment_released_without_required_authorization
+name: Payment Released Without Required Authorization
+description: >
+  A payment that requires explicit authorization or approval is released for processing without
+  all required approvals being obtained.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

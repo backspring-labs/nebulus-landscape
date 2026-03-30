@@ -1,0 +1,12 @@
+id: ctrl.payment_release_audit_trail
+name: Payment Release Audit Trail
+description: >
+  Capture a complete audit trail of all payment authorization and release decisions, including
+  approver identity, timestamps, and gate evaluation outcomes for accountability and review.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

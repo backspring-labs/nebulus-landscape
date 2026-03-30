@@ -1,0 +1,12 @@
+id: ctrl.fee_revenue_reconciliation
+name: Fee Revenue Reconciliation
+description: >
+  Reconcile payment fee revenue against expected fee assessments and general ledger postings
+  to detect revenue leakage, posting errors, or fee calculation discrepancies.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

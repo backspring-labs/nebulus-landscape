@@ -1,0 +1,12 @@
+id: risk.unauthorized_internal_transfer
+name: Unauthorized Internal Transfer
+description: >
+  An internal transfer is executed without proper authorization from the account holder,
+  due to compromised access, social engineering, or control gaps.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

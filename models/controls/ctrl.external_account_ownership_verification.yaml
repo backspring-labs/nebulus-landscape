@@ -1,0 +1,12 @@
+id: ctrl.external_account_ownership_verification
+name: External Account Ownership Verification
+description: >
+  Verify that a customer has legitimate ownership or authorization over an external account
+  before enabling it as a payment source or destination, using aggregation or verification services.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.internal_transfer_duplicate_execution
+name: Internal Transfer Duplicate Execution
+description: >
+  An internal transfer is executed more than once due to retry logic, system error, or
+  insufficient idempotency controls, causing incorrect account balances.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.settlement_position_breach
+name: Settlement Position Breach
+description: >
+  The institution's settlement position exceeds approved limits or available liquidity,
+  potentially triggering network penalties or requiring emergency funding.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

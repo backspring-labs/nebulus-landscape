@@ -1,0 +1,15 @@
+id: map.prov.volante_technologies
+provider_id: prov.volante_technologies
+capability_ids:
+  - cap.payment_instruction_validation
+  - cap.instant_payment_execution
+  - cap.payment_status_and_tracking
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

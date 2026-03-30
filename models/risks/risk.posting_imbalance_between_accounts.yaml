@@ -1,0 +1,12 @@
+id: risk.posting_imbalance_between_accounts
+name: Posting Imbalance Between Accounts
+description: >
+  A transfer debits one account but fails to credit the corresponding account, or vice versa,
+  creating a ledger imbalance requiring manual correction.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.file_delivery_delay_beyond_cutoff
+name: File Delivery Delay Beyond Cutoff
+description: >
+  A payment file is not delivered to the network or processor before the applicable cutoff time,
+  causing settlement to be delayed to the next processing window.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

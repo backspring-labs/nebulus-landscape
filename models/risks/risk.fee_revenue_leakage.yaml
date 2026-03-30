@@ -1,0 +1,12 @@
+id: risk.fee_revenue_leakage
+name: Fee Revenue Leakage
+description: >
+  Applicable payment fees are not assessed or collected due to system gaps, incorrect waivers,
+  or configuration errors, resulting in lost revenue.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

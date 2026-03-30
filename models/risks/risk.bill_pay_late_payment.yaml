@@ -1,0 +1,12 @@
+id: risk.bill_pay_late_payment
+name: Bill Pay Late Payment
+description: >
+  A bill payment arrives after the biller's due date due to processing delays, incorrect
+  scheduling, or delivery failures, resulting in late fees for the customer.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

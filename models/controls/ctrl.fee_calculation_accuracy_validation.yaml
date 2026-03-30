@@ -1,0 +1,12 @@
+id: ctrl.fee_calculation_accuracy_validation
+name: Fee Calculation Accuracy Validation
+description: >
+  Validate that payment fees are calculated accurately based on the applicable fee schedule,
+  customer segment, and transaction attributes to prevent over- or under-charging.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

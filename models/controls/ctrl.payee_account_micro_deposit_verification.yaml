@@ -1,0 +1,12 @@
+id: ctrl.payee_account_micro_deposit_verification
+name: Payee Account Micro-Deposit Verification
+description: >
+  Verify external account ownership by initiating small trial deposits and requiring the account
+  holder to confirm the deposit amounts before the account is approved for payment use.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

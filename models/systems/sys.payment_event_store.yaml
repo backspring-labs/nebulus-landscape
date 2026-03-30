@@ -1,0 +1,10 @@
+id: sys.payment_event_store
+name: Payment Event Store
+description: >
+  Event store capturing and correlating all payment lifecycle events
+  to provide a complete audit trail and support status derivation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

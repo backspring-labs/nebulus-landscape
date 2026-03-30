@@ -1,0 +1,12 @@
+id: risk.recall_request_nonresponse
+name: Recall Request Nonresponse
+description: >
+  A payment recall request from an originator or network is not acted upon within required
+  timeframes, leading to regulatory noncompliance or financial loss.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

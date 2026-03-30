@@ -1,0 +1,12 @@
+id: ctrl.payment_initiation_authentication_verification
+name: Payment Initiation Authentication Verification
+description: >
+  Verify that the initiator of a payment instruction has been properly authenticated at the
+  required assurance level before the payment is accepted for processing.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

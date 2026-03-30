@@ -1,0 +1,10 @@
+id: sys.nacha_compliance_validator
+name: NACHA Compliance Validator
+description: >
+  Validator ensuring ACH files and transactions comply with NACHA
+  operating rules, format specifications, and regulatory requirements.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

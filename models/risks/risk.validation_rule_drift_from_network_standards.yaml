@@ -1,0 +1,12 @@
+id: risk.validation_rule_drift_from_network_standards
+name: Validation Rule Drift from Network Standards
+description: >
+  Internal payment validation rules become outdated relative to evolving network format requirements,
+  causing systematic rejection or processing errors.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

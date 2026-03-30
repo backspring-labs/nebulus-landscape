@@ -1,0 +1,13 @@
+id: stage.wire_transfer.instruction_validation_and_eligibility
+name: Instruction Validation and Eligibility
+process_id: proc.wire_transfer_v1
+description: >
+  Validate the wire instruction for data completeness, format
+  correctness, and eligibility for the selected wire network.
+order: 2
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

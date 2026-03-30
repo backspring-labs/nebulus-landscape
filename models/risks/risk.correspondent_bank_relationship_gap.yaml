@@ -1,0 +1,12 @@
+id: risk.correspondent_bank_relationship_gap
+name: Correspondent Bank Relationship Gap
+description: >
+  A payment requires routing through a correspondent bank with which no active relationship exists,
+  causing the payment to be rejected or stranded.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

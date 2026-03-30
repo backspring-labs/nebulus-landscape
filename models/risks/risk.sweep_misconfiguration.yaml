@@ -1,0 +1,12 @@
+id: risk.sweep_misconfiguration
+name: Sweep Misconfiguration
+description: >
+  Automated sweep transfer rules are misconfigured, causing incorrect transfer amounts,
+  wrong target accounts, or unintended overdraft situations.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

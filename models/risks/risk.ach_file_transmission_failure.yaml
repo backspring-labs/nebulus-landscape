@@ -1,0 +1,12 @@
+id: risk.ach_file_transmission_failure
+name: ACH File Transmission Failure
+description: >
+  An ACH file fails to transmit to the Federal Reserve or receiving institution due to
+  connectivity, authentication, or system errors, delaying settlement.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

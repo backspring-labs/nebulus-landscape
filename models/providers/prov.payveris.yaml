@@ -1,0 +1,10 @@
+id: prov.payveris
+name: Payveris
+category: payment_processing
+summary: >
+  Digital payments platform providing bill pay, P2P payments, A2A
+  transfers, and real-time payment capabilities for financial
+  institutions.
+status: stub
+source_refs: []
+tags: []

@@ -1,0 +1,13 @@
+id: map.prov.yodlee
+provider_id: prov.yodlee
+capability_ids:
+  - cap.payee_and_external_account_setup_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

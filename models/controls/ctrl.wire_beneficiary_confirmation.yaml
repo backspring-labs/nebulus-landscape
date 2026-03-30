@@ -1,0 +1,12 @@
+id: ctrl.wire_beneficiary_confirmation
+name: Wire Beneficiary Confirmation
+description: >
+  Confirm wire transfer beneficiary details with the originator before execution for new or
+  modified beneficiaries to prevent misdirected irrevocable wire transfers.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

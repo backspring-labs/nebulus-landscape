@@ -1,0 +1,12 @@
+id: risk.wire_irrevocable_erroneous_transfer
+name: Wire Irrevocable Erroneous Transfer
+description: >
+  A wire transfer containing errors is sent and cannot be recalled due to the irrevocable nature
+  of wire settlements, resulting in financial loss or costly recovery efforts.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

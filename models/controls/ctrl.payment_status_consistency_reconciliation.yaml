@@ -1,0 +1,12 @@
+id: ctrl.payment_status_consistency_reconciliation
+name: Payment Status Consistency Reconciliation
+description: >
+  Reconcile payment status across internal systems and external network confirmations to detect
+  desynchronization between the authoritative payment state and downstream systems.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

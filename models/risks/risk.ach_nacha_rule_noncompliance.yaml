@@ -1,0 +1,12 @@
+id: risk.ach_nacha_rule_noncompliance
+name: ACH NACHA Rule Noncompliance
+description: >
+  ACH transactions or processes violate NACHA operating rules, exposing the institution to
+  fines, increased audit scrutiny, or network suspension.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

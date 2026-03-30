@@ -1,0 +1,11 @@
+id: sys.payment_template_engine
+name: Payment Template Engine
+description: >
+  Engine for managing reusable payment instruction templates that
+  accelerate payment initiation for frequently used beneficiaries
+  and payment types.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

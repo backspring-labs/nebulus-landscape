@@ -1,0 +1,12 @@
+id: ctrl.cutoff_time_synchronization_monitoring
+name: Cutoff Time Synchronization Monitoring
+description: >
+  Monitor that internal payment cutoff times remain synchronized with network and clearing house
+  operating windows to prevent late submissions or missed processing cycles.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

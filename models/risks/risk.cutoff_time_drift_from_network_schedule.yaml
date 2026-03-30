@@ -1,0 +1,12 @@
+id: risk.cutoff_time_drift_from_network_schedule
+name: Cutoff Time Drift from Network Schedule
+description: >
+  Internal cutoff time configurations drift from actual network processing windows due to
+  schedule changes not being reflected, causing missed settlement windows.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.ach_return_due_to_nsf
+name: ACH Return Due to NSF
+description: >
+  An ACH debit is returned for non-sufficient funds, resulting in failed payment, potential
+  fees, and need for retry or alternative collection.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.internal_transfer_authorization_verification
+name: Internal Transfer Authorization Verification
+description: >
+  Verify that the initiator has proper authorization to transfer funds from the source account,
+  including party role validation and any required approval workflows.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

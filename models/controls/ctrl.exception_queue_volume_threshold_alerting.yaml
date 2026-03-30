@@ -1,0 +1,12 @@
+id: ctrl.exception_queue_volume_threshold_alerting
+name: Exception Queue Volume Threshold Alerting
+description: >
+  Alert operations management when payment exception queue volumes exceed defined thresholds,
+  indicating potential systemic issues or resource constraints requiring intervention.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

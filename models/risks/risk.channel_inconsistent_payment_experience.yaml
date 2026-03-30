@@ -1,0 +1,12 @@
+id: risk.channel_inconsistent_payment_experience
+name: Channel-Inconsistent Payment Experience
+description: >
+  Payment capabilities, limits, or behaviors differ across channels in ways that confuse
+  customers or create exploitable gaps in controls.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

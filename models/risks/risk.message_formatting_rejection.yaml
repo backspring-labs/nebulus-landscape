@@ -1,0 +1,12 @@
+id: risk.message_formatting_rejection
+name: Message Formatting Rejection
+description: >
+  A payment message is rejected by the network or receiving institution due to formatting
+  errors or noncompliance with message standards.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

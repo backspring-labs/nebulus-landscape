@@ -1,0 +1,12 @@
+id: ctrl.dual_control_enforcement
+name: Dual Control Enforcement
+description: >
+  Enforce dual-control approval requirements for high-value or high-risk payments, ensuring that
+  no single individual can authorize and release a payment without independent review.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

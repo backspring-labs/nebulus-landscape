@@ -1,0 +1,12 @@
+id: ctrl.ach_prefunding_balance_verification
+name: ACH Prefunding Balance Verification
+description: >
+  Verify that sufficient prefunding balances are available to cover outbound ACH origination
+  exposure before file transmission to prevent settlement shortfalls.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

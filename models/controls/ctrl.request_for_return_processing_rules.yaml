@@ -1,0 +1,12 @@
+id: ctrl.request_for_return_processing_rules
+name: Request for Return Processing Rules
+description: >
+  Apply defined processing rules for instant payment request-for-return messages, including
+  eligibility validation, response timeframes, and disposition workflows.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

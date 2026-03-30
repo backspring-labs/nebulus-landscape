@@ -1,0 +1,12 @@
+id: ctrl.biller_directory_refresh_validation
+name: Biller Directory Refresh Validation
+description: >
+  Validate that biller directory updates are applied correctly and completely, ensuring biller
+  routing and payment processing information remains current and accurate.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

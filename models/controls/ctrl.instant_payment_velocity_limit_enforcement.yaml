@@ -1,0 +1,12 @@
+id: ctrl.instant_payment_velocity_limit_enforcement
+name: Instant Payment Velocity Limit Enforcement
+description: >
+  Enforce velocity and cumulative amount limits on instant payments to mitigate fraud risk
+  inherent in the irrevocable nature of real-time payment transactions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

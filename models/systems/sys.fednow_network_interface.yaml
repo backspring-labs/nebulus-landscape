@@ -1,0 +1,10 @@
+id: sys.fednow_network_interface
+name: FedNow Network Interface
+description: >
+  Interface providing connectivity to the Federal Reserve FedNow
+  Service for instant payment message submission and receipt.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

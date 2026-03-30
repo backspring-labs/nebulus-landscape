@@ -1,0 +1,12 @@
+id: risk.incorrect_fee_calculation
+name: Incorrect Fee Calculation
+description: >
+  Payment fees are calculated incorrectly due to logic errors, stale rate tables, or incorrect
+  transaction classification, resulting in overcharges, undercharges, or regulatory exposure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

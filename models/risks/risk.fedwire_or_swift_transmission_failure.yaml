@@ -1,0 +1,12 @@
+id: risk.fedwire_or_swift_transmission_failure
+name: Fedwire or SWIFT Transmission Failure
+description: >
+  A wire transfer message fails to transmit via Fedwire or SWIFT due to connectivity issues,
+  authentication failures, or system outages.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

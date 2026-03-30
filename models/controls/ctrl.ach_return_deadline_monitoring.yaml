@@ -1,0 +1,12 @@
+id: ctrl.ach_return_deadline_monitoring
+name: ACH Return Deadline Monitoring
+description: >
+  Monitor ACH return processing against NACHA-mandated return deadlines to ensure timely
+  processing and prevent regulatory violations from late returns.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

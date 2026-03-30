@@ -1,0 +1,12 @@
+id: risk.sanctions_match_on_recipient
+name: Sanctions Match on Recipient
+description: >
+  A payment recipient matches a sanctions list entry but the match is not detected or properly
+  adjudicated before the payment is executed.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

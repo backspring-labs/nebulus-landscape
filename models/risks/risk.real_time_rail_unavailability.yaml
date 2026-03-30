@@ -1,0 +1,12 @@
+id: risk.real_time_rail_unavailability
+name: Real-Time Rail Unavailability
+description: >
+  A real-time payment network becomes unavailable, preventing execution of time-sensitive
+  payments without an adequate degradation or fallback strategy.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

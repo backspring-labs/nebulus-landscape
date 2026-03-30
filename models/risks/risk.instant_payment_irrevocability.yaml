@@ -1,0 +1,12 @@
+id: risk.instant_payment_irrevocability
+name: Instant Payment Irrevocability
+description: >
+  The irrevocable nature of instant payments means errors or fraud cannot be reversed through
+  standard return mechanisms, increasing financial loss exposure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

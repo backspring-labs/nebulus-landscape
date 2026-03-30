@@ -1,0 +1,12 @@
+id: ctrl.cutoff_time_adherence_reporting
+name: Cutoff Time Adherence Reporting
+description: >
+  Report on payment submission patterns relative to cutoff times to identify late submissions,
+  near-miss patterns, and opportunities to improve processing timeliness.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

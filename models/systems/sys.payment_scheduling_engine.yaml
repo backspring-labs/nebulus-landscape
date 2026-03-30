@@ -1,0 +1,10 @@
+id: sys.payment_scheduling_engine
+name: Payment Scheduling Engine
+description: >
+  Engine managing future-dated payment scheduling, execution
+  triggering, and deadline enforcement.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

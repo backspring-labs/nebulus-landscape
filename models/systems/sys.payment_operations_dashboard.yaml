@@ -1,0 +1,11 @@
+id: sys.payment_operations_dashboard
+name: Payment Operations Dashboard
+description: >
+  Dashboard providing payment operations teams with real-time
+  visibility into exception queues, processing metrics, and SLA
+  adherence.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

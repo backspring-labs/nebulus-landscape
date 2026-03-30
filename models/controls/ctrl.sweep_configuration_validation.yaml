@@ -1,0 +1,12 @@
+id: ctrl.sweep_configuration_validation
+name: Sweep Configuration Validation
+description: >
+  Validate that automated sweep configurations are correctly defined with appropriate thresholds,
+  target accounts, and frequency settings before activation to prevent unintended fund movements.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

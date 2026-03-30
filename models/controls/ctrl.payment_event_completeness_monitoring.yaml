@@ -1,0 +1,12 @@
+id: ctrl.payment_event_completeness_monitoring
+name: Payment Event Completeness Monitoring
+description: >
+  Monitor the payment event stream for completeness, ensuring all expected lifecycle events
+  are captured and correlated to maintain an accurate payment audit trail.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

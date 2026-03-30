@@ -1,0 +1,12 @@
+id: ctrl.nacha_file_format_validation
+name: NACHA File Format Validation
+description: >
+  Validate ACH files against NACHA file format specifications including record types, field
+  lengths, and required data elements before transmission to the ACH operator.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

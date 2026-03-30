@@ -1,0 +1,10 @@
+id: sys.batch_processing_engine
+name: Batch Processing Engine
+description: >
+  Engine parsing payment files into individual instructions and
+  managing batch-level processing, tracking, and integrity.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

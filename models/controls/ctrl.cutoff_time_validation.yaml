@@ -1,0 +1,12 @@
+id: ctrl.cutoff_time_validation
+name: Cutoff Time Validation
+description: >
+  Validate that transfer requests are submitted within applicable processing cutoff times
+  and route late submissions to next-day processing or notify the initiator appropriately.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

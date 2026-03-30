@@ -1,0 +1,12 @@
+id: risk.batch_file_corruption_not_detected
+name: Batch File Corruption Not Detected
+description: >
+  A corrupted or truncated payment batch file is accepted and processed without detection,
+  leading to missing, duplicated, or malformed transactions.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

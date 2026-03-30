@@ -1,0 +1,10 @@
+id: sys.customer_notification_service
+name: Customer Notification Service
+description: >
+  Service delivering payment-related notifications and alerts to
+  customers across channels including email, SMS, and push.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

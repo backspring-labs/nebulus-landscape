@@ -1,0 +1,10 @@
+id: prov.the_clearing_house
+name: The Clearing House
+category: payment_network
+summary: >
+  Banking association and payment infrastructure provider operating
+  the RTP real-time payment network, CHIPS wire transfer system, and
+  EPN ACH network for U.S. financial institutions.
+status: stub
+source_refs: []
+tags: []

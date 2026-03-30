@@ -1,0 +1,12 @@
+id: ctrl.validation_rule_change_governance
+name: Validation Rule Change Governance
+description: >
+  Require formal review and approval for changes to payment validation rules to prevent
+  unintended rule modifications that could allow invalid payments to pass or block valid ones.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

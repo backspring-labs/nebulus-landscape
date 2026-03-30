@@ -1,0 +1,17 @@
+id: map.prov.federal_reserve
+provider_id: prov.federal_reserve
+capability_ids:
+  - cap.payment_routing_and_rail_selection
+  - cap.ach_payment_execution
+  - cap.wire_transfer_execution
+  - cap.instant_payment_execution
+  - cap.payment_return_reversal_and_recall_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

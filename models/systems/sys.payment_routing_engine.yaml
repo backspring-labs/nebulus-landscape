@@ -1,0 +1,11 @@
+id: sys.payment_routing_engine
+name: Payment Routing Engine
+description: >
+  Engine determining the optimal payment rail, clearing network, and
+  routing path for each payment instruction based on payment attributes
+  and institutional preferences.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

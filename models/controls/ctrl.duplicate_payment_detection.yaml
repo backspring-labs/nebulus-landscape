@@ -1,0 +1,12 @@
+id: ctrl.duplicate_payment_detection
+name: Duplicate Payment Detection
+description: >
+  Detect and prevent duplicate payment submissions by comparing key payment attributes such as
+  amount, payee, date, and originator against recent transaction history before execution.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

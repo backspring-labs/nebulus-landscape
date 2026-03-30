@@ -1,0 +1,13 @@
+id: stage.wire_transfer.initiation_and_beneficiary_validation
+name: Initiation and Beneficiary Validation
+process_id: proc.wire_transfer_v1
+description: >
+  Capture the wire transfer instruction and validate beneficiary
+  name, account, and routing information for accuracy.
+order: 1
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

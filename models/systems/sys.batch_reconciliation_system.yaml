@@ -1,0 +1,10 @@
+id: sys.batch_reconciliation_system
+name: Batch Reconciliation System
+description: >
+  System reconciling batch payment file totals, record counts, and
+  processing results to ensure batch-level integrity.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

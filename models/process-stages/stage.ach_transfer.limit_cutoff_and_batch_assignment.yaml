@@ -1,0 +1,13 @@
+id: stage.ach_transfer.limit_cutoff_and_batch_assignment
+name: Limit, Cutoff, and Batch Assignment
+process_id: proc.external_ach_transfer_v1
+description: >
+  Evaluate transfer limits, enforce cutoff times, and assign the
+  instruction to the appropriate ACH batch and processing window.
+order: 4
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.rtp_network_interface
+name: RTP Network Interface
+description: >
+  Interface providing connectivity to The Clearing House RTP network
+  for real-time payment message submission and receipt.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

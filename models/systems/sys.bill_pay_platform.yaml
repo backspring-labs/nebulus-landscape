@@ -1,0 +1,11 @@
+id: sys.bill_pay_platform
+name: Bill Pay Platform
+description: >
+  Platform managing the end-to-end bill payment lifecycle including
+  electronic and check-based bill payment execution, scheduling, and
+  status tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

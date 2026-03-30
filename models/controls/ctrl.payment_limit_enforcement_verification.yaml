@@ -1,0 +1,12 @@
+id: ctrl.payment_limit_enforcement_verification
+name: Payment Limit Enforcement Verification
+description: >
+  Verify that payment amount and frequency limits are correctly enforced across all channels
+  and payment types, detecting any gaps or inconsistencies in limit application.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

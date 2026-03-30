@@ -1,0 +1,12 @@
+id: risk.duplicate_wire_submission
+name: Duplicate Wire Submission
+description: >
+  The same wire transfer is submitted to the network more than once, resulting in duplicate
+  fund movements and requiring costly reversal efforts.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.recall_response_deadline_tracking
+name: Recall Response Deadline Tracking
+description: >
+  Track payment recall request response deadlines and escalate approaching or breached
+  deadlines to ensure timely handling of recall requests from originating institutions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.unauthorized_payment_modification_during_repair
+name: Unauthorized Payment Modification During Repair
+description: >
+  Payment details are modified during the repair process by unauthorized personnel or without
+  proper approval controls, enabling fraud or data integrity issues.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

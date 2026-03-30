@@ -1,0 +1,12 @@
+id: risk.duplicate_return_processing
+name: Duplicate Return Processing
+description: >
+  A payment return is processed more than once, resulting in double crediting and financial
+  exposure to the institution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

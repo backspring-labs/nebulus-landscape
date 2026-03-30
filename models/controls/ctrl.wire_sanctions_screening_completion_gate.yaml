@@ -1,0 +1,12 @@
+id: ctrl.wire_sanctions_screening_completion_gate
+name: Wire Sanctions Screening Completion Gate
+description: >
+  Prevent wire transfer execution until sanctions and watchlist screening has been completed
+  and cleared, ensuring no wire is transmitted without required compliance checks.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

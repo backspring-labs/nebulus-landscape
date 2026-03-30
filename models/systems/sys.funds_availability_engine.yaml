@@ -1,0 +1,10 @@
+id: sys.funds_availability_engine
+name: Funds Availability Engine
+description: >
+  Engine determining and applying funds availability schedules for
+  incoming payments based on regulatory requirements and risk policy.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

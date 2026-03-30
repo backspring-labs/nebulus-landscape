@@ -1,0 +1,12 @@
+id: ctrl.payee_change_notification
+name: Payee Change Notification
+description: >
+  Notify the account holder when payee records are added, modified, or removed to enable timely
+  detection of unauthorized changes to payment destinations.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

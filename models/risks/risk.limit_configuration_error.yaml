@@ -1,0 +1,12 @@
+id: risk.limit_configuration_error
+name: Limit Configuration Error
+description: >
+  Payment limits are misconfigured due to human error or system defect, allowing transactions
+  that should be blocked or blocking legitimate transactions.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

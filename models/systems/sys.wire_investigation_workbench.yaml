@@ -1,0 +1,10 @@
+id: sys.wire_investigation_workbench
+name: Wire Investigation Workbench
+description: >
+  Operator workbench for investigating wire transfer exceptions,
+  repairs, amendments, and inquiry resolution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

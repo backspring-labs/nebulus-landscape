@@ -1,0 +1,10 @@
+id: sys.payment_initiation_hub
+name: Payment Initiation Hub
+description: >
+  Central hub for capturing and normalizing payment instructions from
+  all origination channels into a canonical payment order format.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: sys.payment_cutoff_management_service
+name: Payment Cutoff Management Service
+description: >
+  Service managing processing cutoff times across payment types and
+  rails, ensuring payments are submitted within network operating
+  windows.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

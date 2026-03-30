@@ -1,0 +1,12 @@
+id: ctrl.processing_deadline_countdown_monitoring
+name: Processing Deadline Countdown Monitoring
+description: >
+  Monitor time remaining until payment processing deadlines for items in exception queues,
+  providing countdown visibility to operators and triggering escalation as deadlines approach.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

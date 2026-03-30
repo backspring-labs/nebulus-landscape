@@ -1,0 +1,12 @@
+id: risk.return_deadline_breach
+name: Return Deadline Breach
+description: >
+  A payment return is not processed within the required network or regulatory deadline,
+  resulting in loss of return rights or regulatory penalties.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

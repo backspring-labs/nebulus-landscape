@@ -1,0 +1,10 @@
+id: sys.funds_release_scheduler
+name: Funds Release Scheduler
+description: >
+  Scheduler managing the timed release of held funds based on
+  availability schedules and settlement confirmation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

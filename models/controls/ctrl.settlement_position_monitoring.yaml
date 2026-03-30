@@ -1,0 +1,12 @@
+id: ctrl.settlement_position_monitoring
+name: Settlement Position Monitoring
+description: >
+  Monitor the institution's settlement position with instant payment networks in real time
+  to ensure sufficient liquidity and prevent transaction failures due to position limits.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

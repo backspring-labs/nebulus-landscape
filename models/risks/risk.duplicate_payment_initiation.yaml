@@ -1,0 +1,12 @@
+id: risk.duplicate_payment_initiation
+name: Duplicate Payment Initiation
+description: >
+  The same payment is initiated more than once due to user retry, system error, or inadequate
+  idempotency controls, resulting in double funding or customer impact.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

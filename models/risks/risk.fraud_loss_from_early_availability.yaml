@@ -1,0 +1,12 @@
+id: risk.fraud_loss_from_early_availability
+name: Fraud Loss from Early Availability
+description: >
+  Early funds availability enables fraud schemes where deposited items are returned after funds
+  have already been withdrawn by the customer.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

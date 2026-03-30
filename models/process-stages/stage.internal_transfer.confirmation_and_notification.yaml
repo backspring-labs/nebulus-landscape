@@ -1,0 +1,13 @@
+id: stage.internal_transfer.confirmation_and_notification
+name: Confirmation and Notification
+process_id: proc.internal_account_transfer_v1
+description: >
+  Deliver transfer confirmation to the customer and generate any
+  required notifications or receipts.
+order: 6
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

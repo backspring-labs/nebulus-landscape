@@ -1,0 +1,12 @@
+id: ctrl.authorization_timeout_escalation
+name: Authorization Timeout Escalation
+description: >
+  Detect payments that have been pending authorization beyond defined thresholds and escalate
+  them to prevent processing deadline breaches or extended payment holds.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

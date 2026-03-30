@@ -1,0 +1,12 @@
+id: ctrl.duplicate_transfer_detection
+name: Duplicate Transfer Detection
+description: >
+  Detect and prevent duplicate transfer submissions by comparing transaction attributes against
+  recent transfer history within a configurable deduplication window.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

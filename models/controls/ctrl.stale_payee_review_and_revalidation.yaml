@@ -1,0 +1,12 @@
+id: ctrl.stale_payee_review_and_revalidation
+name: Stale Payee Review and Revalidation
+description: >
+  Periodically review payee records that have not been used within a defined timeframe and
+  revalidate their routing information to prevent misdirected payments due to stale data.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

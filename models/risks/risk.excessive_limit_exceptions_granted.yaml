@@ -1,0 +1,12 @@
+id: risk.excessive_limit_exceptions_granted
+name: Excessive Limit Exceptions Granted
+description: >
+  Too many payment limit exceptions are approved without adequate review, undermining the
+  effectiveness of limit controls and increasing exposure to fraud or credit loss.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

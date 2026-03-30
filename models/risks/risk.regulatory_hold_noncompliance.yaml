@@ -1,0 +1,12 @@
+id: risk.regulatory_hold_noncompliance
+name: Regulatory Hold Noncompliance
+description: >
+  Funds availability hold periods do not comply with Regulation CC or other applicable
+  requirements, exposing the institution to regulatory action.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

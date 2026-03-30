@@ -1,0 +1,10 @@
+id: sys.fee_posting_and_accounting_system
+name: Fee Posting and Accounting System
+description: >
+  System posting assessed payment fees to customer accounts and
+  recording fee revenue for general ledger reconciliation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

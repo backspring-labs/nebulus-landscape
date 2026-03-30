@@ -1,0 +1,12 @@
+id: risk.scheduled_payment_stale_instruction
+name: Scheduled Payment Stale Instruction
+description: >
+  A scheduled payment executes using outdated instruction details because underlying account
+  or payee information changed after the payment was scheduled.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.payment_exception_queue_backlog_accumulation
+name: Payment Exception Queue Backlog Accumulation
+description: >
+  Payment exception queues grow beyond manageable levels, leading to missed deadlines,
+  increased error rates, and degraded customer experience.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.payment_validation_coverage_monitoring
+name: Payment Validation Coverage Monitoring
+description: >
+  Monitor the percentage of payment instructions that pass through validation rules to ensure
+  comprehensive coverage and detect gaps in validation logic across payment types and rails.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

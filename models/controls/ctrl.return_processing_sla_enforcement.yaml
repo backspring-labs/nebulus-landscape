@@ -1,0 +1,12 @@
+id: ctrl.return_processing_sla_enforcement
+name: Return Processing SLA Enforcement
+description: >
+  Enforce processing SLAs for ACH returns to ensure timely handling within NACHA-mandated
+  return timeframes and prevent regulatory deadline breaches.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

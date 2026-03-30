@@ -1,0 +1,12 @@
+id: ctrl.bill_pay_check_fraud_monitoring
+name: Bill Pay Check Fraud Monitoring
+description: >
+  Monitor bill pay check issuance for fraud indicators such as unusual payees, high-value
+  checks, or patterns consistent with check fraud schemes.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

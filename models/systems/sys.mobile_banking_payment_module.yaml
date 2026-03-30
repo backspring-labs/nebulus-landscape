@@ -1,0 +1,10 @@
+id: sys.mobile_banking_payment_module
+name: Mobile Banking Payment Module
+description: >
+  Mobile application payment initiation module supporting
+  customer-initiated payments and transfers from mobile devices.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

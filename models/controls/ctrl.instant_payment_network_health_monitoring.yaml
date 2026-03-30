@@ -1,0 +1,12 @@
+id: ctrl.instant_payment_network_health_monitoring
+name: Instant Payment Network Health Monitoring
+description: >
+  Monitor the health and availability of instant payment network connections on a 24/7/365
+  basis to detect degradation and enable proactive failover or customer notification.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

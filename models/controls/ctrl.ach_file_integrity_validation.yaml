@@ -1,0 +1,12 @@
+id: ctrl.ach_file_integrity_validation
+name: ACH File Integrity Validation
+description: >
+  Validate the integrity of ACH files by verifying batch and file control totals, entry counts,
+  and hash values before transmission to the ACH network.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

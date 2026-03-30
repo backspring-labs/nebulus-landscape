@@ -1,0 +1,12 @@
+id: ctrl.hold_notification_delivery_confirmation
+name: Hold Notification Delivery Confirmation
+description: >
+  Confirm that required hold notifications have been delivered to customers when funds availability
+  holds are placed, as required by Regulation CC and institutional policy.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

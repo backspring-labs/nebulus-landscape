@@ -1,0 +1,12 @@
+id: risk.dual_control_circumvention
+name: Dual Control Circumvention
+description: >
+  Dual-control requirements for high-value or sensitive payments are circumvented through
+  process workarounds, shared credentials, or system misconfiguration.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

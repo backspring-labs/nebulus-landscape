@@ -1,0 +1,10 @@
+id: sys.online_banking_payment_module
+name: Online Banking Payment Module
+description: >
+  Web-based payment initiation module within the online banking
+  platform supporting customer-initiated payments and transfers.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

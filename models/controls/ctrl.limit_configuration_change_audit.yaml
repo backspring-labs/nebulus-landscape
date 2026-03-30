@@ -1,0 +1,12 @@
+id: ctrl.limit_configuration_change_audit
+name: Limit Configuration Change Audit
+description: >
+  Maintain a complete audit trail of all payment limit configuration changes, including who
+  made the change, the previous and new values, and the business justification.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

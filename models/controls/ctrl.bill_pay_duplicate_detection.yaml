@@ -1,0 +1,12 @@
+id: ctrl.bill_pay_duplicate_detection
+name: Bill Pay Duplicate Detection
+description: >
+  Detect and alert on potential duplicate bill payments by comparing payment attributes such
+  as biller, amount, and timing against recent bill pay transaction history.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

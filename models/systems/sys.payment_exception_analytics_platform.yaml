@@ -1,0 +1,10 @@
+id: sys.payment_exception_analytics_platform
+name: Payment Exception Analytics Platform
+description: >
+  Analytics platform identifying exception patterns, root causes,
+  and systemic issues to drive process improvement.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

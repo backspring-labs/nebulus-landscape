@@ -1,0 +1,12 @@
+id: ctrl.return_accounting_reconciliation
+name: Return Accounting Reconciliation
+description: >
+  Reconcile payment return accounting entries to ensure that debit and credit adjustments
+  are correctly posted and the general ledger accurately reflects return activity.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

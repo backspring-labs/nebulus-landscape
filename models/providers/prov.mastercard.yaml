@@ -1,0 +1,10 @@
+id: prov.mastercard
+name: Mastercard
+category: payment_network
+summary: >
+  Global payment technology company providing card network services,
+  bill payment solutions (RPPS), and payment processing infrastructure
+  for financial institutions and merchants.
+status: stub
+source_refs: []
+tags: []

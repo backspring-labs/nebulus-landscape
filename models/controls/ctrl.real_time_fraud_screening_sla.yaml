@@ -1,0 +1,12 @@
+id: ctrl.real_time_fraud_screening_sla
+name: Real-Time Fraud Screening SLA
+description: >
+  Enforce fraud screening response time SLAs for instant payments to ensure risk decisions
+  are rendered within network latency requirements without compromising detection quality.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

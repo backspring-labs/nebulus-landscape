@@ -1,0 +1,10 @@
+id: sys.instant_payment_gateway
+name: Instant Payment Gateway
+description: >
+  Gateway providing connectivity to instant payment networks (RTP
+  and FedNow) for real-time payment message submission and receipt.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

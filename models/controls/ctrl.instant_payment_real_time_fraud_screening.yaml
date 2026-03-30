@@ -1,0 +1,12 @@
+id: ctrl.instant_payment_real_time_fraud_screening
+name: Instant Payment Real-Time Fraud Screening
+description: >
+  Execute real-time fraud screening within network latency requirements for instant payments,
+  balancing fraud detection effectiveness with the speed demands of real-time payment rails.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.instant_payment_message_validation
+name: Instant Payment Message Validation
+description: >
+  Validate instant payment messages against RTP or FedNow message specifications before
+  network submission to prevent rejections and ensure data completeness.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

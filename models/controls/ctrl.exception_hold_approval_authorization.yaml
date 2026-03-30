@@ -1,0 +1,12 @@
+id: ctrl.exception_hold_approval_authorization
+name: Exception Hold Approval Authorization
+description: >
+  Require authorized approval for exception holds that extend beyond standard Regulation CC
+  timeframes, with documented justification for the extended hold period.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

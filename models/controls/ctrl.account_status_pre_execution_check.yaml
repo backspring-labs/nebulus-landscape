@@ -1,0 +1,12 @@
+id: ctrl.account_status_pre_execution_check
+name: Account Status Pre-Execution Check
+description: >
+  Verify that both source and destination accounts are in an active, unrestricted status
+  that permits fund movements before executing a transfer.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

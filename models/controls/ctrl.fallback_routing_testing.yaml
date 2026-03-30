@@ -1,0 +1,12 @@
+id: ctrl.fallback_routing_testing
+name: Fallback Routing Testing
+description: >
+  Periodically test fallback routing paths to ensure they function correctly when primary
+  payment rails or routing options become unavailable.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

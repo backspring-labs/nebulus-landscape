@@ -1,0 +1,10 @@
+id: sys.fee_schedule_management_system
+name: Fee Schedule Management System
+description: >
+  System managing payment fee schedules, rate tables, and pricing
+  configurations across payment types and customer segments.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

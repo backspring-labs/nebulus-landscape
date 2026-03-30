@@ -1,0 +1,12 @@
+id: risk.instant_payment_fraud_velocity
+name: Instant Payment Fraud Velocity
+description: >
+  The speed of instant payment execution enables rapid extraction of funds before fraud detection
+  systems can identify and respond to suspicious patterns.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.memo_post_engine
+name: Memo Post Engine
+description: >
+  Engine managing memo-posted (pending) transactions that reflect
+  in available balance before final settlement posting.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

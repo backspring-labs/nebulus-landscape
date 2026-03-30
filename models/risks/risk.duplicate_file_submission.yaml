@@ -1,0 +1,12 @@
+id: risk.duplicate_file_submission
+name: Duplicate File Submission
+description: >
+  The same payment file is submitted more than once to a clearing network or processor,
+  resulting in duplicate transactions and financial exposure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

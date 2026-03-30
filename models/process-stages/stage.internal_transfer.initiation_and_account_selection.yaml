@@ -1,0 +1,13 @@
+id: stage.internal_transfer.initiation_and_account_selection
+name: Initiation and Account Selection
+process_id: proc.internal_account_transfer_v1
+description: >
+  Customer selects source and destination accounts for an internal
+  transfer and specifies the transfer amount, date, and memo.
+order: 1
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

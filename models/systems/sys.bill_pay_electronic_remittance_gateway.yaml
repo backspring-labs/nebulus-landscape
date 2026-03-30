@@ -1,0 +1,10 @@
+id: sys.bill_pay_electronic_remittance_gateway
+name: Bill Pay Electronic Remittance Gateway
+description: >
+  Gateway transmitting electronic bill payment remittances to billers
+  and biller aggregators through established payment networks.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

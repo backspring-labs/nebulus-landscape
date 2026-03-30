@@ -1,0 +1,12 @@
+id: ctrl.network_format_specification_currency
+name: Network Format Specification Currency
+description: >
+  Ensure that payment message format specifications are kept current with the latest network and
+  clearing house requirements, preventing rejections due to outdated formatting rules.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

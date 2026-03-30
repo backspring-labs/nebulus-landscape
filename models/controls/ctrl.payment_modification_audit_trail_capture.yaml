@@ -1,0 +1,12 @@
+id: ctrl.payment_modification_audit_trail_capture
+name: Payment Modification Audit Trail Capture
+description: >
+  Capture a complete audit trail of all payment data modifications made during the repair
+  process, including original values, new values, and the identity of the repairer.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

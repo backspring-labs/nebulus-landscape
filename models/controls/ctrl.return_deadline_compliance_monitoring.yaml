@@ -1,0 +1,12 @@
+id: ctrl.return_deadline_compliance_monitoring
+name: Return Deadline Compliance Monitoring
+description: >
+  Monitor payment return processing against network-mandated deadlines to ensure timely
+  handling and prevent regulatory violations from late return submissions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

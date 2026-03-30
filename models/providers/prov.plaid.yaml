@@ -1,0 +1,10 @@
+id: prov.plaid
+name: Plaid
+category: account_connectivity
+summary: >
+  Financial data connectivity platform enabling account verification,
+  identity verification, and data aggregation through API-based
+  integrations with financial institutions.
+status: stub
+source_refs: []
+tags: []

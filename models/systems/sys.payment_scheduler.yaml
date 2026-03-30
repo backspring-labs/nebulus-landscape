@@ -1,0 +1,10 @@
+id: sys.payment_scheduler
+name: Payment Scheduler
+description: >
+  Scheduler managing future-dated and recurring payment execution
+  timing, trigger conditions, and retry logic.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

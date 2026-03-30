@@ -1,0 +1,12 @@
+id: risk.request_for_return_denial
+name: Request for Return Denial
+description: >
+  A request for return of funds on an instant payment is denied by the receiving institution,
+  leaving the originator with no recourse to recover misdirected or fraudulent funds.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

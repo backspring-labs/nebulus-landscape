@@ -1,0 +1,12 @@
+id: risk.hold_release_system_failure
+name: Hold Release System Failure
+description: >
+  A system failure prevents timely release of funds availability holds, keeping customer funds
+  inaccessible beyond the required hold period.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

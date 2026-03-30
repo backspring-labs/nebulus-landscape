@@ -1,0 +1,12 @@
+id: ctrl.bill_pay_remittance_reconciliation
+name: Bill Pay Remittance Reconciliation
+description: >
+  Reconcile bill pay remittance records with biller confirmations to ensure payments were
+  applied correctly and detect any discrepancies in payment application.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

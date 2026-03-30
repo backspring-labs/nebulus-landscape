@@ -1,0 +1,12 @@
+id: ctrl.scheduled_payment_instruction_revalidation
+name: Scheduled Payment Instruction Revalidation
+description: >
+  Revalidate scheduled payment instructions before execution to ensure payee details, account
+  status, and routing information remain valid since the instruction was originally created.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

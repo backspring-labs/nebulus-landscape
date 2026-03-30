@@ -1,0 +1,12 @@
+id: ctrl.ach_limit_and_cutoff_enforcement
+name: ACH Limit and Cutoff Enforcement
+description: >
+  Enforce ACH transaction and file-level limits along with network submission cutoff times
+  to prevent oversized files and missed processing windows.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

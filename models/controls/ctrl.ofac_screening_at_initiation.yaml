@@ -1,0 +1,12 @@
+id: ctrl.ofac_screening_at_initiation
+name: OFAC Screening at Initiation
+description: >
+  Screen payment parties against OFAC sanctions lists at the point of ACH initiation to
+  prevent prohibited transactions from entering the clearing network.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

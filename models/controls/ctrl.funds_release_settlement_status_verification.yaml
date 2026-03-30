@@ -1,0 +1,12 @@
+id: ctrl.funds_release_settlement_status_verification
+name: Funds Release Settlement Status Verification
+description: >
+  Verify settlement status before releasing held funds to ensure that the underlying payment
+  has cleared and reduce the risk of loss from premature funds availability.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

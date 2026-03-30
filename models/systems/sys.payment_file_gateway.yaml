@@ -1,0 +1,10 @@
+id: sys.payment_file_gateway
+name: Payment File Gateway
+description: >
+  Gateway receiving payment instruction files from internal and
+  external originators through secure file transfer protocols.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

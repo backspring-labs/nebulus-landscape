@@ -1,0 +1,12 @@
+id: ctrl.wire_correspondent_routing_validation
+name: Wire Correspondent Routing Validation
+description: >
+  Validate that wire transfer routing through correspondent banks is correct and that
+  intermediary institutions are active and authorized before message transmission.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

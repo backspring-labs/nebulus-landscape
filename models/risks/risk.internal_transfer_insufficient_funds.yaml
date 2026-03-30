@@ -1,0 +1,12 @@
+id: risk.internal_transfer_insufficient_funds
+name: Internal Transfer Insufficient Funds
+description: >
+  An internal transfer fails at execution because the source account has insufficient available
+  funds, and the condition is not detected before processing begins.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

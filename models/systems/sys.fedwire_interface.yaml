@@ -1,0 +1,10 @@
+id: sys.fedwire_interface
+name: Fedwire Interface
+description: >
+  Interface providing connectivity to the Federal Reserve Fedwire
+  Funds Service for domestic high-value wire transfer processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

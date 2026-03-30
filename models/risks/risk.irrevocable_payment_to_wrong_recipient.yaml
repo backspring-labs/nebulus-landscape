@@ -1,0 +1,12 @@
+id: risk.irrevocable_payment_to_wrong_recipient
+name: Irrevocable Payment to Wrong Recipient
+description: >
+  An instant or wire payment is sent to an incorrect recipient and cannot be reversed through
+  standard mechanisms, requiring costly manual recovery efforts.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

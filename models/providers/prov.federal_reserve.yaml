@@ -1,0 +1,10 @@
+id: prov.federal_reserve
+name: Federal Reserve
+category: payment_network
+summary: >
+  U.S. central bank operating the Fedwire Funds Service for high-value
+  wire transfers, FedNow instant payment service, and FedACH national
+  ACH operator services.
+status: stub
+source_refs: []
+tags: []

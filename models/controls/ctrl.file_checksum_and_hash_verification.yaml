@@ -1,0 +1,12 @@
+id: ctrl.file_checksum_and_hash_verification
+name: File Checksum and Hash Verification
+description: >
+  Verify payment file integrity through checksum or cryptographic hash comparison upon receipt
+  to detect any corruption, truncation, or tampering during file transmission.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

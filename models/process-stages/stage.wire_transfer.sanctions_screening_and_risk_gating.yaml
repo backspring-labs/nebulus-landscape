@@ -1,0 +1,13 @@
+id: stage.wire_transfer.sanctions_screening_and_risk_gating
+name: Sanctions Screening and Risk Gating
+process_id: proc.wire_transfer_v1
+description: >
+  Screen the wire transfer against OFAC and international sanctions
+  lists and evaluate fraud risk before proceeding.
+order: 3
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

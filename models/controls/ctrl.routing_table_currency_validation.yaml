@@ -1,0 +1,12 @@
+id: ctrl.routing_table_currency_validation
+name: Routing Table Currency Validation
+description: >
+  Validate that payment routing tables are current and accurately reflect active network
+  participants, routing numbers, and intermediary relationships to prevent misdirected payments.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

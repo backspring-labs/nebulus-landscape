@@ -1,0 +1,12 @@
+id: ctrl.ach_originator_exposure_limit_check
+name: ACH Originator Exposure Limit Check
+description: >
+  Verify that ACH origination volumes remain within approved exposure limits for each originator
+  to manage settlement risk and prevent excessive counterparty exposure.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

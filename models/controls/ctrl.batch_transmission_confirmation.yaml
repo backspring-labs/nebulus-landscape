@@ -1,0 +1,12 @@
+id: ctrl.batch_transmission_confirmation
+name: Batch Transmission Confirmation
+description: >
+  Confirm successful transmission of ACH batch files to the ACH operator and verify receipt
+  acknowledgment to ensure files are not lost in transit.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

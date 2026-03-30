@@ -1,0 +1,10 @@
+id: sys.bill_pay_check_print_and_mail
+name: Bill Pay Check Print and Mail
+description: >
+  Service handling physical check printing and mailing for bill
+  payments to billers that do not accept electronic remittance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.payment_network_gateway
+name: Payment Network Gateway
+description: >
+  Gateway providing connectivity to external payment networks and
+  clearing systems for payment message transmission and receipt.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

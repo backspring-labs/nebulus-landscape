@@ -1,0 +1,12 @@
+id: ctrl.authorization_queue_aging_monitoring
+name: Authorization Queue Aging Monitoring
+description: >
+  Monitor the aging of payments in authorization queues to detect bottlenecks, resource
+  constraints, or process failures that could delay payment execution beyond acceptable limits.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

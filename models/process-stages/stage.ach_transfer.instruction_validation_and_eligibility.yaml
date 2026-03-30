@@ -1,0 +1,13 @@
+id: stage.ach_transfer.instruction_validation_and_eligibility
+name: Instruction Validation and Eligibility
+process_id: proc.external_ach_transfer_v1
+description: >
+  Validate the ACH instruction for data completeness, format
+  compliance, and NACHA rule eligibility before processing.
+order: 2
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,12 @@
+id: risk.unauthorized_fee_waiver
+name: Unauthorized Fee Waiver
+description: >
+  Payment fees are waived without proper authorization or outside of approved waiver policies,
+  resulting in revenue loss and control deficiency.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

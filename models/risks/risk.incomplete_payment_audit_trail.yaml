@@ -1,0 +1,12 @@
+id: risk.incomplete_payment_audit_trail
+name: Incomplete Payment Audit Trail
+description: >
+  Key payment lifecycle events are not captured in the audit log, hindering dispute resolution,
+  regulatory examination, and forensic investigation.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

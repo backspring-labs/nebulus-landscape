@@ -1,0 +1,12 @@
+id: ctrl.batch_processing_completeness_verification
+name: Batch Processing Completeness Verification
+description: >
+  Verify that all records within a payment batch have been processed to completion, detecting
+  any records that were dropped, skipped, or left in an incomplete state.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

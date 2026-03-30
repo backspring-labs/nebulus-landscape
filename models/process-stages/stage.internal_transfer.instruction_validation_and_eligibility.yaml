@@ -1,0 +1,13 @@
+id: stage.internal_transfer.instruction_validation_and_eligibility
+name: Instruction Validation and Eligibility
+process_id: proc.internal_account_transfer_v1
+description: >
+  Validate the transfer instruction for completeness, account
+  eligibility, and business rule compliance before proceeding.
+order: 2
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

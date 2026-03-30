@@ -1,0 +1,12 @@
+id: ctrl.routing_rule_effectiveness_monitoring
+name: Routing Rule Effectiveness Monitoring
+description: >
+  Monitor routing rule outcomes to identify suboptimal rail selections, excessive fallback usage,
+  or routing failures that indicate configuration drift or changing network conditions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

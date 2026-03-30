@@ -1,0 +1,12 @@
+id: risk.payment_status_update_latency
+name: Payment Status Update Latency
+description: >
+  Payment status updates are delayed beyond acceptable thresholds, preventing timely
+  customer notification and operational decision-making.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

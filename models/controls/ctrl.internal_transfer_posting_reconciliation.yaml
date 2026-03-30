@@ -1,0 +1,12 @@
+id: ctrl.internal_transfer_posting_reconciliation
+name: Internal Transfer Posting Reconciliation
+description: >
+  Reconcile debit and credit postings for internal transfers to ensure both legs of the
+  transaction completed successfully and general ledger entries are balanced.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

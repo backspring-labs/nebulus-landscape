@@ -1,0 +1,12 @@
+id: risk.wire_sanctions_screening_miss
+name: Wire Sanctions Screening Miss
+description: >
+  A wire transfer passes through sanctions screening without detecting a true match against
+  restricted parties, resulting in regulatory violation and potential enforcement action.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: risk.incorrect_return_reason_code
+name: Incorrect Return Reason Code
+description: >
+  A payment return is submitted with an incorrect reason code, causing confusion for the
+  originator, potential regulatory issues, or improper accounting treatment.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

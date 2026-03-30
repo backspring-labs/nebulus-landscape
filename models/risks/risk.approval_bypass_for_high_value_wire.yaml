@@ -1,0 +1,12 @@
+id: risk.approval_bypass_for_high_value_wire
+name: Approval Bypass for High-Value Wire
+description: >
+  A high-value wire transfer is processed without the required approval levels or dual-control
+  verification, violating institutional policy and increasing fraud exposure.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.ach_settlement_engine
+name: ACH Settlement Engine
+description: >
+  Engine coordinating ACH settlement processing including prefunding
+  management, settlement window tracking, and reconciliation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

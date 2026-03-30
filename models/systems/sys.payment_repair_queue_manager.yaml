@@ -1,0 +1,10 @@
+id: sys.payment_repair_queue_manager
+name: Payment Repair Queue Manager
+description: >
+  Queue manager prioritizing and routing payment exceptions to
+  appropriate repair teams based on type, urgency, and deadline.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

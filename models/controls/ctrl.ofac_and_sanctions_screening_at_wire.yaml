@@ -1,0 +1,12 @@
+id: ctrl.ofac_and_sanctions_screening_at_wire
+name: OFAC and Sanctions Screening at Wire
+description: >
+  Screen all wire transfer parties and transaction details against OFAC and international
+  sanctions lists before wire transmission to prevent prohibited transactions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

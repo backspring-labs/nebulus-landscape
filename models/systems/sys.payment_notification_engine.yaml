@@ -1,0 +1,10 @@
+id: sys.payment_notification_engine
+name: Payment Notification Engine
+description: >
+  Engine generating and delivering payment status notifications to
+  customers, operations teams, and external parties.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

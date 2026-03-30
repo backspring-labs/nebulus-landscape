@@ -1,0 +1,12 @@
+id: risk.payment_routed_to_suboptimal_rail
+name: Payment Routed to Suboptimal Rail
+description: >
+  A payment is sent via a more expensive, slower, or less reliable rail than necessary due to
+  routing logic deficiencies, increasing cost or settlement delay.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

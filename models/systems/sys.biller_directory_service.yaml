@@ -1,0 +1,10 @@
+id: sys.biller_directory_service
+name: Biller Directory Service
+description: >
+  Directory service maintaining biller records, routing information,
+  and payment acceptance details for bill payment processing.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

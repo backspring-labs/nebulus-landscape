@@ -1,0 +1,11 @@
+id: sys.fee_disclosure_and_notification_system
+name: Fee Disclosure and Notification System
+description: >
+  System generating and delivering fee disclosure notices and
+  transaction fee notifications to customers as required by
+  regulation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

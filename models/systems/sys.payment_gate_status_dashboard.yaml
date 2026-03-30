@@ -1,0 +1,10 @@
+id: sys.payment_gate_status_dashboard
+name: Payment Gate Status Dashboard
+description: >
+  Dashboard providing visibility into payment authorization gate
+  status, pending approvals, and gate completion progress.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

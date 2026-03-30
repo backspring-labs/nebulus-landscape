@@ -1,0 +1,13 @@
+id: stage.wire_transfer.settlement_confirmation_and_reconciliation
+name: Settlement Confirmation and Reconciliation
+process_id: proc.wire_transfer_v1
+description: >
+  Confirm wire settlement through network acknowledgment and
+  reconcile settlement records against originated instructions.
+order: 6
+capability_ids: []
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

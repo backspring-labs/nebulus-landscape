@@ -1,0 +1,12 @@
+id: ctrl.return_reason_code_validation
+name: Return Reason Code Validation
+description: >
+  Validate that payment return reason codes are appropriate for the transaction type and
+  circumstances, ensuring compliance with network rules and accurate reporting.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

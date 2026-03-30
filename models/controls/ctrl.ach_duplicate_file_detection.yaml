@@ -1,0 +1,12 @@
+id: ctrl.ach_duplicate_file_detection
+name: ACH Duplicate File Detection
+description: >
+  Detect and prevent the submission of duplicate ACH files by comparing file identifiers,
+  creation timestamps, and content signatures against recently processed files.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

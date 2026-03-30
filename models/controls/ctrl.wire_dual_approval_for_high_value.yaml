@@ -1,0 +1,12 @@
+id: ctrl.wire_dual_approval_for_high_value
+name: Wire Dual Approval for High Value
+description: >
+  Require dual approval from authorized individuals for wire transfers exceeding defined value
+  thresholds before release for transmission to the wire network.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

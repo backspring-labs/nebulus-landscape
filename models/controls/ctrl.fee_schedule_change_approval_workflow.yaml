@@ -1,0 +1,12 @@
+id: ctrl.fee_schedule_change_approval_workflow
+name: Fee Schedule Change Approval Workflow
+description: >
+  Require formal approval workflow for payment fee schedule changes, including pricing review,
+  regulatory impact assessment, and disclosure update verification before activation.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

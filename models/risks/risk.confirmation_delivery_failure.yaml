@@ -1,0 +1,12 @@
+id: risk.confirmation_delivery_failure
+name: Confirmation Delivery Failure
+description: >
+  A payment or transfer confirmation is not delivered to the customer due to notification
+  system failures, incorrect contact information, or channel issues.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: low
+source_refs: []
+status: draft

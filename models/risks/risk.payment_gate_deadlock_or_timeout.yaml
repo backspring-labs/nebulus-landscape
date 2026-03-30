@@ -1,0 +1,12 @@
+id: risk.payment_gate_deadlock_or_timeout
+name: Payment Gate Deadlock or Timeout
+description: >
+  A payment becomes stuck at an authorization gate due to system deadlock or timeout conditions,
+  preventing timely processing without manual intervention.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: medium
+source_refs: []
+status: draft

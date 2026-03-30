@@ -1,0 +1,12 @@
+id: risk.settlement_reconciliation_break
+name: Settlement Reconciliation Break
+description: >
+  A discrepancy exists between the institution's internal payment records and the settlement
+  confirmation from the clearing network, requiring investigation and resolution.
+domain_id: domain.payments
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: high
+source_refs: []
+status: draft

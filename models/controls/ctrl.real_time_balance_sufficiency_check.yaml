@@ -1,0 +1,12 @@
+id: ctrl.real_time_balance_sufficiency_check
+name: Real-Time Balance Sufficiency Check
+description: >
+  Perform a real-time check of available account balance at the moment of transfer execution
+  to ensure sufficient funds exist, accounting for holds and pending transactions.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,10 @@
+id: sys.payment_reversal_system
+name: Payment Reversal System
+description: >
+  System executing payment reversals with corresponding debit-credit
+  adjustments and ledger entries.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

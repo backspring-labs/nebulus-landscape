@@ -1,0 +1,10 @@
+id: prov.aci_worldwide
+name: ACI Worldwide
+category: payment_processing
+summary: >
+  Global payment software provider delivering real-time payment
+  processing, fraud prevention, and payment orchestration solutions
+  for banks, merchants, and billers.
+status: stub
+source_refs: []
+tags: []

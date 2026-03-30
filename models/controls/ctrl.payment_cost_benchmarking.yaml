@@ -1,0 +1,12 @@
+id: ctrl.payment_cost_benchmarking
+name: Payment Cost Benchmarking
+description: >
+  Compare payment routing costs against benchmarks and alternative rail options to identify
+  cost optimization opportunities and detect anomalous fee patterns.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

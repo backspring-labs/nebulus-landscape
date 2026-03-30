@@ -1,0 +1,12 @@
+id: ctrl.payment_exception_rate_monitoring
+name: Payment Exception Rate Monitoring
+description: >
+  Track and alert on payment exception rates by type, channel, and rail to identify systemic
+  validation issues or emerging data quality problems before they impact processing SLAs.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: detective
+owner: domain.payments
+source_refs: []
+status: draft

@@ -1,0 +1,12 @@
+id: ctrl.instant_payment_velocity_and_limit_enforcement
+name: Instant Payment Velocity and Limit Enforcement
+description: >
+  Enforce velocity controls and cumulative transaction limits for instant payments in real time
+  to mitigate the elevated fraud risk inherent in irrevocable payment rails.
+domain_id: domain.payments
+risk_ids: []
+process_ids: []
+control_type: preventive
+owner: domain.payments
+source_refs: []
+status: draft
