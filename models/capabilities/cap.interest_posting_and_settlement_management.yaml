@@ -1,0 +1,42 @@
+id: cap.interest_posting_and_settlement_management
+name: Interest Posting and Settlement Management
+domain_id: domain.ledger_core
+description: >
+  Post accrued interest, capitalize where appropriate, and handle corrections,
+  reversals, and settlement impacts of interest processing.
+value_stream_ids:
+  - vs.interest_economics
+  - vs.financial_truth_creation
+  - vs.accounting_event_processing
+journey_ids:
+  - journey.execute_interest_accrual_cycle
+  - journey.process_end_of_day_close
+  - journey.close_financial_period
+process_ids:
+  - proc.interest_posting_cycle
+  - proc.interest_capitalization
+  - proc.posted_interest_correction
+risk_ids:
+  - risk.accrual_posting_mismatch
+  - risk.duplicate_interest_posting
+  - risk.incorrect_capitalization
+  - risk.stale_accrual_never_posted
+control_ids:
+  - ctrl.accrual_to_posting_linkage_control
+  - ctrl.posting_cycle_control
+  - ctrl.duplicate_interest_post_prevention
+  - ctrl.capitalization_rule_enforcement
+  - ctrl.accrued_vs_posted_reconciliation
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.interest_posting_engine
+  - sys.capitalization_service
+  - sys.interest_settlement_service
+  - sys.interest_correction_processor
+source_refs: []
+status: draft
+confidence: medium

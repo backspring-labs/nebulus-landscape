@@ -1,0 +1,41 @@
+id: cap.interest_accrual_management
+name: Interest Accrual Management
+domain_id: domain.ledger_core
+description: >
+  Calculate interest accruals based on configured product economics and
+  authoritative balance states over time.
+value_stream_ids:
+  - vs.interest_economics
+  - vs.accounting_event_processing
+  - vs.financial_truth_creation
+journey_ids:
+  - journey.execute_interest_accrual_cycle
+  - journey.process_end_of_day_close
+process_ids:
+  - proc.daily_interest_accrual
+  - proc.accrual_recomputation
+  - proc.accrual_correction
+risk_ids:
+  - risk.wrong_balance_basis_for_accrual
+  - risk.wrong_day_count_treatment
+  - risk.accrual_rule_drift_from_configuration
+  - risk.failure_to_recompute_after_correction
+control_ids:
+  - ctrl.governed_accrual_methods
+  - ctrl.explicit_balance_basis_selection
+  - ctrl.date_basis_control
+  - ctrl.accrual_recomputation_after_correction
+  - ctrl.accrual_to_posting_lineage
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.interest_accrual_engine
+  - sys.accrual_record_store
+  - sys.rate_application_service
+  - sys.balance_basis_service
+source_refs: []
+status: draft
+confidence: medium

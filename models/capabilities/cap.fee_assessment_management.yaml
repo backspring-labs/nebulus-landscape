@@ -1,0 +1,42 @@
+id: cap.fee_assessment_management
+name: Fee Assessment Management
+domain_id: domain.ledger_core
+description: >
+  Calculate and assess fees based on configured product terms, event triggers,
+  schedules, or threshold conditions.
+value_stream_ids:
+  - vs.fee_economics
+  - vs.accounting_event_processing
+  - vs.financial_truth_creation
+journey_ids:
+  - journey.execute_monthly_fee_assessment
+  - journey.process_end_of_day_close
+process_ids:
+  - proc.fee_assessment_cycle
+  - proc.event_triggered_fee_assessment
+  - proc.fee_waiver_evaluation
+risk_ids:
+  - risk.wrong_fee_amount_assessed
+  - risk.fee_charged_that_should_be_waived
+  - risk.missed_assessable_fee
+  - risk.inconsistent_threshold_treatment
+control_ids:
+  - ctrl.governed_fee_schedules_from_accounts
+  - ctrl.explicit_assessment_records
+  - ctrl.trigger_to_amount_traceability
+  - ctrl.controlled_waiver_handling
+  - ctrl.assessed_vs_posted_fee_reconciliation
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.fee_assessment_engine
+  - sys.fee_trigger_service
+  - sys.threshold_evaluation_service
+  - sys.waiver_evaluation_service
+  - sys.fee_assessment_record_store
+source_refs: []
+status: draft
+confidence: medium

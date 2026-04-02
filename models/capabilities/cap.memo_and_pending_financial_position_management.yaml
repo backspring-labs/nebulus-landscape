@@ -1,0 +1,40 @@
+id: cap.memo_and_pending_financial_position_management
+name: Memo and Pending Financial Position Management
+domain_id: domain.ledger_core
+description: >
+  Maintain memo, pending, and pre-posted financial states that influence
+  spendability or visibility before final accounting recognition.
+value_stream_ids:
+  - vs.financial_position_management
+  - vs.balance_derivation
+  - vs.customer_financial_visibility
+journey_ids:
+  - journey.compute_customer_balance
+  - journey.post_deposit_transaction
+process_ids:
+  - proc.memo_position_maintenance
+  - proc.pending_position_lifecycle
+  - proc.pending_to_posted_conversion
+risk_ids:
+  - risk.pending_treated_as_posted
+  - risk.stale_hold_never_released
+  - risk.spendability_distortion
+  - risk.pending_to_posted_linkage_break
+control_ids:
+  - ctrl.posted_vs_pending_state_distinction
+  - ctrl.hold_expiry_and_release_governance
+  - ctrl.pending_to_posting_linkage
+  - ctrl.aged_pending_item_monitoring
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.memo_position_service
+  - sys.pending_position_store
+  - sys.hold_management_engine
+  - sys.position_conversion_service
+source_refs: []
+status: draft
+confidence: medium

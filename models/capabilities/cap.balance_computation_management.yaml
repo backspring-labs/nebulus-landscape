@@ -1,0 +1,41 @@
+id: cap.balance_computation_management
+name: Balance Computation Management
+domain_id: domain.ledger_core
+description: >
+  Compute authoritative balances from posted entries, including current/posted,
+  available, collected, and accrued states.
+value_stream_ids:
+  - vs.balance_derivation
+  - vs.financial_truth_creation
+  - vs.customer_financial_visibility
+journey_ids:
+  - journey.compute_customer_balance
+  - journey.post_deposit_transaction
+  - journey.process_end_of_day_close
+process_ids:
+  - proc.balance_derivation
+  - proc.balance_recomputation
+  - proc.available_balance_calculation
+risk_ids:
+  - risk.balance_divergence_from_ledger_truth
+  - risk.inconsistent_available_balance_logic
+  - risk.stale_balance_after_correction
+  - risk.incorrect_accrued_component_inclusion
+control_ids:
+  - ctrl.governed_balance_definitions
+  - ctrl.repeatable_derivation_from_posted_truth
+  - ctrl.recomputation_after_correction
+  - ctrl.balance_to_entry_lineage
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.balance_computation_engine
+  - sys.balance_state_store
+  - sys.available_balance_service
+  - sys.balance_recomputation_service
+source_refs: []
+status: draft
+confidence: medium

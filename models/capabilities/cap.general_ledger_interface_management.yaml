@@ -1,0 +1,41 @@
+id: cap.general_ledger_interface_management
+name: General Ledger Interface Management
+domain_id: domain.ledger_core
+description: >
+  Maintain the controlled relationship between banking subledgers and enterprise
+  general ledger structures, including summarization, mapping, and posting handoff.
+value_stream_ids:
+  - vs.finance_alignment
+  - vs.accounting_control
+  - vs.period_close_support
+journey_ids:
+  - journey.process_end_of_day_close
+  - journey.close_financial_period
+  - journey.resolve_reconciliation_break
+process_ids:
+  - proc.subledger_to_gl_rollup
+  - proc.gl_mapping_maintenance
+  - proc.gl_handoff_batch_processing
+risk_ids:
+  - risk.subledger_gl_mismatch
+  - risk.incorrect_finance_classification_mapping
+  - risk.untraceable_rollup_lineage
+  - risk.incomplete_gl_handoff
+control_ids:
+  - ctrl.governed_mapping_tables
+  - ctrl.rollup_validation_and_control_totals
+  - ctrl.detail_to_summary_lineage
+  - ctrl.unmapped_item_exception_reporting
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.fiserv
+  - prov.sap
+system_ids:
+  - sys.gl_interface_engine
+  - sys.rollup_mapping_service
+  - sys.gl_handoff_batch_processor
+  - sys.finance_classification_registry
+source_refs: []
+status: draft
+confidence: medium
