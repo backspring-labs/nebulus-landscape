@@ -1,0 +1,40 @@
+id: cap.financial_audit_trail_and_lineage_management
+name: Financial Audit Trail and Lineage Management
+domain_id: domain.ledger_core
+description: >
+  Preserve full traceability from source event to posting decision to journal
+  outcome, balances, and downstream reporting outputs.
+value_stream_ids:
+  - vs.financial_traceability
+  - vs.accounting_control
+  - vs.audit_readiness
+journey_ids:
+  - journey.reverse_erroneous_posting
+  - journey.resolve_reconciliation_break
+  - journey.close_financial_period
+process_ids:
+  - proc.lineage_reference_propagation
+  - proc.lineage_gap_detection
+  - proc.audit_evidence_packaging
+risk_ids:
+  - risk.inability_to_reconstruct_posting_reason
+  - risk.broken_source_to_report_trace
+  - risk.corrections_severing_history
+  - risk.lineage_gaps_discovered_at_close
+control_ids:
+  - ctrl.mandatory_reference_propagation
+  - ctrl.immutable_lineage_preservation
+  - ctrl.lineage_gap_detection_and_exception
+  - ctrl.lineage_retention_and_retrieval
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.fiserv
+system_ids:
+  - sys.financial_lineage_store
+  - sys.audit_trace_service
+  - sys.lineage_gap_detector
+  - sys.evidence_packaging_service
+source_refs: []
+status: draft
+confidence: medium

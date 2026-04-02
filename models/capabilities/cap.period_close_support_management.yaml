@@ -1,0 +1,42 @@
+id: cap.period_close_support_management
+name: Period Close Support Management
+domain_id: domain.ledger_core
+description: >
+  Support financial close, rollups, and control evidence needed for reporting
+  periods, finance operations, and regulatory production.
+value_stream_ids:
+  - vs.period_close_support
+  - vs.financial_governance
+  - vs.regulatory_reporting_readiness
+journey_ids:
+  - journey.close_financial_period
+  - journey.process_end_of_day_close
+process_ids:
+  - proc.close_readiness_assessment
+  - proc.close_rollup_assembly
+  - proc.close_evidence_packaging
+  - proc.post_close_reopen_governance
+risk_ids:
+  - risk.close_with_unresolved_ledger_risks
+  - risk.incomplete_close_rollups
+  - risk.post_close_corrections_ungoverned
+  - risk.regulatory_production_unsupported
+control_ids:
+  - ctrl.close_readiness_criteria
+  - ctrl.evidence_completeness_checks
+  - ctrl.unresolved_item_escalation_at_close
+  - ctrl.reopen_rerun_governance
+  - ctrl.close_signoff_and_delivery_controls
+provider_ids:
+  - prov.temenos
+  - prov.fiserv
+  - prov.sap
+  - prov.fis
+system_ids:
+  - sys.close_support_service
+  - sys.rollup_assembly_engine
+  - sys.close_evidence_repository
+  - sys.close_readiness_dashboard
+source_refs: []
+status: draft
+confidence: medium

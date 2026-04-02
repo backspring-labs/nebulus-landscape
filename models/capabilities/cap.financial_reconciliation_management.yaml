@@ -1,0 +1,42 @@
+id: cap.financial_reconciliation_management
+name: Financial Reconciliation Management
+domain_id: domain.ledger_core
+description: >
+  Reconcile subledgers, source operations, suspense positions, settlement
+  positions, and general ledger accounts to ensure books agree.
+value_stream_ids:
+  - vs.financial_integrity
+  - vs.accounting_control
+  - vs.period_close_support
+journey_ids:
+  - journey.resolve_reconciliation_break
+  - journey.process_end_of_day_close
+  - journey.close_financial_period
+process_ids:
+  - proc.subledger_to_gl_reconciliation
+  - proc.settlement_reconciliation
+  - proc.break_identification_and_aging
+risk_ids:
+  - risk.books_disagree_undetected
+  - risk.breaks_accumulate_without_ownership
+  - risk.close_proceeds_with_unresolved_differences
+  - risk.false_confidence_from_incomplete_reconciliation
+control_ids:
+  - ctrl.defined_reconciliation_populations
+  - ctrl.break_categorization_and_materiality
+  - ctrl.aged_break_monitoring
+  - ctrl.reconciliation_signoff_controls
+  - ctrl.independent_reconciliation_evidence
+provider_ids:
+  - prov.temenos
+  - prov.fiserv
+  - prov.fis
+  - prov.sap
+system_ids:
+  - sys.reconciliation_engine
+  - sys.break_management_service
+  - sys.control_total_service
+  - sys.reconciliation_evidence_store
+source_refs: []
+status: draft
+confidence: medium

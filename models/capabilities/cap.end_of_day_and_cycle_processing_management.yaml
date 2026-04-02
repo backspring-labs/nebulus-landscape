@@ -1,0 +1,44 @@
+id: cap.end_of_day_and_cycle_processing_management
+name: End of Day and Cycle Processing Management
+domain_id: domain.ledger_core
+description: >
+  Execute accounting cycle events such as day close, statement-cycle close,
+  accrual roll-forward, fee runs, dormancy treatment hooks, and posting windows.
+value_stream_ids:
+  - vs.accounting_cycle_operations
+  - vs.financial_truth_creation
+  - vs.period_close_support
+journey_ids:
+  - journey.process_end_of_day_close
+  - journey.execute_interest_accrual_cycle
+  - journey.execute_monthly_fee_assessment
+process_ids:
+  - proc.day_close_execution
+  - proc.statement_cycle_close
+  - proc.accrual_roll_forward
+  - proc.fee_run_execution
+risk_ids:
+  - risk.cycle_logic_out_of_sequence
+  - risk.duplicate_cycle_step_execution
+  - risk.accrual_roll_forward_omission
+  - risk.posting_window_close_with_unresolved_conditions
+control_ids:
+  - ctrl.cycle_sequencing_control
+  - ctrl.one_time_cycle_execution_control
+  - ctrl.open_close_state_governance
+  - ctrl.rerun_and_reopen_controls
+  - ctrl.cycle_step_evidence_capture
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+  - prov.fis
+system_ids:
+  - sys.cycle_processing_engine
+  - sys.day_close_service
+  - sys.posting_window_manager
+  - sys.cycle_evidence_store
+source_refs: []
+status: draft
+confidence: medium

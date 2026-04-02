@@ -1,0 +1,39 @@
+id: cap.fee_posting_and_adjustment_management
+name: Fee Posting and Adjustment Management
+domain_id: domain.ledger_core
+description: >
+  Post fees, waivers, refunds, rebates, and associated adjustments into the
+  accounting record while preserving linkage to assessment and correction history.
+value_stream_ids:
+  - vs.fee_economics
+  - vs.financial_truth_creation
+  - vs.accounting_control
+journey_ids:
+  - journey.execute_monthly_fee_assessment
+  - journey.reverse_erroneous_posting
+process_ids:
+  - proc.fee_posting_cycle
+  - proc.fee_waiver_posting
+  - proc.fee_refund_posting
+risk_ids:
+  - risk.fee_posted_without_valid_assessment
+  - risk.duplicate_fee_posting
+  - risk.refund_not_linked_to_original_fee
+  - risk.revenue_distortion_from_incorrect_fee_adjustment
+control_ids:
+  - ctrl.assessment_to_posting_linkage
+  - ctrl.duplicate_fee_post_prevention
+  - ctrl.controlled_fee_adjustment_treatment
+  - ctrl.assessed_vs_posted_fee_reconciliation
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.fee_posting_engine
+  - sys.fee_adjustment_service
+  - sys.fee_revenue_recognition_service
+source_refs: []
+status: draft
+confidence: medium

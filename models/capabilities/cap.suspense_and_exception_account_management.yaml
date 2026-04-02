@@ -1,0 +1,40 @@
+id: cap.suspense_and_exception_account_management
+name: Suspense and Exception Account Management
+domain_id: domain.ledger_core
+description: >
+  Manage unresolved financial items, suspense balances, breaks, exception
+  queues, and aged unresolved accounting conditions.
+value_stream_ids:
+  - vs.financial_exception_containment
+  - vs.accounting_control
+  - vs.period_close_support
+journey_ids:
+  - journey.resolve_suspense_item
+  - journey.resolve_reconciliation_break
+process_ids:
+  - proc.suspense_item_intake
+  - proc.suspense_aging_and_escalation
+  - proc.suspense_release_and_reclassification
+risk_ids:
+  - risk.unresolved_items_hidden_in_normal_books
+  - risk.suspense_balance_growing_without_ownership
+  - risk.incorrect_suspense_release
+  - risk.repeat_break_reintroduction
+control_ids:
+  - ctrl.governed_suspense_account_usage
+  - ctrl.aging_and_ownership_controls
+  - ctrl.release_reclass_approval_controls
+  - ctrl.suspense_to_source_lineage
+  - ctrl.close_period_suspense_review
+provider_ids:
+  - prov.temenos
+  - prov.fiserv
+  - prov.fis
+system_ids:
+  - sys.suspense_account_engine
+  - sys.exception_queue_service
+  - sys.aging_monitor
+  - sys.suspense_release_service
+source_refs: []
+status: draft
+confidence: medium
