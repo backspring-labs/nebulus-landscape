@@ -1,0 +1,38 @@
+id: journey.execute_interest_accrual_cycle
+name: Execute Interest Accrual Cycle
+description: >
+  The scheduled interest accrual cycle runs across eligible deposit accounts,
+  calculating accrued interest based on configured product economics and
+  balance states, recording accrual entries, and — when the accrual period
+  closes — capitalizing accrued interest into posted balance through
+  interest posting and settlement.
+actor: system_or_operator
+entry_capability_id: cap.interest_accrual_management
+domain_ids:
+  - domain.ledger_core
+  - domain.accounts
+  - domain.orchestration_control
+capability_ids:
+  - cap.interest_accrual_management
+  - cap.interest_posting_and_settlement_management
+  - cap.balance_computation_management
+  - cap.journal_entry_construction_management
+  - cap.posting_execution_management
+  - cap.end_of_day_and_cycle_processing_management
+  - cap.subledger_account_management
+  - cap.financial_audit_trail_and_lineage_management
+  - cap.suspense_and_exception_account_management
+value_stream_id: vs.deposit_account_servicing
+process_id: proc.interest_accrual_cycle_v1
+entry_points:
+  - scheduled_daily_accrual
+  - period_end_capitalization
+  - ad_hoc_accrual_run
+outcomes:
+  - accrual_entries_recorded
+  - interest_capitalized_and_posted
+  - balances_updated
+  - exceptions_routed
+source_refs: []
+status: draft
+confidence: medium

@@ -1,0 +1,41 @@
+id: journey.resolve_reconciliation_break
+name: Resolve Reconciliation Break
+description: >
+  A reconciliation break — a discrepancy between subledger positions,
+  operational source records, settlement positions, or general ledger
+  accounts — is detected, investigated, attributed to a root cause,
+  and resolved through corrective action such as adjustment, reposting,
+  reclassification, or suspense clearance, restoring agreement between
+  books.
+actor: operations_analyst
+entry_capability_id: cap.financial_reconciliation_management
+domain_ids:
+  - domain.ledger_core
+  - domain.accounts
+  - domain.payments
+  - domain.orchestration_control
+capability_ids:
+  - cap.financial_reconciliation_management
+  - cap.suspense_and_exception_account_management
+  - cap.posting_adjustment_and_reversal_management
+  - cap.journal_entry_construction_management
+  - cap.posting_execution_management
+  - cap.balance_computation_management
+  - cap.subledger_account_management
+  - cap.general_ledger_interface_management
+  - cap.financial_audit_trail_and_lineage_management
+value_stream_id: vs.financial_integrity_and_control
+process_id: proc.reconciliation_break_resolution_v1
+entry_points:
+  - automated_reconciliation_exception
+  - manual_break_identification
+  - settlement_mismatch_alert
+  - gl_subledger_variance_detection
+outcomes:
+  - break_resolved_books_agree
+  - corrective_entries_posted
+  - suspense_cleared
+  - root_cause_documented
+source_refs: []
+status: draft
+confidence: medium

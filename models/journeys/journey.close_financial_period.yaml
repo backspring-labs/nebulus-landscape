@@ -1,0 +1,41 @@
+id: journey.close_financial_period
+name: Close Financial Period
+description: >
+  A reporting period (month-end, quarter-end, or year-end) is closed by
+  completing all outstanding postings, finalizing accruals and
+  assessments, executing reconciliation controls, producing period-close
+  evidence, rolling forward balances, and locking the closed period
+  against further posting — establishing the authoritative financial
+  record for downstream reporting and regulatory production.
+actor: finance_operations
+entry_capability_id: cap.period_close_support_management
+domain_ids:
+  - domain.ledger_core
+  - domain.accounts
+  - domain.orchestration_control
+capability_ids:
+  - cap.period_close_support_management
+  - cap.end_of_day_and_cycle_processing_management
+  - cap.financial_reconciliation_management
+  - cap.interest_accrual_management
+  - cap.interest_posting_and_settlement_management
+  - cap.fee_assessment_management
+  - cap.fee_posting_and_adjustment_management
+  - cap.balance_computation_management
+  - cap.subledger_account_management
+  - cap.general_ledger_interface_management
+  - cap.suspense_and_exception_account_management
+  - cap.financial_audit_trail_and_lineage_management
+value_stream_id: vs.financial_integrity_and_control
+process_id: proc.financial_period_close_v1
+entry_points:
+  - scheduled_period_end
+  - manual_close_initiation
+outcomes:
+  - period_closed_and_locked
+  - balances_rolled_forward
+  - reconciliation_evidence_produced
+  - gl_positions_finalized
+source_refs: []
+status: draft
+confidence: medium
