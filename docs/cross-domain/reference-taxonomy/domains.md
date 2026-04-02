@@ -25,7 +25,7 @@ Planned domains for the nebulus-landscape canonical model, in recommended bootst
 | 9 | Networks & Schemes | `domain.networks_schemes` | Planned |
 | 10 | Data & Rewards | `domain.data_rewards` | Planned |
 | 11 | Servicing | `domain.servicing` | Planned |
-| 12 | Ledger / Core Banking | `domain.ledger_core` | Planned |
+| 12 | Ledger / Core Banking | `domain.ledger_core` | Domain researched (18 capabilities identified) |
 
 ## Notes
 

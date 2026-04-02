@@ -1,0 +1,40 @@
+id: domain.ledger_core
+name: Ledger / Core Banking
+description: >
+  Owns the accounting book of record for banking activity, including journal
+  posting, double-entry integrity, authoritative balance computation, subledger
+  management, interest and fee posting, cycle processing, reconciliation, and
+  financial audit lineage.
+capability_ids:
+  - cap.ledger_event_accounting_interpretation
+  - cap.journal_entry_construction_management
+  - cap.double_entry_integrity_control_management
+  - cap.posting_execution_management
+  - cap.posting_adjustment_and_reversal_management
+  - cap.subledger_account_management
+  - cap.general_ledger_interface_management
+  - cap.balance_computation_management
+  - cap.memo_and_pending_financial_position_management
+  - cap.interest_accrual_management
+  - cap.interest_posting_and_settlement_management
+  - cap.fee_assessment_management
+  - cap.fee_posting_and_adjustment_management
+  - cap.end_of_day_and_cycle_processing_management
+  - cap.financial_reconciliation_management
+  - cap.suspense_and_exception_account_management
+  - cap.financial_audit_trail_and_lineage_management
+  - cap.period_close_support_management
+related_domain_ids:
+  - domain.accounts
+  - domain.payments
+  - domain.risk_fraud
+  - domain.customer
+  - domain.identity_access
+  - domain.orchestration_control
+  - domain.channels_experience
+  - domain.servicing
+  - domain.data_rewards
+  - domain.cards
+  - domain.networks_schemes
+source_refs: []
+status: draft
