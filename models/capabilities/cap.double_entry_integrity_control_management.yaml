@@ -1,0 +1,38 @@
+id: cap.double_entry_integrity_control_management
+name: Double-Entry Integrity Control Management
+domain_id: domain.ledger_core
+description: >
+  Enforce balancing, posting completeness, posting sequence integrity, idempotency,
+  and prevention/detection of malformed financial entries.
+value_stream_ids:
+  - vs.financial_integrity
+  - vs.posting_foundation
+  - vs.accounting_control
+journey_ids:
+  - journey.post_deposit_transaction
+  - journey.reverse_erroneous_posting
+process_ids:
+  - proc.posting_integrity_validation
+  - proc.duplicate_post_prevention
+risk_ids:
+  - risk.unbalanced_journal_entry
+  - risk.duplicate_posting
+  - risk.out_of_sequence_posting
+  - risk.malformed_reversal_admission
+control_ids:
+  - ctrl.debit_credit_balancing_validation
+  - ctrl.idempotency_key_enforcement
+  - ctrl.posting_sequence_control
+  - ctrl.malformed_entry_rejection
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.integrity_validation_engine
+  - sys.idempotency_registry
+  - sys.posting_gate_service
+source_refs: []
+status: draft
+confidence: medium

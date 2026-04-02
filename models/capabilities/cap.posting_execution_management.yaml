@@ -1,0 +1,41 @@
+id: cap.posting_execution_management
+name: Posting Execution Management
+domain_id: domain.ledger_core
+description: >
+  Apply authorized journal entries to the accounting book of record and record
+  posting status, timestamps, references, and outcomes.
+value_stream_ids:
+  - vs.financial_truth_creation
+  - vs.posting_foundation
+  - vs.balance_derivation
+journey_ids:
+  - journey.post_deposit_transaction
+  - journey.post_payment_settlement
+  - journey.process_end_of_day_close
+process_ids:
+  - proc.posting_execution
+  - proc.batch_posting_execution
+risk_ids:
+  - risk.silent_posting_failure
+  - risk.partial_batch_application
+  - risk.posting_without_durable_trace
+  - risk.duplicate_commit_after_retry
+control_ids:
+  - ctrl.durable_posting_result_recording
+  - ctrl.exactly_once_posting_behavior
+  - ctrl.posting_timestamp_and_reference_capture
+  - ctrl.batch_atomicity_rules
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+  - prov.fis
+system_ids:
+  - sys.posting_engine
+  - sys.book_of_record
+  - sys.posting_result_store
+  - sys.batch_posting_service
+source_refs: []
+status: draft
+confidence: medium

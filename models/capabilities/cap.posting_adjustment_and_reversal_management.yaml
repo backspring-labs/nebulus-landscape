@@ -1,0 +1,41 @@
+id: cap.posting_adjustment_and_reversal_management
+name: Posting Adjustment and Reversal Management
+domain_id: domain.ledger_core
+description: >
+  Handle corrections, reversals, reclasses, adjustments, and compensating entries
+  while preserving full financial lineage and audit traceability.
+value_stream_ids:
+  - vs.financial_correction
+  - vs.posting_foundation
+  - vs.accounting_control
+journey_ids:
+  - journey.reverse_erroneous_posting
+  - journey.resolve_reconciliation_break
+  - journey.resolve_suspense_item
+process_ids:
+  - proc.posting_reversal
+  - proc.posting_adjustment
+  - proc.reclass_entry_processing
+risk_ids:
+  - risk.history_destruction_on_correction
+  - risk.duplicate_reversal
+  - risk.correction_without_authority
+  - risk.non_reconstructable_correction_chain
+control_ids:
+  - ctrl.mandatory_prior_posting_reference
+  - ctrl.correction_reason_code_and_approval
+  - ctrl.prohibition_on_destructive_overwrite
+  - ctrl.one_time_reversal_linkage
+  - ctrl.maker_checker_for_sensitive_corrections
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.adjustment_processing_engine
+  - sys.reversal_management_service
+  - sys.correction_lineage_store
+source_refs: []
+status: draft
+confidence: medium

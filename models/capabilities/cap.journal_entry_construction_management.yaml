@@ -1,0 +1,39 @@
+id: cap.journal_entry_construction_management
+name: Journal Entry Construction Management
+domain_id: domain.ledger_core
+description: >
+  Construct balanced debit/credit journal entries from posting intents, including
+  line items, account mappings, references, and posting metadata.
+value_stream_ids:
+  - vs.financial_truth_creation
+  - vs.posting_foundation
+  - vs.journal_management
+journey_ids:
+  - journey.post_deposit_transaction
+  - journey.reverse_erroneous_posting
+  - journey.execute_monthly_fee_assessment
+process_ids:
+  - proc.journal_construction
+  - proc.reversal_journal_construction
+risk_ids:
+  - risk.mis_mapped_account_lines
+  - risk.incomplete_journal_line_set
+  - risk.wrong_sign_direction
+  - risk.malformed_adjustment_construction
+control_ids:
+  - ctrl.deterministic_account_mapping_rules
+  - ctrl.sign_and_amount_validation
+  - ctrl.required_metadata_completeness
+  - ctrl.construction_template_governance
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.journal_construction_engine
+  - sys.account_mapping_service
+  - sys.posting_metadata_store
+source_refs: []
+status: draft
+confidence: medium

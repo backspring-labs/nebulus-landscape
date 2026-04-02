@@ -1,0 +1,39 @@
+id: cap.ledger_event_accounting_interpretation
+name: Ledger Event Accounting Interpretation
+domain_id: domain.ledger_core
+description: >
+  Interpret upstream financial events into accounting-relevant posting intents,
+  including effective date, accounting date, product/account context, and entry class.
+value_stream_ids:
+  - vs.accounting_event_processing
+  - vs.financial_truth_creation
+  - vs.posting_foundation
+journey_ids:
+  - journey.post_deposit_transaction
+  - journey.post_payment_settlement
+  - journey.execute_interest_accrual_cycle
+process_ids:
+  - proc.accounting_event_interpretation
+  - proc.posting_intent_creation
+risk_ids:
+  - risk.wrong_accounting_treatment
+  - risk.incorrect_date_assignment
+  - risk.duplicate_event_interpretation
+  - risk.posting_before_settlement_recognition
+control_ids:
+  - ctrl.deterministic_interpretation_rules
+  - ctrl.required_field_validation_at_intake
+  - ctrl.idempotent_interpretation_keying
+  - ctrl.source_to_intent_lineage
+provider_ids:
+  - prov.temenos
+  - prov.thought_machine
+  - prov.mambu
+  - prov.fiserv
+system_ids:
+  - sys.accounting_event_processor
+  - sys.posting_intent_service
+  - sys.event_classification_engine
+source_refs: []
+status: draft
+confidence: medium
