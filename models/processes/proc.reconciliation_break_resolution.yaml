@@ -1,0 +1,41 @@
+id: proc.reconciliation_break_resolution
+name: Reconciliation Break Resolution
+journey_id: journey.resolve_reconciliation_break
+description: >
+  Operational process for detecting, investigating, and resolving a
+  reconciliation break between subledger positions, operational source
+  records, settlement positions, or general ledger accounts by identifying
+  the root cause and executing the appropriate corrective action to restore
+  agreement between books.
+stage_ids:
+  - stage.recon_break.break_detection_and_classification
+  - stage.recon_break.investigation_and_root_cause_attribution
+  - stage.recon_break.corrective_action_determination
+  - stage.recon_break.corrective_entry_execution
+  - stage.recon_break.balance_and_position_update
+  - stage.recon_break.resolution_confirmation_and_audit_trail
+risk_ids:
+  - risk.breaks_persist_unresolved
+  - risk.incorrect_root_cause_attribution
+  - risk.corrective_entry_introduces_new_imbalance
+  - risk.unauthorized_or_unapproved_adjustments
+  - risk.timing_differences_misclassified
+  - risk.suspense_balances_age_without_resolution
+  - risk.incomplete_break_resolution_audit_trail
+control_ids:
+  - ctrl.automated_break_detection_with_tolerance
+  - ctrl.break_aging_monitoring_and_escalation
+  - ctrl.maker_checker_for_corrective_entries
+  - ctrl.corrective_entry_balancing_validation
+  - ctrl.reconciliation_rerun_after_correction
+  - ctrl.suspense_aging_reports_and_targets
+  - ctrl.full_break_resolution_audit_trail
+  - ctrl.segregation_of_duties_investigation_correction
+system_ids:
+  - sys.core_banking_platform
+  - sys.general_ledger
+  - sys.settlement_and_reconciliation_system
+  - sys.batch_reconciliation_system
+source_refs: []
+status: draft
+confidence: medium

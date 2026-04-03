@@ -1,0 +1,40 @@
+id: proc.deposit_transaction_posting
+name: Deposit Transaction Posting
+journey_id: journey.post_deposit_transaction
+description: >
+  Operational process for translating a financially relevant event into a
+  balanced journal entry, posting it to the book of record, updating
+  authoritative account balances, reflecting positions in subledger and
+  general ledger, and preserving full audit lineage from source event
+  through posting outcome.
+stage_ids:
+  - stage.deposit_posting.event_reception_and_accounting_interpretation
+  - stage.deposit_posting.journal_entry_construction_and_integrity_validation
+  - stage.deposit_posting.posting_execution
+  - stage.deposit_posting.balance_update_and_position_management
+  - stage.deposit_posting.subledger_and_gl_reflection
+  - stage.deposit_posting.audit_trail_completion
+risk_ids:
+  - risk.unbalanced_journal_entry_posted
+  - risk.duplicate_posting_of_source_event
+  - risk.posting_to_incorrect_account
+  - risk.missed_posting_causing_balance_divergence
+  - risk.incorrect_effective_or_accounting_date
+  - risk.gl_mapping_failure_causing_subledger_gl_divergence
+  - risk.incomplete_audit_trail
+  - risk.posting_to_ineligible_account_state
+control_ids:
+  - ctrl.double_entry_balancing_validation
+  - ctrl.idempotency_enforcement_at_event_reception
+  - ctrl.account_state_and_posting_eligibility_check
+  - ctrl.posting_sequence_and_timestamp_integrity
+  - ctrl.backdate_governance_rules
+  - ctrl.gl_interface_reconciliation_controls
+  - ctrl.immutable_audit_lineage
+system_ids:
+  - sys.core_banking_platform
+  - sys.general_ledger
+  - sys.settlement_and_reconciliation_system
+source_refs: []
+status: draft
+confidence: medium

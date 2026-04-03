@@ -1,0 +1,41 @@
+id: proc.ledger_period_close
+name: Ledger Period Close
+journey_id: journey.close_financial_period
+description: >
+  Operational process for completing the controlled close of a financial
+  reporting period by finalizing outstanding postings, completing accruals
+  and fee assessments, confirming reconciliation status, reviewing suspense
+  positions, finalizing balances, locking the closed period, rolling forward
+  opening balances, and producing close evidence with authorized signoff.
+stage_ids:
+  - stage.period_close.pre_close_assessment_and_outstanding_item_review
+  - stage.period_close.final_accrual_and_fee_completion
+  - stage.period_close.suspense_and_exception_review
+  - stage.period_close.reconciliation_confirmation
+  - stage.period_close.balance_finalization_and_gl_position_lock
+  - stage.period_close.period_lock_and_roll_forward
+  - stage.period_close.close_evidence_and_signoff
+risk_ids:
+  - risk.period_closed_with_unresolved_breaks
+  - risk.incomplete_accruals_distort_period_financials
+  - risk.posting_to_closed_period_without_authorization
+  - risk.balance_roll_forward_error
+  - risk.suspense_balances_carried_without_review
+  - risk.incomplete_close_evidence
+  - risk.period_lock_failure
+control_ids:
+  - ctrl.pre_close_checklist_and_readiness_gate
+  - ctrl.accrual_and_fee_completion_confirmation
+  - ctrl.reconciliation_confirmation_with_break_documentation
+  - ctrl.suspense_review_and_aging_threshold
+  - ctrl.period_lock_enforcement
+  - ctrl.balance_roll_forward_verification
+  - ctrl.close_evidence_package_with_signoff
+  - ctrl.reopen_controls_requiring_senior_authorization
+system_ids:
+  - sys.core_banking_platform
+  - sys.general_ledger
+  - sys.batch_reconciliation_system
+source_refs: []
+status: draft
+confidence: medium

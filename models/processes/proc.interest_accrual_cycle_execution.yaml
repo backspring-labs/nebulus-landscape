@@ -1,0 +1,39 @@
+id: proc.interest_accrual_cycle_execution
+name: Interest Accrual Cycle Execution
+journey_id: journey.execute_interest_accrual_cycle
+description: >
+  Operational process for executing the scheduled interest accrual cycle
+  across eligible deposit accounts, calculating interest based on configured
+  product economics and balance states, recording accrual entries, capitalizing
+  accrued interest at period end, routing exceptions, and completing the cycle
+  with full audit lineage.
+stage_ids:
+  - stage.interest_accrual.cycle_initiation_and_account_selection
+  - stage.interest_accrual.interest_calculation
+  - stage.interest_accrual.accrual_entry_recording
+  - stage.interest_accrual.period_end_capitalization_and_posting
+  - stage.interest_accrual.exception_handling
+  - stage.interest_accrual.audit_trail_and_cycle_completion
+risk_ids:
+  - risk.incorrect_interest_rate_applied
+  - risk.day_count_convention_error
+  - risk.missing_accounts_in_accrual_run
+  - risk.capitalization_mismatch
+  - risk.undetected_accrual_failure_for_subset
+  - risk.retroactive_rate_change_not_reflected
+  - risk.incomplete_accrual_audit_trail
+  - risk.stale_product_economics_configuration
+control_ids:
+  - ctrl.rate_validation_against_product_configuration
+  - ctrl.accrual_total_reconciliation
+  - ctrl.account_count_and_amount_reconciliation
+  - ctrl.exception_detection_and_routing
+  - ctrl.dual_period_calculation_for_rate_changes
+  - ctrl.cycle_completion_evidence
+  - ctrl.immutable_accrual_lineage
+system_ids:
+  - sys.core_banking_platform
+  - sys.general_ledger
+source_refs: []
+status: draft
+confidence: medium
