@@ -1,0 +1,14 @@
+id: ctrl.unresolved_item_escalation_at_close
+name: Unresolved Item Escalation at Close
+description: >
+  Unresolved reconciliation breaks, suspense items, or exceptions must be
+  escalated and documented before a period close can proceed, preventing
+  silent carry-forward of open issues.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

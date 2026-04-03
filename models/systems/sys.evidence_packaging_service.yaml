@@ -1,0 +1,10 @@
+id: sys.evidence_packaging_service
+name: Evidence Packaging Service
+description: >
+  Packages audit evidence for regulatory, compliance, and internal
+  audit consumption with completeness controls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

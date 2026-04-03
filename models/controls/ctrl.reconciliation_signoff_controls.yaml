@@ -1,0 +1,14 @@
+id: ctrl.reconciliation_signoff_controls
+name: Reconciliation Signoff Controls
+description: >
+  Completed reconciliations must be signed off by authorized personnel
+  to confirm that results have been reviewed and any breaks are documented
+  and dispositioned.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

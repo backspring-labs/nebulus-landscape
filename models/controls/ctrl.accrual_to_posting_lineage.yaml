@@ -1,0 +1,14 @@
+id: ctrl.accrual_to_posting_lineage
+name: Accrual-to-Posting Lineage
+description: >
+  Each interest accrual record must carry traceable lineage to the posted
+  entries and balance states that produced the calculation, supporting
+  audit and recomputation.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

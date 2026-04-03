@@ -1,0 +1,14 @@
+id: ctrl.batch_atomicity_rules
+name: Batch Atomicity Rules
+description: >
+  Batch posting operations must enforce atomicity so that either all
+  entries in a batch are committed together or none are, preventing
+  partial application.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

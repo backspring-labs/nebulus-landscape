@@ -1,0 +1,14 @@
+id: ctrl.break_aging_monitoring_and_escalation
+name: Break Aging Monitoring and Escalation
+description: >
+  Reconciliation breaks must be monitored for aging with defined escalation
+  thresholds to ensure timely resolution and prevent breaks from persisting
+  without ownership.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

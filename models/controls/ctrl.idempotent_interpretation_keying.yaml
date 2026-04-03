@@ -1,0 +1,14 @@
+id: ctrl.idempotent_interpretation_keying
+name: Idempotent Interpretation Keying
+description: >
+  Each accounting event interpretation must be keyed idempotently so that
+  duplicate or retried event deliveries do not produce duplicate posting
+  intents.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

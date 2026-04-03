@@ -1,0 +1,10 @@
+id: sys.fee_posting_engine
+name: Fee Posting Engine
+description: >
+  Posts assessed fees, waivers, refunds, and rebates to the accounting
+  record with assessment-to-posting linkage.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

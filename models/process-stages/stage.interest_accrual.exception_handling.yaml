@@ -1,0 +1,12 @@
+id: stage.interest_accrual.exception_handling
+name: Exception Handling
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Detect and route exceptions encountered during the accrual cycle
+  including calculation failures and missing account subsets.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

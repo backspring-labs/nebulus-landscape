@@ -1,0 +1,10 @@
+id: sys.reconciliation_engine
+name: Reconciliation Engine
+description: >
+  Reconciles subledgers, source operations, suspense positions, and
+  general ledger accounts to ensure books agree.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

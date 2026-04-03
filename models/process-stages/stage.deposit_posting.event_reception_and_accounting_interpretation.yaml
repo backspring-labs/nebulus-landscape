@@ -1,0 +1,13 @@
+id: stage.deposit_posting.event_reception_and_accounting_interpretation
+name: Event Reception and Accounting Interpretation
+process_id: proc.deposit_transaction_posting
+description: >
+  Receive the upstream financial event and interpret it into an
+  accounting-relevant posting intent with effective date, accounting
+  date, and entry class context.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

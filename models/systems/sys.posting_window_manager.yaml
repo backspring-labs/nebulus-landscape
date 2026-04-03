@@ -1,0 +1,10 @@
+id: sys.posting_window_manager
+name: Posting Window Manager
+description: >
+  Controls the open/close state of posting windows, governing when
+  entries can be admitted to the book of record.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

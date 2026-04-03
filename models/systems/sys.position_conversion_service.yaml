@@ -1,0 +1,10 @@
+id: sys.position_conversion_service
+name: Position Conversion Service
+description: >
+  Converts pending financial positions to posted status with linkage
+  controls between the pending and posted states.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

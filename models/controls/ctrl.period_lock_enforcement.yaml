@@ -1,0 +1,14 @@
+id: ctrl.period_lock_enforcement
+name: Period Lock Enforcement
+description: >
+  Once a financial period is closed, the period must be locked to prevent
+  unauthorized postings; any subsequent entries require governed reopen
+  authorization.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

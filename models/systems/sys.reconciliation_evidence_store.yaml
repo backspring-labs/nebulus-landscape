@@ -1,0 +1,10 @@
+id: sys.reconciliation_evidence_store
+name: Reconciliation Evidence Store
+description: >
+  Persists reconciliation results, signoff records, and independent
+  reconciliation evidence for audit and governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

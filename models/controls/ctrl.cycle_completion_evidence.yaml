@@ -1,0 +1,14 @@
+id: ctrl.cycle_completion_evidence
+name: Cycle Completion Evidence
+description: >
+  Each completed accrual or fee cycle must produce completion evidence
+  including record counts, control totals, exception summaries, and
+  outcome status for audit and operational review.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

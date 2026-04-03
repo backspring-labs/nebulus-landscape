@@ -1,0 +1,14 @@
+id: ctrl.posting_account_assignment_rules
+name: Posting Account Assignment Rules
+description: >
+  Postings must be assigned to subledger accounts using governed rules
+  that ensure each entry reaches the correct detailed account based on
+  product, customer, and transaction context.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.idempotency_registry
+name: Idempotency Registry
+description: >
+  Tracks idempotency keys for posting operations to prevent duplicate
+  processing of the same financial event.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

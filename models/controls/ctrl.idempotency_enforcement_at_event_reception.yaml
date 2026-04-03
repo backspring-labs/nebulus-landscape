@@ -1,0 +1,14 @@
+id: ctrl.idempotency_enforcement_at_event_reception
+name: Idempotency Enforcement at Event Reception
+description: >
+  Duplicate or retried source event deliveries must be detected and
+  suppressed at the event reception layer to prevent duplicate posting
+  intents from entering the pipeline.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

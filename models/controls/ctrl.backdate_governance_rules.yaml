@@ -1,0 +1,14 @@
+id: ctrl.backdate_governance_rules
+name: Backdate Governance Rules
+description: >
+  Backdated postings must be subject to governance rules that define
+  acceptable backdate windows, required approvals, and mandatory
+  recomputation of affected balances and accruals.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

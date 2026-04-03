@@ -1,0 +1,14 @@
+id: ctrl.defined_reconciliation_populations
+name: Defined Reconciliation Populations
+description: >
+  Each reconciliation must operate against explicitly defined populations
+  of accounts and positions to ensure completeness and prevent selective
+  or partial reconciliation.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

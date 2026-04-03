@@ -1,0 +1,14 @@
+id: ctrl.assessed_vs_posted_fee_reconciliation
+name: Assessed vs. Posted Fee Reconciliation
+description: >
+  Assessed fee totals must be reconciled against posted fee entries to
+  detect any mismatch between what was assessed and what was actually
+  applied to accounts.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

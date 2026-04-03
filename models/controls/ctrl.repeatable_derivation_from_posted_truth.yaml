@@ -1,0 +1,14 @@
+id: ctrl.repeatable_derivation_from_posted_truth
+name: Repeatable Derivation from Posted Truth
+description: >
+  Balances must be repeatably derivable from the posted journal entries,
+  ensuring that recomputation from the book of record always produces
+  the same result.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

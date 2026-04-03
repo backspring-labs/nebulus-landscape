@@ -1,0 +1,14 @@
+id: ctrl.source_to_intent_lineage
+name: Source-to-Intent Lineage
+description: >
+  Every posting intent must carry traceable lineage back to the originating
+  source event, preserving the chain of custody from event reception through
+  accounting interpretation.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

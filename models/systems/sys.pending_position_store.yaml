@@ -1,0 +1,10 @@
+id: sys.pending_position_store
+name: Pending Position Store
+description: >
+  Stores pending financial positions awaiting final posting, with
+  lifecycle tracking from creation through conversion or expiry.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

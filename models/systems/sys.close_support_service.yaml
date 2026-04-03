@@ -1,0 +1,10 @@
+id: sys.close_support_service
+name: Close Support Service
+description: >
+  Supports financial close operations including readiness assessment,
+  rollup coordination, and reopen governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

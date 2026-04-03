@@ -1,0 +1,10 @@
+id: sys.close_readiness_dashboard
+name: Close Readiness Dashboard
+description: >
+  Provides visibility into period close readiness status including
+  outstanding items, unresolved breaks, and pending accruals.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.detailed_account_store
+name: Detailed Account Store
+description: >
+  Stores detailed subledger account records beneath institution-level
+  books, supporting posting and position queries.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.rollup_mapping_service
+name: Rollup Mapping Service
+description: >
+  Maintains governed mapping tables that translate subledger account
+  structures to general ledger finance classifications.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

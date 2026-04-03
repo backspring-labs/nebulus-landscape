@@ -1,0 +1,10 @@
+id: sys.interest_accrual_engine
+name: Interest Accrual Engine
+description: >
+  Calculates interest accruals based on configured product economics,
+  governed accrual methods, and authoritative balance states.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

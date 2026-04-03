@@ -1,0 +1,10 @@
+id: sys.balance_basis_service
+name: Balance Basis Service
+description: >
+  Determines the correct balance basis for interest accrual calculations
+  based on product configuration and day-count conventions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

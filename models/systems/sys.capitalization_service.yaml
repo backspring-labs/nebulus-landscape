@@ -1,0 +1,10 @@
+id: sys.capitalization_service
+name: Capitalization Service
+description: >
+  Capitalizes accrued interest at configured intervals, applying
+  capitalization rules and recording the resulting balance impact.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

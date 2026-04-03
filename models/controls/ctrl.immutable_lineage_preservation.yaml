@@ -1,0 +1,14 @@
+id: ctrl.immutable_lineage_preservation
+name: Immutable Lineage Preservation
+description: >
+  Financial lineage records must be immutable once created; corrections
+  must add new lineage entries rather than modifying or deleting existing
+  ones.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

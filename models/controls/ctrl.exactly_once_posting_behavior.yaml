@@ -1,0 +1,14 @@
+id: ctrl.exactly_once_posting_behavior
+name: Exactly-Once Posting Behavior
+description: >
+  The posting engine must guarantee exactly-once semantics so that retries,
+  failovers, or duplicate submissions never result in a journal entry being
+  applied more than once.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

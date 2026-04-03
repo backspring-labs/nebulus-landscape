@@ -1,0 +1,14 @@
+id: ctrl.governed_balance_definitions
+name: Governed Balance Definitions
+description: >
+  Each balance type (current, available, collected, accrued) must be defined
+  by governed rules that specify which posting categories and states are
+  included in its computation.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.accrual_to_posting_linkage_control
+name: Accrual-to-Posting Linkage Control
+description: >
+  When accrued interest is posted or capitalized, an explicit linkage must
+  connect the accrual records to the resulting posted journal entries to
+  prevent mismatches.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

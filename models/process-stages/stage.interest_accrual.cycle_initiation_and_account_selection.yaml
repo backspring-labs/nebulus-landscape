@@ -1,0 +1,12 @@
+id: stage.interest_accrual.cycle_initiation_and_account_selection
+name: Cycle Initiation and Account Selection
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Initiate the scheduled interest accrual cycle and select eligible
+  deposit accounts for processing.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

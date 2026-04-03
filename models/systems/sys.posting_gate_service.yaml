@@ -1,0 +1,10 @@
+id: sys.posting_gate_service
+name: Posting Gate Service
+description: >
+  Controls admission of entries to the posting engine, rejecting malformed
+  or out-of-sequence entries before they reach the book of record.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

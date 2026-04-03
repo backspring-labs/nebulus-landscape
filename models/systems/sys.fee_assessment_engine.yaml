@@ -1,0 +1,10 @@
+id: sys.fee_assessment_engine
+name: Fee Assessment Engine
+description: >
+  Calculates and assesses fees based on configured product terms,
+  event triggers, schedules, and threshold conditions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

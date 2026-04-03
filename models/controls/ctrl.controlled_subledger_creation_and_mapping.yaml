@@ -1,0 +1,14 @@
+id: ctrl.controlled_subledger_creation_and_mapping
+name: Controlled Subledger Creation and Mapping
+description: >
+  Subledger accounts must be created and mapped to general ledger accounts
+  through a governed process to prevent orphaned positions or incorrect
+  rollup relationships.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

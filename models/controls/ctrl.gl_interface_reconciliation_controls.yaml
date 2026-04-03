@@ -1,0 +1,14 @@
+id: ctrl.gl_interface_reconciliation_controls
+name: GL Interface Reconciliation Controls
+description: >
+  Subledger-to-GL interface outputs must be reconciled against source
+  subledger positions to confirm that the GL handoff accurately reflects
+  the detailed books.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.exception_detection_and_routing
+name: Exception Detection and Routing
+description: >
+  Exceptions encountered during cycle processing must be automatically
+  detected, categorized, and routed to the appropriate queue for
+  investigation and resolution.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

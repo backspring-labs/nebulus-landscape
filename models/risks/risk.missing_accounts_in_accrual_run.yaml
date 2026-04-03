@@ -1,0 +1,11 @@
+id: risk.missing_accounts_in_accrual_run
+name: Missing Accounts in Accrual Run
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

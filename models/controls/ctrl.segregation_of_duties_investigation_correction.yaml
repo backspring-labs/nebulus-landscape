@@ -1,0 +1,14 @@
+id: ctrl.segregation_of_duties_investigation_correction
+name: Segregation of Duties — Investigation vs. Correction
+description: >
+  The person who investigates a reconciliation break must not be the same
+  person who authorizes the corrective entry, enforcing segregation of
+  duties.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

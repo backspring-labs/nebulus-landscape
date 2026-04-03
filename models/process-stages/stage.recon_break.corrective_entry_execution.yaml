@@ -1,0 +1,12 @@
+id: stage.recon_break.corrective_entry_execution
+name: Corrective Entry Execution
+process_id: proc.reconciliation_break_resolution
+description: >
+  Execute the corrective entry with maker-checker controls, balancing
+  validation, and segregation of duties.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,9 @@
+id: prov.sap
+name: SAP
+category: enterprise_resource_planning
+summary: >
+  Enterprise resource planning and financial management platform providing
+  general ledger, reconciliation, and period close capabilities.
+status: stub
+source_refs: []
+tags: []

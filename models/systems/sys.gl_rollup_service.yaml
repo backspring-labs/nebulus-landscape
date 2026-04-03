@@ -1,0 +1,10 @@
+id: sys.gl_rollup_service
+name: GL Rollup Service
+description: >
+  Rolls up subledger positions to general ledger level with reconciliation
+  controls and detail-to-summary lineage.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

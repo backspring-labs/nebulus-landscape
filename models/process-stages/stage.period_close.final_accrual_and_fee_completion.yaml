@@ -1,0 +1,12 @@
+id: stage.period_close.final_accrual_and_fee_completion
+name: Final Accrual and Fee Completion
+process_id: proc.ledger_period_close
+description: >
+  Complete all outstanding accruals and fee assessments for the period,
+  confirming no pending financial items remain unprocessed.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

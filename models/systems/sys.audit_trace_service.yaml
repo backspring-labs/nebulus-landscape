@@ -1,0 +1,10 @@
+id: sys.audit_trace_service
+name: Audit Trace Service
+description: >
+  Provides audit trail query and retrieval capabilities across
+  the financial posting lifecycle.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

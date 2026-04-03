@@ -1,0 +1,10 @@
+id: sys.control_total_service
+name: Control Total Service
+description: >
+  Computes and validates control totals used in reconciliation processes
+  to confirm agreement between accounting populations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

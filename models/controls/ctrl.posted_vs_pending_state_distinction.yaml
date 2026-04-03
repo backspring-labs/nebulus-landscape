@@ -1,0 +1,14 @@
+id: ctrl.posted_vs_pending_state_distinction
+name: Posted vs. Pending State Distinction
+description: >
+  The system must maintain a clear distinction between posted (final) and
+  pending (provisional) financial positions so that pending items are never
+  treated as posted truth.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

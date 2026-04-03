@@ -1,0 +1,14 @@
+id: ctrl.explicit_assessment_records
+name: Explicit Assessment Records
+description: >
+  Each fee assessment must produce an explicit, auditable record capturing
+  the trigger, calculation inputs, amount, and disposition before posting
+  occurs.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

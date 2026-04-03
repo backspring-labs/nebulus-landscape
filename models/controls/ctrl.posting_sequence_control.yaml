@@ -1,0 +1,14 @@
+id: ctrl.posting_sequence_control
+name: Posting Sequence Control
+description: >
+  Postings must be applied in the correct sequence to preserve temporal
+  integrity and prevent out-of-order entries from corrupting balance
+  computations.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.retroactive_rate_change_not_reflected
+name: Retroactive Rate Change Not Reflected
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

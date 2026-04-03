@@ -1,0 +1,14 @@
+id: ctrl.sign_and_amount_validation
+name: Sign and Amount Validation
+description: >
+  Each journal entry line item must have its sign direction and amount
+  validated against the entry class and account type to prevent incorrect
+  debit/credit assignment.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

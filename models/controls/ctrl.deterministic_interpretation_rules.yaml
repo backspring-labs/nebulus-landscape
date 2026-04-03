@@ -1,0 +1,14 @@
+id: ctrl.deterministic_interpretation_rules
+name: Deterministic Interpretation Rules
+description: >
+  Upstream financial events must be translated into posting intents using
+  deterministic, version-controlled interpretation rules so that the same
+  event always produces the same accounting treatment.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

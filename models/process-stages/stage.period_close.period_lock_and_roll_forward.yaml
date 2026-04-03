@@ -1,0 +1,12 @@
+id: stage.period_close.period_lock_and_roll_forward
+name: Period Lock and Roll Forward
+process_id: proc.ledger_period_close
+description: >
+  Lock the closed period and roll forward opening balances to the
+  next period with verification controls.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

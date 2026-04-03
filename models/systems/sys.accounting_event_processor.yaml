@@ -1,0 +1,10 @@
+id: sys.accounting_event_processor
+name: Accounting Event Processor
+description: >
+  Receives upstream financial events and translates them into accounting-relevant
+  posting intents with effective date, accounting date, and entry class context.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.close_period_suspense_review
+name: Close Period Suspense Review
+description: >
+  Suspense positions must be reviewed and documented before a financial
+  period can be closed, ensuring that unresolved items are acknowledged
+  and dispositioned.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

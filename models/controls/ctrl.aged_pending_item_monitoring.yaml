@@ -1,0 +1,14 @@
+id: ctrl.aged_pending_item_monitoring
+name: Aged Pending Item Monitoring
+description: >
+  Pending and memo positions that exceed defined age thresholds must be
+  flagged for review and escalation to prevent stale items from distorting
+  financial positions.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.governed_mapping_tables
+name: Governed Mapping Tables
+description: >
+  Subledger-to-general-ledger mapping tables must be version-controlled
+  and subject to change governance to prevent unintended classification
+  changes in financial reporting.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.posting_to_ineligible_account_state
+name: Posting to Ineligible Account State
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

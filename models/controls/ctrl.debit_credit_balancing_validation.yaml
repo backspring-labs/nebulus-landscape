@@ -1,0 +1,14 @@
+id: ctrl.debit_credit_balancing_validation
+name: Debit-Credit Balancing Validation
+description: >
+  Every journal entry must have total debits equal to total credits before
+  it is admitted for posting, enforcing the fundamental double-entry
+  balancing constraint.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

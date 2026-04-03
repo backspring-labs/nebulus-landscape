@@ -1,0 +1,14 @@
+id: ctrl.rollup_validation_and_control_totals
+name: Rollup Validation and Control Totals
+description: >
+  Each GL handoff batch must include control totals that are independently
+  validated against source subledger positions to detect rollup errors or
+  omissions.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

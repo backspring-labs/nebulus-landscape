@@ -1,0 +1,10 @@
+id: sys.threshold_evaluation_service
+name: Threshold Evaluation Service
+description: >
+  Evaluates balance and activity thresholds to determine fee
+  applicability and waiver eligibility.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

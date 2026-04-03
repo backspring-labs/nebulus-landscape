@@ -1,0 +1,14 @@
+id: ctrl.governed_accrual_methods
+name: Governed Accrual Methods
+description: >
+  Interest accrual methods (day count conventions, compounding rules, rate
+  application logic) must be defined in governed product configuration and
+  applied consistently.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

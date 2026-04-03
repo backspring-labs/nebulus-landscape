@@ -1,0 +1,13 @@
+id: ctrl.duplicate_fee_post_prevention
+name: Duplicate Fee Post Prevention
+description: >
+  The system must prevent the same assessed fee from being posted more
+  than once for the same account and assessment period.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

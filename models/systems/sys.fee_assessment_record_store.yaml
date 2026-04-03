@@ -1,0 +1,10 @@
+id: sys.fee_assessment_record_store
+name: Fee Assessment Record Store
+description: >
+  Persists fee assessment records with traceability from trigger
+  event through calculation to assessed amount.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

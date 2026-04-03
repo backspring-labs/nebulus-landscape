@@ -1,0 +1,12 @@
+id: stage.interest_accrual.audit_trail_and_cycle_completion
+name: Audit Trail and Cycle Completion
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Complete the accrual cycle with full audit lineage, cycle completion
+  evidence, and account count and amount reconciliation.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

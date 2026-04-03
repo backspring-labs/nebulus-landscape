@@ -1,0 +1,10 @@
+id: sys.subledger_engine
+name: Subledger Engine
+description: >
+  Maintains customer-facing and product-facing financial subledgers
+  including posting positions and transaction lineage.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

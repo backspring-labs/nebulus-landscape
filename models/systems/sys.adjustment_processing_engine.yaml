@@ -1,0 +1,10 @@
+id: sys.adjustment_processing_engine
+name: Adjustment Processing Engine
+description: >
+  Processes corrections, reclasses, and compensating entries while
+  preserving financial lineage and audit traceability.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.integrity_validation_engine
+name: Integrity Validation Engine
+description: >
+  Enforces double-entry balancing, posting completeness, sequence integrity,
+  and prevention of malformed financial entries.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

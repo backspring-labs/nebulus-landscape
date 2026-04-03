@@ -1,0 +1,10 @@
+id: sys.gl_interface_engine
+name: GL Interface Engine
+description: >
+  Manages the controlled interface between banking subledgers and
+  enterprise general ledger structures including summarization and handoff.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

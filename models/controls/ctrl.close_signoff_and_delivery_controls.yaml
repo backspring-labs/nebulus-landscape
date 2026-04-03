@@ -1,0 +1,14 @@
+id: ctrl.close_signoff_and_delivery_controls
+name: Close Signoff and Delivery Controls
+description: >
+  Period close must be formally signed off by authorized personnel and
+  close deliverables must be distributed to downstream consumers according
+  to governed delivery rules.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

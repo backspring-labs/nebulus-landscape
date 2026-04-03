@@ -1,0 +1,14 @@
+id: ctrl.explicit_balance_basis_selection
+name: Explicit Balance Basis Selection
+description: >
+  The balance basis used for interest accrual must be explicitly selected
+  and recorded for each calculation to prevent ambiguity about which
+  balance state drives the accrual.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

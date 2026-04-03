@@ -1,0 +1,14 @@
+id: ctrl.accrual_and_fee_completion_confirmation
+name: Accrual and Fee Completion Confirmation
+description: >
+  All scheduled accrual and fee cycles must be confirmed as successfully
+  completed before a financial period can proceed to close, preventing
+  incomplete revenue or expense recognition.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

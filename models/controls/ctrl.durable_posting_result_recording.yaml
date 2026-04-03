@@ -1,0 +1,14 @@
+id: ctrl.durable_posting_result_recording
+name: Durable Posting Result Recording
+description: >
+  Every posting execution must produce a durable, persisted result record
+  capturing the outcome, timestamp, and reference before the posting is
+  considered complete.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

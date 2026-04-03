@@ -1,0 +1,10 @@
+id: sys.posting_engine
+name: Posting Engine
+description: >
+  Applies authorized journal entries to the accounting book of record,
+  recording posting status, timestamps, and outcomes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

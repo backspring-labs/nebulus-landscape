@@ -1,0 +1,10 @@
+id: sys.journal_construction_engine
+name: Journal Construction Engine
+description: >
+  Constructs balanced debit/credit journal entries from posting intents,
+  including line items, account mappings, and posting metadata.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

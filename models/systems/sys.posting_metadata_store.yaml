@@ -1,0 +1,10 @@
+id: sys.posting_metadata_store
+name: Posting Metadata Store
+description: >
+  Persists metadata associated with journal entries including references,
+  construction templates, and posting context.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

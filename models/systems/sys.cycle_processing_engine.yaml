@@ -1,0 +1,10 @@
+id: sys.cycle_processing_engine
+name: Cycle Processing Engine
+description: >
+  Executes accounting cycle events including day close, statement-cycle
+  close, accrual roll-forward, and fee runs with sequencing controls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

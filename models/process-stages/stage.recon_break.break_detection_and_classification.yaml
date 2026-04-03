@@ -1,0 +1,12 @@
+id: stage.recon_break.break_detection_and_classification
+name: Break Detection and Classification
+process_id: proc.reconciliation_break_resolution
+description: >
+  Detect reconciliation breaks between accounting populations and
+  classify them by type, materiality, and ownership.
+order: 1
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

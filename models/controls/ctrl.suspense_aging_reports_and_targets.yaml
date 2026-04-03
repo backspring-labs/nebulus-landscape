@@ -1,0 +1,14 @@
+id: ctrl.suspense_aging_reports_and_targets
+name: Suspense Aging Reports and Targets
+description: >
+  Suspense account positions must be reported with aging analysis and
+  measured against resolution targets to drive timely clearance of
+  unresolved items.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

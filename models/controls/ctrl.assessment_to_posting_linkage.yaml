@@ -1,0 +1,14 @@
+id: ctrl.assessment_to_posting_linkage
+name: Assessment-to-Posting Linkage
+description: >
+  Every posted fee entry must be linked to its originating assessment
+  record to ensure that no fee is posted without a valid assessment and
+  no assessment is lost before posting.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

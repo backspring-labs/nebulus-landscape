@@ -1,0 +1,14 @@
+id: ctrl.cycle_step_evidence_capture
+name: Cycle Step Evidence Capture
+description: >
+  Each cycle processing step must produce evidence of execution — including
+  start/end timestamps, record counts, control totals, and outcome status —
+  to support audit and operational monitoring.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.interest_correction_processor
+name: Interest Correction Processor
+description: >
+  Processes corrections and reversals of posted interest entries,
+  preserving linkage to the original accrual and posting records.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

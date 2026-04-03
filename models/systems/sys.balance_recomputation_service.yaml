@@ -1,0 +1,10 @@
+id: sys.balance_recomputation_service
+name: Balance Recomputation Service
+description: >
+  Recomputes balances after corrections or adjustments to ensure balance
+  states remain consistent with posted truth.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

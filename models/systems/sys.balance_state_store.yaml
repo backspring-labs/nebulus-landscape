@@ -1,0 +1,10 @@
+id: sys.balance_state_store
+name: Balance State Store
+description: >
+  Persists computed balance states for accounts, supporting queries
+  for current, available, and accrued positions.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

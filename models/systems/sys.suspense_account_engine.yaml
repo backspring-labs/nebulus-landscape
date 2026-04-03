@@ -1,0 +1,10 @@
+id: sys.suspense_account_engine
+name: Suspense Account Engine
+description: >
+  Manages suspense account balances, intake of unresolved financial
+  items, and governed suspense account usage.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

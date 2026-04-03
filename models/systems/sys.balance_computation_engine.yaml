@@ -1,0 +1,10 @@
+id: sys.balance_computation_engine
+name: Balance Computation Engine
+description: >
+  Computes authoritative balances from posted entries including current,
+  available, collected, and accrued balance states.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

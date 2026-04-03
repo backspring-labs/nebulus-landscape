@@ -1,0 +1,10 @@
+id: sys.exception_queue_service
+name: Exception Queue Service
+description: >
+  Manages exception queues for unresolved accounting conditions,
+  routing items for review and resolution.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

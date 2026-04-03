@@ -1,0 +1,10 @@
+id: sys.financial_lineage_store
+name: Financial Lineage Store
+description: >
+  Preserves full traceability from source event to posting decision to
+  journal outcome, balances, and downstream reporting outputs.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

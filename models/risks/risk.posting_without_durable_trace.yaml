@@ -1,0 +1,11 @@
+id: risk.posting_without_durable_trace
+name: Posting Without Durable Trace
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

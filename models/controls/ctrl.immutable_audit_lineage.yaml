@@ -1,0 +1,14 @@
+id: ctrl.immutable_audit_lineage
+name: Immutable Audit Lineage
+description: >
+  Audit trail records for posted transactions must be immutable and
+  tamper-evident, preserving the complete chain from source event through
+  posting outcome.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

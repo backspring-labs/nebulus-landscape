@@ -1,0 +1,12 @@
+id: stage.deposit_posting.posting_execution
+name: Posting Execution
+process_id: proc.deposit_transaction_posting
+description: >
+  Apply the validated journal entry to the book of record, recording
+  posting status, timestamps, and outcome references.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,15 @@
+id: ctrl.mandatory_reference_propagation
+name: Mandatory Reference Propagation
+description: >
+  Reference identifiers must be propagated through every stage of the
+  posting lifecycle — from source event through interpretation, journal
+  construction, posting, and balance update — to maintain end-to-end
+  traceability.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

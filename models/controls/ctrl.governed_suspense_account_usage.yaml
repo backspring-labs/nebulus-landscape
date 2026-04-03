@@ -1,0 +1,14 @@
+id: ctrl.governed_suspense_account_usage
+name: Governed Suspense Account Usage
+description: >
+  Suspense accounts may only be used under governed conditions with
+  defined intake criteria to prevent suspense from becoming a default
+  destination for unresolved items.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

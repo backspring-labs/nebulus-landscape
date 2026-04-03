@@ -1,0 +1,12 @@
+id: stage.recon_break.resolution_confirmation_and_audit_trail
+name: Resolution Confirmation and Audit Trail
+process_id: proc.reconciliation_break_resolution
+description: >
+  Confirm break resolution with reconciliation rerun evidence and
+  complete the full break resolution audit trail.
+order: 6
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

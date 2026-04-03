@@ -1,0 +1,12 @@
+id: stage.period_close.reconciliation_confirmation
+name: Reconciliation Confirmation
+process_id: proc.ledger_period_close
+description: >
+  Confirm reconciliation status across subledger, GL, and settlement
+  positions with break documentation for any unresolved differences.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

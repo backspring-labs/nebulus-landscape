@@ -1,0 +1,11 @@
+id: risk.duplicate_cycle_step_execution
+name: Duplicate Cycle Step Execution
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

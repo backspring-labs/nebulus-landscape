@@ -1,0 +1,10 @@
+id: sys.account_mapping_service
+name: Account Mapping Service
+description: >
+  Resolves posting intents to the correct debit and credit account lines
+  using deterministic account mapping rules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

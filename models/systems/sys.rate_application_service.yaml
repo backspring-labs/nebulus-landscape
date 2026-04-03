@@ -1,0 +1,10 @@
+id: sys.rate_application_service
+name: Rate Application Service
+description: >
+  Applies configured interest rates to balance positions for accrual
+  calculation, supporting tiered and variable rate structures.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

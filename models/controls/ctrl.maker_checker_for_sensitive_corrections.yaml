@@ -1,0 +1,14 @@
+id: ctrl.maker_checker_for_sensitive_corrections
+name: Maker-Checker for Sensitive Corrections
+description: >
+  Corrections, reversals, and reclassifications above defined thresholds
+  or in sensitive account categories must pass maker-checker authorization
+  before posting.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.posting_timestamp_and_reference_capture
+name: Posting Timestamp and Reference Capture
+description: >
+  Each posted journal entry must be stamped with an immutable posting
+  timestamp and a unique reference identifier to support audit, sequencing,
+  and downstream traceability.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

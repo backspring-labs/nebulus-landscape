@@ -1,0 +1,14 @@
+id: ctrl.dual_period_calculation_for_rate_changes
+name: Dual-Period Calculation for Rate Changes
+description: >
+  When an interest rate changes mid-period, accrual must be split into
+  two calculation segments using the applicable rate for each portion
+  of the period.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

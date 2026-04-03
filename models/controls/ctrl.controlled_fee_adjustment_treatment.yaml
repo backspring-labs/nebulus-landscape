@@ -1,0 +1,14 @@
+id: ctrl.controlled_fee_adjustment_treatment
+name: Controlled Fee Adjustment Treatment
+description: >
+  Fee adjustments, refunds, and rebates must follow governed treatment
+  rules and carry explicit linkage to the original fee posting to preserve
+  revenue integrity.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

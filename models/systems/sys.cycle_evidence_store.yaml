@@ -1,0 +1,10 @@
+id: sys.cycle_evidence_store
+name: Cycle Evidence Store
+description: >
+  Captures and retains evidence of cycle processing steps including
+  execution records, control totals, and completion confirmations.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

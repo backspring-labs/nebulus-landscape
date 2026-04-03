@@ -1,0 +1,12 @@
+id: stage.interest_accrual.period_end_capitalization_and_posting
+name: Period End Capitalization and Posting
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Capitalize accrued interest at period end and post the resulting
+  entries to the book of record.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

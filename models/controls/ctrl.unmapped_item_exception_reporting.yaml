@@ -1,0 +1,14 @@
+id: ctrl.unmapped_item_exception_reporting
+name: Unmapped Item Exception Reporting
+description: >
+  Subledger entries that cannot be mapped to a valid GL account must be
+  flagged as exceptions and routed for investigation rather than silently
+  dropped or misclassified.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

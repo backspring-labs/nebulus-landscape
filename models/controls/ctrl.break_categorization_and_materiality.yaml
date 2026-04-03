@@ -1,0 +1,14 @@
+id: ctrl.break_categorization_and_materiality
+name: Break Categorization and Materiality
+description: >
+  Reconciliation breaks must be categorized by type and assessed for
+  materiality to prioritize resolution and determine escalation
+  requirements.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

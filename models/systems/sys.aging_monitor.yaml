@@ -1,0 +1,10 @@
+id: sys.aging_monitor
+name: Aging Monitor
+description: >
+  Monitors aging of suspense balances, unresolved breaks, and exception
+  items with escalation controls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

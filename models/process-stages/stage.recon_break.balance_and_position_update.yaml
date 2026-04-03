@@ -1,0 +1,12 @@
+id: stage.recon_break.balance_and_position_update
+name: Balance and Position Update
+process_id: proc.reconciliation_break_resolution
+description: >
+  Update balances and positions following the corrective entry,
+  rerunning reconciliation to confirm agreement.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.book_of_record
+name: Book of Record
+description: >
+  Authoritative accounting ledger containing all posted journal entries
+  and serving as the single source of financial truth.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

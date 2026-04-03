@@ -1,0 +1,11 @@
+id: risk.duplicate_event_interpretation
+name: Duplicate Event Interpretation
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

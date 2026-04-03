@@ -1,0 +1,14 @@
+id: ctrl.posting_sequence_and_timestamp_integrity
+name: Posting Sequence and Timestamp Integrity
+description: >
+  Postings must be applied in correct temporal sequence with accurate
+  timestamps to prevent out-of-order entries from corrupting balance
+  computations or audit trails.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

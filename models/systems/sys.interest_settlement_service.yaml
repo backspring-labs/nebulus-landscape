@@ -1,0 +1,10 @@
+id: sys.interest_settlement_service
+name: Interest Settlement Service
+description: >
+  Handles settlement impacts of interest processing including
+  disbursement and inter-account settlement of posted interest.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

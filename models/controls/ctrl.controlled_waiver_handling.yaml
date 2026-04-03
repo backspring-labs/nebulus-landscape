@@ -1,0 +1,14 @@
+id: ctrl.controlled_waiver_handling
+name: Controlled Waiver Handling
+description: >
+  Fee waivers must follow governed rules and authorization requirements
+  to prevent unauthorized revenue leakage while supporting legitimate
+  waiver scenarios.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

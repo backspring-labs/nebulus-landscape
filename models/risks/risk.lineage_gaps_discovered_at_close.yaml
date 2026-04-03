@@ -1,0 +1,11 @@
+id: risk.lineage_gaps_discovered_at_close
+name: Lineage Gaps Discovered at Close
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.full_break_resolution_audit_trail
+name: Full Break Resolution Audit Trail
+description: >
+  The complete lifecycle of each reconciliation break — from detection
+  through investigation, corrective action, and confirmation — must be
+  captured in an immutable audit trail.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

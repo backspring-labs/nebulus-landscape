@@ -1,0 +1,14 @@
+id: ctrl.account_state_and_posting_eligibility_check
+name: Account State and Posting Eligibility Check
+description: >
+  Before a posting is executed, the target account's state must be
+  validated to confirm it is eligible to receive postings (e.g., not
+  closed, frozen, or restricted).
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

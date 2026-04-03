@@ -1,0 +1,11 @@
+id: risk.broken_source_to_report_trace
+name: Broken Source to Report Trace
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

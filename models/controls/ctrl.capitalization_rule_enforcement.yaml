@@ -1,0 +1,14 @@
+id: ctrl.capitalization_rule_enforcement
+name: Capitalization Rule Enforcement
+description: >
+  Interest capitalization must follow governed product rules that define
+  when accrued interest is added to principal, preventing incorrect
+  compounding treatment.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

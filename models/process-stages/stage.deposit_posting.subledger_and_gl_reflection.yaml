@@ -1,0 +1,12 @@
+id: stage.deposit_posting.subledger_and_gl_reflection
+name: Subledger and GL Reflection
+process_id: proc.deposit_transaction_posting
+description: >
+  Reflect the posting in subledger positions and hand off summarized
+  entries to the general ledger interface.
+order: 5
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

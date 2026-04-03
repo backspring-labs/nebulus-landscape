@@ -1,0 +1,10 @@
+id: sys.close_evidence_repository
+name: Close Evidence Repository
+description: >
+  Stores period close evidence packages including signoff records,
+  control confirmations, and close completion artifacts.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

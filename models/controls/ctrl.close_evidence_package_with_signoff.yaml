@@ -1,0 +1,14 @@
+id: ctrl.close_evidence_package_with_signoff
+name: Close Evidence Package with Signoff
+description: >
+  A complete close evidence package — including reconciliation results,
+  accrual confirmations, suspense review, and control totals — must be
+  assembled and signed off by authorized personnel.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

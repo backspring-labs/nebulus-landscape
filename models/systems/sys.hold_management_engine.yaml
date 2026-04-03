@@ -1,0 +1,10 @@
+id: sys.hold_management_engine
+name: Hold Management Engine
+description: >
+  Manages financial holds with expiry and release governance, controlling
+  the impact of holds on available balance and spendability.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

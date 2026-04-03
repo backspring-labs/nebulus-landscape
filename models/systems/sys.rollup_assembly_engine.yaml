@@ -1,0 +1,10 @@
+id: sys.rollup_assembly_engine
+name: Rollup Assembly Engine
+description: >
+  Assembles close rollups from subledger and GL positions for
+  financial reporting period production.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

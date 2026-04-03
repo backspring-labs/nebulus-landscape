@@ -1,0 +1,10 @@
+id: sys.reversal_management_service
+name: Reversal Management Service
+description: >
+  Manages posting reversals with one-time linkage controls and mandatory
+  prior posting references.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

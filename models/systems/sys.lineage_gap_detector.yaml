@@ -1,0 +1,10 @@
+id: sys.lineage_gap_detector
+name: Lineage Gap Detector
+description: >
+  Detects gaps in financial lineage chains where source-to-report
+  traceability has been broken or is incomplete.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

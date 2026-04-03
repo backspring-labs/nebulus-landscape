@@ -1,0 +1,10 @@
+id: sys.suspense_release_service
+name: Suspense Release Service
+description: >
+  Handles release and reclassification of suspense items with
+  approval controls and source lineage preservation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

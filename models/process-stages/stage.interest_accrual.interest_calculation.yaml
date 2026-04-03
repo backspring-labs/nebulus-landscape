@@ -1,0 +1,12 @@
+id: stage.interest_accrual.interest_calculation
+name: Interest Calculation
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Calculate interest based on configured product economics, applicable
+  rates, balance states, and day-count conventions.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

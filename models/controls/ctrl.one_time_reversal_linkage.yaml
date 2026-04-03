@@ -1,0 +1,14 @@
+id: ctrl.one_time_reversal_linkage
+name: One-Time Reversal Linkage
+description: >
+  A posted entry may only be reversed once; the reversal must be linked
+  to the original posting to prevent duplicate reversals from creating
+  additional imbalances.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

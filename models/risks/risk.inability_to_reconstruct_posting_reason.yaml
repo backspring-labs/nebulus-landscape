@@ -1,0 +1,11 @@
+id: risk.inability_to_reconstruct_posting_reason
+name: Inability to Reconstruct Posting Reason
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

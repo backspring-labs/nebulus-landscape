@@ -1,0 +1,10 @@
+id: sys.fee_adjustment_service
+name: Fee Adjustment Service
+description: >
+  Processes fee adjustments, refunds, and rebates with linkage to
+  original assessment and correction history.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

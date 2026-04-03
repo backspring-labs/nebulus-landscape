@@ -1,0 +1,14 @@
+id: ctrl.rollup_reconciliation_controls
+name: Rollup Reconciliation Controls
+description: >
+  Subledger-to-general-ledger rollups must be reconciled to confirm that
+  detailed positions agree with summary positions and no entries are lost
+  or duplicated in aggregation.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

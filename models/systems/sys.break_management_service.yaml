@@ -1,0 +1,10 @@
+id: sys.break_management_service
+name: Break Management Service
+description: >
+  Manages reconciliation breaks including categorization, materiality
+  assessment, aging, ownership, and resolution tracking.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

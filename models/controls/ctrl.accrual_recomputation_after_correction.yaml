@@ -1,0 +1,14 @@
+id: ctrl.accrual_recomputation_after_correction
+name: Accrual Recomputation After Correction
+description: >
+  When a posting correction affects a prior period, the interest accrual
+  must be recomputed to reflect the corrected balance basis and rate
+  application.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

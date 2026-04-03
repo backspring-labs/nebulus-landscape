@@ -1,0 +1,14 @@
+id: ctrl.evidence_completeness_checks
+name: Evidence Completeness Checks
+description: >
+  Close evidence packages must be validated for completeness against a
+  defined checklist before the period close can be finalized and signed
+  off.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

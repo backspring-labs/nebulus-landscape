@@ -1,0 +1,14 @@
+id: ctrl.one_time_cycle_execution_control
+name: One-Time Cycle Execution Control
+description: >
+  Each cycle step must be protected against duplicate execution so that
+  reruns or retries do not produce duplicate postings or double-counted
+  accruals.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

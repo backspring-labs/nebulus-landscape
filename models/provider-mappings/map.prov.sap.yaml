@@ -1,0 +1,15 @@
+id: map.prov.sap
+provider_id: prov.sap
+capability_ids:
+  - cap.general_ledger_interface_management
+  - cap.financial_reconciliation_management
+  - cap.period_close_support_management
+journey_ids: []
+process_ids: []
+risk_ids: []
+control_ids: []
+system_ids: []
+roles: []
+confidence: low
+source_refs: []
+status: stub

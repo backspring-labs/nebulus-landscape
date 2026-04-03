@@ -1,0 +1,14 @@
+id: ctrl.required_field_validation_at_intake
+name: Required Field Validation at Intake
+description: >
+  All mandatory fields on an incoming accounting event must be validated
+  at intake before interpretation proceeds, rejecting incomplete or
+  malformed events.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

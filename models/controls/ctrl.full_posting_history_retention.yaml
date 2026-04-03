@@ -1,0 +1,14 @@
+id: ctrl.full_posting_history_retention
+name: Full Posting History Retention
+description: >
+  Complete posting history for every subledger account must be retained
+  for the required regulatory and operational period, supporting audit,
+  reconstruction, and lineage verification.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

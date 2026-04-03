@@ -1,0 +1,14 @@
+id: ctrl.deterministic_account_mapping_rules
+name: Deterministic Account Mapping Rules
+description: >
+  Journal entry line items must be mapped to accounts using deterministic,
+  governed mapping rules so that the same posting intent always resolves
+  to the same set of debit and credit accounts.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

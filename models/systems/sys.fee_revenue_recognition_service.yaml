@@ -1,0 +1,10 @@
+id: sys.fee_revenue_recognition_service
+name: Fee Revenue Recognition Service
+description: >
+  Manages revenue recognition treatment for posted fees, ensuring
+  correct accounting classification of fee income.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

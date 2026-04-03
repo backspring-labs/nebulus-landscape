@@ -1,0 +1,14 @@
+id: ctrl.detail_to_summary_lineage
+name: Detail-to-Summary Lineage
+description: >
+  Every summarized GL position must be traceable back to the detailed
+  subledger entries that compose it, supporting drill-down from summary
+  to source.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

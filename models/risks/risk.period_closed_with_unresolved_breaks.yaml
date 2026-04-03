@@ -1,0 +1,11 @@
+id: risk.period_closed_with_unresolved_breaks
+name: Period Closed with Unresolved Breaks
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

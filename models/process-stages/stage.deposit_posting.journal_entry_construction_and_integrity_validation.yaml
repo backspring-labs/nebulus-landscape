@@ -1,0 +1,12 @@
+id: stage.deposit_posting.journal_entry_construction_and_integrity_validation
+name: Journal Entry Construction and Integrity Validation
+process_id: proc.deposit_transaction_posting
+description: >
+  Construct balanced debit/credit journal entries from the posting
+  intent and validate double-entry integrity before posting.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

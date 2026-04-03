@@ -1,0 +1,14 @@
+id: ctrl.reconciliation_rerun_after_correction
+name: Reconciliation Rerun After Correction
+description: >
+  After a corrective entry is posted to resolve a break, the affected
+  reconciliation must be rerun to confirm that the correction resolved
+  the difference.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.double_entry_balancing_validation
+name: Double-Entry Balancing Validation
+description: >
+  Every journal entry must pass double-entry balancing validation —
+  confirming total debits equal total credits — before it is admitted
+  to the posting engine.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

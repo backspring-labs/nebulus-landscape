@@ -1,0 +1,10 @@
+id: sys.finance_classification_registry
+name: Finance Classification Registry
+description: >
+  Registry of finance classification codes and GL account structures
+  used to map banking subledger items to enterprise reporting categories.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,11 @@
+id: risk.wrong_fee_amount_assessed
+name: Wrong Fee Amount Assessed
+description: >
+  Stub — risk definition not yet written.
+domain_id: domain.ledger_core
+capability_ids: []
+process_ids: []
+control_ids: []
+severity: tbd
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.transaction_lineage_service
+name: Transaction Lineage Service
+description: >
+  Maintains full posting history and transaction lineage within subledger
+  accounts for audit and reconstruction purposes.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

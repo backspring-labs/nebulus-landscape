@@ -1,0 +1,10 @@
+id: sys.day_close_service
+name: Day Close Service
+description: >
+  Manages end-of-day close processing including posting window management,
+  cycle step execution, and close state governance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

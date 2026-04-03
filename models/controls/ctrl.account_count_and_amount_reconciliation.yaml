@@ -1,0 +1,14 @@
+id: ctrl.account_count_and_amount_reconciliation
+name: Account Count and Amount Reconciliation
+description: >
+  The number of accounts processed and total amounts calculated in a cycle
+  run must be reconciled against the eligible population to detect accounts
+  that were skipped or double-counted.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

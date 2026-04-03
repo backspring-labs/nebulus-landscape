@@ -1,0 +1,12 @@
+id: stage.recon_break.corrective_action_determination
+name: Corrective Action Determination
+process_id: proc.reconciliation_break_resolution
+description: >
+  Determine the appropriate corrective action based on root cause,
+  including adjustment, reversal, reclassification, or timing resolution.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

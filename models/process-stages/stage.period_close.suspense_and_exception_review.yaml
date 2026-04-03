@@ -1,0 +1,12 @@
+id: stage.period_close.suspense_and_exception_review
+name: Suspense and Exception Review
+process_id: proc.ledger_period_close
+description: >
+  Review suspense balances and exception items, applying aging
+  thresholds and documenting items carried into the next period.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

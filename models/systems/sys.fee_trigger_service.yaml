@@ -1,0 +1,10 @@
+id: sys.fee_trigger_service
+name: Fee Trigger Service
+description: >
+  Detects fee-assessable events and triggers fee calculation based
+  on configured schedules and event-based rules.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

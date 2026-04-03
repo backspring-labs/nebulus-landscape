@@ -1,0 +1,14 @@
+id: ctrl.balance_to_entry_lineage
+name: Balance-to-Entry Lineage
+description: >
+  Every computed balance must be traceable to the specific set of posted
+  entries that produced it, enabling verification and audit of balance
+  derivation.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

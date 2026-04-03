@@ -1,0 +1,10 @@
+id: sys.accrual_record_store
+name: Accrual Record Store
+description: >
+  Persists accrual calculation records with lineage to balance basis,
+  rate, and date conventions used in each computation.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.recomputation_after_correction
+name: Recomputation After Correction
+description: >
+  Balances must be recomputed after any corrective, reversal, or adjustment
+  posting to ensure that the authoritative balance state reflects the
+  corrected book of record.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.malformed_entry_rejection
+name: Malformed Entry Rejection
+description: >
+  Journal entries that fail structural validation — missing required fields,
+  invalid account references, or formatting errors — must be rejected before
+  reaching the posting engine.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

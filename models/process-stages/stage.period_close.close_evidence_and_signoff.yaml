@@ -1,0 +1,12 @@
+id: stage.period_close.close_evidence_and_signoff
+name: Close Evidence and Signoff
+process_id: proc.ledger_period_close
+description: >
+  Produce the close evidence package with authorized signoff,
+  control confirmations, and delivery to finance operations.
+order: 7
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.independent_reconciliation_evidence
+name: Independent Reconciliation Evidence
+description: >
+  Reconciliation results must be captured as independent evidence that
+  can be reviewed by auditors without requiring re-execution of the
+  reconciliation process.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

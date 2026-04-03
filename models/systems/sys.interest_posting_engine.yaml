@@ -1,0 +1,10 @@
+id: sys.interest_posting_engine
+name: Interest Posting Engine
+description: >
+  Posts accrued interest to the book of record with duplicate prevention
+  and accrual-to-posting linkage controls.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

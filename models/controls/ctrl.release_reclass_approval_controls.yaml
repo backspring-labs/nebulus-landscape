@@ -1,0 +1,14 @@
+id: ctrl.release_reclass_approval_controls
+name: Release and Reclass Approval Controls
+description: >
+  Release or reclassification of suspense items must be authorized through
+  an approval workflow to prevent incorrect or unauthorized disposition of
+  unresolved amounts.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

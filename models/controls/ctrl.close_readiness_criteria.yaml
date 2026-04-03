@@ -1,0 +1,14 @@
+id: ctrl.close_readiness_criteria
+name: Close Readiness Criteria
+description: >
+  A financial period may only be closed when all defined readiness criteria
+  are satisfied, including completion of accruals, reconciliation status,
+  and suspense review.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

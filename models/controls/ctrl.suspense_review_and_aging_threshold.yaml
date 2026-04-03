@@ -1,0 +1,14 @@
+id: ctrl.suspense_review_and_aging_threshold
+name: Suspense Review and Aging Threshold
+description: >
+  Suspense positions must be reviewed against aging thresholds before
+  period close, with items exceeding thresholds escalated and documented
+  as part of the close evidence package.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

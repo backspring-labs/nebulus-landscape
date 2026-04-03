@@ -1,0 +1,10 @@
+id: sys.batch_posting_service
+name: Batch Posting Service
+description: >
+  Executes batch posting operations with atomicity controls, processing
+  multiple journal entries as a coordinated unit.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

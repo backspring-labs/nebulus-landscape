@@ -1,0 +1,10 @@
+id: sys.posting_result_store
+name: Posting Result Store
+description: >
+  Records the outcome of posting operations including success, failure,
+  timestamps, and reference information.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

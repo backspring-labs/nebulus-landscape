@@ -1,0 +1,10 @@
+id: sys.correction_lineage_store
+name: Correction Lineage Store
+description: >
+  Preserves the full chain of corrections, reversals, and adjustments
+  linking each corrective action to its originating entry.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

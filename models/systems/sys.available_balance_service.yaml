@@ -1,0 +1,10 @@
+id: sys.available_balance_service
+name: Available Balance Service
+description: >
+  Calculates available balance by applying holds, pending items, and
+  spendability rules to the posted balance.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

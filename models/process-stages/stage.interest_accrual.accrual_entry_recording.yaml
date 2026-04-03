@@ -1,0 +1,12 @@
+id: stage.interest_accrual.accrual_entry_recording
+name: Accrual Entry Recording
+process_id: proc.interest_accrual_cycle_execution
+description: >
+  Record accrual entries with lineage to the balance basis, rate,
+  and calculation method used.
+order: 3
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

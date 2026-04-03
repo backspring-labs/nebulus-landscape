@@ -1,0 +1,14 @@
+id: ctrl.immutable_accrual_lineage
+name: Immutable Accrual Lineage
+description: >
+  Accrual calculation records must be immutable once created, preserving
+  the inputs, methods, and results for each accrual period to support
+  audit and recomputation verification.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.gl_handoff_batch_processor
+name: GL Handoff Batch Processor
+description: >
+  Processes batch handoff of summarized subledger positions to the
+  general ledger with control totals and lineage.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.construction_template_governance
+name: Construction Template Governance
+description: >
+  Journal entry construction templates must be version-controlled, reviewed,
+  and approved before activation to prevent unintended changes to accounting
+  treatment.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

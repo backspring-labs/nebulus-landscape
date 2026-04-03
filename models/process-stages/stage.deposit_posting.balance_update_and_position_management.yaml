@@ -1,0 +1,12 @@
+id: stage.deposit_posting.balance_update_and_position_management
+name: Balance Update and Position Management
+process_id: proc.deposit_transaction_posting
+description: >
+  Update authoritative account balances and manage memo, pending,
+  and available positions following the posting.
+order: 4
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

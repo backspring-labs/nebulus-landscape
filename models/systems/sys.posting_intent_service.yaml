@@ -1,0 +1,10 @@
+id: sys.posting_intent_service
+name: Posting Intent Service
+description: >
+  Manages posting intents derived from accounting event interpretation,
+  staging them for journal entry construction.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.governed_fee_schedules_from_accounts
+name: Governed Fee Schedules from Accounts
+description: >
+  Fee amounts and assessment rules must be derived from governed fee
+  schedules linked to account product configuration, not from ad-hoc
+  or hard-coded values.
+domain_id: domain.ledger_core
+control_type: preventive
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

@@ -1,0 +1,14 @@
+id: ctrl.accrued_vs_posted_reconciliation
+name: Accrued vs. Posted Reconciliation
+description: >
+  Accrued interest totals must be reconciled against posted interest to
+  detect any mismatch between what was calculated and what was actually
+  applied to accounts.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

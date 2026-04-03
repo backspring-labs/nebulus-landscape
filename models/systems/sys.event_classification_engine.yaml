@@ -1,0 +1,10 @@
+id: sys.event_classification_engine
+name: Event Classification Engine
+description: >
+  Classifies financial events into accounting treatment categories to
+  determine appropriate posting rules and entry types.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

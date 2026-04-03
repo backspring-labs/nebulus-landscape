@@ -1,0 +1,14 @@
+id: ctrl.lineage_gap_detection_and_exception
+name: Lineage Gap Detection and Exception
+description: >
+  Automated checks must detect gaps in financial lineage chains and raise
+  exceptions when a posting cannot be traced back to its source event or
+  forward to its balance impact.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

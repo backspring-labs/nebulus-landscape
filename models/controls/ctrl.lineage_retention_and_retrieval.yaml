@@ -1,0 +1,14 @@
+id: ctrl.lineage_retention_and_retrieval
+name: Lineage Retention and Retrieval
+description: >
+  Financial lineage records must be retained for the full regulatory
+  retention period and be retrievable for audit, investigation, and
+  regulatory inquiry.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

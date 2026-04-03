@@ -1,0 +1,12 @@
+id: stage.recon_break.investigation_and_root_cause_attribution
+name: Investigation and Root Cause Attribution
+process_id: proc.reconciliation_break_resolution
+description: >
+  Investigate the reconciliation break and attribute it to a root
+  cause such as timing difference, posting error, or mapping failure.
+order: 2
+system_ids: []
+risk_ids: []
+control_ids: []
+source_refs: []
+status: stub

@@ -1,0 +1,10 @@
+id: sys.waiver_evaluation_service
+name: Waiver Evaluation Service
+description: >
+  Evaluates fee waiver eligibility based on relationship, balance,
+  and product rules with controlled waiver handling.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub

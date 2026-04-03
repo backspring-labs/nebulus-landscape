@@ -1,0 +1,14 @@
+id: ctrl.balance_roll_forward_verification
+name: Balance Roll-Forward Verification
+description: >
+  Opening balances for the new period must be verified against closing
+  balances of the prior period to ensure accurate roll-forward with no
+  discrepancies.
+domain_id: domain.ledger_core
+control_type: detective
+owner: ''
+risk_ids: []
+process_ids: []
+evidence_refs: []
+source_refs: []
+status: stub

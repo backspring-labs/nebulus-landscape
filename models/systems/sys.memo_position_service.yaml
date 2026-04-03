@@ -1,0 +1,10 @@
+id: sys.memo_position_service
+name: Memo Position Service
+description: >
+  Maintains memo and pre-posted financial states that influence
+  spendability or visibility before final accounting recognition.
+capability_ids: []
+process_ids: []
+provider_ids: []
+source_refs: []
+status: stub
